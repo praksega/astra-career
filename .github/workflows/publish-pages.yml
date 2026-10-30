@@ -6,6 +6,7 @@ on:
       - 'data/jobs.json'
       - 'data/linkedin_posts.json'
       - 'data/manual_linkedin_intake.json'
+      - 'intake.html'
       - 'scripts/build_public_site.py'
       - 'scripts/linkedin_rules.py'
       - 'scripts/manual_intake.py'
