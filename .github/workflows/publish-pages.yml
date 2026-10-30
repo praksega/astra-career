@@ -7,6 +7,7 @@ on:
       - 'data/linkedin_posts.json'
       - 'scripts/build_public_site.py'
       - 'scripts/linkedin_rules.py'
+      - 'tests/test_linkedin_rules.py'
       - '.github/workflows/publish-pages.yml'
   schedule:
     - cron: '17 * * * *' # Hourly rebuild to expire 24h LinkedIn posts (may be delayed)
@@ -29,6 +30,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Test LinkedIn post filtering
+        run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Build public-safe site
         run: |
           python -m py_compile scripts/build_public_site.py scripts/linkedin_rules.py
