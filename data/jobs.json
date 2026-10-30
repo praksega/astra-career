@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": null,
+  "updated_at": "2026-10-30",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -15,5 +15,11 @@
       "previously_shown": true
     }
   ],
-  "last_run": null
+  "last_run": {
+    "date": "2026-10-30",
+    "type": "manual_8am_workflow_test",
+    "new_qualified_jobs": 0,
+    "shortlist_added": 0,
+    "note": "Selected public ATS and indexed LinkedIn searches only; not an exhaustive platform-wide search. Original publication dates or fit insufficient for all candidates."
+  }
 }
