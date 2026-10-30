@@ -1,0 +1,12 @@
+*.sqlite
+*.db
+*.docx
+*.pdf
+.env
+.env.*
+secrets/
+private/
+applications/
+resumes/
+cover_letters/
+Master_Resume/
