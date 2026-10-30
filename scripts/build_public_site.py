@@ -1,5 +1,6 @@
 """Build a PUBLIC-safe Astra Pages site; never publish applications, private documents, or raw JSON."""
 import json,html,pathlib
+from datetime import datetime, timezone, timedelta
 root=pathlib.Path(__file__).resolve().parents[1]
 jobs=json.loads((root/"data/jobs.json").read_text(encoding="utf-8")).get("jobs",[])
 posts=json.loads((root/"data/linkedin_posts.json").read_text(encoding="utf-8")).get("posts",[])
@@ -16,7 +17,16 @@ for j in jobs:
     card=f'<article><div class="top"><h2>{e(j.get("company"))} — {e(j.get("title"))}</h2><b>{e(j.get("score","?"))}/100</b></div><p>{e(j.get("location"))} · Fit: {e(j.get("score_status","unverified"))}</p><p>Posting date: {e(j.get("date_posted") or "Not verified")} · First shown: {e(j.get("first_shown_date") or "Unknown")}</p><a href="{e(url)}" rel="noopener noreferrer" target="_blank">Official job posting</a></article>'
     (strong_cards if tier=="strong" else possible_cards).append(card)
 post_cards=[]
+now=datetime.now(timezone.utc)
 for item in posts:
+    stamp=item.get("posted_at")
+    if not isinstance(stamp,str) or not stamp:continue
+    try:
+        published=datetime.fromisoformat(stamp.replace("Z","+00:00"))
+        if published.tzinfo is None:continue
+        age=now-published.astimezone(timezone.utc)
+        if age<timedelta(0) or age>timedelta(hours=24):continue
+    except ValueError:continue
     url=str(item.get("url",""))
     if not url.startswith("https://www.linkedin.com/") and not url.startswith("https://in.linkedin.com/"):continue
     post_cards.append(f'<article><h2>{e(item.get("company") or item.get("source_name") or "LinkedIn hiring post")}</h2><p>{e(item.get("summary") or item.get("role") or "")}</p><p>{e(item.get("location") or "")} · Posted: {e(item.get("posted_at") or "Unverified")}</p><p><small>Community hiring lead — not an independently verified job or match score.</small></p><a href="{e(url)}" rel="noopener noreferrer" target="_blank">Original LinkedIn post</a></article>')
