@@ -6,6 +6,7 @@ on:
       - 'data/jobs.json'
       - 'data/linkedin_posts.json'
       - 'scripts/build_public_site.py'
+      - 'scripts/linkedin_rules.py'
       - '.github/workflows/publish-pages.yml'
   schedule:
     - cron: '17 * * * *' # Hourly rebuild to expire 24h LinkedIn posts (may be delayed)
@@ -30,7 +31,7 @@ jobs:
           python-version: '3.11'
       - name: Build public-safe site
         run: |
-          python -m py_compile scripts/build_public_site.py
+          python -m py_compile scripts/build_public_site.py scripts/linkedin_rules.py
           python scripts/build_public_site.py
       - name: Verify dashboard sections and public-only content
         run: |
