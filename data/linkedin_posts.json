@@ -1,6 +1,40 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "posts": [],
+  "updated_at": "2026-10-30",
+  "posts": [
+    {
+      "url": "https://www.linkedin.com/posts/shivani-parikh-psm-trainer-i-csm-cspo-sfc-sfpc-cbap-saac_hiring-at-ey-business-analyst-project-activity-7490282648976719872-u6d6",
+      "company": "EY (hiring announcement shared by Shivani Parikh)",
+      "role": "Business Analyst – Accounts Operations Transformation; Project Manager – Analytics",
+      "location": "Bengaluru / Hyderabad / PAN India",
+      "summary": "Hiring announcement for banking process transformation, process mapping, project governance and analytics delivery roles.",
+      "posted_at": null,
+      "posted_at_status": "Unverified; indexed relative time not independently reliable",
+      "first_seen": "2026-10-30",
+      "verification_status": "public_linkedin_hiring_lead_unverified"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/silentmode-sdn-bhd_hiring-businessanalyst-bangalorejobs-activity-7493108393671319552-BSp9",
+      "company": "Silentmode Sdn. Bhd.",
+      "role": "Business Analyst",
+      "location": "Bengaluru",
+      "summary": "Business analysis role (5–8 years), requirements, process mapping, stakeholder coordination and UAT across India and Malaysia teams.",
+      "posted_at": null,
+      "posted_at_status": "Unverified",
+      "first_seen": "2026-10-30",
+      "verification_status": "public_linkedin_hiring_lead_unverified"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/shashi-kumar-e-26148a53_hiring-for-project-management-product-owner-activity-7498004546946781184-Ddhh",
+      "company": "EY India (announcement by Shashi Kumar E)",
+      "role": "Project Management / Product Owner / Business Analyst",
+      "location": "Bengaluru and other cities",
+      "summary": "Public hiring lead for project delivery, product ownership, business analysis, Power BI and operations-related roles, stated experience 2–6 years.",
+      "posted_at": null,
+      "posted_at_status": "Unverified",
+      "first_seen": "2026-10-30",
+      "verification_status": "public_linkedin_hiring_lead_unverified"
+    }
+  ],
   "note": "Public hiring announcements relevant to user target roles and locations; independent of scored job matches. Include only grounded publicly visible LinkedIn post URLs; timestamps unverified marked unknown. No personal contact info or user data."
 }
