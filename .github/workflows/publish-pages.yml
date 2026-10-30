@@ -7,6 +7,8 @@ on:
       - 'data/linkedin_posts.json'
       - 'scripts/build_public_site.py'
       - '.github/workflows/publish-pages.yml'
+  schedule:
+    - cron: '17 * * * *' # Hourly rebuild to expire 24h LinkedIn posts (may be delayed)
   workflow_dispatch:
 permissions:
   contents: read
