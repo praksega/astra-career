@@ -27,7 +27,26 @@ jobs:
         with:
           python-version: '3.11'
       - name: Build public-safe site
-        run: python scripts/build_public_site.py
+        run: |
+          python -m py_compile scripts/build_public_site.py
+          python scripts/build_public_site.py
+      - name: Verify dashboard sections and public-only content
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          page = Path("public_site/index.html").read_text(encoding="utf-8")
+          assert "Strong Matches (86" in page
+          assert "Possible Matches (71" in page
+          assert "Relevant LinkedIn Hiring Posts" in page
+          assert "<html" in page and "</html>" in page
+          assert "Cover_Letter.docx" not in page
+          assert "master_resume_index" not in page
+          assert "applications.json" not in page
+          data = json.loads(Path("data/linkedin_posts.json").read_text())
+          assert isinstance(data["posts"], list)
+          print("Astra public dashboard smoke checks passed")
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
