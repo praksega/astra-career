@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'data/jobs.json'
+      - 'data/linkedin_posts.json'
       - 'scripts/build_public_site.py'
       - '.github/workflows/publish-pages.yml'
   workflow_dispatch:
