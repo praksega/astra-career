@@ -17,10 +17,10 @@
   ],
   "last_run": {
     "date": "2026-10-30",
-    "type": "manual_updated_two_tier_search",
+    "type": "manual_8am_workflow_retest",
     "new_strong": 0,
     "new_possible": 0,
-    "linkedin_leads_reviewed": true,
-    "reason": "No new prospect met full-JD verified first-publication-date, original official ATS URL, evidence coverage and score requirements together. Looked at public LinkedIn posts/jobs, Ashby, Greenhouse, Lever and company careers. PayU, Cashfree, Dodo candidate research pending date/official application link."
+    "new_linkedin_leads": 3,
+    "notes": "Searched public web including indexed LinkedIn hiring announcements, current official ATS openings and LinkedIn Jobs discovery. Original employer publication dates or evidence-based match coverage remain insufficient for newly scored jobs. LinkedIn leads have unverified exact timestamps."
   }
 }
