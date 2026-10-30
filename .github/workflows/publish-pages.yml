@@ -5,8 +5,11 @@ on:
     paths:
       - 'data/jobs.json'
       - 'data/linkedin_posts.json'
+      - 'data/manual_linkedin_intake.json'
       - 'scripts/build_public_site.py'
       - 'scripts/linkedin_rules.py'
+      - 'scripts/manual_intake.py'
+      - 'scripts/intake_template.html'
       - 'tests/test_linkedin_rules.py'
       - '.github/workflows/publish-pages.yml'
   schedule:
@@ -44,7 +47,9 @@ jobs:
           page = Path("public_site/index.html").read_text(encoding="utf-8")
           assert "Strong Matches (86" in page
           assert "Possible Matches (71" in page
-          assert "Relevant LinkedIn Hiring Posts" in page
+          assert "Verified LinkedIn Hiring Posts" in page
+          assert "Manual LinkedIn Leads" in page
+          assert Path("public_site/intake.html").exists()
           assert "<html" in page and "</html>" in page
           assert "Cover_Letter.docx" not in page
           assert "master_resume_index" not in page
