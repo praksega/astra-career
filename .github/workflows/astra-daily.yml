@@ -1,48 +1,13 @@
-name: Astra daily research
+name: Astra manual diagnostics
 on:
-  schedule:
-    # 02:30 UTC = 08:00 IST; GitHub scheduled workflows may be delayed.
-    - cron: '30 2 * * *'
   workflow_dispatch:
 permissions:
   contents: read
-concurrency:
-  group: astra-daily
-  cancel-in-progress: false
 jobs:
-  research:
+  information:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      ASTRA_BASE_URL: ${{ secrets.ASTRA_BASE_URL }}
-      ASTRA_ACCESS_TOKEN: ${{ secrets.ASTRA_ACCESS_TOKEN }}
     steps:
-      - name: Verify private backend configuration
-        id: config
-        shell: bash
-        run: |
-          if [[ -z "$ASTRA_BASE_URL" || -z "$ASTRA_ACCESS_TOKEN" ]]; then
-            echo 'configured=false' >> "$GITHUB_OUTPUT"
-            echo 'SKIPPED: Configure ASTRA_BASE_URL and ASTRA_ACCESS_TOKEN as Actions repository secrets.'
-          else
-            echo 'configured=true' >> "$GITHUB_OUTPUT"
-          fi
-      - name: Run Astra research on authenticated backend
-        if: steps.config.outputs.configured == 'true'
-        shell: bash
-        run: |
-          set -euo pipefail
-          case "$ASTRA_BASE_URL" in https://*) ;; *) echo 'ASTRA_BASE_URL must use HTTPS'; exit 1;; esac
-          curl --fail-with-body --silent --show-error --connect-timeout 15 --max-time 1600 \
-            -H "Authorization: Bearer ${ASTRA_ACCESS_TOKEN}" \
-            -H 'Content-Type: application/json' \
-            -X POST --data '{}' "${ASTRA_BASE_URL%/}/api/search" > result.json
-          python - <<'PY'
-          import json
-          with open('result.json', encoding='utf-8') as f:
-              data=json.load(f)
-          if not isinstance(data, dict) or 'qualified' not in data:
-              raise SystemExit('Unexpected response; research success not confirmed')
-          print('Qualified jobs:', data['qualified'])
-          print('Errors:', len(data.get('errors', [])))
-          PY
+      - run: |
+          echo "Astra's daily schedule runs via ChatGPT at 08:00 IST."
+          echo "Jobs and application records are stored in data/*.json."
+          echo "GitHub Actions is not the job-search engine and no backend is required for file-based tracking."
