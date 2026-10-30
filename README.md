@@ -1,22 +1,16 @@
-# Astra Career — GitHub-backed daily recruiter
+# Astra Career — public job discovery dashboard
 
-The private GitHub repository is Astra's versioned tracking store.
+Website: https://praksega.github.io/astra-career/
 
-## Daily task
-An existing **ChatGPT Astra Daily Recruiter** is enabled for **08:00 Asia/Kolkata every day**, starting 2026-10-31. The task has been updated to attempt GitHub read/merge/commit on each run. **A successful scheduled GitHub write has not yet been observed.**
+This is a PUBLIC repository. Only public-safe job metadata is stored here in [data/jobs.json](data/jobs.json). The GitHub Pages workflow [publish-pages.yml](.github/workflows/publish-pages.yml) renders the public dashboard. The old snapshot workflow is disabled.
 
-## Stored data
-- [Jobs and previously shown opportunities](data/jobs.json)
-- [Confirmed submitted applications](data/applications.json) — only after explicit user confirmation
-- [Daily search run history](data/run_history.json)
+## Scheduled workflow
+- 08:00 Asia/Kolkata: ChatGPT Astra Daily Recruiter, configured to add **public-safe** qualified job details only, after verification.
+- 09:00 Asia/Kolkata: ChatGPT Astra Application Studio, configured to create individual application documents when tools permit, but **never commit personal documents to this public repository**.
+- Both scheduled tasks are enabled; successful unattended end-to-end runs still need verification.
 
-## Automation architecture
-ChatGPT scheduled task → GitHub connector → private JSON tracking files. This does not require a hosted backend for tracking. GitHub Actions is intentionally manual-only, preventing duplicate runs.
+## Private data policy
+Application submissions/dates, interview notes, personal contact data, Master Resume, resumes, cover letters, and private document queues must live in a SEPARATE private repository or private authenticated storage. No private storage has yet been connected; therefore private application-history synchronization is not operational. See [SECURITY.md](SECURITY.md).
 
 ## Limitations
-- This is a versioned JSON ledger, **not** a live SQLite or hosted web dashboard. The prior local Astra dashboard will not synchronize without an importer or separately added GitHub file reader.
-- Scheduled task access to GitHub must be confirmed by its first completed run. If tools are not accessible in scheduled runs, the task must report that GitHub was not updated.
-- Generated DOCX/PDF documents require available file tooling; the existing GitHub text-file tool cannot upload binaries automatically. Files should only be linked when truly created and accessible.
-- GitHub is private, but repository collaborators can access the records; do not store passwords or API keys here.
-
-Read [DATA_WORKFLOW.md](DATA_WORKFLOW.md) for update rules.
+The GitHub Pages site is read-only and public, not an authenticated application tracker. GitHub history can retain prior commits even after files are removed. Do not upload personal documents to this repository.
