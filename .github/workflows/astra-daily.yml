@@ -46,3 +46,4 @@ jobs:
             git push origin HEAD:main
           fi
 # Manual retest requested 2026-11-01 (expanded ATS and JD evidence engine).
+# Astra manual run request: 2026-11-01 dynamic-scoring retest.
