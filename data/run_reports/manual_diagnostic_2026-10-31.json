@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "run_type": "manual_interactive_parallel_diagnostic",
+  "automation_run_status_at_start": "in_progress",
+  "measured": {
+    "web_search_queries": 5,
+    "unique_employer_or_ats_domains_in_candidates": 7,
+    "full_jd_open_attempts": 4,
+    "full_jd_open_successes": 0,
+    "score_verified_strong": 0,
+    "score_verified_possible": 0,
+    "measured_unique_200_500_screened": false
+  },
+  "fresh_leads_to_review": [
+    {
+      "company": "Instawork",
+      "role": "Product Operations Analyst",
+      "location": "Bengaluru",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006?gh_src=dd8f22f76us",
+      "status": "JD page visible in indexed web search; original posting date unverified"
+    },
+    {
+      "company": "Honeywell",
+      "role": "Project Mgmt Specialist II",
+      "location": "Bengaluru",
+      "url": "https://careers.honeywell.com/en/sites/Honeywell/jobs?location=India&locationId=300000000469485&locationLevel=country&mode=location&sortBy=POSTING_DATES_DESC",
+      "listed_date": "2026-10-30",
+      "status": "Listed on employer portal, requisition-specific link to locate"
+    },
+    {
+      "company": "Emerson",
+      "role": "Senior Analyst, Software Operations & Analytics",
+      "location": "Bengaluru",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=WORKPLACE_TYPES&selectedLocationsFacet=300000000228786&selectedWorkplaceTypesFacet=ORA_HYBRID",
+      "listed_date": "2026-10-29",
+      "status": "Listing surfaced in employer portal; JD specificity unverified"
+    },
+    {
+      "company": "Honeywell",
+      "role": "Sr IT Analyst",
+      "location": "Pune",
+      "url": "https://careers.honeywell.com/en/sites/Honeywell/jobs?jobid=00162257&lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000017425634",
+      "listed_date": "2026-10-30",
+      "status": "Listing surfaced, original requisition details need validation"
+    }
+  ],
+  "obstacles": [
+    "Search results did not yield 200–500 verified distinct individual postings",
+    "Some employer pages returned cache miss/empty dynamic content on open",
+    "No employer-specific validated match scores calculated"
+  ],
+  "coverage_status": "INCOMPLETE",
+  "note": "This diagnostic is independent from the scheduled recruiter run and does not represent its completion."
+}
