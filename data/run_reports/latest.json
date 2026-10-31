@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "audit_at": "2026-10-31",
+  "automation": "Astra Daily Recruiter",
+  "last_automation_run": {
+    "run_id": "f42c9ede-201c-8321-89d9-c98473748d5a",
+    "recorded_status": "completed",
+    "scheduled_for_utc": "2026-10-31T17:08:43.705118Z",
+    "completed_at_utc": "2026-10-31T17:10:18.986518Z",
+    "requires_user_action": true,
+    "result_text_empty": true
+  },
+  "verified_repository_state": {
+    "jobs_last_run_date": "2026-10-31",
+    "latest_job_counts": {
+      "total": 1,
+      "new_strong": 0,
+      "new_possible": 0
+    },
+    "last_reported_full_jds_reviewed": 6,
+    "linkedin_posts": 0,
+    "manual_linkedin_posts": 0
+  },
+  "outcome": "UNVERIFIED_RUN_OUTPUT",
+  "coverage_status": "INCOMPLETE",
+  "note": "Latest automation completed without visible output and without proven 200-500 unique listings coverage. Repo job counters remain from preceding partial run. Future task instructed to create measured run-specific reports; this is a diagnostic seed, not a completed search report."
+}
