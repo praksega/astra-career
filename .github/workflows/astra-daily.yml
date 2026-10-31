@@ -6,6 +6,8 @@ on:
       - '.github/workflows/astra-daily.yml'
       - 'scripts/discover_ats.py'
       - 'scripts/jd_evidence.py'
+      - 'scripts/score_preliminary_fit.py'
+      - 'tests/test_ats_preliminary.py'
       - 'tests/test_ats_discovery.py'
       - 'tests/test_ats_evidence.py'
   schedule:
@@ -29,11 +31,13 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_ats*.py'
       - name: Collect open ATS postings and record observed counts
         run: python scripts/discover_ats.py
+      - name: Create preliminary evidence-based candidate mapping
+        run: python scripts/score_preliminary_fit.py
       - name: Commit public-safe candidate and diagnostic data
         run: |
           git config user.name "astra-discovery-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovered_candidates.json data/run_reports/ats_discovery_latest.json
+          git add data/discovered_candidates.json data/run_reports/ats_discovery_latest.json data/preliminary_fit_review.json
           if ! git diff --cached --quiet; then
             git commit -m "Astra: refresh ATS discovery candidates and coverage log"
             git pull --rebase origin main
