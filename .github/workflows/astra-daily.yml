@@ -37,3 +37,5 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+# Manual retest requested 2026-11-01; push triggers workflow.
