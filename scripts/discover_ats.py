@@ -2,9 +2,13 @@
 """Astra public ATS discovery. No credentials. No speculative match scores."""
 import concurrent.futures, datetime as dt, json, pathlib, re, urllib.request, urllib.error, html
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+try:
+ from scripts.jd_evidence import evaluate
+except ModuleNotFoundError:
+ from jd_evidence import evaluate
 # Employer board slugs are candidates, not guarantees; failed/empty boards are logged.
-GREENHOUSE=["instawork","reddit","figma","notion","airtable","rippling","razorpay","browserstack","meesho","phonepe","slice","postman","freshworks","plaid","stripe","databricks","mongodb","coursera","canva","zoom"]
-LEVER=["Loop%20AI","cred","gojek","groww","mindtickle","hackerone","atlassian","zomato","urbancompany","porter"]
+GREENHOUSE=["instawork","reddit","figma","notion","airtable","rippling","razorpay","browserstack","meesho","phonepe","slice","postman","freshworks","plaid","stripe","databricks","mongodb","coursera","canva","zoom","duolingo","okta","twilio","asana","brex","coinbase","roblox","gusto","square","elastic","udemy","miro","wise","deliveroo","hubspot"]
+LEVER=["Loop%20AI","cred","gojek","groww","mindtickle","hackerone","atlassian","zomato","urbancompany","porter","swiggy","sharechat","clevertap","whatfix","innovaccer","highradius","browserstack","chargebee","upgrad","ninjacart","cars24"]
 CITIES=("hyderabad","bengaluru","bangalore","pune")
 ROLES=("product operation","product ops","business operation","strategy operation","strategy and operation","process excellence","continuous improvement","process improvement","business analyst","product analyst","program manager","programme manager","project manager","project operation","business transformation","operations analyst","operational excellence","recruitment operations","talent acquisition operations","ta operations","performance analyst","product owner","business intelligence","business process","strategy associate","strategy analyst","business excellence","operations excellence","process analyst","business systems","revenue operations","sales operations","customer operations","workforce operations","workforce analyst","operations manager","operations specialist","program specialist","program analyst","project analyst","business intelligence analyst","business performance","implementation specialist","implementation manager","product specialist","project coordinator")
 EXCLUSIONS=("software engineer","backend engineer","frontend engineer","data engineer","machine learning engineer","cloud engineer","devops engineer","mobile developer","technical architect","account executive","sales executive","site reliability")
@@ -51,7 +55,7 @@ def normalize(src,slug,x):
     # Country-only India postings are ambiguous, not confirmed remote.
     place_ok=any(c in loc_l for c in CITIES) or ("remote" in loc_l and "india" in loc_l)
     if not keywords or not place_ok:return None
-    return {"id":src+":"+ident,"company_board":slug,"title":title,"location":location,"url":url,"source":src,"source_date":stamp,"date_source":"first_published" if src=="greenhouse" and date_verified else "createdAt" if src=="lever" and date_verified else "updated_at/unverified","posting_date_verified":date_verified,"matched_keywords":keywords,"matching_method":reason,"description_characters":len(description),"description_excerpt":description[:1200],"status":"unscored_candidate"}
+    return {"id":src+":"+ident,"company_board":slug,"title":title,"location":location,"url":url,"source":src,"source_date":stamp,"date_source":"first_published" if src=="greenhouse" and date_verified else "createdAt" if src=="lever" and date_verified else "updated_at/unverified","posting_date_verified":date_verified,"matched_keywords":keywords,"matching_method":reason,"description_characters":len(description),"description_excerpt":description[:1200],"status":"unscored_candidate","jd_evidence":evaluate(title,description,location)}
 def run():
     targets=[("greenhouse",s) for s in GREENHOUSE]+[("lever",s) for s in LEVER]
     sources=[];raw=0;rows=[];seen=set();rejection_counts={"unrelated_or_unapproved_location":0,"invalid_record":0};full_content_candidates=0
@@ -67,7 +71,7 @@ def run():
                     if r["description_characters"]>=500:full_content_candidates+=1
     rows.sort(key=lambda x:(x["posting_date_verified"],str(x["source_date"] or "")),reverse=True)
     now=dt.datetime.now(dt.timezone.utc)
-    report={"schema_version":1,"run_at_utc":now.isoformat(),"engine":"github_actions_public_ats_v1","source_boards_attempted":len(targets),"source_boards_succeeded":sum(x["status"]=="ok" for x in sources),"source_boards_failed":sum(x["status"]!="ok" for x in sources),"raw_listings_seen":raw,"unique_role_location_candidates":len(rows),"full_jds_with_accessible_text":full_content_candidates,"human_or_evidence_scored_full_jds":0,"scored_strong":0,"scored_possible":0,"rejection_counts":rejection_counts,"coverage_target":200,"coverage_status":"INSUFFICIENT_RELEVANT_COVERAGE" if len(rows)<30 else "CANDIDATES_DISCOVERED_UNSCORED","notes":"Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they are NOT scored 71+/86+ or confirmed fresh. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.","boards":sources}
+    report={"schema_version":1,"run_at_utc":now.isoformat(),"engine":"github_actions_public_ats_v1","source_boards_attempted":len(targets),"source_boards_succeeded":sum(x["status"]=="ok" for x in sources),"source_boards_failed":sum(x["status"]!="ok" for x in sources),"raw_listings_seen":raw,"unique_role_location_candidates":len(rows),"full_jds_with_accessible_text":full_content_candidates,"jd_evidence_maps_generated":sum("jd_evidence" in x for x in rows),"human_or_evidence_scored_full_jds":0,"scored_strong":0,"scored_possible":0,"rejection_counts":rejection_counts,"coverage_target":200,"coverage_status":"INSUFFICIENT_RELEVANT_COVERAGE" if len(rows)<30 else "CANDIDATES_DISCOVERED_UNSCORED","notes":"Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they are NOT scored 71+/86+ or confirmed fresh. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.","boards":sources,"potential_fit_reviews":sum(x["jd_evidence"]["capability_categories_matched"]>=4 for x in rows)}
     (ROOT/"data"/"discovered_candidates.json").write_text(json.dumps({"schema_version":1,"updated_at":now.isoformat(),"candidates":rows},indent=2)+"\n")
     out=ROOT/"data"/"run_reports";out.mkdir(parents=True,exist_ok=True)
     (out/"ats_discovery_latest.json").write_text(json.dumps(report,indent=2)+"\n")
