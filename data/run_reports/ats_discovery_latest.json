@@ -1,18 +1,23 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-10-31T17:56:39.284415+00:00",
+  "run_at_utc": "2026-10-31T19:04:48.394907+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 30,
   "source_boards_succeeded": 13,
   "source_boards_failed": 17,
   "raw_listings_seen": 2514,
-  "unique_role_location_candidates": 3,
-  "full_jds_reviewed": 0,
+  "unique_role_location_candidates": 10,
+  "full_jds_with_accessible_text": 10,
+  "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
+  "rejection_counts": {
+    "unrelated_or_unapproved_location": 2504,
+    "invalid_record": 0
+  },
   "coverage_target": 200,
-  "coverage_status": "DISCOVERY_TARGET_MET_UNSCORED",
-  "notes": "Raw listings across employer boards are not all relevant. Candidates are role/location title matches, NOT screened 71+/86+ or confirmed fresh. Full JD evaluation remains separate.",
+  "coverage_status": "INSUFFICIENT_RELEVANT_COVERAGE",
+  "notes": "Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they are NOT scored 71+/86+ or confirmed fresh. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
   "boards": [
     {
       "source": "greenhouse",
