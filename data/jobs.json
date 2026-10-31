@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-10-31",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -16,11 +16,19 @@
     }
   ],
   "last_run": {
-    "date": "2026-10-30",
-    "type": "manual_8am_workflow_retest",
+    "date": "2026-10-31",
+    "type": "daily_recruiter_public_web_partial",
     "new_strong": 0,
     "new_possible": 0,
-    "new_linkedin_leads": 3,
-    "notes": "Searched public web including indexed LinkedIn hiring announcements, current official ATS openings and LinkedIn Jobs discovery. Original employer publication dates or evidence-based match coverage remain insufficient for newly scored jobs. LinkedIn leads have unverified exact timestamps."
+    "new_linkedin_leads": 0,
+    "official_full_jds_reviewed": 6,
+    "linkedin_individual_indexed_posts_screened": 4,
+    "linkedin_direct_content_searches_attempted": 4,
+    "linkedin_direct_content_searches_succeeded": 0,
+    "linkedin_browser_status": "NOT_RUN_BROWSER_UNAVAILABLE",
+    "original_posting_date_window": "2026-10-26 through 2026-10-31",
+    "linkedin_window_start": "2026-10-30T21:46:44+05:30",
+    "linkedin_window_end": "2026-10-31T21:46:44+05:30",
+    "notes": "No new jobs passed all gates (evidenced score >=71, >=80% evidence coverage, verified original posting date <=5 days, exact official URL). Official Oct 29-30 Amgen listings reviewed, but fit/specialist gaps; Mattel Operations Analyst lacked independently verifiable original date. LinkedIn direct content searches disabled; four indexed individual posts reviewed, none eligible with independently verified original timestamp within 24h. Existing Loop AI provisional historical record preserved, not counted as a fresh match. No salary inferred."
   }
 }
