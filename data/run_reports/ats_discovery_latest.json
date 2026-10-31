@@ -1,18 +1,19 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-10-31T19:06:40.226352+00:00",
+  "run_at_utc": "2026-10-31T19:54:32.369091+00:00",
   "engine": "github_actions_public_ats_v1",
-  "source_boards_attempted": 30,
-  "source_boards_succeeded": 13,
-  "source_boards_failed": 17,
-  "raw_listings_seen": 2514,
-  "unique_role_location_candidates": 10,
-  "full_jds_with_accessible_text": 10,
+  "source_boards_attempted": 56,
+  "source_boards_succeeded": 25,
+  "source_boards_failed": 31,
+  "raw_listings_seen": 4702,
+  "unique_role_location_candidates": 16,
+  "full_jds_with_accessible_text": 16,
+  "jd_evidence_maps_generated": 16,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 2504,
+    "unrelated_or_unapproved_location": 4686,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -151,6 +152,99 @@
       "count": 0
     },
     {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "status": "ok",
+      "count": 57
+    },
+    {
+      "source": "greenhouse",
+      "board": "okta",
+      "status": "ok",
+      "count": 387
+    },
+    {
+      "source": "greenhouse",
+      "board": "twilio",
+      "status": "ok",
+      "count": 132
+    },
+    {
+      "source": "greenhouse",
+      "board": "asana",
+      "status": "ok",
+      "count": 110
+    },
+    {
+      "source": "greenhouse",
+      "board": "brex",
+      "status": "ok",
+      "count": 263
+    },
+    {
+      "source": "greenhouse",
+      "board": "coinbase",
+      "status": "ok",
+      "count": 254
+    },
+    {
+      "source": "greenhouse",
+      "board": "roblox",
+      "status": "ok",
+      "count": 268
+    },
+    {
+      "source": "greenhouse",
+      "board": "gusto",
+      "status": "ok",
+      "count": 84
+    },
+    {
+      "source": "greenhouse",
+      "board": "square",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "elastic",
+      "status": "ok",
+      "count": 407
+    },
+    {
+      "source": "greenhouse",
+      "board": "udemy",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "source": "greenhouse",
+      "board": "miro",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "wise",
+      "status": "ok",
+      "count": 21
+    },
+    {
+      "source": "greenhouse",
+      "board": "deliveroo",
+      "status": "ok",
+      "count": 202
+    },
+    {
+      "source": "greenhouse",
+      "board": "hubspot",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
       "source": "lever",
       "board": "Loop%20AI",
       "status": "ok",
@@ -215,6 +309,84 @@
       "board": "porter",
       "status": "ok",
       "count": 22
+    },
+    {
+      "source": "lever",
+      "board": "swiggy",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "sharechat",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "clevertap",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "whatfix",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "innovaccer",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "highradius",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "browserstack",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "chargebee",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "upgrad",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "ninjacart",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "cars24",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
     }
-  ]
+  ],
+  "potential_fit_reviews": 14
 }
