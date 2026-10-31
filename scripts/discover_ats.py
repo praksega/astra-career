@@ -4,8 +4,10 @@ import concurrent.futures, datetime as dt, json, pathlib, re, urllib.request, ur
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 try:
  from scripts.jd_evidence import evaluate
+ from scripts.preliminary_scoring import assess
 except ModuleNotFoundError:
  from jd_evidence import evaluate
+ from preliminary_scoring import assess
 # Employer board slugs are candidates, not guarantees; failed/empty boards are logged.
 GREENHOUSE=["instawork","reddit","figma","notion","airtable","rippling","razorpay","browserstack","meesho","phonepe","slice","postman","freshworks","plaid","stripe","databricks","mongodb","coursera","canva","zoom","duolingo","okta","twilio","asana","brex","coinbase","roblox","gusto","square","elastic","udemy","miro","wise","deliveroo","hubspot"]
 LEVER=["Loop%20AI","cred","gojek","groww","mindtickle","hackerone","atlassian","zomato","urbancompany","porter","swiggy","sharechat","clevertap","whatfix","innovaccer","highradius","browserstack","chargebee","upgrad","ninjacart","cars24"]
@@ -69,9 +71,10 @@ def run():
                 if r["id"] not in seen:
                     seen.add(r["id"]);rows.append(r)
                     if r["description_characters"]>=500:full_content_candidates+=1
-    rows.sort(key=lambda x:(x["posting_date_verified"],str(x["source_date"] or "")),reverse=True)
     now=dt.datetime.now(dt.timezone.utc)
-    report={"schema_version":1,"run_at_utc":now.isoformat(),"engine":"github_actions_public_ats_v1","source_boards_attempted":len(targets),"source_boards_succeeded":sum(x["status"]=="ok" for x in sources),"source_boards_failed":sum(x["status"]!="ok" for x in sources),"raw_listings_seen":raw,"unique_role_location_candidates":len(rows),"full_jds_with_accessible_text":full_content_candidates,"jd_evidence_maps_generated":sum("jd_evidence" in x for x in rows),"human_or_evidence_scored_full_jds":0,"scored_strong":0,"scored_possible":0,"rejection_counts":rejection_counts,"coverage_target":200,"coverage_status":"INSUFFICIENT_RELEVANT_COVERAGE" if len(rows)<30 else "CANDIDATES_DISCOVERED_UNSCORED","notes":"Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they are NOT scored 71+/86+ or confirmed fresh. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.","boards":sources,"potential_fit_reviews":sum(x["jd_evidence"]["capability_categories_matched"]>=4 for x in rows)}
+    for row in rows: row["preliminary_assessment"]=assess(row,now)
+    rows.sort(key=lambda x:(x["preliminary_assessment"]["fresh_within_5_days"],x["preliminary_assessment"]["preliminary_score"],str(x["source_date"] or "")),reverse=True)
+    report={"schema_version":1,"run_at_utc":now.isoformat(),"engine":"github_actions_public_ats_v1","source_boards_attempted":len(targets),"source_boards_succeeded":sum(x["status"]=="ok" for x in sources),"source_boards_failed":sum(x["status"]!="ok" for x in sources),"raw_listings_seen":raw,"unique_role_location_candidates":len(rows),"full_jds_with_accessible_text":full_content_candidates,"jd_evidence_maps_generated":sum("jd_evidence" in x for x in rows),"human_or_evidence_scored_full_jds":0,"scored_strong":0,"scored_possible":0,"preliminary_strong":sum(r["preliminary_assessment"]["preliminary_tier"]=="strong" for r in rows),"preliminary_possible":sum(r["preliminary_assessment"]["preliminary_tier"]=="possible" for r in rows),"fresh_preliminary_strong":sum(r["preliminary_assessment"]["preliminary_tier"]=="strong" and r["preliminary_assessment"]["fresh_within_5_days"] for r in rows),"fresh_preliminary_possible":sum(r["preliminary_assessment"]["preliminary_tier"]=="possible" and r["preliminary_assessment"]["fresh_within_5_days"] for r in rows),"rejection_counts":rejection_counts,"coverage_target":200,"coverage_status":"INSUFFICIENT_RELEVANT_COVERAGE" if len(rows)<30 else "CANDIDATES_DISCOVERED_UNSCORED","notes":"Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they receive rule-based preliminary scores, not verified ATS/fit scores. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.","boards":sources,"potential_fit_reviews":sum(x["jd_evidence"]["capability_categories_matched"]>=4 for x in rows)}
     (ROOT/"data"/"discovered_candidates.json").write_text(json.dumps({"schema_version":1,"updated_at":now.isoformat(),"candidates":rows},indent=2)+"\n")
     out=ROOT/"data"/"run_reports";out.mkdir(parents=True,exist_ok=True)
     (out/"ats_discovery_latest.json").write_text(json.dumps(report,indent=2)+"\n")
