@@ -1,13 +1,33 @@
-name: Astra manual diagnostics
+name: Astra ATS Discovery (independent scheduled engine)
 on:
+  schedule:
+    - cron: '30 2 * * *' # 08:00 IST, subject to GitHub scheduler delays
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: astra-ats-discovery
+  cancel-in-progress: false
 jobs:
-  information:
+  discover:
     runs-on: ubuntu-latest
+    timeout-minutes: 18
     steps:
-      - run: |
-          echo "Astra's daily schedule runs via ChatGPT at 08:00 IST."
-          echo "Jobs and application records are stored in data/*.json."
-          echo "GitHub Actions is not the job-search engine and no backend is required for file-based tracking."
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test discovery parser
+        run: python -m unittest discover -s tests -p 'test_ats*.py'
+      - name: Collect open ATS postings and record observed counts
+        run: python scripts/discover_ats.py
+      - name: Commit public-safe candidate and diagnostic data
+        run: |
+          git config user.name "astra-discovery-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/discovered_candidates.json data/run_reports/ats_discovery_latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Astra: refresh ATS discovery candidates and coverage log"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
