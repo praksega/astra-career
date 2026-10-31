@@ -1,5 +1,58 @@
 {
   "schema_version": 1,
-  "updated_at": null,
-  "candidates": []
+  "updated_at": "2026-10-31T17:56:39.284415+00:00",
+  "candidates": [
+    {
+      "id": "greenhouse:8247120",
+      "company_board": "stripe",
+      "title": "Monetization Operations Analyst",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8247120",
+      "source": "greenhouse",
+      "source_date": "2026-10-16T04:16:28-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations analyst"
+      ],
+      "description_characters": 4194,
+      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing",
+      "status": "unscored_candidate"
+    },
+    {
+      "id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "company_board": "Loop%20AI",
+      "title": "Strategist II - Product Operations & Strategy",
+      "location": "Bengaluru",
+      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "source": "lever",
+      "source_date": "2026-10-14T09:32:24.506000+00:00",
+      "date_source": "createdAt",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "product operation"
+      ],
+      "description_characters": 1667,
+      "description_excerpt": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of th",
+      "status": "unscored_candidate"
+    },
+    {
+      "id": "greenhouse:4350762006",
+      "company_board": "instawork",
+      "title": "Product Operations Analyst",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
+      "source": "greenhouse",
+      "source_date": "2024-03-25T10:06:11-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "product operation",
+        "operations analyst"
+      ],
+      "description_characters": 8447,
+      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.",
+      "status": "unscored_candidate"
+    }
+  ]
 }

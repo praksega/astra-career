@@ -1,6 +1,215 @@
 {
   "schema_version": 1,
-  "status": "NOT_YET_EXECUTED",
-  "source_boards_attempted": 0,
-  "raw_listings_seen": 0
+  "run_at_utc": "2026-10-31T17:56:39.284415+00:00",
+  "engine": "github_actions_public_ats_v1",
+  "source_boards_attempted": 30,
+  "source_boards_succeeded": 13,
+  "source_boards_failed": 17,
+  "raw_listings_seen": 2514,
+  "unique_role_location_candidates": 3,
+  "full_jds_reviewed": 0,
+  "scored_strong": 0,
+  "scored_possible": 0,
+  "coverage_target": 200,
+  "coverage_status": "DISCOVERY_TARGET_MET_UNSCORED",
+  "notes": "Raw listings across employer boards are not all relevant. Candidates are role/location title matches, NOT screened 71+/86+ or confirmed fresh. Full JD evaluation remains separate.",
+  "boards": [
+    {
+      "source": "greenhouse",
+      "board": "instawork",
+      "status": "ok",
+      "count": 56
+    },
+    {
+      "source": "greenhouse",
+      "board": "reddit",
+      "status": "ok",
+      "count": 163
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "status": "ok",
+      "count": 140
+    },
+    {
+      "source": "greenhouse",
+      "board": "notion",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "airtable",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "source": "greenhouse",
+      "board": "rippling",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "razorpay",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "browserstack",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "meesho",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "phonepe",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "slice",
+      "status": "ok",
+      "count": 23
+    },
+    {
+      "source": "greenhouse",
+      "board": "postman",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "freshworks",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "plaid",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "status": "ok",
+      "count": 745
+    },
+    {
+      "source": "greenhouse",
+      "board": "databricks",
+      "status": "ok",
+      "count": 901
+    },
+    {
+      "source": "greenhouse",
+      "board": "mongodb",
+      "status": "ok",
+      "count": 366
+    },
+    {
+      "source": "greenhouse",
+      "board": "coursera",
+      "status": "ok",
+      "count": 30
+    },
+    {
+      "source": "greenhouse",
+      "board": "canva",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "greenhouse",
+      "board": "zoom",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "Loop%20AI",
+      "status": "ok",
+      "count": 30
+    },
+    {
+      "source": "lever",
+      "board": "cred",
+      "status": "ok",
+      "count": 14
+    },
+    {
+      "source": "lever",
+      "board": "gojek",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "groww",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "mindtickle",
+      "status": "ok",
+      "count": 19
+    },
+    {
+      "source": "lever",
+      "board": "hackerone",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "atlassian",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "zomato",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "urbancompany",
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
+    },
+    {
+      "source": "lever",
+      "board": "porter",
+      "status": "ok",
+      "count": 22
+    }
+  ]
 }
