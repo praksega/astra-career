@@ -1,9 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01T10:17:16.887366+00:00",
+  "updated_at": "2026-11-01T10:21:51.946665+00:00",
   "status": "REVIEW_REQUIRED",
   "total": 16,
   "verified": 0,
+  "fresh_for_review": 3,
+  "older_or_unverified": 13,
   "jobs": [
     {
       "job_id": "greenhouse:8260972",
@@ -94,6 +96,12 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": true,
+      "days_since_posting": 1.72,
+      "verification_blockers": [
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -179,6 +187,12 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": true,
+      "days_since_posting": 1.74,
+      "verification_blockers": [
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -262,6 +276,12 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": true,
+      "days_since_posting": 2.25,
+      "verification_blockers": [
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -356,6 +376,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 16.09,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -409,6 +436,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 18.03,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -487,6 +521,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 26.98,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -557,6 +598,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 29.92,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -645,6 +693,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 36.74,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -718,6 +773,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 53.08,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -813,6 +875,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 78.93,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -902,6 +971,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 88.82,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -980,6 +1056,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 113.87,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -1070,6 +1153,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 150.05,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -1132,6 +1222,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 187.14,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -1211,6 +1308,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 260.99,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
@@ -1301,6 +1405,13 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 950.84,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
       "blocking_checks": [
         "all_mandatory_requirements",
         "minimum_80_percent_evidence_coverage",
