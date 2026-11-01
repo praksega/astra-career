@@ -17,7 +17,7 @@ def assess(job,now=None):
  now=now or datetime.now(timezone.utc)
  title=str(job.get("title") or "")
  location=str(job.get("location") or "")
- desc=str(job.get("description_excerpt") or "")
+ desc=str(job.get("_full_description") or job.get("description_excerpt") or "")
  evidence=job.get("jd_evidence") or evaluate(title,desc,location)
  categories=int(evidence.get("capability_categories_matched") or 0)
  lower=(title+" "+desc).lower()
@@ -36,8 +36,9 @@ def assess(job,now=None):
  fresh=date is not None and 0<=age<=5
  # Restrict auto promotion when important evidence is unavailable; high score is not sufficient.
  review=[]
- if len(desc)<1200:review.append("full_JD_not_preserved")
+ if len(desc)<500:review.append("full_JD_missing_or_incomplete")
  if specialized:review.append("specialized_requirements_unverified")
+ if evidence.get("potential_unverified_requirements"):review.append("mandatory_platform_or_license_gap_review")
  if not date:review.append("original_posting_date_unverified")
  elif not fresh:review.append("posting_older_than_5_days")
  review.append("salary_not_verified")
