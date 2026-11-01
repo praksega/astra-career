@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -13,22 +13,42 @@
       "first_shown_date": "2026-10-30",
       "date_posted": null,
       "previously_shown": true
+    },
+    {
+      "id": "ethos-life-partnership-operations-associate-8920621002",
+      "company": "Ethos Life",
+      "title": "Partnership Operations Associate",
+      "location": "Bengaluru",
+      "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8920621002",
+      "ats_requisition": "8920621002",
+      "date_posted": "2026-10-30",
+      "date_posted_evidence_url": "https://tracker.mccoy.io/postings/ethos%3A8920621002",
+      "employer_page_verified": true,
+      "first_shown_date": "2026-11-01",
+      "score": 82,
+      "score_status": "possible_verified_fresh",
+      "score_breakdown": {
+        "responsibilities": 26,
+        "skills": 21,
+        "seniority": 12,
+        "sector": 8,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage": 0.94,
+      "fixed_salary_lpa": null,
+      "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
+      "previously_shown": false,
+      "application_status": "NOT_APPLIED",
+      "notes": "New distinct Greenhouse requisition; employer page labeled New; independent ATS tracker records posted 2026-10-30T06:13:15Z and first seen 2026-10-30T09:01:04Z. Older similar title exists under different req 8813454002; not treated as same job. Partner onboarding, support, adoption and cross-functional fit; insurance domain gap. Compensation unknown."
     }
   ],
   "last_run": {
-    "date": "2026-10-31",
-    "type": "daily_recruiter_public_web_partial",
+    "date": "2026-11-01",
+    "type": "astra_daily_recruiter_discovery_breadth_upgrade_partial",
     "new_strong": 0,
-    "new_possible": 0,
+    "new_possible": 1,
     "new_linkedin_leads": 0,
-    "official_full_jds_reviewed": 6,
-    "linkedin_individual_indexed_posts_screened": 4,
-    "linkedin_direct_content_searches_attempted": 4,
-    "linkedin_direct_content_searches_succeeded": 0,
-    "linkedin_browser_status": "NOT_RUN_BROWSER_UNAVAILABLE",
-    "original_posting_date_window": "2026-10-26 through 2026-10-31",
-    "linkedin_window_start": "2026-10-30T21:46:44+05:30",
-    "linkedin_window_end": "2026-10-31T21:46:44+05:30",
-    "notes": "No new jobs passed all gates (evidenced score >=71, >=80% evidence coverage, verified original posting date <=5 days, exact official URL). Official Oct 29-30 Amgen listings reviewed, but fit/specialist gaps; Mattel Operations Analyst lacked independently verifiable original date. LinkedIn direct content searches disabled; four indexed individual posts reviewed, none eligible with independently verified original timestamp within 24h. Existing Loop AI provisional historical record preserved, not counted as a fresh match. No salary inferred."
+    "notes": "New Ethos Life Greenhouse 8920621002 possible match; independent Oct 30 posting evidence; salary undisclosed. Previous provisional Loop AI retained."
   }
 }
