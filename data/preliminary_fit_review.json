@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T20:00:46.789495+00:00",
+  "updated_at": "2026-11-01T09:22:08.323476+00:00",
   "basis": "Source-candidate JD excerpts and existing capability evidence map; unvalidated preliminary score only",
   "scoring_warning": "Not an ATS score, nor evidence of >=80% JD requirement coverage. Do not promote to verified 86+ or 71\u201385 categories until full JD and mandatory requirements verified.",
   "candidates": [
@@ -95,12 +95,142 @@
         "gap_status": "no_obvious_platform_gap_detected",
         "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
       },
+      "preliminary_assessment": {
+        "preliminary_score": 87,
+        "preliminary_tier": "strong",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 25,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": true,
+        "age_days": 1.7,
+        "evidence_coverage_proxy_pct": 100,
+        "review_flags": [
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
       "preliminary_fit": {
         "score": 84,
         "tier": "possible_provisional",
         "component_scores": {
           "responsibility_title_proxy": 27,
           "capability_overlap": 25,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:4725972006",
+      "company_board": "instawork",
+      "title": "Training Team Lead: Field Operations",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4725972006",
+      "source": "greenhouse",
+      "source_date": "2026-10-30T00:16:00-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "continuous improvement",
+        "reporting dashboards",
+        "performance metrics"
+      ],
+      "matching_method": "jd_responsibilities",
+      "description_characters": 16153,
+      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><p><strong>Role Type: </strong>Full-time people leadership role</p>\n<p><strong>Team: </strong>Instawork Robotics Lab (IRL)</p>\n<p><strong>Reports To: </strong>Field Operations Manager / Head of Field Operations</p>\n<p><strong>Manages: </strong>A team of Trainers / Junior Trainers deployed across cities</p>\n<p><strong>Location: </strong>Bengaluru (base) + extensive multi-city field travel</p>\n<p><strong>Experience: </strong>3\u20136 years, including hands-on training and team management</p>\n<p><strong>Travel: </strong>Extensive travel across India is mandatory</p>\n<p><strong>Working Hours: </strong>6 days/week | project-dependent hours</p>\n<h2><strong>About Us: Please Read First</strong>",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "continuous improvement",
+              "standardization"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operational performance",
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation",
+              "sop",
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 75,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 25,
+          "evidenced_skills": 18,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": true,
+        "age_days": 2.2,
+        "evidence_coverage_proxy_pct": 71,
+        "review_flags": [
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 71,
+        "tier": "possible_provisional",
+        "component_scores": {
+          "responsibility_title_proxy": 21,
+          "capability_overlap": 18,
           "seniority_proxy": 10,
           "industry_assumption": 7,
           "location": 15,
@@ -185,6 +315,28 @@
         "gap_status": "no_obvious_platform_gap_detected",
         "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
       },
+      "preliminary_assessment": {
+        "preliminary_score": 73,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 12,
+          "seniority": 10,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": true,
+        "age_days": 1.7,
+        "evidence_coverage_proxy_pct": 86,
+        "review_flags": [
+          "specialized_requirements_unverified",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
       "preliminary_fit": {
         "score": 45,
         "tier": "below_threshold",
@@ -196,94 +348,6 @@
           "location": 15,
           "compensation_unverified": 0,
           "specialism_penalty": -17
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:4725972006",
-      "company_board": "instawork",
-      "title": "Training Team Lead: Field Operations",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://job-boards.greenhouse.io/instawork/jobs/4725972006",
-      "source": "greenhouse",
-      "source_date": "2026-10-30T00:16:00-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "continuous improvement",
-        "reporting dashboards",
-        "performance metrics"
-      ],
-      "matching_method": "jd_responsibilities",
-      "description_characters": 16153,
-      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><p><strong>Role Type: </strong>Full-time people leadership role</p>\n<p><strong>Team: </strong>Instawork Robotics Lab (IRL)</p>\n<p><strong>Reports To: </strong>Field Operations Manager / Head of Field Operations</p>\n<p><strong>Manages: </strong>A team of Trainers / Junior Trainers deployed across cities</p>\n<p><strong>Location: </strong>Bengaluru (base) + extensive multi-city field travel</p>\n<p><strong>Experience: </strong>3\u20136 years, including hands-on training and team management</p>\n<p><strong>Travel: </strong>Extensive travel across India is mandatory</p>\n<p><strong>Working Hours: </strong>6 days/week | project-dependent hours</p>\n<h2><strong>About Us: Please Read First</strong>",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "dashboard",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "continuous improvement",
-              "standardization"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operational performance",
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "documentation",
-              "sop",
-              "uat"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 71,
-        "tier": "possible_provisional",
-        "component_scores": {
-          "responsibility_title_proxy": 21,
-          "capability_overlap": 18,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
         },
         "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
       }
@@ -373,406 +437,34 @@
         "gap_status": "no_obvious_platform_gap_detected",
         "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
       },
+      "preliminary_assessment": {
+        "preliminary_score": 89,
+        "preliminary_tier": "strong",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 25,
+          "seniority": 13,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 16.0,
+        "evidence_coverage_proxy_pct": 100,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
       "preliminary_fit": {
         "score": 86,
         "tier": "strong_provisional",
         "component_scores": {
           "responsibility_title_proxy": 27,
           "capability_overlap": 25,
-          "seniority_proxy": 12,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-      "company_board": "Loop%20AI",
-      "title": "Strategist II - Product Operations & Strategy",
-      "location": "Bengaluru",
-      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-      "source": "lever",
-      "source_date": "2026-10-14T09:32:24.506000+00:00",
-      "date_source": "createdAt",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "product operation"
-      ],
-      "matching_method": "title",
-      "description_characters": 1667,
-      "description_excerpt": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of the fastest growing restaurant technology companies powering a few billion dollars in revenue and growing to serve 10K+ restaurants within 3 years across some of the most recognizable brands of the USA, helping them grow their topline & bottomline.\u00a0\nLoop is built by a world class team of entrepreneurs, operators, leaders and AI engineers from different industries, ranging from cutting edge big-tech, management consulting, investment banking among others across companies like Uber, Google, Amazon, McKinsey and others.\u00a0\nAbout the Role:\u00a0\nAs a Product Operations strategist in the Strategy & Operations charter of Loop, you are a custodian of value delivered to Loop\u2019s customers. Loop\u2019s products powe",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 3,
-        "capability_evidence_coverage_pct": 43,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "metrics"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "product operations",
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 72,
-        "tier": "possible_provisional",
-        "component_scores": {
-          "responsibility_title_proxy": 27,
-          "capability_overlap": 11,
-          "seniority_proxy": 12,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:8248096",
-      "company_board": "stripe",
-      "title": "Risk Operations Manager",
-      "location": "Bangalore",
-      "url": "https://stripe.com/jobs/search?gh_jid=8248096",
-      "source": "greenhouse",
-      "source_date": "2026-10-05T06:46:26-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager",
-        "process improvement"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 4339,
-      "description_excerpt": "<h3><strong>About Stripe</strong></h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<h3><strong>About the team</strong></h3>\n<p>Partner Risk Operations(PRO) is responsible for managing the risk relationships with our critical payment ecosystem partners, including global payment methods, card networks, and banking partners. Our mission is to establish operational controls that mitigate user and partner risk while enabling strategic development opportunities. At the Stripe Delivery Center, the team will provide operational support for scaled investigations, assist with inquiries, and assess nuanced and complex partner programs.</p>\n<h2><strong>What you\u2019ll do</strong></h2>\n<p>In this role, you will lead a team of Partner Risk Operation",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 64,
-        "tier": "below_threshold",
-        "component_scores": {
-          "responsibility_title_proxy": 14,
-          "capability_overlap": 18,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:8245298",
-      "company_board": "okta",
-      "title": "Global Partner Program Operations Manager",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8245298?gh_jid=8245298",
-      "source": "greenhouse",
-      "source_date": "2026-10-02T08:10:58-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager"
-      ],
-      "matching_method": "title",
-      "description_characters": 7830,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p data-path-to-node=\"6\">At Okta, partners are a core growth driver. This role sits within the Global Partner Program team, which builds the strategy, tools, and operational muscle that empower our partners to build thriving, high-growth Okta practices.</p>\n<p data-path-to-node=\"7\">We\u2019re looking for an operational <strong data-path-to-node=\"7\" data-index-in-node=\"33\">Partner Program Manager</strong> to take ownership of the global program framework across APJ. While this role aligns with global strategy to ensure consistency and scale, you will be the ultimate regional owner for program adoption, frictio",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 4,
-        "capability_evidence_coverage_pct": 57,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "metrics",
-              "kpi",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "documentation"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 73,
-        "tier": "possible_provisional",
-        "component_scores": {
-          "responsibility_title_proxy": 27,
-          "capability_overlap": 14,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:8230852",
-      "company_board": "okta",
-      "title": "Senior Application Development Analyst",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/8230852?gh_jid=8230852",
-      "source": "greenhouse",
-      "source_date": "2026-09-25T12:39:18-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "process improvement",
-        "operational efficiency",
-        "performance metrics",
-        "requirements gathering"
-      ],
-      "matching_method": "jd_responsibilities",
-      "description_characters": 9068,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is The World\u2019s Identity Company. We free everyone to safely use any technology anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box we\u2019re looking for lifelong learners and people who can make us better with their unique experiences. The Technology Data and Intelligence",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 6,
-        "capability_evidence_coverage_pct": 86,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "dashboard",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "automation",
-            "jd_terms": [
-              "automation"
-            ],
-            "candidate_evidence": "SERCO: seven operational automations"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "program_delivery",
-            "jd_terms": [
-              "implementation"
-            ],
-            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "documentation",
-              "requirements gathering"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 45,
-        "tier": "below_threshold",
-        "component_scores": {
-          "responsibility_title_proxy": 9,
-          "capability_overlap": 21,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": -17
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:8177119",
-      "company_board": "elastic",
-      "title": "Business Analyst, Marketing-1 (Fixed Term)",
-      "location": "Bangalore, India",
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8177119&gh_jid=8177119",
-      "source": "greenhouse",
-      "source_date": "2026-09-09T04:24:44-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "business analyst",
-        "performance metrics"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 17743,
-      "description_excerpt": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data \u2014 securing and protecting private information more effectively \u2014 Elastic\u2019s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.</p></div><h3><strong>What is The Role</strong></h3>\n<p><span id=\"popover-trigger-:r1q:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-0-0\"><span data-text=\"true\">This role focuses on </span></span></span><span id=\"popover-trigger-:r1s:\" class=\"chakra-text css-1j6t0d7\"><span data-offset-key=\"4v4v1-1-0\"><span data-text=\"true\">driving</span></span></span><span id=\"popover-trigger-:r1u:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-2-0\"><span data-text=\"true\"> business intelligence and performance optimizati",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 4,
-        "capability_evidence_coverage_pct": 57,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "dashboard",
-              "metrics",
-              "power bi"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "automation",
-            "jd_terms": [
-              "automation"
-            ],
-            "candidate_evidence": "SERCO: seven operational automations"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 62,
-        "tier": "below_threshold",
-        "component_scores": {
-          "responsibility_title_proxy": 14,
-          "capability_overlap": 14,
           "seniority_proxy": 12,
           "industry_assumption": 7,
           "location": 15,
@@ -867,435 +559,34 @@
         "gap_status": "no_obvious_platform_gap_detected",
         "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
       },
+      "preliminary_assessment": {
+        "preliminary_score": 87,
+        "preliminary_tier": "strong",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 25,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 78.9,
+        "evidence_coverage_proxy_pct": 100,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
       "preliminary_fit": {
         "score": 49,
         "tier": "below_threshold",
         "component_scores": {
           "responsibility_title_proxy": 9,
           "capability_overlap": 25,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": -17
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:8644000002",
-      "company_board": "databricks",
-      "title": "Partner Enablement Operations Manager",
-      "location": "Bengaluru, India; Mumbai, India",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8644000002",
-      "source": "greenhouse",
-      "source_date": "2026-08-04T10:43:57-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager",
-        "stakeholder management",
-        "workflow automation",
-        "program management"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 9709,
-      "description_excerpt": "<p data-pm-slice=\"1 1 []\">FEQ327R583</p>\n<p>The Partner Enablement Operations Manager is a senior operator and builder responsible for designing and running a scalable, predictable, and data-driven operating model for partner enablement at Databricks.</p>\n<p>This role serves as the operational backbone and strategic integrator for partner enablement, connecting global strategy to regional execution across AMER, EMEA, and APJ regions while ensuring programs are delivered consistently, efficiently, and at scale.</p>\n<p>The ideal candidate brings strong executive presence, systems thinking, and a bias for automation. They know how to reduce operational friction, build governance that scales, and introduce AI-enabled workflows that improve responsiveness without adding unnecessary complexity or headcount.</p>\n<p>We are looking for A builder who can architect operating systems, drive cross-functional alignment, and convert recurring operational friction into structural improvement.</p>\n<h2><strong>What You\u2019ll Do</strong></h2>\n<ul>\n<li>Own the partner enablement operating model, including core planning cadences, governance mechanisms, and execution frameworks that connect strategy to exe",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 6,
-        "capability_evidence_coverage_pct": 86,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "dashboard",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "automation",
-            "jd_terms": [
-              "automation",
-              "workflow automation",
-              "ai tools"
-            ],
-            "candidate_evidence": "SERCO: seven operational automations"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "program_delivery",
-            "jd_terms": [
-              "program management"
-            ],
-            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 74,
-        "tier": "possible_provisional",
-        "component_scores": {
-          "responsibility_title_proxy": 21,
-          "capability_overlap": 21,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:8053011",
-      "company_board": "stripe",
-      "title": "Operations Manager, Stripe Delivery Centre",
-      "location": "Bengaluru",
-      "url": "https://stripe.com/jobs/search?gh_jid=8053011",
-      "source": "greenhouse",
-      "source_date": "2026-07-10T09:23:31-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager",
-        "process improvement",
-        "operational efficiency"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 4229,
-      "description_excerpt": "<p><strong>About Stripe</strong></p>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<p><strong>About the team</strong></p>\n<p>As Stripe\u2019s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Stripe\u2019s portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams.</p>\n<p><strong>What you\u2019ll do</strong></p>\n<p>Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe\u2019s operations for the next decade. We are looking for dynamic and curious pe",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 71,
-        "tier": "possible_provisional",
-        "component_scores": {
-          "responsibility_title_proxy": 21,
-          "capability_overlap": 18,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:4686774006",
-      "company_board": "instawork",
-      "title": "Assistant Manager - Operations - Instawork Robotics Labs",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://job-boards.greenhouse.io/instawork/jobs/4686774006",
-      "source": "greenhouse",
-      "source_date": "2026-06-04T05:08:17-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "stakeholder management",
-        "process improvement",
-        "continuous improvement",
-        "operational excellence"
-      ],
-      "matching_method": "jd_responsibilities",
-      "description_characters": 10248,
-      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><div>\n<p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p>\n</div>\n<div>\n<p>Instawork\u2019s on-demand labor marketplace is uniquely valuable for robotics and physical AI. We\u2019re working with leading frontier labs to create the highest-quality, highest-diversity datasets ",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 6,
-        "capability_evidence_coverage_pct": 86,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "dashboard",
-              "metrics",
-              "kpi",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement",
-              "continuous improvement",
-              "operational excellence",
-              "process excellence"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "automation",
-            "jd_terms": [
-              "ai tools"
-            ],
-            "candidate_evidence": "SERCO: seven operational automations"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 51,
-        "tier": "below_threshold",
-        "component_scores": {
-          "responsibility_title_proxy": 15,
-          "capability_overlap": 21,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": -17
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:7805386",
-      "company_board": "stripe",
-      "title": "Marketing Operations Manager",
-      "location": "India, Bangalore ",
-      "url": "https://stripe.com/jobs/search?gh_jid=7805386",
-      "source": "greenhouse",
-      "source_date": "2026-04-28T03:00:19-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager"
-      ],
-      "matching_method": "title",
-      "description_characters": 4527,
-      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the Stripe portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams. We strive to deliver frictionless experiences for all of our users, whether they are an independent business, startup, SMB, or enterprise, and our mission is to provide all Stripe users with the best support experience possible.<",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 3,
-        "capability_evidence_coverage_pct": 43,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 57,
-        "tier": "below_threshold",
-        "component_scores": {
-          "responsibility_title_proxy": 14,
-          "capability_overlap": 11,
-          "seniority_proxy": 10,
-          "industry_assumption": 7,
-          "location": 15,
-          "compensation_unverified": 0,
-          "specialism_penalty": 0
-        },
-        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
-      }
-    },
-    {
-      "id": "greenhouse:7608396",
-      "company_board": "stripe",
-      "title": "Fraud Operations Manager",
-      "location": "Bengaluru",
-      "url": "https://stripe.com/jobs/search?gh_jid=7608396",
-      "source": "greenhouse",
-      "source_date": "2026-02-13T05:34:28-05:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager",
-        "continuous improvement",
-        "operational excellence"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 6673,
-      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attacks through Stripe. We build scalable, high-judgement investigation and review operations while minimizing user friction. We work across products, customer segments, and markets and serve as a core pillar of the Stripe risk strategy.</p>\n<h2>What you'll do</h2>\n<p>Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You",
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "dashboard",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "continuous improvement",
-              "operational excellence"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "preliminary_fit": {
-        "score": 47,
-        "tier": "below_threshold",
-        "component_scores": {
-          "responsibility_title_proxy": 14,
-          "capability_overlap": 18,
           "seniority_proxy": 10,
           "industry_assumption": 7,
           "location": 15,
@@ -1387,6 +678,28 @@
         "gap_status": "no_obvious_platform_gap_detected",
         "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
       },
+      "preliminary_assessment": {
+        "preliminary_score": 85,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 21,
+          "seniority": 13,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 950.8,
+        "evidence_coverage_proxy_pct": 86,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
       "preliminary_fit": {
         "score": 82,
         "tier": "possible_provisional",
@@ -1394,6 +707,1043 @@
           "responsibility_title_proxy": 27,
           "capability_overlap": 21,
           "seniority_proxy": 12,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:8230852",
+      "company_board": "okta",
+      "title": "Senior Application Development Analyst",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8230852?gh_jid=8230852",
+      "source": "greenhouse",
+      "source_date": "2026-09-25T12:39:18-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "process improvement",
+        "operational efficiency",
+        "performance metrics",
+        "requirements gathering"
+      ],
+      "matching_method": "jd_responsibilities",
+      "description_characters": 9068,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is The World\u2019s Identity Company. We free everyone to safely use any technology anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box we\u2019re looking for lifelong learners and people who can make us better with their unique experiences. The Technology Data and Intelligence",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 6,
+        "capability_evidence_coverage_pct": 86,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "implementation"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation",
+              "requirements gathering"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 83,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 21,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 36.7,
+        "evidence_coverage_proxy_pct": 86,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 45,
+        "tier": "below_threshold",
+        "component_scores": {
+          "responsibility_title_proxy": 9,
+          "capability_overlap": 21,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": -17
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:8644000002",
+      "company_board": "databricks",
+      "title": "Partner Enablement Operations Manager",
+      "location": "Bengaluru, India; Mumbai, India",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8644000002",
+      "source": "greenhouse",
+      "source_date": "2026-08-04T10:43:57-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager",
+        "stakeholder management",
+        "workflow automation",
+        "program management"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 9709,
+      "description_excerpt": "<p data-pm-slice=\"1 1 []\">FEQ327R583</p>\n<p>The Partner Enablement Operations Manager is a senior operator and builder responsible for designing and running a scalable, predictable, and data-driven operating model for partner enablement at Databricks.</p>\n<p>This role serves as the operational backbone and strategic integrator for partner enablement, connecting global strategy to regional execution across AMER, EMEA, and APJ regions while ensuring programs are delivered consistently, efficiently, and at scale.</p>\n<p>The ideal candidate brings strong executive presence, systems thinking, and a bias for automation. They know how to reduce operational friction, build governance that scales, and introduce AI-enabled workflows that improve responsiveness without adding unnecessary complexity or headcount.</p>\n<p>We are looking for A builder who can architect operating systems, drive cross-functional alignment, and convert recurring operational friction into structural improvement.</p>\n<h2><strong>What You\u2019ll Do</strong></h2>\n<ul>\n<li>Own the partner enablement operating model, including core planning cadences, governance mechanisms, and execution frameworks that connect strategy to exe",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 6,
+        "capability_evidence_coverage_pct": 86,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation",
+              "workflow automation",
+              "ai tools"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "program management"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "sop"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 83,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 21,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 88.8,
+        "evidence_coverage_proxy_pct": 86,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 74,
+        "tier": "possible_provisional",
+        "component_scores": {
+          "responsibility_title_proxy": 21,
+          "capability_overlap": 21,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:4686774006",
+      "company_board": "instawork",
+      "title": "Assistant Manager - Operations - Instawork Robotics Labs",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4686774006",
+      "source": "greenhouse",
+      "source_date": "2026-06-04T05:08:17-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "stakeholder management",
+        "process improvement",
+        "continuous improvement",
+        "operational excellence"
+      ],
+      "matching_method": "jd_responsibilities",
+      "description_characters": 10248,
+      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><div>\n<p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p>\n</div>\n<div>\n<p>Instawork\u2019s on-demand labor marketplace is uniquely valuable for robotics and physical AI. We\u2019re working with leading frontier labs to create the highest-quality, highest-diversity datasets ",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 6,
+        "capability_evidence_coverage_pct": 86,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "dashboard",
+              "metrics",
+              "kpi",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement",
+              "continuous improvement",
+              "operational excellence",
+              "process excellence"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "ai tools"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "sop"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 83,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 30,
+          "evidenced_skills": 21,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 150.0,
+        "evidence_coverage_proxy_pct": 86,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 51,
+        "tier": "below_threshold",
+        "component_scores": {
+          "responsibility_title_proxy": 15,
+          "capability_overlap": 21,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": -17
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:8248096",
+      "company_board": "stripe",
+      "title": "Risk Operations Manager",
+      "location": "Bangalore",
+      "url": "https://stripe.com/jobs/search?gh_jid=8248096",
+      "source": "greenhouse",
+      "source_date": "2026-10-05T06:46:26-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager",
+        "process improvement"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 4339,
+      "description_excerpt": "<h3><strong>About Stripe</strong></h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<h3><strong>About the team</strong></h3>\n<p>Partner Risk Operations(PRO) is responsible for managing the risk relationships with our critical payment ecosystem partners, including global payment methods, card networks, and banking partners. Our mission is to establish operational controls that mitigate user and partner risk while enabling strategic development opportunities. At the Stripe Delivery Center, the team will provide operational support for scaled investigations, assist with inquiries, and assess nuanced and complex partner programs.</p>\n<h2><strong>What you\u2019ll do</strong></h2>\n<p>In this role, you will lead a team of Partner Risk Operation",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "sop"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 75,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 25,
+          "evidenced_skills": 18,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 26.9,
+        "evidence_coverage_proxy_pct": 71,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 64,
+        "tier": "below_threshold",
+        "component_scores": {
+          "responsibility_title_proxy": 14,
+          "capability_overlap": 18,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:8053011",
+      "company_board": "stripe",
+      "title": "Operations Manager, Stripe Delivery Centre",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8053011",
+      "source": "greenhouse",
+      "source_date": "2026-07-10T09:23:31-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager",
+        "process improvement",
+        "operational efficiency"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 4229,
+      "description_excerpt": "<p><strong>About Stripe</strong></p>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<p><strong>About the team</strong></p>\n<p>As Stripe\u2019s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Stripe\u2019s portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams.</p>\n<p><strong>What you\u2019ll do</strong></p>\n<p>Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe\u2019s operations for the next decade. We are looking for dynamic and curious pe",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "sop"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 75,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 25,
+          "evidenced_skills": 18,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 113.8,
+        "evidence_coverage_proxy_pct": 71,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 71,
+        "tier": "possible_provisional",
+        "component_scores": {
+          "responsibility_title_proxy": 21,
+          "capability_overlap": 18,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:7608396",
+      "company_board": "stripe",
+      "title": "Fraud Operations Manager",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=7608396",
+      "source": "greenhouse",
+      "source_date": "2026-02-13T05:34:28-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager",
+        "continuous improvement",
+        "operational excellence"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 6673,
+      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attacks through Stripe. We build scalable, high-judgement investigation and review operations while minimizing user friction. We work across products, customer segments, and markets and serve as a core pillar of the Stripe risk strategy.</p>\n<h2>What you'll do</h2>\n<p>Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "dashboard",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "continuous improvement",
+              "operational excellence"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "sop"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 75,
+        "preliminary_tier": "possible",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 25,
+          "evidenced_skills": 18,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 260.9,
+        "evidence_coverage_proxy_pct": 71,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 47,
+        "tier": "below_threshold",
+        "component_scores": {
+          "responsibility_title_proxy": 14,
+          "capability_overlap": 18,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": -17
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:8177119",
+      "company_board": "elastic",
+      "title": "Business Analyst, Marketing-1 (Fixed Term)",
+      "location": "Bangalore, India",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8177119&gh_jid=8177119",
+      "source": "greenhouse",
+      "source_date": "2026-09-09T04:24:44-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "business analyst",
+        "performance metrics"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 17743,
+      "description_excerpt": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data \u2014 securing and protecting private information more effectively \u2014 Elastic\u2019s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.</p></div><h3><strong>What is The Role</strong></h3>\n<p><span id=\"popover-trigger-:r1q:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-0-0\"><span data-text=\"true\">This role focuses on </span></span></span><span id=\"popover-trigger-:r1s:\" class=\"chakra-text css-1j6t0d7\"><span data-offset-key=\"4v4v1-1-0\"><span data-text=\"true\">driving</span></span></span><span id=\"popover-trigger-:r1u:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-2-0\"><span data-text=\"true\"> business intelligence and performance optimizati",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 4,
+        "capability_evidence_coverage_pct": 57,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "metrics",
+              "power bi"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 68,
+        "preliminary_tier": "below_threshold",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 20,
+          "evidenced_skills": 14,
+          "seniority": 13,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 53.0,
+        "evidence_coverage_proxy_pct": 57,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 62,
+        "tier": "below_threshold",
+        "component_scores": {
+          "responsibility_title_proxy": 14,
+          "capability_overlap": 14,
+          "seniority_proxy": 12,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:8245298",
+      "company_board": "okta",
+      "title": "Global Partner Program Operations Manager",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8245298?gh_jid=8245298",
+      "source": "greenhouse",
+      "source_date": "2026-10-02T08:10:58-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager"
+      ],
+      "matching_method": "title",
+      "description_characters": 7830,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p data-path-to-node=\"6\">At Okta, partners are a core growth driver. This role sits within the Global Partner Program team, which builds the strategy, tools, and operational muscle that empower our partners to build thriving, high-growth Okta practices.</p>\n<p data-path-to-node=\"7\">We\u2019re looking for an operational <strong data-path-to-node=\"7\" data-index-in-node=\"33\">Partner Program Manager</strong> to take ownership of the global program framework across APJ. While this role aligns with global strategy to ensure consistency and scale, you will be the ultimate regional owner for program adoption, frictio",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 4,
+        "capability_evidence_coverage_pct": 57,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "metrics",
+              "kpi",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 66,
+        "preliminary_tier": "below_threshold",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 20,
+          "evidenced_skills": 14,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 29.9,
+        "evidence_coverage_proxy_pct": 57,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 73,
+        "tier": "possible_provisional",
+        "component_scores": {
+          "responsibility_title_proxy": 27,
+          "capability_overlap": 14,
+          "seniority_proxy": 10,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "company_board": "Loop%20AI",
+      "title": "Strategist II - Product Operations & Strategy",
+      "location": "Bengaluru",
+      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "source": "lever",
+      "source_date": "2026-10-14T09:32:24.506000+00:00",
+      "date_source": "createdAt",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "product operation"
+      ],
+      "matching_method": "title",
+      "description_characters": 1667,
+      "description_excerpt": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of the fastest growing restaurant technology companies powering a few billion dollars in revenue and growing to serve 10K+ restaurants within 3 years across some of the most recognizable brands of the USA, helping them grow their topline & bottomline.\u00a0\nLoop is built by a world class team of entrepreneurs, operators, leaders and AI engineers from different industries, ranging from cutting edge big-tech, management consulting, investment banking among others across companies like Uber, Google, Amazon, McKinsey and others.\u00a0\nAbout the Role:\u00a0\nAs a Product Operations strategist in the Strategy & Operations charter of Loop, you are a custodian of value delivered to Loop\u2019s customers. Loop\u2019s products powe",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "metrics"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "product operations",
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 60,
+        "preliminary_tier": "below_threshold",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 15,
+          "evidenced_skills": 11,
+          "seniority": 13,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 18.0,
+        "evidence_coverage_proxy_pct": 43,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 72,
+        "tier": "possible_provisional",
+        "component_scores": {
+          "responsibility_title_proxy": 27,
+          "capability_overlap": 11,
+          "seniority_proxy": 12,
+          "industry_assumption": 7,
+          "location": 15,
+          "compensation_unverified": 0,
+          "specialism_penalty": 0
+        },
+        "note": "Heuristic preliminary score from job title and existing JD capability evidence map; mandatory requirements, seniority, industry, pay, and current opening not independently validated."
+      }
+    },
+    {
+      "id": "greenhouse:7805386",
+      "company_board": "stripe",
+      "title": "Marketing Operations Manager",
+      "location": "India, Bangalore ",
+      "url": "https://stripe.com/jobs/search?gh_jid=7805386",
+      "source": "greenhouse",
+      "source_date": "2026-04-28T03:00:19-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager"
+      ],
+      "matching_method": "title",
+      "description_characters": 4527,
+      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the Stripe portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams. We strive to deliver frictionless experiences for all of our users, whether they are an independent business, startup, SMB, or enterprise, and our mission is to provide all Stripe users with the best support experience possible.<",
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "cross-functional"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "preliminary_assessment": {
+        "preliminary_score": 58,
+        "preliminary_tier": "below_threshold",
+        "score_status": "RULE_BASED_ESTIMATE_NOT_ATS_SCORE",
+        "rubric": {
+          "responsibilities": 15,
+          "evidenced_skills": 11,
+          "seniority": 11,
+          "industry": 6,
+          "location": 15,
+          "compensation": 0
+        },
+        "fresh_within_5_days": false,
+        "age_days": 187.1,
+        "evidence_coverage_proxy_pct": 43,
+        "review_flags": [
+          "posting_older_than_5_days",
+          "salary_not_verified",
+          "mandatory_requirements_not_individually_validated"
+        ],
+        "verified_for_main_match_tiers": false
+      },
+      "preliminary_fit": {
+        "score": 57,
+        "tier": "below_threshold",
+        "component_scores": {
+          "responsibility_title_proxy": 14,
+          "capability_overlap": 11,
+          "seniority_proxy": 10,
           "industry_assumption": 7,
           "location": 15,
           "compensation_unverified": 0,

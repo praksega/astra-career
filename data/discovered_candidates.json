@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T20:00:46.789495+00:00",
+  "updated_at": "2026-11-01T09:22:08.323476+00:00",
   "candidates": [
     {
       "id": "greenhouse:8260972",
@@ -106,7 +106,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": true,
-        "age_days": 1.3,
+        "age_days": 1.7,
         "evidence_coverage_proxy_pct": 100,
         "review_flags": [
           "salary_not_verified",
@@ -132,7 +132,7 @@
       ],
       "matching_method": "jd_responsibilities",
       "description_characters": 16153,
-      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.</p></div><p><strong>Role Type: </strong>Full-time people leadership role</p>\n<p><strong>Team: </strong>Instawork Robotics Lab (IRL)</p>\n<p><strong>Reports To: </strong>Field Operations Manager / Head of Field Operations</p>\n<p><strong>Manages: </strong>A team of Trainers / Junior Trainers deployed across cities</p>\n<p><strong>Location: </strong>Bengaluru (base) + extensive multi-city field travel</p>\n<p><strong>Experience: </strong>3–6 years, including hands-on training and team management</p>\n<p><strong>Travel: </strong>Extensive travel across India is mandatory</p>\n<p><strong>Working Hours: </strong>6 days/week | project-dependent hours</p>\n<h2><strong>About Us: Please Read First</strong>",
+      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><p><strong>Role Type: </strong>Full-time people leadership role</p>\n<p><strong>Team: </strong>Instawork Robotics Lab (IRL)</p>\n<p><strong>Reports To: </strong>Field Operations Manager / Head of Field Operations</p>\n<p><strong>Manages: </strong>A team of Trainers / Junior Trainers deployed across cities</p>\n<p><strong>Location: </strong>Bengaluru (base) + extensive multi-city field travel</p>\n<p><strong>Experience: </strong>3\u20136 years, including hands-on training and team management</p>\n<p><strong>Travel: </strong>Extensive travel across India is mandatory</p>\n<p><strong>Working Hours: </strong>6 days/week | project-dependent hours</p>\n<h2><strong>About Us: Please Read First</strong>",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -201,7 +201,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": true,
-        "age_days": 1.8,
+        "age_days": 2.2,
         "evidence_coverage_proxy_pct": 71,
         "review_flags": [
           "salary_not_verified",
@@ -298,7 +298,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": true,
-        "age_days": 1.3,
+        "age_days": 1.7,
         "evidence_coverage_proxy_pct": 86,
         "review_flags": [
           "specialized_requirements_unverified",
@@ -326,7 +326,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 4194,
-      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>The Finance Operations (FinOps) team provides and enhances core business services that are the backbone of Stripe. FinOps uses data and operational excellence to deliver technology solutions, payroll services, operational excellence, and monetization services to Stripe.</p>\n<h2>What you'll do</h2>\n<p>We're looking for a Monetization Operations Analyst to join our growing team. You'll help us improve user experience through accurate and timely onboarding of contracts and workflows, and deliver improvements in our integrated financial systems with business partners, financial colleagues, and engineers.</p>\n<h3>Responsibili",
+      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>The Finance Operations (FinOps) team provides and enhances core business services that are the backbone of Stripe. FinOps uses data and operational excellence to deliver technology solutions, payroll services, operational excellence, and monetization services to Stripe.</p>\n<h2>What you'll do</h2>\n<p>We're looking for a Monetization Operations Analyst to join our growing team. You'll help us improve user experience through accurate and timely onboarding of contracts and workflows, and deliver improvements in our integrated financial systems with business partners, financial colleagues, and engineers.</p>\n<h3>Responsibili",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -406,7 +406,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 15.7,
+        "age_days": 16.0,
         "evidence_coverage_proxy_pct": 100,
         "review_flags": [
           "posting_older_than_5_days",
@@ -433,7 +433,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 6637,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><strong><em>About Okta:</em></strong></p>\n<p>Okta is the leading independent provider of identity solutions for enterprises. With a deep commitment to innovation and customer success, we power and secure digital transformation for the world's biggest brands. We're scaling rapidly, and we’re seeking talented individuals to join us in enabling secure and seamless digital experiences.</p>\n<p>One of the most important components of our operations is an efficient financial system, including seamless processes for the Record-to-Report (R2R) cycle. As a NetSuite R2R Analyst, your role will support and streng",
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><strong><em>About Okta:</em></strong></p>\n<p>Okta is the leading independent provider of identity solutions for enterprises. With a deep commitment to innovation and customer success, we power and secure digital transformation for the world's biggest brands. We're scaling rapidly, and we\u2019re seeking talented individuals to join us in enabling secure and seamless digital experiences.</p>\n<p>One of the most important components of our operations is an efficient financial system, including seamless processes for the Record-to-Report (R2R) cycle. As a NetSuite R2R Analyst, your role will support and streng",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -514,7 +514,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 78.5,
+        "age_days": 78.9,
         "evidence_coverage_proxy_pct": 100,
         "review_flags": [
           "posting_older_than_5_days",
@@ -543,7 +543,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 8447,
-      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.</p></div><p>At our labor marketplace tech company, we believe that even in the age of AI, the core of success comes down to good people doing honest work. We're seeking a detail-oriented and automation-savvy Product Operations Analyst to help us optimize our operational processes and ensure data accuracy across our platforms. This is a fantastic opportunity to grow your career at the intersection of operations, data, and intelligent automation.</p>\n<h4><strong>Who You Are:</strong></h4>\n<ul>\n<li><strong>Automation Enthusiast:</strong> You're passionate about eliminating manual work through automation. You've built workflows using tools like n8n, Zapier, or Make.com, and you're always lookin",
+      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><p>At our labor marketplace tech company, we believe that even in the age of AI, the core of success comes down to good people doing honest work. We're seeking a detail-oriented and automation-savvy Product Operations Analyst to help us optimize our operational processes and ensure data accuracy across our platforms. This is a fantastic opportunity to grow your career at the intersection of operations, data, and intelligent automation.</p>\n<h4><strong>Who You Are:</strong></h4>\n<ul>\n<li><strong>Automation Enthusiast:</strong> You're passionate about eliminating manual work through automation. You've built workflows using tools like n8n, Zapier, or Make.com, and you're always lookin",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -619,7 +619,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 950.4,
+        "age_days": 950.8,
         "evidence_coverage_proxy_pct": 86,
         "review_flags": [
           "posting_older_than_5_days",
@@ -647,7 +647,7 @@
       ],
       "matching_method": "jd_responsibilities",
       "description_characters": 9068,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is The World’s Identity Company. We free everyone to safely use any technology anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box we’re looking for lifelong learners and people who can make us better with their unique experiences. The Technology Data and Intelligence",
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is The World\u2019s Identity Company. We free everyone to safely use any technology anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital world, putting Identity at the heart of business security and growth. At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box we\u2019re looking for lifelong learners and people who can make us better with their unique experiences. The Technology Data and Intelligence",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -721,7 +721,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 36.3,
+        "age_days": 36.7,
         "evidence_coverage_proxy_pct": 86,
         "review_flags": [
           "posting_older_than_5_days",
@@ -749,7 +749,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 9709,
-      "description_excerpt": "<p data-pm-slice=\"1 1 []\">FEQ327R583</p>\n<p>The Partner Enablement Operations Manager is a senior operator and builder responsible for designing and running a scalable, predictable, and data-driven operating model for partner enablement at Databricks.</p>\n<p>This role serves as the operational backbone and strategic integrator for partner enablement, connecting global strategy to regional execution across AMER, EMEA, and APJ regions while ensuring programs are delivered consistently, efficiently, and at scale.</p>\n<p>The ideal candidate brings strong executive presence, systems thinking, and a bias for automation. They know how to reduce operational friction, build governance that scales, and introduce AI-enabled workflows that improve responsiveness without adding unnecessary complexity or headcount.</p>\n<p>We are looking for A builder who can architect operating systems, drive cross-functional alignment, and convert recurring operational friction into structural improvement.</p>\n<h2><strong>What You’ll Do</strong></h2>\n<ul>\n<li>Own the partner enablement operating model, including core planning cadences, governance mechanisms, and execution frameworks that connect strategy to exe",
+      "description_excerpt": "<p data-pm-slice=\"1 1 []\">FEQ327R583</p>\n<p>The Partner Enablement Operations Manager is a senior operator and builder responsible for designing and running a scalable, predictable, and data-driven operating model for partner enablement at Databricks.</p>\n<p>This role serves as the operational backbone and strategic integrator for partner enablement, connecting global strategy to regional execution across AMER, EMEA, and APJ regions while ensuring programs are delivered consistently, efficiently, and at scale.</p>\n<p>The ideal candidate brings strong executive presence, systems thinking, and a bias for automation. They know how to reduce operational friction, build governance that scales, and introduce AI-enabled workflows that improve responsiveness without adding unnecessary complexity or headcount.</p>\n<p>We are looking for A builder who can architect operating systems, drive cross-functional alignment, and convert recurring operational friction into structural improvement.</p>\n<h2><strong>What You\u2019ll Do</strong></h2>\n<ul>\n<li>Own the partner enablement operating model, including core planning cadences, governance mechanisms, and execution frameworks that connect strategy to exe",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -824,7 +824,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 88.4,
+        "age_days": 88.8,
         "evidence_coverage_proxy_pct": 86,
         "review_flags": [
           "posting_older_than_5_days",
@@ -852,7 +852,7 @@
       ],
       "matching_method": "jd_responsibilities",
       "description_characters": 10248,
-      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.</p></div><div>\n<p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we’re looking for exceptional talent to reimagine the way the world works.</p>\n</div>\n<div>\n<p>Instawork’s on-demand labor marketplace is uniquely valuable for robotics and physical AI. We’re working with leading frontier labs to create the highest-quality, highest-diversity datasets ",
+      "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><div>\n<p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p>\n</div>\n<div>\n<p>Instawork\u2019s on-demand labor marketplace is uniquely valuable for robotics and physical AI. We\u2019re working with leading frontier labs to create the highest-quality, highest-diversity datasets ",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -928,7 +928,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 149.6,
+        "age_days": 150.0,
         "evidence_coverage_proxy_pct": 86,
         "review_flags": [
           "posting_older_than_5_days",
@@ -954,7 +954,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 4339,
-      "description_excerpt": "<h3><strong>About Stripe</strong></h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</p>\n<h3><strong>About the team</strong></h3>\n<p>Partner Risk Operations(PRO) is responsible for managing the risk relationships with our critical payment ecosystem partners, including global payment methods, card networks, and banking partners. Our mission is to establish operational controls that mitigate user and partner risk while enabling strategic development opportunities. At the Stripe Delivery Center, the team will provide operational support for scaled investigations, assist with inquiries, and assess nuanced and complex partner programs.</p>\n<h2><strong>What you’ll do</strong></h2>\n<p>In this role, you will lead a team of Partner Risk Operation",
+      "description_excerpt": "<h3><strong>About Stripe</strong></h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<h3><strong>About the team</strong></h3>\n<p>Partner Risk Operations(PRO) is responsible for managing the risk relationships with our critical payment ecosystem partners, including global payment methods, card networks, and banking partners. Our mission is to establish operational controls that mitigate user and partner risk while enabling strategic development opportunities. At the Stripe Delivery Center, the team will provide operational support for scaled investigations, assist with inquiries, and assess nuanced and complex partner programs.</p>\n<h2><strong>What you\u2019ll do</strong></h2>\n<p>In this role, you will lead a team of Partner Risk Operation",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1018,7 +1018,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 26.6,
+        "age_days": 26.9,
         "evidence_coverage_proxy_pct": 71,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1045,7 +1045,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 4229,
-      "description_excerpt": "<p><strong>About Stripe</strong></p>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</p>\n<p><strong>About the team</strong></p>\n<p>As Stripe’s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Stripe’s portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams.</p>\n<p><strong>What you’ll do</strong></p>\n<p>Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe’s operations for the next decade. We are looking for dynamic and curious pe",
+      "description_excerpt": "<p><strong>About Stripe</strong></p>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<p><strong>About the team</strong></p>\n<p>As Stripe\u2019s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Stripe\u2019s portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams.</p>\n<p><strong>What you\u2019ll do</strong></p>\n<p>Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe\u2019s operations for the next decade. We are looking for dynamic and curious pe",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1109,7 +1109,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 113.4,
+        "age_days": 113.8,
         "evidence_coverage_proxy_pct": 71,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1136,7 +1136,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 6673,
-      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attacks through Stripe. We build scalable, high-judgement investigation and review operations while minimizing user friction. We work across products, customer segments, and markets and serve as a core pillar of the Stripe risk strategy.</p>\n<h2>What you'll do</h2>\n<p>Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You",
+      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attacks through Stripe. We build scalable, high-judgement investigation and review operations while minimizing user friction. We work across products, customer segments, and markets and serve as a core pillar of the Stripe risk strategy.</p>\n<h2>What you'll do</h2>\n<p>Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1201,7 +1201,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 260.6,
+        "age_days": 260.9,
         "evidence_coverage_proxy_pct": 71,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1227,7 +1227,7 @@
       ],
       "matching_method": "title_and_jd",
       "description_characters": 17743,
-      "description_excerpt": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data — securing and protecting private information more effectively — Elastic’s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.</p></div><h3><strong>What is The Role</strong></h3>\n<p><span id=\"popover-trigger-:r1q:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-0-0\"><span data-text=\"true\">This role focuses on </span></span></span><span id=\"popover-trigger-:r1s:\" class=\"chakra-text css-1j6t0d7\"><span data-offset-key=\"4v4v1-1-0\"><span data-text=\"true\">driving</span></span></span><span id=\"popover-trigger-:r1u:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-2-0\"><span data-text=\"true\"> business intelligence and performance optimizati",
+      "description_excerpt": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data \u2014 securing and protecting private information more effectively \u2014 Elastic\u2019s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.</p></div><h3><strong>What is The Role</strong></h3>\n<p><span id=\"popover-trigger-:r1q:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-0-0\"><span data-text=\"true\">This role focuses on </span></span></span><span id=\"popover-trigger-:r1s:\" class=\"chakra-text css-1j6t0d7\"><span data-offset-key=\"4v4v1-1-0\"><span data-text=\"true\">driving</span></span></span><span id=\"popover-trigger-:r1u:\" class=\"chakra-text css-bcri66\"><span data-offset-key=\"4v4v1-2-0\"><span data-text=\"true\"> business intelligence and performance optimizati",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1286,7 +1286,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 52.6,
+        "age_days": 53.0,
         "evidence_coverage_proxy_pct": 57,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1311,7 +1311,7 @@
       ],
       "matching_method": "title",
       "description_characters": 7830,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p data-path-to-node=\"6\">At Okta, partners are a core growth driver. This role sits within the Global Partner Program team, which builds the strategy, tools, and operational muscle that empower our partners to build thriving, high-growth Okta practices.</p>\n<p data-path-to-node=\"7\">We’re looking for an operational <strong data-path-to-node=\"7\" data-index-in-node=\"33\">Partner Program Manager</strong> to take ownership of the global program framework across APJ. While this role aligns with global strategy to ensure consistency and scale, you will be the ultimate regional owner for program adoption, frictio",
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p data-path-to-node=\"6\">At Okta, partners are a core growth driver. This role sits within the Global Partner Program team, which builds the strategy, tools, and operational muscle that empower our partners to build thriving, high-growth Okta practices.</p>\n<p data-path-to-node=\"7\">We\u2019re looking for an operational <strong data-path-to-node=\"7\" data-index-in-node=\"33\">Partner Program Manager</strong> to take ownership of the global program framework across APJ. While this role aligns with global strategy to ensure consistency and scale, you will be the ultimate regional owner for program adoption, frictio",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1369,7 +1369,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 29.5,
+        "age_days": 29.9,
         "evidence_coverage_proxy_pct": 57,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1394,7 +1394,7 @@
       ],
       "matching_method": "title",
       "description_characters": 1667,
-      "description_excerpt": "About Loop: \nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of the fastest growing restaurant technology companies powering a few billion dollars in revenue and growing to serve 10K+ restaurants within 3 years across some of the most recognizable brands of the USA, helping them grow their topline & bottomline. \nLoop is built by a world class team of entrepreneurs, operators, leaders and AI engineers from different industries, ranging from cutting edge big-tech, management consulting, investment banking among others across companies like Uber, Google, Amazon, McKinsey and others. \nAbout the Role: \nAs a Product Operations strategist in the Strategy & Operations charter of Loop, you are a custodian of value delivered to Loop’s customers. Loop’s products powe",
+      "description_excerpt": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of the fastest growing restaurant technology companies powering a few billion dollars in revenue and growing to serve 10K+ restaurants within 3 years across some of the most recognizable brands of the USA, helping them grow their topline & bottomline.\u00a0\nLoop is built by a world class team of entrepreneurs, operators, leaders and AI engineers from different industries, ranging from cutting edge big-tech, management consulting, investment banking among others across companies like Uber, Google, Amazon, McKinsey and others.\u00a0\nAbout the Role:\u00a0\nAs a Product Operations strategist in the Strategy & Operations charter of Loop, you are a custodian of value delivered to Loop\u2019s customers. Loop\u2019s products powe",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1443,7 +1443,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 17.6,
+        "age_days": 18.0,
         "evidence_coverage_proxy_pct": 43,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1468,7 +1468,7 @@
       ],
       "matching_method": "title",
       "description_characters": 4527,
-      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the Stripe portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams. We strive to deliver frictionless experiences for all of our users, whether they are an independent business, startup, SMB, or enterprise, and our mission is to provide all Stripe users with the best support experience possible.<",
+      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the Stripe portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams. We strive to deliver frictionless experiences for all of our users, whether they are an independent business, startup, SMB, or enterprise, and our mission is to provide all Stripe users with the best support experience possible.<",
       "status": "unscored_candidate",
       "jd_evidence": {
         "score": null,
@@ -1516,7 +1516,7 @@
           "compensation": 0
         },
         "fresh_within_5_days": false,
-        "age_days": 186.7,
+        "age_days": 187.1,
         "evidence_coverage_proxy_pct": 43,
         "review_flags": [
           "posting_older_than_5_days",
@@ -1526,7 +1526,5 @@
         "verified_for_main_match_tiers": false
       }
     }
-  ],
-  "preliminary_scoring_backfill_at": "2026-11-01T00:00:00Z",
-  "preliminary_scoring_backfill_note": "Historical existing 16 candidates mapped from previously stored JD evidence; next discovery run recomputes dynamically."
+  ]
 }

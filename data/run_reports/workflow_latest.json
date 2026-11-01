@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "timestamp_utc": "2026-11-01T09:20:48.383052+00:00",
-  "run_id": "41292728055",
+  "timestamp_utc": "2026-11-01T09:22:08.424044+00:00",
+  "run_id": "41292815015",
   "attempt": "1",
-  "commit": "90f21bccc5f0cf26cbd97fbe866068d78c6e8530",
+  "commit": "4e9e5d1df54a17df64a1bcb82605bfc5aa7cbec4",
   "workflow": "Astra 08AM Discovery + Audit",
-  "status": "FAILED",
+  "status": "SUCCESS",
   "steps": {
     "TEST_RESULT": "success",
-    "DISCOVERY_RESULT": "failure",
-    "SCORING_RESULT": "skipped"
+    "DISCOVERY_RESULT": "success",
+    "SCORING_RESULT": "success"
   },
   "report_present": true,
   "candidates_present": true,
-  "discovery_report_time": "2026-10-31T20:00:46.789495+00:00",
-  "raw_listings_seen": 4702,
+  "discovery_report_time": "2026-11-01T09:22:08.323476+00:00",
+  "raw_listings_seen": 4705,
   "candidate_count": 16,
   "candidate_scored_count": 16
 }

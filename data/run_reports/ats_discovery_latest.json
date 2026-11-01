@@ -1,24 +1,28 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-10-31T20:00:46.789495+00:00",
+  "run_at_utc": "2026-11-01T09:22:08.323476+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4702,
+  "raw_listings_seen": 4705,
   "unique_role_location_candidates": 16,
   "full_jds_with_accessible_text": 16,
   "jd_evidence_maps_generated": 16,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
+  "preliminary_strong": 3,
+  "preliminary_possible": 9,
+  "fresh_preliminary_strong": 1,
+  "fresh_preliminary_possible": 2,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4686,
+    "unrelated_or_unapproved_location": 4689,
     "invalid_record": 0
   },
   "coverage_target": 200,
   "coverage_status": "INSUFFICIENT_RELEVANT_COVERAGE",
-  "notes": "Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they are NOT scored 71+/86+ or confirmed fresh. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
+  "notes": "Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they receive rule-based preliminary scores, not verified ATS/fit scores. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
   "boards": [
     {
       "source": "greenhouse",
@@ -123,7 +127,7 @@
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 901
+      "count": 904
     },
     {
       "source": "greenhouse",
