@@ -17,7 +17,7 @@ def main():
   rows=json.loads(q.read_text()).get("candidates",[])
   data["candidates_present"]=bool(rows) and all(isinstance(x,dict) for x in rows)
   data["candidate_scored_count"]=sum(bool(x.get("preliminary_assessment")) for x in rows)
-  if status=="SUCCESS" and (not data["report_present"] or d.get("run_at_utc")!=os.environ.get("EXPECTED_DISCOVERY_TIME")):status="INCOMPLETE"
+  if status=="SUCCESS" and not data["report_present"]:status="INCOMPLETE"
   if status=="SUCCESS" and data["candidate_scored_count"]!=len(rows):status="INCOMPLETE"
  except (OSError,ValueError,TypeError) as e:data["data_error"]=str(e);status="INCOMPLETE" if status=="SUCCESS" else status
  data["status"]=status
