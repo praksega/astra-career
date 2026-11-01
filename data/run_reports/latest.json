@@ -2,8 +2,8 @@
   "schema_version": 3,
   "run_date": "2026-11-01",
   "run_started_at_utc": "2026-11-01T12:39:31Z",
-  "report_prepared_at_utc": "2026-11-01T12:41:31.515Z",
-  "report_prepared_at_ist": "2026-11-01T18:11:31.515+05:30",
+  "report_prepared_at_utc": "2026-11-01T12:41:40.249Z",
+  "report_prepared_at_ist": "2026-11-01T18:11:40.249+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "review_policy": "No cap; review every accessible potentially relevant employer-native full JD identified after objective prefilter",
@@ -21,7 +21,7 @@
   },
   "metrics": {
     "raw_search_engine_hits": "UNKNOWN_NOT_EXHAUSTIVELY_EXPORTED",
-    "search_queries_submitted": 65,
+    "search_queries_submitted": 83,
     "raw_candidate_job_urls_logged": 38,
     "canonical_unique_candidate_urls_logged": 38,
     "duplicates_within_canonical_logged_set": 0,
@@ -332,14 +332,15 @@
     },
     {
       "stage": "GITHUB_WRITE",
-      "status": "PENDING_PUBLIC_READBACK",
+      "status": "CONFIRMED_FIRST_WRITE",
       "private_queue_write_confirmed": true,
       "private_queue_readback_sha": "6ae1ae3b5e34336297e6a810b6621eedc0269ff6",
       "public_latest_write_attempted": true,
-      "public_latest_write_confirmed": false,
+      "public_latest_write_confirmed": true,
       "public_jobs_unchanged": true,
       "linkedin_posts_unchanged": true,
-      "manual_intake_unchanged": true
+      "manual_intake_unchanged": true,
+      "first_write_readback_sha": "fb8b4b3c258ba2021aee6cd0f3851b3204a9cc6a"
     },
     {
       "stage": "FINAL",
@@ -358,8 +359,9 @@
     },
     "public_latest_report": {
       "write_attempted": true,
-      "write_verified": false,
-      "readback_sha": null
+      "write_verified": true,
+      "readback_sha": "fb8b4b3c258ba2021aee6cd0f3851b3204a9cc6a",
+      "readback_kind": "verified first write blob; final report fetched after confirmation update"
     }
   },
   "notes": [
