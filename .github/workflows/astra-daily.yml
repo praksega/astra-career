@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "astra-discovery-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovered_candidates.json data/jd_verification_queue.json data/run_reports/ats_discovery_latest.json data/run_reports/workflow_latest.json
+          git add data/ats_screening_audit.json data/discovered_candidates.json data/jd_verification_queue.json data/run_reports/ats_discovery_latest.json data/run_reports/workflow_latest.json
           if ! git diff --cached --quiet; then
             git commit -m "Astra: publish latest discovery and execution audit"
             git pull --rebase origin main
