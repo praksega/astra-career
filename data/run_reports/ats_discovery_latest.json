@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-01T10:10:54.526009+00:00",
+  "run_at_utc": "2026-11-01T10:13:52.538110+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
@@ -14,17 +14,15 @@
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
-  "preliminary_strong": 3,
-  "preliminary_possible": 9,
-  "fresh_preliminary_strong": 1,
-  "fresh_preliminary_possible": 2,
+  "verified_matches": 0,
+  "review_required": 16,
   "rejection_counts": {
     "unrelated_or_unapproved_location": 4689,
     "invalid_record": 0
   },
   "coverage_target": 200,
   "coverage_status": "INSUFFICIENT_RELEVANT_COVERAGE",
-  "notes": "All location-eligible available ATS descriptions are checked for role relevance before selecting candidates. Candidate titles and JD duties are screened; they receive rule-based preliminary scores, not verified ATS/fit scores. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
+  "notes": "All location-eligible available ATS descriptions are checked for role relevance before selecting candidates. Candidate titles and JD duties are screened; all remain REVIEW_REQUIRED until individual mandatory requirements are verified; no heuristic numeric scores are asserted. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
   "boards": [
     {
       "source": "greenhouse",
