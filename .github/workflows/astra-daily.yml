@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/astra-daily.yml'
       - 'scripts/discover_ats.py'
+      - 'scripts/jd_extract.py'
       - 'scripts/jd_evidence.py'
       - 'scripts/preliminary_scoring.py'
       - 'scripts/score_preliminary_fit.py'
