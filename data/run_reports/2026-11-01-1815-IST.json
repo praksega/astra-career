@@ -1,0 +1,435 @@
+{
+  "schema_version": 4,
+  "run_date": "2026-11-01",
+  "run_started_at_utc": "2026-11-01T12:45:59Z",
+  "report_prepared_at_utc": "2026-11-01T12:49:16.670Z",
+  "coverage_status": "INCOMPLETE",
+  "run_status": "PARTIAL",
+  "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
+  "freshness_window_ist": "2026-10-27 through 2026-11-01 inclusive",
+  "review_policy": "100% of identified accessible potentially relevant full JDs; no arbitrary 30/75 cap",
+  "scoring_rubric": {
+    "responsibilities": 30,
+    "skills": 25,
+    "seniority": 15,
+    "sector": 10,
+    "geography": 15,
+    "compensation": 5,
+    "min_evidence_coverage": 0.8,
+    "strong_min": 86,
+    "possible_min": 71
+  },
+  "metrics": {
+    "search_queries_submitted": 71,
+    "raw_search_engine_hits": "UNKNOWN_NOT_EXHAUSTIVELY_EXPORTED",
+    "raw_candidate_job_urls_logged": 43,
+    "canonical_unique_candidate_urls_logged": 43,
+    "duplicates_within_logged_set": 0,
+    "sources_attempted": 36,
+    "sources_with_job_or_date_information": 27,
+    "sources_no_direct_result": 9,
+    "employer_native_full_jds_read": 12,
+    "accessible_potentially_relevant_full_jds_identified": 12,
+    "accessible_potentially_relevant_full_jds_fully_read": 12,
+    "accessible_relevant_jd_review_coverage_pct": 100,
+    "accessible_relevant_jd_review_backlog": 0,
+    "unreviewed_relevant_jobs_outside_identified_set": "UNKNOWN",
+    "identified_direct_job_pages_inaccessible_or_unreadable": 5,
+    "new_fresh_strong": 0,
+    "new_fresh_possible": 1,
+    "new_public_jobs_added": 1,
+    "new_private_research_leads": 8,
+    "private_research_leads_total": 23,
+    "linkedin_public_post_search_queries": 6,
+    "linkedin_individual_indexed_posts_discovered": 2,
+    "linkedin_direct_original_post_permalinks_opened": 0,
+    "linkedin_original_timestamps_verified": 0,
+    "linkedin_original_timestamps_rejected_or_unverified": 2,
+    "linkedin_published": 0
+  },
+  "milestones": [
+    {
+      "stage": "INIT",
+      "status": "OK",
+      "utc": "2026-11-01T12:45:59Z",
+      "ist": "2026-11-01T18:15:59+05:30",
+      "input_repository_reads": "SUCCESS",
+      "input_sha": {
+        "jobs": "579991590cdf9a179c57d9617a89b5aadd45fd15",
+        "linkedin_posts": "e38e877e55304bc9344d5f643981140035683cf3",
+        "manual_linkedin_intake": "04b1b58866864d427d8266653bb7bcbc7151192a",
+        "previous_latest_report": "eee41c0dd76a5eeed710848c4fef8c26f89bd442",
+        "private_queue": "6ae1ae3b5e34336297e6a810b6621eedc0269ff6"
+      }
+    },
+    {
+      "stage": "DISCOVERY",
+      "status": "DISCOVERY_BREADTH_LOW",
+      "search_queries": 71,
+      "source_domains_attempted": 36,
+      "source_domains_with_information": 27,
+      "raw_urls_logged": 43,
+      "raw_engine_hit_total": "UNKNOWN",
+      "matrix": {
+        "role_families_searched": [
+          "Product Operations",
+          "Business/Strategy Operations",
+          "Business/Product Analyst",
+          "Program/Project Operations",
+          "Process Excellence/Continuous Improvement",
+          "Workforce/TA Operations",
+          "Business Transformation/Operations Analytics"
+        ],
+        "location_variants_searched": [
+          "Hyderabad",
+          "Bengaluru/Bangalore",
+          "Pune",
+          "Remote India"
+        ],
+        "matrix_cells_exhaustively_covered": false,
+        "unsearched_source_families": [
+          "Indeed",
+          "Naukri",
+          "Foundit",
+          "Instahyre",
+          "Wellfound",
+          "Cutshort",
+          "Hirist",
+          "iCIMS",
+          "Jobvite",
+          "BambooHR",
+          "SuccessFactors",
+          "Oracle ATS",
+          "Darwinbox",
+          "Keka",
+          "Zoho Recruit",
+          "Recruitee",
+          "Teamtailor"
+        ],
+        "reason": "Limited execution and search coverage; no claim that entire market was scanned."
+      }
+    },
+    {
+      "stage": "DEDUPE",
+      "status": "OK_FOR_LOGGED_SET",
+      "raw_urls_logged": 43,
+      "unique_canonical_urls": 43,
+      "duplicates": 0,
+      "rule": "Trim trailing slash; ATS requisition when available; do not merge distinct Ethos 8813454002 and 8920621002."
+    },
+    {
+      "stage": "JD_VALIDATION",
+      "status": "PARTIAL_MARKET_COVERAGE",
+      "full_employer_jds_read": 12,
+      "accessible_relevant_jds_identified": 12,
+      "read": 12,
+      "review_coverage_pct": 100,
+      "backlog_in_identified_accessible_set": 0,
+      "inaccessible_or_unreadable": 5,
+      "rejection_categories": [
+        "older posting date",
+        "original date unknown",
+        "specialist banking/insurance/consulting skills unverified",
+        "seniority mismatch",
+        "wrong geography",
+        "internship",
+        "sector-specific experience",
+        "role primarily executive administration",
+        "salary undisclosed (not treated as a rejection alone)"
+      ]
+    },
+    {
+      "stage": "MATCHING",
+      "status": "ONE_NEW_POSSIBLE",
+      "new_strong": 0,
+      "new_possible": 1,
+      "new_private_research_leads": 8,
+      "private_research_total": 23,
+      "job": {
+        "company": "Ethos Life",
+        "title": "Partnership Operations Associate",
+        "requisition": "8920621002",
+        "score": 82,
+        "band": "POSSIBLE",
+        "evidence_coverage": 0.94,
+        "breakdown": {
+          "responsibilities": 26,
+          "skills": 21,
+          "seniority": 12,
+          "sector": 8,
+          "geography": 15,
+          "compensation": 0
+        },
+        "fixed_salary": "UNKNOWN",
+        "posted_at_utc": "2026-10-30T06:13:15Z",
+        "posted_date_evidence": "https://tracker.mccoy.io/postings/ethos%3A8920621002",
+        "official_url": "https://job-boards.greenhouse.io/ethoslife/jobs/8920621002"
+      }
+    },
+    {
+      "stage": "LINKEDIN",
+      "status": "NO_VERIFIED_POSTS",
+      "public_post_search_queries": 6,
+      "individual_indexed_post_permalinks_discovered": 2,
+      "direct_individual_post_pages_opened": 0,
+      "original_timestamps_verified": 0,
+      "original_timestamps_unverified_or_rejected": 2,
+      "published": 0,
+      "direct_scroll_performed": false,
+      "manual_intake_preserved": true
+    },
+    {
+      "stage": "GITHUB_WRITE",
+      "status": "DATA_AND_REPORT_PREVIOUS_REVISION_READBACK_VERIFIED",
+      "public_jobs_update": {
+        "confirmed": true,
+        "sha": "37126a37ac956cb40feba224e4de0ed54c8f90f0"
+      },
+      "private_queue_update": {
+        "confirmed": true,
+        "sha": "152a03638b1a99e29f57c6512c50786b2002a392"
+      },
+      "private_tailored_resume": {
+        "confirmed": true,
+        "sha": "88732e8d8ad6504c4cb2e633779ca694d5efa0ae"
+      },
+      "private_tailored_cover_letter": {
+        "confirmed": true,
+        "sha": "66002db2c27ac369afa52360367ef24c40964420"
+      },
+      "latest_report": {
+        "write_attempted": true,
+        "readback_confirmed": true,
+        "verified_revision_sha": "0d2e8fba19569cd939c0e526c7e8b0751c826a9c",
+        "verification_note": "First revision fetched and matched; final revision must be fetched after this write."
+      }
+    },
+    {
+      "stage": "FINAL",
+      "status": "PARTIAL",
+      "coverage_status": "INCOMPLETE",
+      "reasons": [
+        "Only 43 logged unique candidate URLs versus aspirational 200–500",
+        "Fewer than 100 unique candidates triggers DISCOVERY_BREADTH_LOW",
+        "Search matrix not exhaustive and several platforms not searched",
+        "Original posting dates unavailable for multiple promising roles",
+        "Some employer pages blocked, empty or 404"
+      ],
+      "no_applications_or_recruiter_outreach": true
+    }
+  ],
+  "sources": [
+    {
+      "name": "Greenhouse",
+      "status": "FULL_JD"
+    },
+    {
+      "name": "Amazon.jobs",
+      "status": "FULL_JD"
+    },
+    {
+      "name": "Wipro careers",
+      "status": "INDEXED_JD_DIRECT_BLOCKED"
+    },
+    {
+      "name": "FedEx careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Cargill careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Citi careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Medtronic Workday",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Workable",
+      "status": "INDEXED_JD_DIRECT_EMPTY"
+    },
+    {
+      "name": "Ashby",
+      "status": "INDEXED_JD_DIRECT_404"
+    },
+    {
+      "name": "Lever",
+      "status": "INDEXED_LISTINGS"
+    },
+    {
+      "name": "SmartRecruiters",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "LinkedIn public",
+      "status": "INDEXED_LISTINGS"
+    },
+    {
+      "name": "ZipRecruiter India",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "McCoy Hiring Tracker",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Jobera",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "TurboJobApply",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Notify",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Openaibuzz",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "LYDJ",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "TheJobsMap",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Jobboard.co.in",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "BeBee",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Simplify Jobs",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "BuiltIn",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "RevOps Careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "JobScroller",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Employbl",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Eaton careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Emerson careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Genpact careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Deloitte careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Accenture careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "JPMorgan careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Capco careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Zebra careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Caterpillar careers",
+      "status": "NO_DIRECT_RESULT"
+    }
+  ],
+  "reviewed_full_employer_jds": [
+    "Ethos Life 8737402002 CX Product Operations Analyst",
+    "Ethos Life 8585149002 Lead Business Analyst",
+    "Ethos Life 8813454002 Partnership Operations Associate (older)",
+    "Ethos Life 8641258002 Sales Strategy & Operations Manager",
+    "Ethos Life 8883076002 Strategy & Operations Manager",
+    "Ethos Life 8920621002 Partnership Operations Associate (new)",
+    "Karya 5415057008 Strategy & Operations Analyst",
+    "Karya 5460823008 Partnerships Associate",
+    "Karya 4412706008 Senior Project Manager",
+    "Karya 5464495008 Associate - Founder's Office",
+    "Prodigal 5043755007 Strategy and Operations Analyst",
+    "Amazon 10582605 Process Improvement Specialist EU FBA"
+  ],
+  "logged_candidate_job_urls": [
+    "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Principal-PD-Project-Management-Specialist_R74028-1",
+    "https://apply.workable.com/capgemini-insurance/j/9B533504FE",
+    "https://apply.workable.com/unisongroup/j/BF3F340A26",
+    "https://job-boards.greenhouse.io/karya/jobs/5415057008",
+    "https://job-boards.greenhouse.io/prodigal/jobs/5043755007",
+    "https://www.amazon.jobs/en/jobs/10478320/process-improvement-specialist-seller-insights-eu-fba-support-operations",
+    "https://www.amazon.jobs/pl/jobs/10582605/process-improvement-specialist-eu-fba",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8737402002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8585149002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8813454002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8641258002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8883076002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8920621002",
+    "https://job-boards.greenhouse.io/karya/jobs/5460823008",
+    "https://job-boards.greenhouse.io/karya/jobs/4412706008",
+    "https://job-boards.greenhouse.io/karya/jobs/5464495008",
+    "https://careers.wipro.com/job/Bengaluru-Process-Excellence-Lead-Banking-Operations-IND-560035/213661-en_US",
+    "https://careers.wipro.com/job/Pune-SERVICE-DELIVERY-LEAD-L2-IND-411005/210526-en_US",
+    "https://careers.wipro.com/job/Hyderabad-Process-Excellence-IND-500032/204637-en_US",
+    "https://careers.wipro.com/job/QUALITY-ASSURANCE-ANALYST-%28Digital-Operations%29/207717-en_US",
+    "https://careers.fedex.com/project-process-analyst-ii/job/924611A67A59A671B5B954DB5C123974",
+    "https://careers.cargill.com/en/job/bengaluru/ctc-ag-and-t-cash-app-process-analyst/23251/99356304096",
+    "https://careers.cargill.com/en/job/bengaluru/ctc-csp-cash-app-sr-process-analyst/23251/99201949408",
+    "https://jobs.citi.com/job/pune/kyc-operations-analyst/287/102161070304",
+    "https://www.openaibuzz.com/jobs/business-process-analyst-bangalore-capco-8242542",
+    "https://www.thejobsmap.com/job/86a54814-34e1-4d76-abb4-2945ccd97562",
+    "https://lydj.in/jobs/caterpillar-1nld6z6",
+    "https://notify.careers/postings/cc197fa4-4bd7-4cba-9f18-cd94597ce37d",
+    "https://jobboard.co.in/operations-analyst_hyderabad-c276089/2026-10-sa-technologies_i4247929629",
+    "https://bebee.com/in/jobs/business-operations-analyst-acesoft-labs-hyderabad--t7xk-846546399",
+    "https://simplify.jobs/p/2f8b64c6-182b-4871-8fd3-e12680f1a422/SAP-Workflow-Analyst",
+    "https://in.linkedin.com/jobs/view/operations-analyst-at-flexiple-4476142815",
+    "https://in.linkedin.com/jobs/view/operations-analyst-at-flexiple-4485901232",
+    "https://www.openaibuzz.com/jobs/product-operations-analyst-instawork-4350762006",
+    "https://job-boards.greenhouse.io/cloudflare/jobs/6980184",
+    "https://jobs.ashbyhq.com/Aspora/c83620ce-985c-407f-acdc-e48b7164d74d",
+    "https://jobs.ashbyhq.com/openai/ecd7b6d6-cf20-4e14-a90a-8501cd460557",
+    "https://jobs.ashbyhq.com/sarvam/6a5df2a7-5335-41b7-9b50-7f2f5de26d18",
+    "https://jobs.lever.co/stable-money1/255f8aa9-d678-45e2-9c30-91ded7bb9fbb",
+    "https://jobs.smartrecruiters.com/boschgroup/744000138994648",
+    "https://careers.wipro.com/job/Pune-PRACTICE-DELIVERY-LEAD-L1-IND-411005/193197-en_US",
+    "https://careers.wipro.com/job/Bengaluru-SERVICE-DELIVERY-LEAD-L3-IND-560035/205560-en_US",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/7422335002"
+  ],
+  "github_write": {
+    "jobs_verified": true,
+    "private_queue_verified": true,
+    "private_assets_verified": true,
+    "report_write_attempted": true,
+    "report_readback_confirmed": true,
+    "first_report_verified_blob_sha": "0d2e8fba19569cd939c0e526c7e8b0751c826a9c"
+  },
+  "notes": "Counts reflect only concrete URLs logged in this run, not all results from search queries. Search-engine relative recency, crawl date and third-party reposts are not original posting dates. One new Ethos requisition 8920621002 has independent posted-at evidence plus employer New label. Its older same-title requisition 8813454002 was excluded from fresh band. Existing Loop AI provisional record preserved. No personal data published."
+}
