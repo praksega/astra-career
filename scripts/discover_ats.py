@@ -63,7 +63,7 @@ def normalize(src,slug,x):
     return {"id":src+":"+ident,"company_board":slug,"title":title,"location":location,"url":url,"source":src,"source_date":stamp,"date_source":"first_published" if src=="greenhouse" and date_verified else "createdAt" if src=="lever" and date_verified else "updated_at/unverified","posting_date_verified":date_verified,"matched_keywords":keywords,"matching_method":reason,"description_characters":len(description),"jd_text_available_for_scoring":len(description)>=500,"_full_description":description,"description_excerpt":description[:1200],"jd_details":extract(description,url),"status":"unscored_candidate","jd_evidence":evaluate(title,description,location)}
 def run():
     targets=[("greenhouse",s) for s in GREENHOUSE]+[("lever",s) for s in LEVER]
-    sources=[];raw=0;rows=[];seen=set();location_eligible_reviewed=0;complete_jd_location_reviewed=0;rejection_counts={"unrelated_or_unapproved_location":0,"invalid_record":0};full_content_candidates=0
+    sources=[];raw=0;rows=[];seen=set();location_eligible_reviewed=0;complete_jd_location_reviewed=0;screening_records=[];rejection_counts={"unrelated_or_unapproved_location":0,"invalid_record":0};full_content_candidates=0
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         for meta,items in pool.map(lambda t:fetch(*t),targets):
             sources.append(meta);raw+=len(items)
@@ -74,6 +74,16 @@ def run():
                     location_eligible_reviewed+=1
                     raw_jd=(item.get("content") or "") if src=="greenhouse" else (item.get("descriptionPlain") or item.get("description") or "")
                     if len(raw_jd)>=500:complete_jd_location_reviewed+=1
+                if isinstance(item,dict):
+                    title=(item.get("title") or "") if src=="greenhouse" else (item.get("text") or "")
+                    description=(item.get("content") or "") if src=="greenhouse" else (item.get("descriptionPlain") or item.get("description") or "")
+                    plain=html.unescape(re.sub("<[^>]+>"," ",description))
+                    signals,reason=candidate_signals(title,plain) if eligible else ([],"outside_target_locations")
+                    key=str(item.get("id") or "")
+                    screening_records.append({"source":src,"board":slug,"job_id":key,"title":title,"location":loc,
+                      "jd_characters":len(plain),"jd_readable":len(plain)>=500,
+                      "decision":"CANDIDATE" if eligible and signals else "EXCLUDED",
+                      "reason":reason,"description_source":"employer_ats_api"})
                 try:r=normalize(src,slug,item)
                 except (ValueError,TypeError,AttributeError):rejection_counts["invalid_record"]+=1;continue
                 if not r:rejection_counts["unrelated_or_unapproved_location"]+=1;continue
@@ -85,8 +95,18 @@ def run():
         row["verification_status"]="REVIEW_REQUIRED"
         row["verification_reasons"]=["mandatory_requirements_not_verified","compensation_not_verified","minimum_80_percent_requirement_coverage_not_established"]
         row.pop("_full_description",None) # Do not republish entire employer JD
+    screening_counts={}
+    for item in screening_records:
+        reason=item["reason"]
+        screening_counts[reason]=screening_counts.get(reason,0)+1
+    (ROOT/"data"/"ats_screening_audit.json").write_text(json.dumps({
+      "schema_version":1,"run_at_utc":now.isoformat(),"total_records":len(screening_records),
+      "complete_jds":sum(x["jd_readable"] for x in screening_records),
+      "location_eligible":location_eligible_reviewed,"screening_reasons":screening_counts,
+      "note":"One audit entry per retrieved listing, not a full qualification adjudication. Descriptions remain at employer source.",
+      "records":screening_records},ensure_ascii=False,separators=(",",":"))+"\\n")
     rows.sort(key=lambda x:(bool(x.get("posting_date_verified")),str(x.get("source_date") or "")),reverse=True)
-    report={"schema_version":1,"run_at_utc":now.isoformat(),"engine":"github_actions_public_ats_v1","source_boards_attempted":len(targets),"source_boards_succeeded":sum(x["status"]=="ok" for x in sources),"source_boards_failed":sum(x["status"]!="ok" for x in sources),"raw_listings_seen":raw,"location_eligible_jds_screened":location_eligible_reviewed,"location_eligible_jds_with_500_plus_chars":complete_jd_location_reviewed,"unique_role_location_candidates":len(rows),"full_jds_with_accessible_text":full_content_candidates,"jd_evidence_maps_generated":sum("jd_evidence" in x for x in rows),"human_or_evidence_scored_full_jds":0,"scored_strong":0,"scored_possible":0,"verified_matches":0,"review_required":len(rows),"rejection_counts":rejection_counts,"coverage_target":200,"coverage_status":"INSUFFICIENT_RELEVANT_COVERAGE" if len(rows)<30 else "CANDIDATES_DISCOVERED_UNSCORED","notes":"All location-eligible available ATS descriptions are checked for role relevance before selecting candidates. Candidate titles and JD duties are screened; all remain REVIEW_REQUIRED until individual mandatory requirements are verified; no heuristic numeric scores are asserted. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.","boards":sources,"potential_fit_reviews":sum(x["jd_evidence"]["capability_categories_matched"]>=4 for x in rows)}
+    report={"schema_version":1,"run_at_utc":now.isoformat(),"engine":"github_actions_public_ats_v1","source_boards_attempted":len(targets),"source_boards_succeeded":sum(x["status"]=="ok" for x in sources),"source_boards_failed":sum(x["status"]!="ok" for x in sources),"raw_listings_seen":raw,"individual_screening_records":len(screening_records),"screening_reason_counts":screening_counts,"location_eligible_jds_screened":location_eligible_reviewed,"location_eligible_jds_with_500_plus_chars":complete_jd_location_reviewed,"unique_role_location_candidates":len(rows),"full_jds_with_accessible_text":full_content_candidates,"jd_evidence_maps_generated":sum("jd_evidence" in x for x in rows),"human_or_evidence_scored_full_jds":0,"scored_strong":0,"scored_possible":0,"verified_matches":0,"review_required":len(rows),"rejection_counts":rejection_counts,"coverage_target":200,"coverage_status":"INSUFFICIENT_RELEVANT_COVERAGE" if len(rows)<30 else "CANDIDATES_DISCOVERED_UNSCORED","notes":"All location-eligible available ATS descriptions are checked for role relevance before selecting candidates. Candidate titles and JD duties are screened; all remain REVIEW_REQUIRED until individual mandatory requirements are verified; no heuristic numeric scores are asserted. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.","boards":sources,"potential_fit_reviews":sum(x["jd_evidence"]["capability_categories_matched"]>=4 for x in rows)}
     (ROOT/"data"/"discovered_candidates.json").write_text(json.dumps({"schema_version":1,"updated_at":now.isoformat(),"candidates":rows},indent=2)+"\n")
     out=ROOT/"data"/"run_reports";out.mkdir(parents=True,exist_ok=True)
     (out/"ats_discovery_latest.json").write_text(json.dumps(report,indent=2)+"\n")
