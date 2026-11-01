@@ -74,3 +74,4 @@ jobs:
           test "$DISCOVERY_RESULT" = success
           test "$SCORING_RESULT" = success
 # Manual rerun trigger: strict JD verification test, 2026-11-01.
+# On-demand execution trigger: 2026-11-01, both pipelines.
