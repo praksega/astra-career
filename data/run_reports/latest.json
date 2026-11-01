@@ -2,7 +2,7 @@
   "schema_version": 4,
   "run_date": "2026-11-01",
   "run_started_at_utc": "2026-11-01T12:45:59Z",
-  "report_prepared_at_utc": "2026-11-01T12:49:09.103Z",
+  "report_prepared_at_utc": "2026-11-01T12:49:16.670Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -180,7 +180,7 @@
     },
     {
       "stage": "GITHUB_WRITE",
-      "status": "DATA_WRITES_VERIFIED_REPORT_PENDING",
+      "status": "DATA_AND_REPORT_PREVIOUS_REVISION_READBACK_VERIFIED",
       "public_jobs_update": {
         "confirmed": true,
         "sha": "37126a37ac956cb40feba224e4de0ed54c8f90f0"
@@ -199,8 +199,9 @@
       },
       "latest_report": {
         "write_attempted": true,
-        "readback_confirmed": false,
-        "reason": "Report verification occurs after this initial write."
+        "readback_confirmed": true,
+        "verified_revision_sha": "0d2e8fba19569cd939c0e526c7e8b0751c826a9c",
+        "verification_note": "First revision fetched and matched; final revision must be fetched after this write."
       }
     },
     {
@@ -427,7 +428,8 @@
     "private_queue_verified": true,
     "private_assets_verified": true,
     "report_write_attempted": true,
-    "report_readback_confirmed": false
+    "report_readback_confirmed": true,
+    "first_report_verified_blob_sha": "0d2e8fba19569cd939c0e526c7e8b0751c826a9c"
   },
   "notes": "Counts reflect only concrete URLs logged in this run, not all results from search queries. Search-engine relative recency, crawl date and third-party reposts are not original posting dates. One new Ethos requisition 8920621002 has independent posted-at evidence plus employer New label. Its older same-title requisition 8813454002 was excluded from fresh band. Existing Loop AI provisional record preserved. No personal data published."
 }
