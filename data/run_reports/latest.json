@@ -1,13 +1,13 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "run_date": "2026-11-01",
-  "run_started_at_utc": "2026-11-01T12:39:31Z",
-  "report_prepared_at_utc": "2026-11-01T12:41:40.249Z",
-  "report_prepared_at_ist": "2026-11-01T18:11:40.249+05:30",
+  "run_started_at_utc": "2026-11-01T12:45:59Z",
+  "report_prepared_at_utc": "2026-11-01T12:49:09.103Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
-  "review_policy": "No cap; review every accessible potentially relevant employer-native full JD identified after objective prefilter",
+  "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "freshness_window_ist": "2026-10-27 through 2026-11-01 inclusive",
+  "review_policy": "100% of identified accessible potentially relevant full JDs; no arbitrary 30/75 cap",
   "scoring_rubric": {
     "responsibilities": 30,
     "skills": 25,
@@ -20,353 +20,414 @@
     "possible_min": 71
   },
   "metrics": {
+    "search_queries_submitted": 71,
     "raw_search_engine_hits": "UNKNOWN_NOT_EXHAUSTIVELY_EXPORTED",
-    "search_queries_submitted": 83,
-    "raw_candidate_job_urls_logged": 38,
-    "canonical_unique_candidate_urls_logged": 38,
-    "duplicates_within_canonical_logged_set": 0,
-    "accessible_potentially_relevant_employer_native_jds_identified": 11,
-    "accessible_potentially_relevant_employer_native_jds_fully_read": 11,
+    "raw_candidate_job_urls_logged": 43,
+    "canonical_unique_candidate_urls_logged": 43,
+    "duplicates_within_logged_set": 0,
+    "sources_attempted": 36,
+    "sources_with_job_or_date_information": 27,
+    "sources_no_direct_result": 9,
+    "employer_native_full_jds_read": 12,
+    "accessible_potentially_relevant_full_jds_identified": 12,
+    "accessible_potentially_relevant_full_jds_fully_read": 12,
     "accessible_relevant_jd_review_coverage_pct": 100,
-    "additional_employer_native_full_jds_read_then_excluded_by_relevance": 2,
-    "third_party_full_jds_read": 1,
-    "all_employer_native_full_jds_read": 13,
-    "eligible_relevant_jd_review_backlog": 0,
+    "accessible_relevant_jd_review_backlog": 0,
+    "unreviewed_relevant_jobs_outside_identified_set": "UNKNOWN",
     "identified_direct_job_pages_inaccessible_or_unreadable": 5,
-    "unreviewed_relevant_jobs_outside_discovered_set": "UNKNOWN",
     "new_fresh_strong": 0,
-    "new_fresh_possible": 0,
-    "new_public_jobs_added": 0,
-    "new_private_research_leads": 9,
-    "private_research_leads_total": 15,
-    "linkedin_public_post_search_queries": 8,
+    "new_fresh_possible": 1,
+    "new_public_jobs_added": 1,
+    "new_private_research_leads": 8,
+    "private_research_leads_total": 23,
+    "linkedin_public_post_search_queries": 6,
+    "linkedin_individual_indexed_posts_discovered": 2,
     "linkedin_direct_original_post_permalinks_opened": 0,
     "linkedin_original_timestamps_verified": 0,
+    "linkedin_original_timestamps_rejected_or_unverified": 2,
     "linkedin_published": 0
-  },
-  "sources": {
-    "attempted": 33,
-    "succeeded_with_accessible_role_information": 17,
-    "blocked_or_no_relevant_result": 16,
-    "details": [
-      {
-        "name": "Wipro careers",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "FedEx careers",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "GMR careers",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "SmartRecruiters / PhonePe",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "Lever / Mindtickle",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "Google Careers",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "Techdome Keka ATS",
-        "status": "FULL_JD"
-      },
-      {
-        "name": "Hirist",
-        "status": "FULL_THIRD_PARTY_JD"
-      },
-      {
-        "name": "Amgen careers",
-        "status": "FULL_OLDER_JD"
-      },
-      {
-        "name": "Safran careers",
-        "status": "FULL_OLDER_JD"
-      },
-      {
-        "name": "EY careers",
-        "status": "FULL_OLDER_JD"
-      },
-      {
-        "name": "Built In",
-        "status": "FULL_THIRD_PARTY_JD"
-      },
-      {
-        "name": "NextKnock",
-        "status": "INDEXED_LISTINGS"
-      },
-      {
-        "name": "LinkedIn public jobs",
-        "status": "INDEXED_LISTINGS"
-      },
-      {
-        "name": "Paytm Lever",
-        "status": "INDEXED_LISTINGS"
-      },
-      {
-        "name": "Wellfound",
-        "status": "INDEXED_ONLY_DIRECT_410"
-      },
-      {
-        "name": "Foundit",
-        "status": "INDEXED_ONLY_DIRECT_403"
-      },
-      {
-        "name": "Ashby",
-        "status": "INDEXED_ONLY_DIRECT_404"
-      },
-      {
-        "name": "Workday",
-        "status": "INDEXED_ONLY_DIRECT_DISABLED"
-      },
-      {
-        "name": "Greenhouse",
-        "status": "INDEXED_LISTINGS"
-      },
-      {
-        "name": "Workable",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "iCIMS",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "Jobvite",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "BambooHR",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "Oracle careers",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "Indeed",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "Naukri",
-        "status": "ROBOTS_BLOCKED"
-      },
-      {
-        "name": "Instahyre",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "Cutshort",
-        "status": "NO_RELEVANT_RESULT"
-      },
-      {
-        "name": "Target careers",
-        "status": "INDEXED_ONLY_DIRECT_404"
-      },
-      {
-        "name": "Apna careers",
-        "status": "INDEXED_ONLY_DIRECT_EMPTY"
-      },
-      {
-        "name": "Jabil Workday",
-        "status": "INDEXED_STALE"
-      },
-      {
-        "name": "Cashfree employer site",
-        "status": "NO_DIRECT_ROLE_URL_FOUND"
-      }
-    ]
-  },
-  "reviewed_relevant_employer_native_jds": [
-    "Wipro 214830",
-    "FedEx RC787167",
-    "FedEx RC781680",
-    "FedEx RC786169",
-    "FedEx RC779736",
-    "PhonePe SmartRecruiters 1000000000002566",
-    "PhonePe SmartRecruiters 1000000000002635",
-    "GMR 1452432733",
-    "GMR 1451955633",
-    "Google 81207405051814598",
-    "Techdome Keka 164191"
-  ],
-  "additional_full_jds_read_then_relevance_excluded": [
-    "Mindtickle Lever 864ac315-d7c5-4cd5-ab44-0e33d08f48f1 (software/AI engineering)",
-    "PhonePe SmartRecruiters 1000000000002921 (contract; 0–2 years)"
-  ],
-  "full_third_party_jd_read": [
-    "CGI ServiceNow BA Hirist 1676330 (older, specialist ServiceNow experience missing)"
-  ],
-  "logged_candidate_job_urls": [
-    "https://careers.wipro.com/job/Bengaluru-BUSINESS-ANALYST-L4-IND-560035/214830-en_US",
-    "https://careers.wipro.com/job/Analyst/103908-en_US",
-    "https://careers.wipro.com/job/Payments-Industry-Lead/214620-en_US",
-    "https://careers.wipro.com/job/Bengaluru-Director-Retail-Banking-%26-Lending-IND-560035/214618-en_US",
-    "https://careers.wipro.com/job/Pune-Program-Manager-Risk-%26-Fraud-IND-411005/210869-en_US",
-    "https://careers.wipro.com/job/Hyderabad-Process-Excellence-IND-500032/204637-en_US",
-    "https://careers.fedex.com/project-process-analyst-ii/job/924611A67A59A671B5B954DB5C123974",
-    "https://careers.fedex.com/shared-services-analyst/job/B411DBA12CC05B33DD8CB5297531B31F",
-    "https://careers.fedex.com/m9205-human-resources-service-center-specialist-senior/job/2566ECD4F98F007CEE2A28BB1D3E4F4F",
-    "https://careers.fedex.com/shared-services-analyst-senior/job/4E6AE0E03DFECC8B94406E6186E768A8",
-    "https://careers.gmrgroup.in/job/Hyderabad-Associate-Manager-HR-DIAL/1452432733",
-    "https://careers.gmrgroup.in/job/Hyderabad-Executive-HR-GASP/1451955633",
-    "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
-    "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002635",
-    "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002921-operations-executive",
-    "https://careers.amgen.com/en/job/hyderabad/business-analyst-transformation-process-intelligence/87/95362856208",
-    "https://www.safran-group.com/jobs/india/hyderabad/continuous-improvement-specialist-mf-181352",
-    "https://careers.apna.co/_/j/357CEB0335",
-    "https://indiajobs.target.com/job/bengaluru/product-ops-analyst/34386/94783071424",
-    "https://jobs.lever.co/mindtickle/864ac315-d7c5-4cd5-ab44-0e33d08f48f1",
-    "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Bengaluru-Karnataka-India/Business-Analyst-Product-Owner_R0148598",
-    "https://builtin.com/job/strategy-operations-associate/10887893",
-    "https://www.google.com/about/careers/applications/jobs/results/81207405051814598-strategy-and-operations-lead-gtech-ads-solutions",
-    "https://techdome.keka.com/careers/jobdetails/164191",
-    "https://builtinhyderabad.in/job/founder-s-office-associate-strategy-operations/11141292",
-    "https://in.linkedin.com/jobs/view/assistant-manager-product-operations-enterprise-merchants-at-cashfree-4484812958",
-    "https://www.nextknock.in/jobs/analyst-senior-analyst-product-operations-cashfree-payments-india-df373e86",
-    "https://wellfound.com/jobs/4129703-associate-product-manager",
-    "https://jobs.ashbyhq.com/openai/ecd7b6d6-cf20-4e14-a90a-8501cd460557",
-    "https://www.hirist.tech/j/cgi-servicenow-business-analyst-1676330",
-    "https://www.foundit.in/job/product-operations-manager-wati-whatsapp-team-inbox-bengaluru-bangalore-53798222",
-    "https://www.foundit.in/job/senior-product-operations-manager-acceldata-bengaluru-bangalore-37777606",
-    "https://wellfound.com/jobs/4629916-product-operations-implementation-intern",
-    "https://wellfound.com/jobs/4597587-client-success-product-operations-intern",
-    "https://www.themuse.com/jobs/eaton/program-manager-software-0a316f",
-    "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/Analyst---Process-Analytics---SCM-5B_JR10017529",
-    "https://jabil.wd5.myworkdayjobs.com/jabil_careers/job/remote---india/sr-operations-analyst_j2455018",
-    "https://careers.ey.com/ey/job/Bengaluru-Strategy-Initiative-Enablement-KA-560016/1422861933"
-  ],
-  "exclusion_categories": [
-    "GMR Associate Manager HR: statutory gratuity, EPF, ESI and HR-benefits compliance expertise not established despite employer date 2026-10-29",
-    "GMR Executive HR: workforce administration and SAP SuccessFactors experience not established despite employer date 2026-10-28",
-    "Wipro Business Analyst L4: posting-start 2026-10-30 is not independent proof of original initial publication; RFP/RFI/UAT specialist evidence gaps",
-    "FedEx, PhonePe, Google and Techdome: original publication dates absent from accessible employer JDs",
-    "Mindtickle AI Product Engineer: production software engineering and RAG engineering required",
-    "PhonePe Operations Executive: contract and junior 0–2 years, fixed annual salary not established",
-    "OpenAI Ashby direct page 404; RAKT Wellfound direct 410; Hitachi Workday blocked; Apna direct empty; Target 404",
-    "Historical stale dates and Delhi NCR/outside preferred geography excluded",
-    "Salary undisclosed for all employer-native high-relevance roles; do not infer"
-  ],
-  "linkedin": {
-    "searches": [
-      "Bangalore Hiring product operations",
-      "Bengaluru Hiring business operations",
-      "Hyderabad Hiring process excellence",
-      "Pune Hiring business analyst",
-      "Bangalore product operations hiring",
-      "Hyderabad strategy operations hiring",
-      "Bengaluru product operations posts",
-      "Remote India program operations posts"
-    ],
-    "individual_post_permalinks_qualified": 0,
-    "original_timestamp_verified": 0,
-    "original_timestamp_rejected_or_unverifiable": "UNKNOWN_NOT_EXHAUSTIVELY_SCREENED",
-    "direct_linkedin_post_pages_opened": 0,
-    "scrolling_performed": false,
-    "manual_intake_preserved": true
   },
   "milestones": [
     {
       "stage": "INIT",
-      "status": "SUCCESS",
-      "timestamp_utc": "2026-11-01T12:39:31Z",
-      "input_repository_reads": {
-        "jobs_sha": "579991590cdf9a179c57d9617a89b5aadd45fd15",
-        "linkedin_sha": "e38e877e55304bc9344d5f643981140035683cf3",
-        "manual_intake_sha": "04b1b58866864d427d8266653bb7bcbc7151192a",
-        "prior_latest_sha": "2e0cef8731b79e92045aaa98026b819864b9eace",
-        "private_queue_prior_sha": "803c6992ac0f9f288c3d38a6132df0504fe38d62"
+      "status": "OK",
+      "utc": "2026-11-01T12:45:59Z",
+      "ist": "2026-11-01T18:15:59+05:30",
+      "input_repository_reads": "SUCCESS",
+      "input_sha": {
+        "jobs": "579991590cdf9a179c57d9617a89b5aadd45fd15",
+        "linkedin_posts": "e38e877e55304bc9344d5f643981140035683cf3",
+        "manual_linkedin_intake": "04b1b58866864d427d8266653bb7bcbc7151192a",
+        "previous_latest_report": "eee41c0dd76a5eeed710848c4fef8c26f89bd442",
+        "private_queue": "6ae1ae3b5e34336297e6a810b6621eedc0269ff6"
       }
     },
     {
       "stage": "DISCOVERY",
-      "status": "PARTIAL",
-      "sources_attempted": 33,
-      "sources_succeeded": 17,
-      "raw_candidate_job_urls_logged": 38,
-      "search_hits_total": "UNKNOWN",
-      "notes": "Search result pages and source listings were not exhaustively exported; logged URLs are only explicitly identified candidate job pages."
+      "status": "DISCOVERY_BREADTH_LOW",
+      "search_queries": 71,
+      "source_domains_attempted": 36,
+      "source_domains_with_information": 27,
+      "raw_urls_logged": 43,
+      "raw_engine_hit_total": "UNKNOWN",
+      "matrix": {
+        "role_families_searched": [
+          "Product Operations",
+          "Business/Strategy Operations",
+          "Business/Product Analyst",
+          "Program/Project Operations",
+          "Process Excellence/Continuous Improvement",
+          "Workforce/TA Operations",
+          "Business Transformation/Operations Analytics"
+        ],
+        "location_variants_searched": [
+          "Hyderabad",
+          "Bengaluru/Bangalore",
+          "Pune",
+          "Remote India"
+        ],
+        "matrix_cells_exhaustively_covered": false,
+        "unsearched_source_families": [
+          "Indeed",
+          "Naukri",
+          "Foundit",
+          "Instahyre",
+          "Wellfound",
+          "Cutshort",
+          "Hirist",
+          "iCIMS",
+          "Jobvite",
+          "BambooHR",
+          "SuccessFactors",
+          "Oracle ATS",
+          "Darwinbox",
+          "Keka",
+          "Zoho Recruit",
+          "Recruitee",
+          "Teamtailor"
+        ],
+        "reason": "Limited execution and search coverage; no claim that entire market was scanned."
+      }
     },
     {
       "stage": "DEDUPE",
-      "status": "SUCCESS_ON_LOGGED_SET",
-      "canonical_unique_urls": 38,
+      "status": "OK_FOR_LOGGED_SET",
+      "raw_urls_logged": 43,
+      "unique_canonical_urls": 43,
       "duplicates": 0,
-      "method": "canonical URL path and known ATS requisition; aliases not added"
+      "rule": "Trim trailing slash; ATS requisition when available; do not merge distinct Ethos 8813454002 and 8920621002."
     },
     {
       "stage": "JD_VALIDATION",
-      "status": "PARTIAL_DISCOVERY",
-      "accessible_relevant_universe": 11,
-      "full_relevant_employer_jds_read": 11,
+      "status": "PARTIAL_MARKET_COVERAGE",
+      "full_employer_jds_read": 12,
+      "accessible_relevant_jds_identified": 12,
+      "read": 12,
       "review_coverage_pct": 100,
-      "additional_full_employer_jds_read_excluded": 2,
-      "third_party_full_jds_read": 1,
-      "blocked_job_pages": 5,
-      "backlog_within_discovered_accessible_relevant_set": 0,
-      "reason": "100% coverage is limited to identified accessible relevant set; discovery is not exhaustive"
+      "backlog_in_identified_accessible_set": 0,
+      "inaccessible_or_unreadable": 5,
+      "rejection_categories": [
+        "older posting date",
+        "original date unknown",
+        "specialist banking/insurance/consulting skills unverified",
+        "seniority mismatch",
+        "wrong geography",
+        "internship",
+        "sector-specific experience",
+        "role primarily executive administration",
+        "salary undisclosed (not treated as a rejection alone)"
+      ]
     },
     {
       "stage": "MATCHING",
-      "status": "NO_NEW_FULLY_ELIGIBLE",
+      "status": "ONE_NEW_POSSIBLE",
       "new_strong": 0,
-      "new_possible": 0,
-      "private_queue_new": 9,
-      "private_queue_total": 15,
-      "reason": "No job passed verified original <=5-day posting, employer-native URL, evidence and fit gates simultaneously; unknown salary remains unknown"
+      "new_possible": 1,
+      "new_private_research_leads": 8,
+      "private_research_total": 23,
+      "job": {
+        "company": "Ethos Life",
+        "title": "Partnership Operations Associate",
+        "requisition": "8920621002",
+        "score": 82,
+        "band": "POSSIBLE",
+        "evidence_coverage": 0.94,
+        "breakdown": {
+          "responsibilities": 26,
+          "skills": 21,
+          "seniority": 12,
+          "sector": 8,
+          "geography": 15,
+          "compensation": 0
+        },
+        "fixed_salary": "UNKNOWN",
+        "posted_at_utc": "2026-10-30T06:13:15Z",
+        "posted_date_evidence": "https://tracker.mccoy.io/postings/ethos%3A8920621002",
+        "official_url": "https://job-boards.greenhouse.io/ethoslife/jobs/8920621002"
+      }
     },
     {
       "stage": "LINKEDIN",
       "status": "NO_VERIFIED_POSTS",
-      "search_queries": 8,
-      "original_timestamp_verified": 0,
-      "direct_post_pages_opened": 0,
-      "published": 0
+      "public_post_search_queries": 6,
+      "individual_indexed_post_permalinks_discovered": 2,
+      "direct_individual_post_pages_opened": 0,
+      "original_timestamps_verified": 0,
+      "original_timestamps_unverified_or_rejected": 2,
+      "published": 0,
+      "direct_scroll_performed": false,
+      "manual_intake_preserved": true
     },
     {
       "stage": "GITHUB_WRITE",
-      "status": "CONFIRMED_FIRST_WRITE",
-      "private_queue_write_confirmed": true,
-      "private_queue_readback_sha": "6ae1ae3b5e34336297e6a810b6621eedc0269ff6",
-      "public_latest_write_attempted": true,
-      "public_latest_write_confirmed": true,
-      "public_jobs_unchanged": true,
-      "linkedin_posts_unchanged": true,
-      "manual_intake_unchanged": true,
-      "first_write_readback_sha": "fb8b4b3c258ba2021aee6cd0f3851b3204a9cc6a"
+      "status": "DATA_WRITES_VERIFIED_REPORT_PENDING",
+      "public_jobs_update": {
+        "confirmed": true,
+        "sha": "37126a37ac956cb40feba224e4de0ed54c8f90f0"
+      },
+      "private_queue_update": {
+        "confirmed": true,
+        "sha": "152a03638b1a99e29f57c6512c50786b2002a392"
+      },
+      "private_tailored_resume": {
+        "confirmed": true,
+        "sha": "88732e8d8ad6504c4cb2e633779ca694d5efa0ae"
+      },
+      "private_tailored_cover_letter": {
+        "confirmed": true,
+        "sha": "66002db2c27ac369afa52360367ef24c40964420"
+      },
+      "latest_report": {
+        "write_attempted": true,
+        "readback_confirmed": false,
+        "reason": "Report verification occurs after this initial write."
+      }
     },
     {
       "stage": "FINAL",
       "status": "PARTIAL",
       "coverage_status": "INCOMPLETE",
-      "reason": "38 candidate URLs logged versus 200–500 aspiration; discovery nonexhaustive; 11/11 identified accessible relevant JDs reviewed but cannot claim full market coverage; no fully qualified fresh match."
+      "reasons": [
+        "Only 43 logged unique candidate URLs versus aspirational 200–500",
+        "Fewer than 100 unique candidates triggers DISCOVERY_BREADTH_LOW",
+        "Search matrix not exhaustive and several platforms not searched",
+        "Original posting dates unavailable for multiple promising roles",
+        "Some employer pages blocked, empty or 404"
+      ],
+      "no_applications_or_recruiter_outreach": true
     }
   ],
-  "github": {
-    "public_jobs_updated": false,
-    "linkedin_posts_updated": false,
-    "manual_intake_preserved": true,
-    "private_queue": {
-      "path": "data/research_queue/2026-11-01.json",
-      "verified_sha": "6ae1ae3b5e34336297e6a810b6621eedc0269ff6"
+  "sources": [
+    {
+      "name": "Greenhouse",
+      "status": "FULL_JD"
     },
-    "public_latest_report": {
-      "write_attempted": true,
-      "write_verified": true,
-      "readback_sha": "fb8b4b3c258ba2021aee6cd0f3851b3204a9cc6a",
-      "readback_kind": "verified first write blob; final report fetched after confirmation update"
+    {
+      "name": "Amazon.jobs",
+      "status": "FULL_JD"
+    },
+    {
+      "name": "Wipro careers",
+      "status": "INDEXED_JD_DIRECT_BLOCKED"
+    },
+    {
+      "name": "FedEx careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Cargill careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Citi careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Medtronic Workday",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Workable",
+      "status": "INDEXED_JD_DIRECT_EMPTY"
+    },
+    {
+      "name": "Ashby",
+      "status": "INDEXED_JD_DIRECT_404"
+    },
+    {
+      "name": "Lever",
+      "status": "INDEXED_LISTINGS"
+    },
+    {
+      "name": "SmartRecruiters",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "LinkedIn public",
+      "status": "INDEXED_LISTINGS"
+    },
+    {
+      "name": "ZipRecruiter India",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "McCoy Hiring Tracker",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Jobera",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "TurboJobApply",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Notify",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Openaibuzz",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "LYDJ",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "TheJobsMap",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Jobboard.co.in",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "BeBee",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "Simplify Jobs",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "BuiltIn",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "RevOps Careers",
+      "status": "INDEXED_JD"
+    },
+    {
+      "name": "JobScroller",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Employbl",
+      "status": "DATE_EVIDENCE"
+    },
+    {
+      "name": "Eaton careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Emerson careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Genpact careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Deloitte careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Accenture careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "JPMorgan careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Capco careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Zebra careers",
+      "status": "NO_DIRECT_RESULT"
+    },
+    {
+      "name": "Caterpillar careers",
+      "status": "NO_DIRECT_RESULT"
     }
+  ],
+  "reviewed_full_employer_jds": [
+    "Ethos Life 8737402002 CX Product Operations Analyst",
+    "Ethos Life 8585149002 Lead Business Analyst",
+    "Ethos Life 8813454002 Partnership Operations Associate (older)",
+    "Ethos Life 8641258002 Sales Strategy & Operations Manager",
+    "Ethos Life 8883076002 Strategy & Operations Manager",
+    "Ethos Life 8920621002 Partnership Operations Associate (new)",
+    "Karya 5415057008 Strategy & Operations Analyst",
+    "Karya 5460823008 Partnerships Associate",
+    "Karya 4412706008 Senior Project Manager",
+    "Karya 5464495008 Associate - Founder's Office",
+    "Prodigal 5043755007 Strategy and Operations Analyst",
+    "Amazon 10582605 Process Improvement Specialist EU FBA"
+  ],
+  "logged_candidate_job_urls": [
+    "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Principal-PD-Project-Management-Specialist_R74028-1",
+    "https://apply.workable.com/capgemini-insurance/j/9B533504FE",
+    "https://apply.workable.com/unisongroup/j/BF3F340A26",
+    "https://job-boards.greenhouse.io/karya/jobs/5415057008",
+    "https://job-boards.greenhouse.io/prodigal/jobs/5043755007",
+    "https://www.amazon.jobs/en/jobs/10478320/process-improvement-specialist-seller-insights-eu-fba-support-operations",
+    "https://www.amazon.jobs/pl/jobs/10582605/process-improvement-specialist-eu-fba",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8737402002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8585149002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8813454002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8641258002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8883076002",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8920621002",
+    "https://job-boards.greenhouse.io/karya/jobs/5460823008",
+    "https://job-boards.greenhouse.io/karya/jobs/4412706008",
+    "https://job-boards.greenhouse.io/karya/jobs/5464495008",
+    "https://careers.wipro.com/job/Bengaluru-Process-Excellence-Lead-Banking-Operations-IND-560035/213661-en_US",
+    "https://careers.wipro.com/job/Pune-SERVICE-DELIVERY-LEAD-L2-IND-411005/210526-en_US",
+    "https://careers.wipro.com/job/Hyderabad-Process-Excellence-IND-500032/204637-en_US",
+    "https://careers.wipro.com/job/QUALITY-ASSURANCE-ANALYST-%28Digital-Operations%29/207717-en_US",
+    "https://careers.fedex.com/project-process-analyst-ii/job/924611A67A59A671B5B954DB5C123974",
+    "https://careers.cargill.com/en/job/bengaluru/ctc-ag-and-t-cash-app-process-analyst/23251/99356304096",
+    "https://careers.cargill.com/en/job/bengaluru/ctc-csp-cash-app-sr-process-analyst/23251/99201949408",
+    "https://jobs.citi.com/job/pune/kyc-operations-analyst/287/102161070304",
+    "https://www.openaibuzz.com/jobs/business-process-analyst-bangalore-capco-8242542",
+    "https://www.thejobsmap.com/job/86a54814-34e1-4d76-abb4-2945ccd97562",
+    "https://lydj.in/jobs/caterpillar-1nld6z6",
+    "https://notify.careers/postings/cc197fa4-4bd7-4cba-9f18-cd94597ce37d",
+    "https://jobboard.co.in/operations-analyst_hyderabad-c276089/2026-10-sa-technologies_i4247929629",
+    "https://bebee.com/in/jobs/business-operations-analyst-acesoft-labs-hyderabad--t7xk-846546399",
+    "https://simplify.jobs/p/2f8b64c6-182b-4871-8fd3-e12680f1a422/SAP-Workflow-Analyst",
+    "https://in.linkedin.com/jobs/view/operations-analyst-at-flexiple-4476142815",
+    "https://in.linkedin.com/jobs/view/operations-analyst-at-flexiple-4485901232",
+    "https://www.openaibuzz.com/jobs/product-operations-analyst-instawork-4350762006",
+    "https://job-boards.greenhouse.io/cloudflare/jobs/6980184",
+    "https://jobs.ashbyhq.com/Aspora/c83620ce-985c-407f-acdc-e48b7164d74d",
+    "https://jobs.ashbyhq.com/openai/ecd7b6d6-cf20-4e14-a90a-8501cd460557",
+    "https://jobs.ashbyhq.com/sarvam/6a5df2a7-5335-41b7-9b50-7f2f5de26d18",
+    "https://jobs.lever.co/stable-money1/255f8aa9-d678-45e2-9c30-91ded7bb9fbb",
+    "https://jobs.smartrecruiters.com/boschgroup/744000138994648",
+    "https://careers.wipro.com/job/Pune-PRACTICE-DELIVERY-LEAD-L1-IND-411005/193197-en_US",
+    "https://careers.wipro.com/job/Bengaluru-SERVICE-DELIVERY-LEAD-L3-IND-560035/205560-en_US",
+    "https://job-boards.greenhouse.io/ethoslife/jobs/7422335002"
+  ],
+  "github_write": {
+    "jobs_verified": true,
+    "private_queue_verified": true,
+    "private_assets_verified": true,
+    "report_write_attempted": true,
+    "report_readback_confirmed": false
   },
-  "notes": [
-    "No applications submitted or recruiters contacted.",
-    "No personal information or application data published.",
-    "The 100% review coverage metric applies only to the 11 accessible relevant roles identified in this nonexhaustive discovery, not to the wider job market."
-  ]
+  "notes": "Counts reflect only concrete URLs logged in this run, not all results from search queries. Search-engine relative recency, crawl date and third-party reposts are not original posting dates. One new Ethos requisition 8920621002 has independent posted-at evidence plus employer New label. Its older same-title requisition 8813454002 was excluded from fresh band. Existing Loop AI provisional record preserved. No personal data published."
 }
