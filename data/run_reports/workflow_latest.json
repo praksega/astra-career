@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "timestamp_utc": "2026-11-01T10:13:52.611510+00:00",
-  "run_id": "41296547174",
+  "timestamp_utc": "2026-11-01T10:14:31.481069+00:00",
+  "run_id": "41296585480",
   "attempt": "1",
-  "commit": "f1c5becfb729df461d3cba0e0a0bc0916d6f865b",
+  "commit": "456320ef006356fd626c392f41cffc8159bd7200",
   "workflow": "Astra 08AM Discovery + Audit",
   "status": "INCOMPLETE",
   "steps": {
@@ -13,7 +13,7 @@
   },
   "report_present": true,
   "candidates_present": true,
-  "discovery_report_time": "2026-11-01T10:13:52.538110+00:00",
+  "discovery_report_time": "2026-11-01T10:14:31.380365+00:00",
   "raw_listings_seen": 4705,
   "candidate_count": 16,
   "candidate_scored_count": 0

@@ -1,0 +1,1316 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-01T10:14:31.380365+00:00",
+  "status": "REVIEW_REQUIRED",
+  "total": 16,
+  "verified": 0,
+  "jobs": [
+    {
+      "job_id": "greenhouse:8260972",
+      "company": "okta",
+      "title": "Senior Program Manager",
+      "url": "https://www.okta.com/company/careers/opportunity/8260972?gh_jid=8260972",
+      "posting_date": "2026-10-30T13:09:44-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "As a  Senior Program Manager  for the Productivity Engineering team at  Okta , you will be at the heart of driving strategic business programs, bridging the gap between high-level business strategy, technology execution, and organizational goals. Your primary focus will be leadin",
+        "In this role, you will actively lead cross-functional program management initiatives, define core project requirements, and drive complex strategic programs to timely completion. You will align key program metrics with leadership objectives, oversee portfolio health, and support ",
+        "End-to-End Program\u00a0 and Project Leadership:  Lead complex, multi-stream programs\u00a0 and projects from initiation through execution and delivery, ensuring clear scope alignment, timeline tracking, and milestone achievements.",
+        "Program Analytics & Reporting:  Define and track core program performance metrics, key health indicators, and business ROI, presenting executive dashboards and status updates to leadership.",
+        "Cross-Functional Stakeholder Alignment:  Collaborate with business leaders, engineering teams, and global stakeholders to gather strategic requirements, resolve trade-offs, and drive enterprise alignment."
+      ],
+      "jd_qualifications": [
+        "In this role, you will actively lead cross-functional program management initiatives, define core project requirements, and drive complex strategic programs to timely completion. You will align key program metrics with leadership objectives, oversee portfolio health, and support ",
+        "Cross-Functional Stakeholder Alignment:  Collaborate with business leaders, engineering teams, and global stakeholders to gather strategic requirements, resolve trade-offs, and drive enterprise alignment.",
+        "Program Leadership Expertise:  5+ years of experience leading complex strategic programs or PMO portfolios in enterprise IT, SaaS, or high-growth technology environments.",
+        "Data-Driven Insights:  High proficiency in tracking program KPIs, performance dashboards, and executive reporting tools (e.g., Jira, Tableau, Power BI, Excel/Sheets) to support decision-making.",
+        "Stakeholder Influence:  Excellent verbal and written communication skills to lead alignment and use persuasion to align senior business partners and external vendors on new processes and business impacts.",
+        "Program Governance & Methodology:  Deep experience with project and program management frameworks (Agile, Waterfall, Hybrid) and PPM/ITSM tooling (Jira, ServiceNow, Asana)."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "metrics",
+            "kpi"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "operational excellence",
+            "process optimization"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation",
+            "workflow automation",
+            "ai tools"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "program management",
+            "agile",
+            "roadmap"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "uat"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8335959",
+      "company": "okta",
+      "title": "Sr. Product Analyst (Xactly)",
+      "url": "https://www.okta.com/company/careers/opportunity/8335959?gh_jid=8335959",
+      "posting_date": "2026-10-30T12:40:30-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "We are looking for a Senior Xactly Incent Analyst who can work very closely with the Commissions Operation and Sales Commissions team on strategic, organizational and operational projects designed for the Xactly system to successfully support Incentive Compensations.",
+        "A strong candidate will be a key driver of systems and process improvements across the Org. You'll also scale Xactly to meet future business needs as the company grows.",
+        "Due to the Business criticality, this role will be required to work with a few hours overlap of US (Pacific Time) hours during the onboarding/training process and month end close and/or as required.",
+        "Subject matter expert in designing, building, and deploying custom low-code applications, workflows, and tailored user workspaces using Xactly Extend to automate complex compensation processes, approvals, and exception management.",
+        "Partner with Sales Commissions Business and Finance teams to support the end to end software development cycle of Xactly Incent configurations/ implementations."
+      ],
+      "jd_qualifications": [
+        "Join the TDI Commissions team that supports the Xactly platform across Incent, Connect, Extend, and other Okta-enabled modules. We work with GTM Ops and Commissions Ops to turn business requirements into compensation plan configurations, and we maintain integrations with Salesfor",
+        "Gathering, documenting, developing and migrating Xactly Extend as per Business requirements.",
+        "Gathering, documenting, developing and migrating Xactly Incent code as per Business requirements.",
+        "Bachelor\u2019s degree or higher / equivalent work experience.",
+        "3+ years of experience working with and building Sales Compensation systems in a professional, fast-paced environment using Xactly Extend, Incent and Connect.",
+        "Xactly Extend platform development experience (Solutioning, configuring, testing, deployment and production support)."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "implementation"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "business operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:4725972006",
+      "company": "instawork",
+      "title": "Training Team Lead: Field Operations",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4725972006",
+      "posting_date": "2026-10-30T00:16:00-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Reports To:  Field Operations Manager / Head of Field Operations",
+        "Instawork Robotics Lab (IRL) is the robotics and physical AI team at Instawork:  This is the specific group you will join.",
+        "IRL exists to fix this problem. Using Instacore, our field teams record synchronized, varied video and sensor data of people working in real commercial spaces, such as kitchens, warehouses, hotels, retail, and light manufacturing. We quality-check, anonymize, and deliver this dat",
+        "We are hiring a Training Team Lead to run the training function for our Field Operators (FOs) and manage a distributed team of trainers across multiple cities. Rather than running isolated training sessions yourself, you will be responsible for overall training quality, consisten",
+        "In this role, you will define the curriculum and certification standards, hire and coach junior trainers, assign trainers to cities, step in for critical sessions, and ensure every Field Operator represents IRL professionally on site. You will also review operational performance ",
+        "Who You\u2019ll Lead and Who You\u2019ll Train (Know Your Audience)"
+      ],
+      "jd_qualifications": [
+        "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI.",
+        "Experience:  3\u20136 years, including hands-on training and team management",
+        "Instawork is a global, AI-powered labor marketplace:  It connects over 10 million skilled workers (\"Pros\") with businesses. This is the parent company.",
+        "In this role, you will define the curriculum and certification standards, hire and coach junior trainers, assign trainers to cities, step in for critical sessions, and ensure every Field Operator represents IRL professionally on site. You will also review operational performance ",
+        "A team of Trainers and Junior Trainers whom you will hire, onboard, certify, deploy across cities, coach, and manage to a shared standard.",
+        "Trainees learn through practical, hands-on experience in real working environments rather than lectures."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "continuous improvement",
+            "standardization"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operational performance",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation",
+            "sop",
+            "uat"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8247120",
+      "company": "stripe",
+      "title": "Monetization Operations Analyst",
+      "url": "https://stripe.com/jobs/search?gh_jid=8247120",
+      "posting_date": "2026-10-16T04:16:28-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "The Finance Operations (FinOps) team provides and enhances core business services that are the backbone of Stripe. FinOps uses data and operational excellence to deliver technology solutions, payroll services, operational excellence, and monetization services to Stripe.",
+        "We're looking for a Monetization Operations Analyst to join our growing team. You'll help us improve user experience through accurate and timely onboarding of contracts and workflows, and deliver improvements in our integrated financial systems with business partners, financial c",
+        "Develop and manage scalable billing and collection processes for complex user agreements and new business operations.",
+        "Build scalable and auditable onboarding processes for new and existing users.",
+        "Partner with internal systems, global deal management, legal, sales ops, internal audit, go-to-market, engineering, and accounting teams to develop and improve processes for contract reviews and to anticipate changing business requirements.",
+        "Partner with account managers to resolve user inquiries related to onboarding implementation, billing, and collections."
+      ],
+      "jd_qualifications": [
+        "We're looking for a Monetization Operations Analyst to join our growing team. You'll help us improve user experience through accurate and timely onboarding of contracts and workflows, and deliver improvements in our integrated financial systems with business partners, financial c",
+        "Partner with internal systems, global deal management, legal, sales ops, internal audit, go-to-market, engineering, and accounting teams to develop and improve processes for contract reviews and to anticipate changing business requirements.",
+        "Advocate for the customer to internal stakeholders. Share system feedback and insights with Sales, Product Management, Engineering, Support, and Legal on innovation and improvements needed to optimize the Stripe user experience.",
+        "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
+        "5+ years of experience in a client-facing role, ideally in customer success, consulting, financial services, account management, or sales, preferably working with technical products.",
+        "Track record of leading technical conversations and persuading others to take action based on requirements and value provided by solutions."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "sql",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement",
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "project management",
+            "implementation"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "business operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "uat"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "company": "Loop%20AI",
+      "title": "Strategist II - Product Operations & Strategy",
+      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "posting_date": "2026-10-14T09:32:24.506000+00:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+      ],
+      "jd_qualifications": [
+        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "product operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8248096",
+      "company": "stripe",
+      "title": "Risk Operations Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=8248096",
+      "posting_date": "2026-10-05T06:46:26-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Partner Risk Operations(PRO) is responsible for managing the risk relationships with our critical payment ecosystem partners, including global payment methods, card networks, and banking partners. Our mission is to establish operational controls that mitigate user and partner ris",
+        "In this role, you will lead a team of Partner Risk Operations Associates dedicated to managing higher-tier support, including escalations from Tier 1 and internal escalations. Your team will assess onboarding possibilities from a partner perspective, collaborating closely with ou",
+        "The Partner Risk Operations Manager will be an adaptable leader and cultivate the engagement of their team members while guiding them to be the best they can be, through feedback, coaching, mentoring, and advocacy within the organization. This means helping to set team goals, and",
+        "Recruit, manage, coach, and develop a team of in-office Risk Operations Associates",
+        "Drive strong operational delivery and process improvement helping to maintain risk detection strategies and business rules that balance risk and customer experience",
+        "Be data-driven in your analysis of performance, and in your decision making"
+      ],
+      "jd_qualifications": [
+        "The Partner Risk Operations Manager will be an adaptable leader and cultivate the engagement of their team members while guiding them to be the best they can be, through feedback, coaching, mentoring, and advocacy within the organization. This means helping to set team goals, and",
+        "Drive strong operational delivery and process improvement helping to maintain risk detection strategies and business rules that balance risk and customer experience",
+        "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
+        "At least 5+ years of direct people management experience, either in a risk or operations function",
+        "Problem-solving skills and comfort operating without clear guidelines",
+        "Skill and credibility doing the core work of a user facing team with a high bar for quality, and a willingness to lead by example"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "sop"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8245298",
+      "company": "okta",
+      "title": "Global Partner Program Operations Manager",
+      "url": "https://www.okta.com/company/careers/opportunity/8245298?gh_jid=8245298",
+      "posting_date": "2026-10-02T08:10:58-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "We\u2019re looking for an operational  Partner Program Manager  to take ownership of the global program framework across APJ. While this role aligns with global strategy to ensure consistency and scale, you will be the ultimate regional owner for program adoption, friction removal, an",
+        "End-to-End Execution & Change Management:  Drive high-velocity partner initiatives that directly impact partner productivity and top-line revenue across APJ. Own readiness, launch timing, stakeholder alignment, and change adoption for all regional program releases.",
+        "Enablement & Operational Rhythms:  Write clear, crisp, and accessible partner resources (including Incentives guides and playbook updates). Drive key operational rhythms, including Partner Advisory Boards, onboarding workflows, and clear partner communications.",
+        "Data-Driven Optimization:  Define and track tight KPIs across ROI, compliance, and partner-driven revenue. Use analytical tools to uncover deep insights, identify performance bottlenecks, and make data-backed program decisions.",
+        "Cross-Functional Ownership:  Act as the connective tissue between Sales, Marketing, Product, and Legal to ensure partner programs drive core business priorities. Collaborate globally to capture, refine, and deploy partner productivity playbooks at scale."
+      ],
+      "jd_qualifications": [
+        "3\u20136 years of partner program or operations experience , ideally within fast-growing tech/SaaS environments.",
+        "Strong Operational & Writing Skills:  Ability to write concise, easy-to-understand program documentation, partner guides, and executive updates.",
+        "Cross-Functional Influence:  Exceptional communication skills with the ability to align, influence, and unblock cross-functional partners at all levels.",
+        "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics",
+            "kpi",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8230852",
+      "company": "okta",
+      "title": "Senior Application Development Analyst",
+      "url": "https://www.okta.com/company/careers/opportunity/8230852?gh_jid=8230852",
+      "posting_date": "2026-09-25T12:39:18-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "Okta is The World\u2019s Identity Company. We free everyone to safely use any technology anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital wor",
+        "We are looking for a  Senior Salesforce Product Analyst  to join the TDI team and help scale our internal systems with a focus on security and reliability. You will leverage your deep knowledge of CPQ and Sales Cloud, covering everything from provisioning to case management, to p",
+        "Requirements Gathering and Analysis:",
+        "Work closely with business stakeholders to understand their requirements and challenges, translating them into detailed and actionable user stories.",
+        "Conduct thorough analysis of existing processes and systems to identify opportunities for improvement."
+      ],
+      "jd_qualifications": [
+        "Okta is The World\u2019s Identity Company. We free everyone to safely use any technology anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that transforms how people move through the digital wor",
+        "We are looking for a  Senior Salesforce Product Analyst  to join the TDI team and help scale our internal systems with a focus on security and reliability. You will leverage your deep knowledge of CPQ and Sales Cloud, covering everything from provisioning to case management, to p",
+        "Requirements Gathering and Analysis:",
+        "Work closely with business stakeholders to understand their requirements and challenges, translating them into detailed and actionable user stories.",
+        "Leverage your expertise in Salesforce CPQ to implement solutions that align with business needs. This includes product and price rule configuration, and advanced approvals.",
+        "Qualifications and Requirements:"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "implementation"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation",
+            "requirements gathering"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8177119",
+      "company": "elastic",
+      "title": "Business Analyst, Marketing-1 (Fixed Term)",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8177119&gh_jid=8177119",
+      "posting_date": "2026-09-09T04:24:44-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision",
+        "This role focuses on  driving  business intelligence and performance optimization across regional marketing initiatives by leveraging existing enterprise data products and reports developed by our core internal team.   Rather than building new reporting infrastructure, this indiv",
+        "Analyze global and regional marketing results using existing core dashboards and reports to identify underlying performance trends, growth drivers, and shifting data patterns.",
+        "Conduct ad-hoc deep-dive analyses using established data products to  independently  diagnose performance anomalies, tracking down the root causes of unexpected traffic spikes or pipeline drops.",
+        "Partner directly with regional marketing teams to build deep local business context, scope analytical requests, and translate standard dashboard data into actionable performance insights.",
+        "Synthesize complex datasets from existing reports into clear summaries, providing regional  leadership  with strategic recommendations rather than just surface-level data tracking."
+      ],
+      "jd_qualifications": [
+        "Act as the expert user and champion of core reporting tools, funneling regional user requirements and data gaps back to the core internal dashboard-development team.",
+        "3\u20135 years of experience in marketing analytics, business intelligence, strategy consulting, or a highly analytical marketing operations role.",
+        "Proficient in dashboard interpretation skills, with deep experience navigating and extracting insights from enterprise BI tools (such as Tableau, Power BI, or Looker).",
+        "Analytical skills including intermediate Excel/Google Sheets proficiency to manipulate, pivot, and model data extracted from existing reporting systems.",
+        "Hands-on experience navigating data models and  pulling  native reports within CRMs (Salesforce preferred) and major marketing automation platforms (Marketo preferred).",
+        "Basic SQL knowledge is preferred."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "metrics",
+            "power bi"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8128431",
+      "company": "okta",
+      "title": "Senior Product Analyst - Finance Technology",
+      "url": "https://www.okta.com/company/careers/opportunity/8128431?gh_jid=8128431",
+      "posting_date": "2026-08-14T07:57:48-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "One of the most important components of our operations is an efficient financial system, including seamless processes for the Record-to-Report (R2R) cycle. As a NetSuite R2R Analyst, your role will support and strengthen Okta's financial systems and processes to ensure accuracy, ",
+        "Act as the subject matter expert (SME) for NetSuite functionality in Record-to-Report (R2R) processes, maintaining workflows, configurations, and data integrity to enhance efficiency and compliance (e.g., SOX, GAAP).",
+        "Bridge IT and Treasury operations to configure, integrate, and deploy the Kyriba Treasury Management System (TMS). You will lead full-lifecycle technical implementations, ERP integrations, and secure bank connectivity projects.",
+        "Lead or participate in R2R-related projects, including implementations, migrations, process improvements, customizations, upgrades, and integrations with NetSuite\u2019s financial modules.",
+        "Support month-end, quarter-end, and year-end close processes by ensuring timely reconciliations, reporting, general ledger accuracy, consolidations, and intercompany accounting."
+      ],
+      "jd_qualifications": [
+        "Okta is the leading independent provider of identity solutions for enterprises. With a deep commitment to innovation and customer success, we power and secure digital transformation for the world's biggest brands. We're scaling rapidly, and we\u2019re seeking talented individuals to j",
+        "Hands-on experience on NetSuite and Kyriba",
+        "Bachelor\u2019s degree in Accounting, Finance, Information Systems, or a related field, with over 8 years of technology experience, including 6+ years of hands-on NetSuite expertise in R2R, accounting, or finance roles.",
+        "Strong knowledge of GAAP/IFRS, general ledger management, financial reporting, and hands-on proficiency in NetSuite customizations, SuiteScript, Workflows, Saved Searches, and Dashboards.",
+        "Expertise in key R2R processes, including journal entries, fixed assets, intercompany transactions, multi-currency accounting, and financial reporting.",
+        "3\u20135+ years of hands-on IT experience implementing, configuring, or supporting Kyriba TMS."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation",
+            "process automation"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "project management",
+            "implementation"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "uat"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8644000002",
+      "company": "databricks",
+      "title": "Partner Enablement Operations Manager",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8644000002",
+      "posting_date": "2026-08-04T10:43:57-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "The Partner Enablement Operations Manager is a senior operator and builder responsible for designing and running a scalable, predictable, and data-driven operating model for partner enablement at Databricks.",
+        "This role serves as the operational backbone and strategic integrator for partner enablement, connecting global strategy to regional execution across AMER, EMEA, and APJ regions while ensuring programs are delivered consistently, efficiently, and at scale.",
+        "We are looking for A builder who can architect operating systems, drive cross-functional alignment, and convert recurring operational friction into structural improvement.",
+        "Run QBRs, MBRs, and executive reviews for partner enablement leadership, using clear metrics and forward-looking insights to drive accountability and decision-making.",
+        "Lead end-to-end execution of partner enablement initiatives, ensuring timelines, dependencies, and deliverables are managed effectively across functions and regions.",
+        "Design and implement scalable workflows, SOPs, SLAs, and intake mechanisms that improve consistency, reduce manual effort, and create a better experience for internal stakeholders and partners."
+      ],
+      "jd_qualifications": [
+        "Design and implement scalable workflows, SOPs, SLAs, and intake mechanisms that improve consistency, reduce manual effort, and create a better experience for internal stakeholders and partners.",
+        "Introduce AI-enabled and automation-first workflows for intake, reporting, support, certification, and partner operations where they can safely improve speed, quality, and scale.",
+        "10+ years of experience in Learning Operations, Program Management, Professional Services Operations, or a related operational leadership field in a high-growth technology environment.",
+        "Proven experience supporting global or multi-region teams and translating central strategy into executable operating plans.",
+        "Preferred experience in the Data & AI space, with a strong understanding of Databricks' platform capabilities, key differentiators, and end-to-end solutions, and the ability to work effectively with technical stakeholders.",
+        "Experience improving processes and workflows, with a clear track record of reducing manual effort and increasing scale through automation or AI-enabled solutions."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation",
+            "workflow automation",
+            "ai tools"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "program management"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "sop"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8053011",
+      "company": "stripe",
+      "title": "Operations Manager, Stripe Delivery Centre",
+      "url": "https://stripe.com/jobs/search?gh_jid=8053011",
+      "posting_date": "2026-07-10T09:23:31-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "As Stripe\u2019s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Strip",
+        "Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe\u2019s operations for the next decade. We are looking for dynamic and curious people that have a passion for solving global user issues, building operations, driving process improvemen",
+        "In this role, you will recruit, manage, and develop a group of Operations Associates that are focused on user support. This person will cultivate the happiness of their team members while guiding them to be the best they can be, through feedback, coaching, mentoring, and advocacy",
+        "Recruit, manage, coach, and develop a new team of in-office Operations Associates",
+        "Drive strong operational delivery and process improvement helping to mitigate risk while balancing operational efficiency and user impact",
+        "Identify gaps in current systems, policies and strategies, and recommend enhancements and process improvements to mitigate risks"
+      ],
+      "jd_qualifications": [
+        "In this role, you will recruit, manage, and develop a group of Operations Associates that are focused on user support. This person will cultivate the happiness of their team members while guiding them to be the best they can be, through feedback, coaching, mentoring, and advocacy",
+        "We\u2019re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
+        "At least 8+ years experience leading operations support teams",
+        "Experience working cross-functionally with multiple teams to deliver high impact initiatives",
+        "Experience in delivering weekly and monthly business metrics and reporting",
+        "Excellent written and verbal communication skills"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "sop"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:4686774006",
+      "company": "instawork",
+      "title": "Assistant Manager - Operations - Instawork Robotics Labs",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4686774006",
+      "posting_date": "2026-06-04T05:08:17-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "We are seeking a highly driven  Assistant Manager \u2013 Operations  to support and execute field data collection operations across multiple regions. You will coordinate Field Officers and Regional Coordinators, track daily targets, manage manpower and equipment deployment, and resolv",
+        "Lead end-to-end hiring and onboarding of operations team members.",
+        "Build, mentor, and manage a high-performing team of operators and team members.",
+        "Design and implement training programs for new hires and existing team members.",
+        "Ensure teams are equipped with the right tools, knowledge, and processes to perform efficiently.",
+        "Drive adoption of AI tools, particularly ChatGPT and other productivity platforms, to improve operational effectiveness."
+      ],
+      "jd_qualifications": [
+        "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI.",
+        "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI.",
+        "Researchers at UC Berkeley have identified a \u201c100,000-year data gap\u201d - the gulf between what trained AI language models and what physical robots actually have to learn from. Closing that gap is the defining infrastructure challenge of the physical AI era. IRL is Instawork\u2019s answe",
+        "Ensure teams are equipped with the right tools, knowledge, and processes to perform efficiently.",
+        "5+ years of experience in operations, account management, customer success, BPO, shared services, or technology-enabled operations.",
+        "2+ years of experience managing teams and leading people."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "dashboard",
+            "metrics",
+            "kpi",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement",
+            "continuous improvement",
+            "operational excellence",
+            "process excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "ai tools"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "sop"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:7805386",
+      "company": "stripe",
+      "title": "Marketing Operations Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=7805386",
+      "posting_date": "2026-04-28T03:00:19-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the ",
+        "You'll recruit, manage, and develop a group of Marketing Operations Associates and team leads that are focused on delivering repeatable, measurable programs and campaigns targeted on spend optimization, producing highly qualified leads, improving the customer experience, and incr",
+        "Partner with global counterparts in EMEA and AMER, necessitating flexible scheduling for cross-regional alignment on email marketing success, best practices, process, workflows, policies, execution, and enablement",
+        "Project manage marketing campaign production across the globe, including managing handoffs",
+        "Support Marketo workflows, performance marketing operations, and event analysis",
+        "Ensure reportability of core operations cycles"
+      ],
+      "jd_qualifications": [
+        "As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the ",
+        "You'll recruit, manage, and develop a group of Marketing Operations Associates and team leads that are focused on delivering repeatable, measurable programs and campaigns targeted on spend optimization, producing highly qualified leads, improving the customer experience, and incr",
+        "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
+        "10+ years relevant work experience in Marketing Operations",
+        "5+ years of experience in leading teams",
+        "6+ years of hands-on experience in Marketo (or similar) with a deep understanding of campaign architecture"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:7608396",
+      "company": "stripe",
+      "title": "Fraud Operations Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=7608396",
+      "posting_date": "2026-02-13T05:34:28-05:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attack",
+        "Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You'll lead leaders and senior operators responsible for core fraud investigations and complex, high-impact investigations. You'll be accountable for operational excellence across fraud review workf",
+        "Lead the Bangalore Fraud Operations Center by managing team leads and senior associates, setting clear expectations, coaching performance, and building a high-judgement culture rooted in strong decisioning and customer empathy",
+        "Own core fraud investigations and complex investigations, including escalations and time-sensitive incident response in partnership with global Fraud and Risk stakeholders",
+        "Drive process development and continuous improvement through root cause analysis, defect reduction, policy adherence, and consistency across reviewers and teams",
+        "Partner with other Risk teams to evolve fraud tooling and workflows (manual and automated actioning), including safe rollout and measurement of changes"
+      ],
+      "jd_qualifications": [
+        "Own staffing models, capacity planning, scheduling, hiring plans, onboarding, and training strategy to meet business needs while maintaining a high bar for quality and user experience",
+        "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
+        "Experience leading cross-functional initiatives and driving change through ambiguity, including new workflows for new products, markets, or emerging fraud patterns",
+        "Experience leading fraud, risk, trust and safety, or investigations operations in a high-scale environment, including managing managers and team leads",
+        "Comfort working across detection systems and manual and automated actioning systems, with the ability to translate operational needs into product and engineering requirements",
+        "Excellent written and verbal communication skills, including presenting in operational reviews and representing the team in high-pressure escalations in English"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "dashboard",
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "continuous improvement",
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "sop"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:4350762006",
+      "company": "instawork",
+      "title": "Product Operations Analyst",
+      "url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
+      "posting_date": "2024-03-25T10:06:11-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "At our labor marketplace tech company, we believe that even in the age of AI, the core of success comes down to good people doing honest work. We're seeking a detail-oriented and automation-savvy Product Operations Analyst to help us optimize our operational processes and ensure ",
+        "Automation Enthusiast:  You're passionate about eliminating manual work through automation. You've built workflows using tools like n8n, Zapier, or Make.com, and you're always looking for the next process to optimize.",
+        "Data-Driven & Analytical:  You're comfortable diving into databases using SQL, analyzing trends in Excel or Google Sheets, and creating dashboards to visualize operational metrics. You use data to drive decisions and measure impact.",
+        "Process Optimizer:  You have a natural instinct for identifying inefficiencies and redesigning processes. You're organized, detail-oriented, and obsessed with creating scalable, repeatable systems.",
+        "Self-Starter & Collaborative:  You can work independently to manage multiple projects while also partnering effectively with cross-functional teams including Biz-Ops, product, sales, and payroll.",
+        "Own Data Quality & Integrity:  Implement and maintain robust processes for validating and verifying data accuracy, consistency, and completeness across all platforms. Develop and enforce data quality standards that become the foundation of operational excellence."
+      ],
+      "jd_qualifications": [
+        "Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI.",
+        "Partner Across Functions:  Work closely with Biz-Ops, product management, engineering, billing ops, and sales teams to understand data requirements and operational needs. Collaborate on initiatives that enhance data accessibility and usability for all stakeholders.",
+        "Bachelor's Degree:  Information Technology, Computer Science, Data Analytics, or a related field is preferred but not required if you have equivalent practical experience.",
+        "Scripting & Development Skills:  Experience with Python, JavaScript, or other scripting languages for building custom automation solutions and data processing scripts.",
+        "API & Integration Expertise:  Hands-on experience working with REST APIs, webhooks, and system integrations to connect disparate platforms and automate data flows.",
+        "Data Visualization Skills:  Experience creating dashboards and reports using Tableau, Power BI, Looker, or similar visualization tools to communicate insights to stakeholders."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "dashboard",
+            "metrics",
+            "power bi",
+            "sql"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement",
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation",
+            "ai tools"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "product operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    }
+  ],
+  "note": "This queue does not certify eligibility or generate numeric scores. Verified scores require individual requirement evidence and genuine missing-skill handling."
+}
