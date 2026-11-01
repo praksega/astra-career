@@ -16,9 +16,10 @@ def main():
   data["report_present"]=bool(d.get("run_at_utc"))
   rows=json.loads(q.read_text()).get("candidates",[])
   data["candidates_present"]=bool(rows) and all(isinstance(x,dict) for x in rows)
-  data["candidate_scored_count"]=sum(bool(x.get("preliminary_assessment")) for x in rows)
+  data["candidates_awaiting_verification"]=sum(x.get("verification_status")=="REVIEW_REQUIRED" for x in rows)
+  data["verified_match_count"]=sum(x.get("verification_status")=="VERIFIED" for x in rows)
   if status=="SUCCESS" and not data["report_present"]:status="INCOMPLETE"
-  if status=="SUCCESS" and data["candidate_scored_count"]!=len(rows):status="INCOMPLETE"
+  if status=="SUCCESS" and data["candidates_awaiting_verification"]+data["verified_match_count"]!=len(rows):status="INCOMPLETE"
  except (OSError,ValueError,TypeError) as e:data["data_error"]=str(e);status="INCOMPLETE" if status=="SUCCESS" else status
  data["status"]=status
  (out/"workflow_latest.json").write_text(json.dumps(data,indent=2)+"\n")
