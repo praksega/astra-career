@@ -5,9 +5,11 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 try:
  from scripts.jd_evidence import evaluate
  from scripts.preliminary_scoring import assess
+ from scripts.jd_extract import extract
 except ModuleNotFoundError:
  from jd_evidence import evaluate
  from preliminary_scoring import assess
+ from jd_extract import extract
 # Employer board slugs are candidates, not guarantees; failed/empty boards are logged.
 GREENHOUSE=["instawork","reddit","figma","notion","airtable","rippling","razorpay","browserstack","meesho","phonepe","slice","postman","freshworks","plaid","stripe","databricks","mongodb","coursera","canva","zoom","duolingo","okta","twilio","asana","brex","coinbase","roblox","gusto","square","elastic","udemy","miro","wise","deliveroo","hubspot"]
 LEVER=["Loop%20AI","cred","gojek","groww","mindtickle","hackerone","atlassian","zomato","urbancompany","porter","swiggy","sharechat","clevertap","whatfix","innovaccer","highradius","browserstack","chargebee","upgrad","ninjacart","cars24"]
@@ -57,7 +59,7 @@ def normalize(src,slug,x):
     # Country-only India postings are ambiguous, not confirmed remote.
     place_ok=any(c in loc_l for c in CITIES) or ("remote" in loc_l and "india" in loc_l)
     if not keywords or not place_ok:return None
-    return {"id":src+":"+ident,"company_board":slug,"title":title,"location":location,"url":url,"source":src,"source_date":stamp,"date_source":"first_published" if src=="greenhouse" and date_verified else "createdAt" if src=="lever" and date_verified else "updated_at/unverified","posting_date_verified":date_verified,"matched_keywords":keywords,"matching_method":reason,"description_characters":len(description),"description_excerpt":description[:1200],"status":"unscored_candidate","jd_evidence":evaluate(title,description,location)}
+    return {"id":src+":"+ident,"company_board":slug,"title":title,"location":location,"url":url,"source":src,"source_date":stamp,"date_source":"first_published" if src=="greenhouse" and date_verified else "createdAt" if src=="lever" and date_verified else "updated_at/unverified","posting_date_verified":date_verified,"matched_keywords":keywords,"matching_method":reason,"description_characters":len(description),"description_excerpt":description[:1200],"jd_details":extract(description,url),"status":"unscored_candidate","jd_evidence":evaluate(title,description,location)}
 def run():
     targets=[("greenhouse",s) for s in GREENHOUSE]+[("lever",s) for s in LEVER]
     sources=[];raw=0;rows=[];seen=set();rejection_counts={"unrelated_or_unapproved_location":0,"invalid_record":0};full_content_candidates=0
