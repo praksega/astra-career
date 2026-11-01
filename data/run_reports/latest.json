@@ -1,27 +1,295 @@
 {
-  "schema_version": 1,
-  "audit_at": "2026-10-31",
-  "automation": "Astra Daily Recruiter",
-  "last_automation_run": {
-    "run_id": "f42c9ede-201c-8321-89d9-c98473748d5a",
-    "recorded_status": "completed",
-    "scheduled_for_utc": "2026-10-31T17:08:43.705118Z",
-    "completed_at_utc": "2026-10-31T17:10:18.986518Z",
-    "requires_user_action": true,
-    "result_text_empty": true
-  },
-  "verified_repository_state": {
-    "jobs_last_run_date": "2026-10-31",
-    "latest_job_counts": {
-      "total": 1,
-      "new_strong": 0,
-      "new_possible": 0
-    },
-    "last_reported_full_jds_reviewed": 6,
-    "linkedin_posts": 0,
-    "manual_linkedin_posts": 0
-  },
-  "outcome": "UNVERIFIED_RUN_OUTPUT",
+  "schema_version": 2,
+  "run_date": "2026-11-01",
+  "run_started_at_utc": "2026-11-01T12:07:17Z",
+  "report_prepared_at_utc": "2026-11-01T12:10:40.351Z",
+  "report_prepared_at_ist": "2026-11-01T17:40:40.351+05:30",
   "coverage_status": "INCOMPLETE",
-  "note": "Latest automation completed without visible output and without proven 200-500 unique listings coverage. Repo job counters remain from preceding partial run. Future task instructed to create measured run-specific reports; this is a diagnostic seed, not a completed search report."
+  "run_status": "PARTIAL",
+  "freshness_window_ist": "2026-10-27 through 2026-11-01 (five calendar days, inclusive)",
+  "scoring_rubric": {
+    "responsibilities": 30,
+    "skills": 25,
+    "seniority": 15,
+    "sector": 10,
+    "geography": 15,
+    "compensation": 5,
+    "min_evidence_coverage": 0.8,
+    "strong_min": 86,
+    "possible_min": 71
+  },
+  "metrics": {
+    "raw_search_engine_hits": "UNKNOWN_NOT_EXHAUSTIVELY_LOGGED",
+    "raw_candidate_job_urls_logged": 30,
+    "canonical_unique_candidate_urls_logged": 30,
+    "deduplicated_duplicates_within_logged_urls": 0,
+    "shortlisted_for_detailed_review": 18,
+    "official_full_job_descriptions_opened_and_reviewed": 15,
+    "official_full_jds_target_minimum": 30,
+    "new_fresh_strong": 0,
+    "new_fresh_possible": 0,
+    "promising_date_unknown_or_employer_url_unverified": 2,
+    "promising_older_than_fresh_window": 2,
+    "linkedin_post_permalink_results": 0,
+    "linkedin_original_timestamp_verified": 0,
+    "linkedin_published": 0,
+    "public_jobs_records_added": 0,
+    "private_research_leads_written": 6
+  },
+  "sources": {
+    "attempted": 29,
+    "succeeded": 13,
+    "blocked_or_limited": 16,
+    "details": [
+      {
+        "name": "Amgen careers",
+        "status": "FULL_JD_ACCESS"
+      },
+      {
+        "name": "Wipro careers",
+        "status": "FULL_JD_ACCESS"
+      },
+      {
+        "name": "JPMorgan Oracle HCM",
+        "status": "INDEXED_METADATA_ONLY_DYNAMIC_EMPTY"
+      },
+      {
+        "name": "Target careers",
+        "status": "INDEXED_JOB_DIRECT_404"
+      },
+      {
+        "name": "Ashby",
+        "status": "INDEXED_JOB_DIRECT_404"
+      },
+      {
+        "name": "Workday",
+        "status": "INDEXED_JOB_DYNAMIC_EMPTY"
+      },
+      {
+        "name": "Lever",
+        "status": "INDEXED_LISTINGS"
+      },
+      {
+        "name": "Workable",
+        "status": "INDEXED_FULL_DESCRIPTIONS"
+      },
+      {
+        "name": "SmartRecruiters",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "iCIMS",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "Jobvite",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "BambooHR",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "SAP SuccessFactors",
+        "status": "FULL_JD_ACCESS_VIA_WIPRO"
+      },
+      {
+        "name": "Oracle Careers",
+        "status": "SEARCH_LISTINGS_ACCESS"
+      },
+      {
+        "name": "Indeed India",
+        "status": "SEARCH_LISTINGS_ACCESS"
+      },
+      {
+        "name": "Naukri",
+        "status": "ROBOTS_BLOCKED"
+      },
+      {
+        "name": "Foundit",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "Instahyre",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "Wellfound",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "Cutshort",
+        "status": "SEARCH_LISTINGS_ACCESS"
+      },
+      {
+        "name": "Hirist",
+        "status": "JOB_DESCRIPTIONS_INDEXED"
+      },
+      {
+        "name": "LinkedIn jobs",
+        "status": "PUBLIC_INDEX_ACCESS"
+      },
+      {
+        "name": "LinkedIn posts",
+        "status": "NO_VERIFIABLE_POST_PERMALINK"
+      },
+      {
+        "name": "Weekday",
+        "status": "SEARCH_LISTINGS_ACCESS"
+      },
+      {
+        "name": "Glassdoor",
+        "status": "SEARCH_LISTINGS_ACCESS"
+      },
+      {
+        "name": "Safran careers",
+        "status": "INDEXED_JOB_DESCRIPTIONS"
+      },
+      {
+        "name": "Greenhouse",
+        "status": "NO_RELEVANT_JOB_RESULT"
+      },
+      {
+        "name": "FRND employer careers",
+        "status": "REDIRECT_TO_CONTACT_NO_ROLE"
+      },
+      {
+        "name": "Toddle employer careers",
+        "status": "NO_DIRECT_ROLE_URL_FOUND"
+      }
+    ]
+  },
+  "reviewed_full_jd_requisition_ids": [
+    "Amgen R-260257",
+    "Amgen R-259660",
+    "Amgen R-260051",
+    "Amgen R-253656",
+    "Wipro 215052",
+    "Wipro 211913",
+    "Wipro 212886",
+    "Wipro 214404",
+    "Wipro 214609",
+    "Wipro 215190",
+    "Wipro 204207",
+    "Wipro 200845",
+    "Wipro 215027",
+    "Wipro 214280",
+    "Wipro 204637"
+  ],
+  "excluded_categories": [
+    "Domain-specific hard skills not evidenced: React, MMx/econometrics, advanced ML, LIDAR, Azure networking, GIS, Jira administration, Windows imaging",
+    "Seniority or leadership scope gap: 250+ workforce, >10 years specialist leadership",
+    "Stale employer date: 2026-09-29, 2026-10-13, 2026-10-19",
+    "Repost/original-date ambiguity: Wipro Quality and Process Excellence 2026-10-29 site date versus third-party 2026-04-13 record",
+    "Official ATS page not fully readable or returns 404",
+    "Salary fixed pay unknown for reviewed full-time roles; contract rate is not fixed salary"
+  ],
+  "milestones": [
+    {
+      "stage": "INIT",
+      "status": "SUCCESS",
+      "timestamp_utc": "2026-11-01T12:07:17Z",
+      "input_repository_reads": {
+        "public_jobs_sha": "579991590cdf9a179c57d9617a89b5aadd45fd15",
+        "public_linkedin_sha": "e38e877e55304bc9344d5f643981140035683cf3",
+        "public_manual_intake_sha": "04b1b58866864d427d8266653bb7bcbc7151192a",
+        "public_previous_report_sha": "f9508882ddcf32927d5671771b6125cd910319c9"
+      }
+    },
+    {
+      "stage": "DISCOVERY",
+      "status": "PARTIAL",
+      "sources_attempted": 29,
+      "sources_succeeded": 13,
+      "raw_candidate_job_urls_logged": 30,
+      "raw_search_engine_hits": "UNKNOWN",
+      "note": "Search-engine source results were not exhaustively exported; URL count is an explicitly logged subset, not all results."
+    },
+    {
+      "stage": "DEDUPE",
+      "status": "SUCCESS_ON_LOGGED_SET",
+      "canonical_unique_urls": 30,
+      "duplicates": 0,
+      "method": "canonical job URL, ATS requisition where present; source aliases excluded from logged set"
+    },
+    {
+      "stage": "JD_VALIDATION",
+      "status": "PARTIAL",
+      "official_full_jds_opened_and_read": 15,
+      "not_read_from_indexed_dynamic_pages": [
+        "JPMorgan Oracle HCM",
+        "Target careers",
+        "Ashby",
+        "Accenture Workday"
+      ],
+      "rejection_categories": "See excluded_categories"
+    },
+    {
+      "stage": "MATCHING",
+      "status": "PARTIAL",
+      "new_strong": 0,
+      "new_possible": 0,
+      "unverified_promising": 2,
+      "older_promising": 2,
+      "private_queue_leads": 6,
+      "compensation": "UNKNOWN unless employer disclosed; no fixed-salary inference"
+    },
+    {
+      "stage": "LINKEDIN",
+      "status": "PARTIAL",
+      "public_index_search_batches": 2,
+      "search_queries_targeted": 10,
+      "individual_post_permalinks_qualified": 0,
+      "original_timestamp_verified": 0,
+      "original_timestamp_rejected_or_unverifiable": 0,
+      "direct_linkedin_individual_post_pages_opened": 0,
+      "scrolling_performed": false,
+      "published": 0,
+      "manual_intake_preserved": true
+    },
+    {
+      "stage": "GITHUB_WRITE",
+      "status": "IN_PROGRESS",
+      "public_report_update_attempted": true,
+      "public_report_update_succeeded": false,
+      "readback_sha": null,
+      "private_research_queue_create_succeeded": true,
+      "private_research_queue_readback_sha": "803c6992ac0f9f288c3d38a6132df0504fe38d62",
+      "public_jobs_unchanged": true,
+      "linkedin_posts_unchanged": true,
+      "manual_intake_unchanged": true
+    },
+    {
+      "stage": "FINAL",
+      "status": "PARTIAL",
+      "coverage_status": "INCOMPLETE",
+      "reason": "15 of minimum 30 full JDs reviewed; 30 logged unique URLs versus 200-500 target; only 0 fully qualified fresh matches; restricted/empty ATS and LinkedIn original timestamps."
+    }
+  ],
+  "github": {
+    "public_jobs_updated": false,
+    "public_linkedin_posts_updated": false,
+    "manual_intake_preserved": true,
+    "private_research_queue": {
+      "path": "data/research_queue/2026-11-01.json",
+      "verified_sha": "803c6992ac0f9f288c3d38a6132df0504fe38d62"
+    },
+    "public_latest_report": {
+      "write_attempted": true,
+      "write_verified": false,
+      "readback_sha": null
+    }
+  },
+  "notes": [
+    "No applications or recruiter outreach performed.",
+    "No new fresh job met all official URL, original-date, 80% evidence coverage, and score gates.",
+    "A historical provisional Loop AI record remains untouched in jobs.json.",
+    "Wipro posting-start date can differ from original posting; 2026-04-13 evidence conflicts with 2026-10-29 for Quality/Process Excellence."
+  ],
+  "evidence_urls": [
+    "https://careers.amgen.com/en/job/hyderabad/manager-field-reporting/87/102627072272",
+    "https://careers.wipro.com/job/Hyderabad-QUALITY-AND-PROCESS-EXCELLENCE-LEAD-L3-IND-500032/204207-en_US/",
+    "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210801606",
+    "https://alion.io/job/toddle-product-operations-lead"
+  ]
 }
