@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-01T09:41:36.721870+00:00",
+  "run_at_utc": "2026-11-01T10:10:54.526009+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
   "raw_listings_seen": 4705,
+  "location_eligible_jds_screened": 367,
+  "location_eligible_jds_with_500_plus_chars": 364,
   "unique_role_location_candidates": 16,
   "full_jds_with_accessible_text": 16,
   "jd_evidence_maps_generated": 16,
@@ -22,7 +24,7 @@
   },
   "coverage_target": 200,
   "coverage_status": "INSUFFICIENT_RELEVANT_COVERAGE",
-  "notes": "Raw listings across employer boards are not all relevant. Candidate titles or JD duties are screened for role and location; they receive rule-based preliminary scores, not verified ATS/fit scores. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
+  "notes": "All location-eligible available ATS descriptions are checked for role relevance before selecting candidates. Candidate titles and JD duties are screened; they receive rule-based preliminary scores, not verified ATS/fit scores. Accessible JD text is not a full evidence-based assessment. No hiring or current freshness guarantee.",
   "boards": [
     {
       "source": "greenhouse",
