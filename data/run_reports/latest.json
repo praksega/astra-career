@@ -249,10 +249,10 @@
     },
     {
       "stage": "GITHUB_WRITE",
-      "status": "IN_PROGRESS",
+      "status": "CONFIRMED",
       "public_report_update_attempted": true,
-      "public_report_update_succeeded": false,
-      "readback_sha": null,
+      "public_report_update_succeeded": true,
+      "readback_sha": "2d5a1bef6a8f6b9e3ff60ecf8fba3ff8e349da08",
       "private_research_queue_create_succeeded": true,
       "private_research_queue_readback_sha": "803c6992ac0f9f288c3d38a6132df0504fe38d62",
       "public_jobs_unchanged": true,
@@ -276,8 +276,9 @@
     },
     "public_latest_report": {
       "write_attempted": true,
-      "write_verified": false,
-      "readback_sha": null
+      "write_verified": true,
+      "readback_sha": "2d5a1bef6a8f6b9e3ff60ecf8fba3ff8e349da08",
+      "readback_kind": "first_write_blob_sha; final blob independently fetched after second write"
     }
   },
   "notes": [
