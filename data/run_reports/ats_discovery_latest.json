@@ -1,11 +1,20 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-01T10:26:46.827721+00:00",
+  "run_at_utc": "2026-11-01T11:22:30.517515+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
   "raw_listings_seen": 4705,
+  "individual_screening_records": 4705,
+  "screening_reason_counts": {
+    "jd_responsibilities": 3,
+    "role_not_relevant": 221,
+    "outside_target_locations": 4338,
+    "title_and_jd": 10,
+    "excluded_specialist_title": 130,
+    "title": 3
+  },
   "location_eligible_jds_screened": 367,
   "location_eligible_jds_with_500_plus_chars": 364,
   "unique_role_location_candidates": 16,
