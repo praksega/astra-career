@@ -1,5 +1,8 @@
-name: Astra ATS Discovery (independent scheduled engine)
+name: Astra 08AM Discovery + Audit
 on:
+  schedule:
+    - cron: '30 2 * * *' # 08:00 IST
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -8,42 +11,61 @@ on:
       - 'scripts/jd_evidence.py'
       - 'scripts/preliminary_scoring.py'
       - 'scripts/score_preliminary_fit.py'
-      - 'tests/test_ats_preliminary.py'
-      - 'tests/test_ats_discovery.py'
-      - 'tests/test_ats_evidence.py'
-      - 'tests/test_ats_preliminary_scoring.py'
-  schedule:
-    - cron: '30 2 * * *' # 08:00 IST, subject to GitHub scheduler delays
-  workflow_dispatch:
+      - 'scripts/workflow_status.py'
+      - 'tests/test_ats*.py'
 permissions:
   contents: write
 concurrency:
-  group: astra-ats-discovery
+  group: astra-daily
   cancel-in-progress: false
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Test discovery parser
+      - id: tests
+        name: Test job discovery and scoring
+        continue-on-error: true
         run: python -m unittest discover -s tests -p 'test_ats*.py'
-      - name: Collect open ATS postings and record observed counts
+      - id: discovery
+        name: Collect live vacancies and save JD evidence
+        if: steps.tests.outcome == 'success'
+        continue-on-error: true
         run: python scripts/discover_ats.py
-      - name: Create preliminary evidence-based candidate mapping
+      - id: scoring
+        name: Write preliminary shortlist
+        if: steps.discovery.outcome == 'success'
+        continue-on-error: true
         run: python scripts/score_preliminary_fit.py
-      - name: Commit public-safe candidate and diagnostic data
+      - name: Record execution, data timestamps and failures
+        if: always()
+        env:
+          TEST_RESULT: ${{ steps.tests.outcome }}
+          DISCOVERY_RESULT: ${{ steps.discovery.outcome }}
+          SCORING_RESULT: ${{ steps.scoring.outcome }}
+        run: python scripts/workflow_status.py
+      - name: Commit candidate data and audit, including failures
+        if: always()
         run: |
           git config user.name "astra-discovery-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/discovered_candidates.json data/run_reports/ats_discovery_latest.json data/preliminary_fit_review.json
+          git add data/discovered_candidates.json data/preliminary_fit_review.json data/run_reports/ats_discovery_latest.json data/run_reports/workflow_latest.json
           if ! git diff --cached --quiet; then
-            git commit -m "Astra: refresh ATS discovery candidates and coverage log"
+            git commit -m "Astra: publish latest discovery and execution audit"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-# Manual retest requested 2026-11-01 (expanded ATS and JD evidence engine).
-# Astra manual run request: 2026-11-01 dynamic-scoring retest.
+      - name: Fail workflow if jobs failed or were skipped
+        if: always()
+        env:
+          TEST_RESULT: ${{ steps.tests.outcome }}
+          DISCOVERY_RESULT: ${{ steps.discovery.outcome }}
+          SCORING_RESULT: ${{ steps.scoring.outcome }}
+        run: |
+          test "$TEST_RESULT" = success
+          test "$DISCOVERY_RESULT" = success
+          test "$SCORING_RESULT" = success
