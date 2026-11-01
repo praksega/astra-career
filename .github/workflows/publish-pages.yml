@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'data/jobs.json'
+      - 'data/run_reports/workflow_latest.json'
       - 'data/discovered_candidates.json'
       - 'data/linkedin_posts.json'
       - 'data/manual_linkedin_intake.json'
