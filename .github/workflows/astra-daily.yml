@@ -73,3 +73,4 @@ jobs:
           test "$TEST_RESULT" = success
           test "$DISCOVERY_RESULT" = success
           test "$SCORING_RESULT" = success
+# Manual rerun trigger: strict JD verification test, 2026-11-01.
