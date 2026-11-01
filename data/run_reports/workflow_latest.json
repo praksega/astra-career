@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "timestamp_utc": "2026-11-01T09:20:36.366434+00:00",
-  "run_id": "41292711293",
+  "timestamp_utc": "2026-11-01T09:20:48.383052+00:00",
+  "run_id": "41292728055",
   "attempt": "1",
-  "commit": "f639b34d07e5460851c36382588b5c100b75414e",
+  "commit": "90f21bccc5f0cf26cbd97fbe866068d78c6e8530",
   "workflow": "Astra 08AM Discovery + Audit",
   "status": "FAILED",
   "steps": {
