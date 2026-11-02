@@ -150,7 +150,7 @@
     },
     {
       "stage": "GITHUB_WRITE",
-      "status": "PRIVATE_QUEUE_AND_DRAFTS_VERIFIED_REPORT_PENDING",
+      "status": "PUBLIC_REPORT_FIRST_REVISION_READBACK_VERIFIED",
       "private_queue": {
         "write": true,
         "readback_confirmed": true,
@@ -176,8 +176,15 @@
       },
       "latest_report": {
         "write_attempted": true,
-        "readback_confirmed": false,
-        "sha": null
+        "readback_confirmed": true,
+        "sha": null,
+        "verified_revision_sha": "e87e7c56c681045231787e0da8410881ba7ccfd9",
+        "final_revision_requires_readback": true
+      },
+      "archive_report": {
+        "write_attempted": true,
+        "readback_confirmed": true,
+        "sha": "e87e7c56c681045231787e0da8410881ba7ccfd9"
       }
     },
     {
@@ -311,5 +318,13 @@
       "status": "NO_DIRECT_RESULT"
     }
   ],
-  "notes": "Counts are directly logged concrete job URLs and explicitly reviewed full JDs, not the entire search engine result set. 100% review coverage is restricted to identified 16 accessible JDs. Public files contain no candidate personal data. Manual LinkedIn intake and existing public jobs preserved."
+  "notes": "Counts are directly logged concrete job URLs and explicitly reviewed full JDs, not the entire search engine result set. 100% review coverage is restricted to identified 16 accessible JDs. Public files contain no candidate personal data. Manual LinkedIn intake and existing public jobs preserved.",
+  "github_write": {
+    "private_queue_verified": true,
+    "private_assets_verified": true,
+    "public_jobs_unchanged": true,
+    "manual_linkedin_intake_unchanged": true,
+    "report_first_revision_readback_verified": true,
+    "report_first_revision_sha": "e87e7c56c681045231787e0da8410881ba7ccfd9"
+  }
 }
