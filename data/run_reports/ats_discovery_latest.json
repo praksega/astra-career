@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-01T11:22:50.604124+00:00",
+  "run_at_utc": "2026-11-02T09:45:25.209457+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4705,
-  "individual_screening_records": 4705,
+  "raw_listings_seen": 4709,
+  "individual_screening_records": 4709,
   "screening_reason_counts": {
     "jd_responsibilities": 3,
-    "role_not_relevant": 221,
-    "outside_target_locations": 4338,
+    "role_not_relevant": 225,
+    "outside_target_locations": 4335,
     "title_and_jd": 10,
-    "excluded_specialist_title": 130,
+    "excluded_specialist_title": 133,
     "title": 3
   },
-  "location_eligible_jds_screened": 367,
-  "location_eligible_jds_with_500_plus_chars": 364,
+  "location_eligible_jds_screened": 374,
+  "location_eligible_jds_with_500_plus_chars": 371,
   "unique_role_location_candidates": 16,
   "full_jds_with_accessible_text": 16,
   "jd_evidence_maps_generated": 16,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 16,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4689,
+    "unrelated_or_unapproved_location": 4693,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -130,19 +130,19 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 745
+      "count": 747
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 904
+      "count": 910
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 366
+      "count": 364
     },
     {
       "source": "greenhouse",
@@ -168,25 +168,25 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 57
+      "count": 56
     },
     {
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 387
+      "count": 389
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 132
+      "count": 133
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 110
+      "count": 111
     },
     {
       "source": "greenhouse",
@@ -198,7 +198,7 @@
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 254
+      "count": 252
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 202
+      "count": 199
     },
     {
       "source": "greenhouse",
