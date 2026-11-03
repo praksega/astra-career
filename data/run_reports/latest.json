@@ -1,330 +1,131 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-02",
-  "run_started_at_utc": "2026-11-02T02:25:31Z",
-  "report_prepared_at_utc": "2026-11-02T02:28:36Z",
-  "run_started_at_ist": "2026-11-02T07:55:31+05:30",
+  "run_date": "2026-11-03",
+  "run_started_at_utc": "2026-11-03T02:30:10.266Z",
+  "run_started_at_ist": "2026-11-03T08:00:10.266+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
-  "freshness_window_ist": "2026-10-28 through 2026-11-02, subject to exact posting time",
-  "review_policy": "No arbitrary full-JD cap; 100% of identified accessible potentially relevant full descriptions; employer-native versus third-party separately counted.",
   "metrics": {
-    "search_queries_submitted": 104,
+    "search_queries_submitted": 19,
     "raw_search_engine_hits": "UNKNOWN_NOT_EXPORTED",
-    "raw_candidate_job_urls_logged": 54,
-    "canonical_unique_candidate_urls_logged": 54,
-    "duplicates_within_logged_set": 0,
-    "sources_attempted": 29,
-    "sources_with_accessible_job_or_indexed_information": 22,
-    "sources_blocked_by_robots": 1,
-    "full_employer_native_jds_read": 12,
-    "full_third_party_or_partner_jds_read": 4,
-    "full_jds_read_total": 16,
-    "accessible_potentially_relevant_full_jds_identified_for_detailed_review": 16,
-    "accessible_potentially_relevant_full_jds_read": 16,
-    "identified_set_review_coverage_pct": 100,
-    "identified_accessible_review_backlog": 0,
-    "unreviewed_market_wide_relevant_jds": "UNKNOWN",
-    "employer_native_pages_with_full_jd_unreadable_identified": 1,
+    "unique_candidate_job_urls_identified": 7,
+    "employer_native_full_jds_read": 1,
+    "third_party_full_jds_read": 3,
+    "full_jds_read_total": 4,
+    "accessible_potentially_relevant_jd_universe": "UNKNOWN_NOT_EXHAUSTIVE",
+    "review_coverage_pct": "UNKNOWN_DENOMINATOR",
+    "pending_review_backlog": "UNKNOWN",
+    "sources_attempted": 8,
+    "sources_succeeded": 5,
     "new_fresh_strong": 0,
     "new_fresh_possible": 0,
-    "new_public_jobs_added": 0,
-    "new_private_research_leads": 6,
-    "private_research_total": 29,
-    "linkedin_public_post_search_queries": 6,
-    "linkedin_indexed_post_links_with_verified_original_date": 0,
-    "linkedin_direct_post_scrolls": 0,
+    "unverified_promising_leads": 3,
+    "linkedin_search_queries": 2,
     "linkedin_original_timestamps_verified": 0,
     "linkedin_published": 0
   },
+  "source_names_attempted": [
+    "Google/Bing indexed web search",
+    "LinkedIn public jobs",
+    "Amazon Jobs",
+    "iCIMS Careers",
+    "Greenhouse",
+    "Lever",
+    "Ashby",
+    "Workday"
+  ],
+  "source_names_with_job_information": [
+    "Google/Bing indexed web search",
+    "LinkedIn public jobs",
+    "Amazon Jobs",
+    "iCIMS Careers",
+    "Lever"
+  ],
+  "source_limitations": [
+    "Greenhouse/Ashby/Workday targeted queries yielded no relevant employer-native job pages in this run",
+    "LinkedIn posts original timestamps unverified",
+    "Search results are not exhaustive; 200–500 target not achieved",
+    "iCIMS original job publication date not confirmed",
+    "Argano apparent new LinkedIn listing conflicts with much older same-title job evidence"
+  ],
+  "research_leads": [
+    {
+      "company": "iCIMS",
+      "title": "RevOps Analyst, Customer support",
+      "location": "Hyderabad",
+      "official_careers_evidence": "https://careers.icims.com/customer-team",
+      "full_jd_secondary": "https://careerscan.in/jobs/revops-analyst-customer-support-icims-609784",
+      "posting_date": "UNKNOWN",
+      "salary_fixed": "UNKNOWN",
+      "status": "UNVERIFIED_NOT_PUBLISHED"
+    },
+    {
+      "company": "Amazon",
+      "title": "Business Analyst II, ROC WFM",
+      "location": "Hyderabad",
+      "official_url": "https://amazon.jobs/en/jobs/10553351/business-analyst-ii-roc-wfm-workforce-management",
+      "posting_date": "UNKNOWN_CONFLICTING_AGGREGATORS",
+      "salary_fixed": "UNKNOWN",
+      "status": "UNVERIFIED_NOT_PUBLISHED"
+    },
+    {
+      "company": "Argano",
+      "title": "Operations Analyst",
+      "location": "Hyderabad",
+      "secondary_url": "https://in.linkedin.com/jobs/view/operations-analyst-at-argano-4484340959",
+      "posting_date": "UNKNOWN_CONFLICTING_OLDER_LISTING",
+      "salary_fixed": "UNKNOWN",
+      "status": "UNVERIFIED_NOT_PUBLISHED"
+    }
+  ],
   "milestones": [
     {
       "stage": "INIT",
       "status": "OK",
-      "utc": "2026-11-02T02:25:31Z",
-      "ist": "2026-11-02T07:55:31+05:30",
-      "repository_reads": "SUCCESS",
-      "input_sha": {
-        "jobs": "37126a37ac956cb40feba224e4de0ed54c8f90f0",
-        "linkedin_posts": "e38e877e55304bc9344d5f643981140035683cf3",
-        "manual_linkedin_intake": "04b1b58866864d427d8266653bb7bcbc7151192a",
-        "previous_report": "bc996131e61f0bbff2e547cf10e333c70a59bf50",
-        "private_queue": "152a03638b1a99e29f57c6512c50786b2002a392"
-      }
+      "input_report_sha": "cd98032fafa9a675f22b2f14629ff387142a1246"
     },
     {
       "stage": "DISCOVERY",
-      "status": "DISCOVERY_BREADTH_LOW",
-      "search_queries": 104,
-      "raw_candidate_urls_logged": 54,
-      "sources_attempted": 29,
-      "sources_with_information": 22,
-      "sources_blocked": 1,
-      "role_families": [
-        "Product Operations",
-        "Business/Strategy Operations",
-        "Business/Product Analyst",
-        "Program/Project Operations",
-        "Continuous Improvement/Process Excellence",
-        "Workforce/TA Operations",
-        "Business Transformation/Operations Analytics"
-      ],
-      "geographies": [
-        "Hyderabad",
-        "Bengaluru",
-        "Pune",
-        "Remote India"
-      ],
-      "unsearched_or_unresolved_platforms": [
-        "iCIMS",
-        "Jobvite",
-        "BambooHR",
-        "Oracle ATS",
-        "Darwinbox",
-        "Keka",
-        "Zoho Recruit",
-        "Recruitee",
-        "Teamtailor"
-      ],
-      "notes": "Search-engine snippets and generic listing pages were not counted as individual candidate URLs unless a concrete job URL was recorded; market search matrix not exhaustive."
+      "status": "PARTIAL",
+      "queries": 19,
+      "unique_urls": 7
     },
     {
       "stage": "DEDUPE",
-      "status": "OK_LOGGED_SET",
-      "raw_logged": 54,
-      "unique_canonical": 54,
-      "duplicates": 0,
-      "rule": "Canonical URL without query parameters/trailing slash; distinct ATS requisitions retained."
+      "status": "PARTIAL",
+      "unique_urls": 7,
+      "duplicates": "NOT_EXHAUSTIVELY_MEASURED"
     },
     {
       "stage": "JD_VALIDATION",
-      "status": "PARTIAL_MARKET_COVERAGE",
-      "full_employer_native": 12,
-      "full_partner_or_third_party": 4,
-      "total_full": 16,
-      "identified_accessible_potentially_relevant": 16,
-      "read": 16,
-      "identified_review_pct": 100,
-      "backlog_identified": 0,
-      "market_wide_backlog": "UNKNOWN",
-      "employer_native_full_jd_inaccessible": 1,
-      "exclusions": [
-        "older original posting date",
-        "original employer date unverified despite recent syndicated post",
-        "seniority/experience mismatch",
-        "specialist banking, finance, inventory, Adobe Workfront, BI engineering or technical skills not established",
-        "non-target location",
-        "internship or role below experience level",
-        "salary below target when explicitly disclosed"
-      ]
+      "status": "PARTIAL",
+      "full_jds": 4,
+      "employer_native": 1,
+      "third_party": 3
     },
     {
       "stage": "MATCHING",
-      "status": "NO_NEW_VERIFIED_FRESH_BANDS",
-      "new_strong": 0,
-      "new_possible": 0,
-      "new_private_leads": 6,
-      "private_queue_total": 29,
-      "notable_research_leads": [
-        {
-          "company": "Dodo Payments",
-          "role": "Founder's Office – Process & Execution",
-          "reason": "Employer ATS active; Antler board posted Oct 30; original employer publication date and salary unknown; not fresh-qualified."
-        },
-        {
-          "company": "rePurpose Global",
-          "role": "Senior Business Operations Associate",
-          "reason": "Very strong match and employer-stated 14–18 LPA + equity; originally posted Oct 1, outside freshness window; fixed component unknown."
-        }
-      ]
+      "status": "PARTIAL",
+      "strong": 0,
+      "possible": 0,
+      "unverified_leads": 3
     },
     {
       "stage": "LINKEDIN",
-      "status": "NO_TIMESTAMP_VERIFIED_POSTS",
-      "queries": 6,
-      "original_post_permalink_timestamp_verified": 0,
-      "direct_post_scroll_performed": false,
-      "published": 0,
-      "manual_intake_preserved": true
+      "status": "PARTIAL",
+      "searches": 2,
+      "verified_original_timestamps": 0
     },
     {
       "stage": "GITHUB_WRITE",
-      "status": "PUBLIC_REPORT_FIRST_REVISION_READBACK_VERIFIED",
-      "private_queue": {
-        "write": true,
-        "readback_confirmed": true,
-        "sha": "b6c705d1c0508f7cdf117488baacbc4489aeb98e"
-      },
-      "private_dodo_resume": {
-        "write": true,
-        "readback_confirmed": true,
-        "sha": "f2c8fb9aeaf3d44b4840c1ee28e3103620311126"
-      },
-      "private_dodo_cover_letter": {
-        "write": true,
-        "readback_confirmed": true,
-        "sha": "6a8d5cf27a56232a1d0cab16057835eaef4a06fb"
-      },
-      "public_jobs": {
-        "write_attempted": false,
-        "reason": "No newly qualified fresh job"
-      },
-      "linkedin": {
-        "write_attempted": false,
-        "reason": "No verified 24h original posts"
-      },
-      "latest_report": {
-        "write_attempted": true,
-        "readback_confirmed": true,
-        "sha": null,
-        "verified_revision_sha": "e87e7c56c681045231787e0da8410881ba7ccfd9",
-        "final_revision_requires_readback": true
-      },
-      "archive_report": {
-        "write_attempted": true,
-        "readback_confirmed": true,
-        "sha": "e87e7c56c681045231787e0da8410881ba7ccfd9"
-      }
+      "status": "PENDING_READBACK"
     },
     {
       "stage": "FINAL",
       "status": "PARTIAL",
-      "coverage_status": "INCOMPLETE",
-      "reasons": [
-        "Only 54 logged unique candidate URLs against 200–500 aspirational target",
-        "Several ATS and job-board source families not searched",
-        "Employer-original date missing for high-fit Dodo role; older rePurpose role excluded",
-        "Market-wide unreviewed relevant JD universe unknown"
-      ],
-      "no_applications_or_recruiter_outreach": true
+      "reason": "Discovery far below target; original posting dates unavailable; JD review universe not exhaustive"
     }
   ],
-  "sources": [
-    {
-      "name": "Greenhouse",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Lever",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Ashby",
-      "status": "INDEXED_JOB"
-    },
-    {
-      "name": "Workday",
-      "status": "INDEXED_NO_FULL_DIRECT_JD"
-    },
-    {
-      "name": "Workable",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "SmartRecruiters",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "FedEx careers",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Amgen careers",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Wipro SuccessFactors",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Citi careers",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Accenture careers",
-      "status": "NO_DIRECT_RESULT"
-    },
-    {
-      "name": "Cargill careers",
-      "status": "NO_DIRECT_RESULT"
-    },
-    {
-      "name": "Indeed",
-      "status": "ACCESSIBLE_LISTINGS"
-    },
-    {
-      "name": "Naukri",
-      "status": "BLOCKED_ROBOTS"
-    },
-    {
-      "name": "Foundit",
-      "status": "ACCESSIBLE_LISTINGS"
-    },
-    {
-      "name": "Instahyre",
-      "status": "NO_DIRECT_RESULT"
-    },
-    {
-      "name": "Wellfound",
-      "status": "ACCESSIBLE_LISTINGS"
-    },
-    {
-      "name": "Cutshort",
-      "status": "ACCESSIBLE_LISTINGS"
-    },
-    {
-      "name": "Hirist",
-      "status": "NO_DIRECT_RESULT"
-    },
-    {
-      "name": "LinkedIn public",
-      "status": "INDEXED_POSTS_NO_VERIFIED_DATE"
-    },
-    {
-      "name": "HSBC careers",
-      "status": "EXACT_ROLE_NOT_RESOLVED"
-    },
-    {
-      "name": "Dodo Payments careers",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "EY careers",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Antler job board",
-      "status": "ACCESSIBLE_JOBS"
-    },
-    {
-      "name": "Alion",
-      "status": "ACCESSIBLE_LISTINGS"
-    },
-    {
-      "name": "Glassdoor",
-      "status": "ACCESSIBLE_LISTINGS"
-    },
-    {
-      "name": "PyjamaHR",
-      "status": "ATS_ROLE_METADATA_ONLY"
-    },
-    {
-      "name": "RoleSprint",
-      "status": "DATE_EVIDENCE"
-    },
-    {
-      "name": "Amazon jobs",
-      "status": "NO_DIRECT_RESULT"
-    }
-  ],
-  "notes": "Counts are directly logged concrete job URLs and explicitly reviewed full JDs, not the entire search engine result set. 100% review coverage is restricted to identified 16 accessible JDs. Public files contain no candidate personal data. Manual LinkedIn intake and existing public jobs preserved.",
-  "github_write": {
-    "private_queue_verified": true,
-    "private_assets_verified": true,
-    "public_jobs_unchanged": true,
-    "manual_linkedin_intake_unchanged": true,
-    "report_first_revision_readback_verified": true,
-    "report_first_revision_sha": "e87e7c56c681045231787e0da8410881ba7ccfd9"
-  }
+  "notes": "No job or LinkedIn data changed; historical records preserved. No applications or outreach."
 }
