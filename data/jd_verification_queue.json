@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T09:48:34.529859+00:00",
+  "updated_at": "2026-11-04T09:36:47.748061+00:00",
   "status": "REVIEW_REQUIRED",
-  "total": 16,
+  "total": 15,
   "verified": 0,
-  "fresh_for_review": 3,
+  "fresh_for_review": 2,
   "older_or_unverified": 13,
   "jobs": [
     {
@@ -97,7 +97,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 3.69,
+      "days_since_posting": 4.69,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -188,7 +188,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 3.71,
+      "days_since_posting": 4.71,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -276,9 +276,10 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": true,
-      "days_since_posting": 4.23,
+      "fresh_within_5_days": false,
+      "days_since_posting": 5.22,
       "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -377,67 +378,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 18.06,
-      "verification_blockers": [
-        "original_posting_not_verified_within_5_days",
-        "mandatory_requirements_not_individually_verified",
-        "salary_not_confirmed"
-      ],
-      "blocking_checks": [
-        "all_mandatory_requirements",
-        "minimum_80_percent_evidence_coverage",
-        "seniority",
-        "specialized_skills",
-        "salary_fixed_at_least_12LPA_or_unknown",
-        "posting_date_within_5_days",
-        "official_link"
-      ]
-    },
-    {
-      "job_id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-      "company": "Loop%20AI",
-      "title": "Strategist II - Product Operations & Strategy",
-      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-      "posting_date": "2026-10-14T09:32:24.506000+00:00",
-      "posting_date_verified": true,
-      "jd_source_available": true,
-      "jd_responsibilities": [
-        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
-      ],
-      "jd_qualifications": [
-        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
-      ],
-      "candidate_evidence": [
-        {
-          "category": "reporting_analytics",
-          "jd_terms": [
-            "metrics"
-          ],
-          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-        },
-        {
-          "category": "stakeholders",
-          "jd_terms": [
-            "cross-functional",
-            "collaborat"
-          ],
-          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-        },
-        {
-          "category": "operations",
-          "jd_terms": [
-            "product operations",
-            "operations"
-          ],
-          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-        }
-      ],
-      "potential_gaps": [],
-      "requirements_verified": false,
-      "verified_score": null,
-      "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": false,
-      "days_since_posting": 20.01,
+      "days_since_posting": 19.06,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -522,7 +463,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 28.96,
+      "days_since_posting": 29.95,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -599,7 +540,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 31.9,
+      "days_since_posting": 32.89,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -694,7 +635,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 38.71,
+      "days_since_posting": 39.71,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -774,7 +715,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 55.06,
+      "days_since_posting": 56.05,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -876,7 +817,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 80.91,
+      "days_since_posting": 81.9,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -972,7 +913,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 90.79,
+      "days_since_posting": 91.79,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1057,7 +998,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 115.85,
+      "days_since_posting": 116.84,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1154,7 +1095,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 152.03,
+      "days_since_posting": 153.02,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1223,7 +1164,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 189.12,
+      "days_since_posting": 190.11,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1309,7 +1250,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 262.97,
+      "days_since_posting": 263.96,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1406,7 +1347,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 952.82,
+      "days_since_posting": 953.81,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
