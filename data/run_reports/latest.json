@@ -1,131 +1,119 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-03",
-  "run_started_at_utc": "2026-11-03T02:30:10.266Z",
-  "run_started_at_ist": "2026-11-03T08:00:10.266+05:30",
+  "run_date": "2026-11-04",
+  "run_started_at_utc": "2026-11-04T02:25:40Z",
+  "run_started_at_ist": "2026-11-04T07:55:40+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "metrics": {
-    "search_queries_submitted": 19,
+    "search_queries_submitted": 16,
     "raw_search_engine_hits": "UNKNOWN_NOT_EXPORTED",
-    "unique_candidate_job_urls_identified": 7,
-    "employer_native_full_jds_read": 1,
-    "third_party_full_jds_read": 3,
+    "unique_candidate_job_urls_identified": 6,
+    "employer_native_full_jds_read": 3,
+    "third_party_full_jds_read": 1,
     "full_jds_read_total": 4,
     "accessible_potentially_relevant_jd_universe": "UNKNOWN_NOT_EXHAUSTIVE",
     "review_coverage_pct": "UNKNOWN_DENOMINATOR",
     "pending_review_backlog": "UNKNOWN",
-    "sources_attempted": 8,
-    "sources_succeeded": 5,
-    "new_fresh_strong": 0,
-    "new_fresh_possible": 0,
-    "unverified_promising_leads": 3,
-    "linkedin_search_queries": 2,
-    "linkedin_original_timestamps_verified": 0,
-    "linkedin_published": 0
+    "new_strong": 0,
+    "new_possible": 0,
+    "unverified_research_leads_identified": 2,
+    "linkedin_search_queries": 1,
+    "linkedin_individual_posts_with_verified_original_timestamp": 0
   },
-  "source_names_attempted": [
-    "Google/Bing indexed web search",
-    "LinkedIn public jobs",
-    "Amazon Jobs",
-    "iCIMS Careers",
-    "Greenhouse",
-    "Lever",
-    "Ashby",
-    "Workday"
-  ],
-  "source_names_with_job_information": [
-    "Google/Bing indexed web search",
-    "LinkedIn public jobs",
-    "Amazon Jobs",
-    "iCIMS Careers",
-    "Lever"
-  ],
-  "source_limitations": [
-    "Greenhouse/Ashby/Workday targeted queries yielded no relevant employer-native job pages in this run",
-    "LinkedIn posts original timestamps unverified",
-    "Search results are not exhaustive; 200–500 target not achieved",
-    "iCIMS original job publication date not confirmed",
-    "Argano apparent new LinkedIn listing conflicts with much older same-title job evidence"
-  ],
-  "research_leads": [
-    {
-      "company": "iCIMS",
-      "title": "RevOps Analyst, Customer support",
-      "location": "Hyderabad",
-      "official_careers_evidence": "https://careers.icims.com/customer-team",
-      "full_jd_secondary": "https://careerscan.in/jobs/revops-analyst-customer-support-icims-609784",
-      "posting_date": "UNKNOWN",
-      "salary_fixed": "UNKNOWN",
-      "status": "UNVERIFIED_NOT_PUBLISHED"
+  "milestones": {
+    "INIT": {
+      "repository_read": true,
+      "prior_sha": "e82a5e879276a119b5d12a06f2b3d02575f8f04f"
     },
-    {
-      "company": "Amazon",
-      "title": "Business Analyst II, ROC WFM",
-      "location": "Hyderabad",
-      "official_url": "https://amazon.jobs/en/jobs/10553351/business-analyst-ii-roc-wfm-workforce-management",
-      "posting_date": "UNKNOWN_CONFLICTING_AGGREGATORS",
-      "salary_fixed": "UNKNOWN",
-      "status": "UNVERIFIED_NOT_PUBLISHED"
+    "DISCOVERY": {
+      "search_batches": 2,
+      "queries": 16,
+      "sources_attempted": [
+        "Lever",
+        "Greenhouse",
+        "Ashby",
+        "Workday",
+        "SmartRecruiters",
+        "Workable",
+        "Amazon careers",
+        "LinkedIn indexed",
+        "Indeed",
+        "Built In",
+        "JobLeads"
+      ],
+      "sources_with_job_information": [
+        "Greenhouse",
+        "Ashby",
+        "SmartRecruiters",
+        "Workable",
+        "LinkedIn indexed",
+        "Indeed",
+        "Built In",
+        "JobLeads",
+        "Lever"
+      ],
+      "blocked_or_low_yield": [
+        "Workday: no relevant direct job result",
+        "Amazon careers: no relevant direct job result"
+      ],
+      "candidate_urls": [
+        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
+        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003142",
+        "https://job-boards.greenhouse.io/futurestandard/jobs/8452204002",
+        "https://apply.workable.com/capgemini-insurance/j/9B533504FE",
+        "https://jobs.ashbyhq.com/vinylequity/583f5b68-bfdd-4942-acf0-5c153a0f3f5e/",
+        "https://jobs.lever.co/smarsh"
+      ]
     },
-    {
-      "company": "Argano",
-      "title": "Operations Analyst",
-      "location": "Hyderabad",
-      "secondary_url": "https://in.linkedin.com/jobs/view/operations-analyst-at-argano-4484340959",
-      "posting_date": "UNKNOWN_CONFLICTING_OLDER_LISTING",
-      "salary_fixed": "UNKNOWN",
-      "status": "UNVERIFIED_NOT_PUBLISHED"
-    }
-  ],
-  "milestones": [
-    {
-      "stage": "INIT",
-      "status": "OK",
-      "input_report_sha": "cd98032fafa9a675f22b2f14629ff387142a1246"
+    "DEDUPE": {
+      "unique_candidate_urls": 6,
+      "duplicates_in_logged_set": 0
     },
-    {
-      "stage": "DISCOVERY",
-      "status": "PARTIAL",
-      "queries": 19,
-      "unique_urls": 7
+    "JD_VALIDATION": {
+      "complete_employer_native": 3,
+      "complete_third_party": 1,
+      "not_fully_read": 2,
+      "rejection_reasons": [
+        "payments domain specialist",
+        "Guidewire P&C insurance expertise",
+        "expired application deadline",
+        "location mismatch"
+      ]
     },
-    {
-      "stage": "DEDUPE",
-      "status": "PARTIAL",
-      "unique_urls": 7,
-      "duplicates": "NOT_EXHAUSTIVELY_MEASURED"
-    },
-    {
-      "stage": "JD_VALIDATION",
-      "status": "PARTIAL",
-      "full_jds": 4,
-      "employer_native": 1,
-      "third_party": 3
-    },
-    {
-      "stage": "MATCHING",
-      "status": "PARTIAL",
+    "MATCHING": {
       "strong": 0,
       "possible": 0,
-      "unverified_leads": 3
+      "unverified": [
+        {
+          "company": "PhonePe",
+          "title": "Business Operations Analyst",
+          "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
+          "reason": "Original date and fixed salary unverified; external estimated salary below target is not verified fixed pay"
+        },
+        {
+          "company": "Future Standard",
+          "title": "Associate - Core Operations",
+          "url": "https://job-boards.greenhouse.io/futurestandard/jobs/8452204002",
+          "reason": "Original date and fixed salary unverified; securities operations domain gap"
+        }
+      ]
     },
-    {
-      "stage": "LINKEDIN",
+    "LINKEDIN": {
+      "direct_individual_post_pages_opened": 0,
+      "original_timestamps_verified": 0,
+      "published": 0
+    },
+    "GITHUB_WRITE": {
+      "attempted": true,
+      "confirmed": false
+    },
+    "FINAL": {
       "status": "PARTIAL",
-      "searches": 2,
-      "verified_original_timestamps": 0
-    },
-    {
-      "stage": "GITHUB_WRITE",
-      "status": "PENDING_READBACK"
-    },
-    {
-      "stage": "FINAL",
-      "status": "PARTIAL",
-      "reason": "Discovery far below target; original posting dates unavailable; JD review universe not exhaustive"
+      "reason": "Only six unique candidate URLs; non-exhaustive search matrix; no verified original posting dates; incomplete JD universe"
     }
-  ],
-  "notes": "No job or LinkedIn data changed; historical records preserved. No applications or outreach."
+  },
+  "previous_report_preserved_by_git_history": true,
+  "notes": "No public jobs or LinkedIn feed modified; no application or recruiter outreach. This report records only this execution, not earlier runs."
 }
