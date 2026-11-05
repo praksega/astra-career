@@ -1,119 +1,132 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-04",
-  "run_started_at_utc": "2026-11-04T02:25:40Z",
-  "run_started_at_ist": "2026-11-04T07:55:40+05:30",
+  "run_date": "2026-11-05",
+  "run_started_at_ist": "2026-11-05T08:03:13+05:30",
+  "run_started_at_utc": "2026-11-05T02:33:13Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "metrics": {
-    "search_queries_submitted": 16,
+    "search_queries_submitted": 14,
     "raw_search_engine_hits": "UNKNOWN_NOT_EXPORTED",
-    "unique_candidate_job_urls_identified": 6,
+    "unique_candidate_job_urls_identified": 11,
     "employer_native_full_jds_read": 3,
-    "third_party_full_jds_read": 1,
-    "full_jds_read_total": 4,
+    "third_party_full_jds_read": 0,
+    "full_jds_read_total": 3,
     "accessible_potentially_relevant_jd_universe": "UNKNOWN_NOT_EXHAUSTIVE",
     "review_coverage_pct": "UNKNOWN_DENOMINATOR",
     "pending_review_backlog": "UNKNOWN",
     "new_strong": 0,
     "new_possible": 0,
-    "unverified_research_leads_identified": 2,
-    "linkedin_search_queries": 1,
+    "unverified_research_leads_identified": 3,
+    "linkedin_search_queries": 4,
     "linkedin_individual_posts_with_verified_original_timestamp": 0
   },
   "milestones": {
     "INIT": {
       "repository_read": true,
-      "prior_sha": "e82a5e879276a119b5d12a06f2b3d02575f8f04f"
+      "prior_sha": "39849c1fb75bf37093fa4e7d3ca691f6cd07fd42",
+      "other_public_files_read": true
     },
     "DISCOVERY": {
       "search_batches": 2,
-      "queries": 16,
       "sources_attempted": [
         "Lever",
         "Greenhouse",
         "Ashby",
-        "Workday",
         "SmartRecruiters",
-        "Workable",
-        "Amazon careers",
-        "LinkedIn indexed",
-        "Indeed",
-        "Built In",
-        "JobLeads"
+        "Workday",
+        "LinkedIn indexed search"
       ],
-      "sources_with_job_information": [
+      "sources_yielding_candidate_job_pages": [
+        "Lever",
         "Greenhouse",
         "Ashby",
         "SmartRecruiters",
-        "Workable",
-        "LinkedIn indexed",
-        "Indeed",
-        "Built In",
-        "JobLeads",
-        "Lever"
+        "Workday"
       ],
-      "blocked_or_low_yield": [
-        "Workday: no relevant direct job result",
-        "Amazon careers: no relevant direct job result"
+      "blocked_or_unsearched": [
+        "Naukri not attempted",
+        "Foundit not attempted",
+        "Instahyre not attempted",
+        "Wellfound not attempted",
+        "Cutshort not attempted",
+        "Hirist not attempted",
+        "iCIMS not attempted",
+        "Jobvite not attempted",
+        "BambooHR not attempted",
+        "Oracle not attempted",
+        "SuccessFactors not attempted",
+        "Darwinbox not attempted",
+        "Keka not attempted",
+        "Zoho Recruit not attempted",
+        "Recruitee not attempted",
+        "Teamtailor not attempted"
       ],
-      "candidate_urls": [
-        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
-        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003142",
-        "https://job-boards.greenhouse.io/futurestandard/jobs/8452204002",
-        "https://apply.workable.com/capgemini-insurance/j/9B533504FE",
-        "https://jobs.ashbyhq.com/vinylequity/583f5b68-bfdd-4942-acf0-5c153a0f3f5e/",
-        "https://jobs.lever.co/smarsh"
-      ]
+      "raw_url_count": "UNKNOWN_NOT_EXPORTED"
     },
     "DEDUPE": {
-      "unique_candidate_urls": 6,
-      "duplicates_in_logged_set": 0
+      "unique_candidate_job_urls_identified": 11,
+      "method": "Manually enumerated distinct employer-native result URLs; search result count not treated as URL count"
     },
     "JD_VALIDATION": {
-      "complete_employer_native": 3,
-      "complete_third_party": 1,
-      "not_fully_read": 2,
-      "rejection_reasons": [
-        "payments domain specialist",
-        "Guidewire P&C insurance expertise",
-        "expired application deadline",
-        "location mismatch"
+      "complete_employer_native_jds_read": 3,
+      "examples": [
+        "https://jobs.lever.co/Sprinto/56d536c2-812c-49be-8421-6ad63c42a273",
+        "https://jobs.smartrecruiters.com/integrichain1/744000152331269",
+        "https://job-boards.greenhouse.io/turing/jobs/6241966004"
+      ],
+      "unreadable_examples": [
+        "https://jobs.ashbyhq.com/meraki-labs/02d316c1-05dc-4390-bb74-137ee96f8fec/",
+        "https://jobs.ashbyhq.com/nanonets/7609eea2-9c7f-46ae-b473-f43057d1a720"
+      ],
+      "eligibility_notes": [
+        "Sprinto requires hands-on HubSpot workflows and SaaS revenue metrics not verified",
+        "IntegriChain asks 1-3 years and compensation unknown; original date unknown",
+        "Turing remote strategy operations fits verified experience but original posting date unknown"
       ]
     },
     "MATCHING": {
       "strong": 0,
       "possible": 0,
-      "unverified": [
+      "unverified_research_leads": [
         {
-          "company": "PhonePe",
-          "title": "Business Operations Analyst",
-          "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
-          "reason": "Original date and fixed salary unverified; external estimated salary below target is not verified fixed pay"
+          "company": "Turing",
+          "title": "Strategy and Operations Associate",
+          "url": "https://job-boards.greenhouse.io/turing/jobs/6241966004",
+          "posting_date": "UNKNOWN",
+          "fixed_salary": "UNKNOWN"
         },
         {
-          "company": "Future Standard",
-          "title": "Associate - Core Operations",
-          "url": "https://job-boards.greenhouse.io/futurestandard/jobs/8452204002",
-          "reason": "Original date and fixed salary unverified; securities operations domain gap"
+          "company": "Sprinto",
+          "title": "Revenue Operations Analyst - Customer Experience & Partner Operations",
+          "url": "https://jobs.lever.co/Sprinto/56d536c2-812c-49be-8421-6ad63c42a273",
+          "posting_date": "UNKNOWN",
+          "fixed_salary": "UNKNOWN"
+        },
+        {
+          "company": "IntegriChain",
+          "title": "Trade Operations Analyst II",
+          "url": "https://jobs.smartrecruiters.com/integrichain1/744000152331269",
+          "posting_date": "UNKNOWN",
+          "fixed_salary": "UNKNOWN"
         }
       ]
     },
     "LINKEDIN": {
-      "direct_individual_post_pages_opened": 0,
-      "original_timestamps_verified": 0,
-      "published": 0
+      "search_queries": 4,
+      "verified_post_timestamps": 0,
+      "posts_published": 0,
+      "direct_post_pages_read": 0
     },
     "GITHUB_WRITE": {
       "attempted": true,
-      "confirmed": false
+      "readback_confirmed": false
     },
     "FINAL": {
       "status": "PARTIAL",
-      "reason": "Only six unique candidate URLs; non-exhaustive search matrix; no verified original posting dates; incomplete JD universe"
+      "reason": "Low discovery breadth, missing verified original publication dates and incomplete JD review universe; no new fresh qualified matches"
     }
   },
-  "previous_report_preserved_by_git_history": true,
-  "notes": "No public jobs or LinkedIn feed modified; no application or recruiter outreach. This report records only this execution, not earlier runs."
+  "privacy_note": "Public diagnostic metadata only. No personal candidate information or private applications."
 }
