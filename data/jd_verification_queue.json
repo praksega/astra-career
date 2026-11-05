@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:36:47.748061+00:00",
+  "updated_at": "2026-11-05T09:42:35.662011+00:00",
   "status": "REVIEW_REQUIRED",
-  "total": 15,
+  "total": 18,
   "verified": 0,
-  "fresh_for_review": 2,
-  "older_or_unverified": 13,
+  "fresh_for_review": 0,
+  "older_or_unverified": 18,
   "jobs": [
     {
       "job_id": "greenhouse:8260972",
@@ -96,9 +96,10 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": true,
-      "days_since_posting": 4.69,
+      "fresh_within_5_days": false,
+      "days_since_posting": 5.69,
       "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -187,9 +188,10 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": true,
-      "days_since_posting": 4.71,
+      "fresh_within_5_days": false,
+      "days_since_posting": 5.71,
       "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -277,7 +279,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 5.22,
+      "days_since_posting": 6.23,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -378,7 +380,67 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 19.06,
+      "days_since_posting": 20.06,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "company": "Loop%20AI",
+      "title": "Strategist II - Product Operations & Strategy",
+      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "posting_date": "2026-10-14T09:32:24.506000+00:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+      ],
+      "jd_qualifications": [
+        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "product operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 22.01,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -463,7 +525,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 29.95,
+      "days_since_posting": 30.96,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -540,7 +602,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 32.89,
+      "days_since_posting": 33.9,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -635,7 +697,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 39.71,
+      "days_since_posting": 40.71,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -715,7 +777,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 56.05,
+      "days_since_posting": 57.05,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -817,7 +879,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 81.9,
+      "days_since_posting": 82.91,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -913,7 +975,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 91.79,
+      "days_since_posting": 92.79,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -998,7 +1060,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 116.84,
+      "days_since_posting": 117.85,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1095,9 +1157,94 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 153.02,
+      "days_since_posting": 154.02,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:7960157",
+      "company": "okta",
+      "title": "People Operations Specialist",
+      "url": "https://www.okta.com/company/careers/opportunity/7960157?gh_jid=7960157",
+      "posting_date": "2026-05-28T03:44:27-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
+        "Risk & Compliance Lead: Act as the primary gatekeeper for global compliance by managing and executing robust background verification (BGC) processes.",
+        "Workday Data Management: Execute complex global data changes (transfers, promotions, comp updates, terminations) and manage mass uploads using Workday EIBs.",
+        "End-to-End BGC Ownership: Partner with external vendors to trigger, track, and review comprehensive background checks. Safely escalate and resolve discrepancies.",
+        "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations."
+      ],
+      "jd_qualifications": [
+        "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
+        "5+ years of core experience in People Operations/HR Ops with deep employee lifecycle exposure.",
+        "Mandatory tech skills: Hands-on proficiency with Workday Core HCM (including EIB execution) and ServiceNow (SNOW).",
+        "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations.",
+        "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [
+        "cpa"
+      ],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 161.08,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "specialized_experience_not_confirmed",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -1164,7 +1311,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 190.11,
+      "days_since_posting": 191.11,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1250,7 +1397,65 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 263.96,
+      "days_since_posting": 264.96,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "lever:c1226a68-b1fa-40eb-8507-6f4903d28feb",
+      "company": "mindtickle",
+      "title": "Senior Program Manager",
+      "url": "https://jobs.lever.co/mindtickle/c1226a68-b1fa-40eb-8507-6f4903d28feb",
+      "posting_date": "2025-10-10T09:42:11.758000+00:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+      ],
+      "jd_qualifications": [
+        "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 391.0,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1347,7 +1552,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 953.81,
+      "days_since_posting": 954.82,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",

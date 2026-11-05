@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-04T09:36:47.748061+00:00",
+  "run_at_utc": "2026-11-05T09:42:35.662011+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
-  "source_boards_succeeded": 24,
-  "source_boards_failed": 32,
-  "raw_listings_seen": 4729,
-  "individual_screening_records": 4729,
+  "source_boards_succeeded": 25,
+  "source_boards_failed": 31,
+  "raw_listings_seen": 4787,
+  "individual_screening_records": 4787,
   "screening_reason_counts": {
     "jd_responsibilities": 3,
-    "role_not_relevant": 214,
-    "outside_target_locations": 4372,
-    "title_and_jd": 10,
-    "excluded_specialist_title": 128,
-    "title": 2
+    "role_not_relevant": 216,
+    "outside_target_locations": 4426,
+    "title_and_jd": 12,
+    "excluded_specialist_title": 127,
+    "title": 3
   },
-  "location_eligible_jds_screened": 357,
-  "location_eligible_jds_with_500_plus_chars": 354,
-  "unique_role_location_candidates": 15,
-  "full_jds_with_accessible_text": 15,
-  "jd_evidence_maps_generated": 15,
+  "location_eligible_jds_screened": 361,
+  "location_eligible_jds_with_500_plus_chars": 358,
+  "unique_role_location_candidates": 18,
+  "full_jds_with_accessible_text": 18,
+  "jd_evidence_maps_generated": 18,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
   "verified_matches": 0,
-  "review_required": 15,
+  "review_required": 18,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4714,
+    "unrelated_or_unapproved_location": 4769,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -130,13 +130,13 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 754
+      "count": 761
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 918
+      "count": 927
     },
     {
       "source": "greenhouse",
@@ -148,7 +148,7 @@
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 32
+      "count": 33
     },
     {
       "source": "greenhouse",
@@ -168,7 +168,7 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 54
+      "count": 55
     },
     {
       "source": "greenhouse",
@@ -180,31 +180,31 @@
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 132
+      "count": 128
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 109
+      "count": 110
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 270
+      "count": 271
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 275
+      "count": 278
     },
     {
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 270
+      "count": 271
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 421
+      "count": 424
     },
     {
       "source": "greenhouse",
@@ -242,13 +242,13 @@
       "source": "greenhouse",
       "board": "wise",
       "status": "ok",
-      "count": 18
+      "count": 17
     },
     {
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 196
+      "count": 201
     },
     {
       "source": "greenhouse",
@@ -260,9 +260,8 @@
     {
       "source": "lever",
       "board": "Loop%20AI",
-      "status": "error",
-      "error": "TimeoutError",
-      "count": 0
+      "status": "ok",
+      "count": 30
     },
     {
       "source": "lever",
@@ -274,7 +273,7 @@
       "source": "lever",
       "board": "gojek",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
@@ -288,13 +287,13 @@
       "source": "lever",
       "board": "mindtickle",
       "status": "ok",
-      "count": 19
+      "count": 20
     },
     {
       "source": "lever",
       "board": "hackerone",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
@@ -402,5 +401,5 @@
       "count": 0
     }
   ],
-  "potential_fit_reviews": 14
+  "potential_fit_reviews": 15
 }

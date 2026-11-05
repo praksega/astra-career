@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T09:36:47.748061+00:00",
+  "updated_at": "2026-11-05T09:42:35.662011+00:00",
   "candidates": [
     {
       "id": "greenhouse:8260972",
@@ -437,6 +437,78 @@
               "uat"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "company_board": "Loop%20AI",
+      "title": "Strategist II - Product Operations & Strategy",
+      "location": "Bengaluru",
+      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "source": "lever",
+      "source_date": "2026-10-14T09:32:24.506000+00:00",
+      "date_source": "createdAt",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "product operation"
+      ],
+      "matching_method": "title",
+      "description_characters": 1667,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of the fastest growing restaurant technology companies powering a few billion dollars in revenue and growing to serve 10K+ restaurants within 3 years across some of the most recognizable brands of the USA, helping them grow their topline & bottomline.\u00a0\nLoop is built by a world class team of entrepreneurs, operators, leaders and AI engineers from different industries, ranging from cutting edge big-tech, management consulting, investment banking among others across companies like Uber, Google, Amazon, McKinsey and others.\u00a0\nAbout the Role:\u00a0\nAs a Product Operations strategist in the Strategy & Operations charter of Loop, you are a custodian of value delivered to Loop\u2019s customers. Loop\u2019s products powe",
+      "jd_details": {
+        "source_url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+        "full_description_available": true,
+        "responsibilities": [
+          "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+        ],
+        "qualifications": [
+          "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+        ],
+        "overview": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter ex",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "metrics"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "product operations",
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
           }
         ],
         "potential_unverified_requirements": [],
@@ -1279,6 +1351,103 @@
       ]
     },
     {
+      "id": "greenhouse:7960157",
+      "company_board": "okta",
+      "title": "People Operations Specialist",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7960157?gh_jid=7960157",
+      "source": "greenhouse",
+      "source_date": "2026-05-28T03:44:27-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist",
+        "operational excellence"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 5596,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><h3 data-path-to-node=\"2\">Role Overview</h3>\n<p style=\"text-align: left;\">Are you a seasoned People Ops professional who loves the intersection of HR technology,&nbsp;compliance, and employee experience? We are looking for a high-performing Specialist to join&nbsp;our global team and own critical pillars of our employee journey!&nbsp;In this role, you will be the absolute guardian of our global data integrity and the primary&nbsp;gatekeeper for candidate compliance from hire to retire.</p>\n<h3 data-path-to-node=\"5\">Key Responsibilities</h3>\n<p><strong> Roles (The Mission)</strong></p>\n<ul>\n<li>Lifecycle ",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/7960157?gh_jid=7960157",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
+          "Risk & Compliance Lead: Act as the primary gatekeeper for global compliance by managing and executing robust background verification (BGC) processes.",
+          "Workday Data Management: Execute complex global data changes (transfers, promotions, comp updates, terminations) and manage mass uploads using Workday EIBs.",
+          "End-to-End BGC Ownership: Partner with external vendors to trigger, track, and review comprehensive background checks. Safely escalate and resolve discrepancies.",
+          "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations."
+        ],
+        "qualifications": [
+          "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
+          "5+ years of core experience in People Operations/HR Ops with deep employee lifecycle exposure.",
+          "Mandatory tech skills: Hands-on proficiency with Workday Core HCM (including EIB execution) and ServiceNow (SNOW).",
+          "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations.",
+          "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "operational excellence"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [
+          "cpa"
+        ],
+        "gap_status": "requires_review",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
       "id": "greenhouse:7805386",
       "company_board": "stripe",
       "title": "Marketing Operations Manager",
@@ -1446,6 +1615,77 @@
               "sop"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "lever:c1226a68-b1fa-40eb-8507-6f4903d28feb",
+      "company_board": "mindtickle",
+      "title": "Senior Program Manager",
+      "location": "Pune, Maharashtra",
+      "url": "https://jobs.lever.co/mindtickle/c1226a68-b1fa-40eb-8507-6f4903d28feb",
+      "source": "lever",
+      "source_date": "2025-10-10T09:42:11.758000+00:00",
+      "date_source": "createdAt",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "program manager",
+        "operational excellence"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 1867,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have everything they need to build winning sellers.\nGlobal companies, like Fortune 500 organizations, trust Mindtickle to support their revenue teams. Customers and industry analysts have also recognized us. G2 has ranked us the #1 Sales Training & Onboarding platform for 28 consecutive quarters, and Forrester has recognized Mindtickle as a Leader in revenue enablement. Mindtickle was also recognized as AI-Based Sales Solution of the Year by the 2025 AI Breakthrough Awards and has received Stevie Awards for Technology Innovation and Customer Support Excellence.\nAt Mindtickle, we're helping companies create high-performing revenue teams, and we're looking for people who want to help shape what's next.\n\n\nJob Snapshot\n\u00a0\nWe\u2019re looking for a Senior Program Manager to lead strategic, customer-facing programs within our Professional Services organization. This role is ideal for ",
+      "jd_details": {
+        "source_url": "https://jobs.lever.co/mindtickle/c1226a68-b1fa-40eb-8507-6f4903d28feb",
+        "full_description_available": true,
+        "responsibilities": [
+          "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+        ],
+        "qualifications": [
+          "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+        ],
+        "overview": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "operational excellence"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
           }
         ],
         "potential_unverified_requirements": [],
