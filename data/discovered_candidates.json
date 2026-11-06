@@ -1,7 +1,388 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T09:42:35.662011+00:00",
+  "updated_at": "2026-11-06T09:38:01.120953+00:00",
   "candidates": [
+    {
+      "id": "greenhouse:8355801",
+      "company_board": "twilio",
+      "title": "Phone Numbers Operations Specialist 2",
+      "location": "Remote - India",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8355801",
+      "source": "greenhouse",
+      "source_date": "2026-11-06T02:39:58-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist"
+      ],
+      "matching_method": "title",
+      "description_characters": 8007,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p>\n<p>At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringify-link=\"https://customers.twilio.com/\" data-sk=\"tooltip_parent\">&nbsp;hundreds of thousands of businesses&nbsp;</a>and empower millions of developers worldwide to craft personalized customer experiences.</p>\n<p>Our dedication to <a class=\"c-link\" href=\"https://www.twilio.com/en-us/blog/open-work\" target=\"_blank\" data-stringify-link=\"https://www.twilio.com/en-us/blog/open-work\" data-sk=\"tooltip_parent\">remote-first work</a>, and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.<br><span style=\"color: rgb(255, 255, 255);\">.</span></p>\n<p><strong>Hiring and how we work</strong></p>\n<p>We use Artificial Intelligence ",
+      "jd_details": {
+        "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8355801",
+        "full_description_available": true,
+        "responsibilities": [
+          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+          "We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!",
+          "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
+          "Twilio is seeking an Operations Specialist to join the team that runs Twilio\u2019s phone number operations globally. This role will work directly with customers to help them port their phone numbers into Twilio, procure short codes and Sender IDs, and have access to phone numbers the",
+          "Log customer interactions and tag/categorize issues accordingly, Learn new processes across a variety of subject areas and ensure our operations are running smoothly.",
+          "Quickly and confidently manage complex issues in a timely manner for customers and internal teams with transparency with all the respect."
+        ],
+        "qualifications": [
+          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+          "Our dedication to  remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re ",
+          "Provide support to Twilio customers inquiries received by email to ensure customers have an excellent experience with Twilio.",
+          "Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking ",
+          "You have 4-6 years of experience working with global customers in the operations in the customers facing teams, preferably within an eCommerce or Telecommunications organization.",
+          "You have basic technical skills including basic SQL and an understanding of APIs and data analytics."
+        ],
+        "overview": "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "sql",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "product operations",
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "greenhouse:8355804",
+      "company_board": "twilio",
+      "title": "Onboarding Operations Specialist 1",
+      "location": "Remote - India",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8355804",
+      "source": "greenhouse",
+      "source_date": "2026-11-06T02:30:27-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist",
+        "process improvement"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 8900,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p>\n<p>At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringify-link=\"https://customers.twilio.com/\" data-sk=\"tooltip_parent\">&nbsp;hundreds of thousands of businesses&nbsp;</a>and empower millions of developers worldwide to craft personalized customer experiences.</p>\n<p>Our dedication to <a class=\"c-link\" href=\"https://www.twilio.com/en-us/blog/open-work\" target=\"_blank\" data-stringify-link=\"https://www.twilio.com/en-us/blog/open-work\" data-sk=\"tooltip_parent\">remote-first work</a>, and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.<br><span style=\"color: rgb(255, 255, 255);\">.</span></p>\n<p><strong>Hiring and how we work</strong></p>\n<p>We use Artificial Intelligence ",
+      "jd_details": {
+        "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8355804",
+        "full_description_available": true,
+        "responsibilities": [
+          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+          "We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!",
+          "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
+          "Twilio is seeking an Operations Specialist to join the team that runs Twilio\u2019s phone number operations globally. This role will work directly with customers to help them port their phone numbers into Twilio, procure Sender IDs, and have access to phone numbers they require for th",
+          "Learn new processes across a variety of subject areas and ensure our operations are running smoothly.",
+          "Be Bold: Learn new processes across a variety of subject areas and ensure our operations are running smoothly."
+        ],
+        "qualifications": [
+          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+          "Our dedication to  remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re ",
+          "Provide support for common customer inquiries received by email to ensure customers have an excellent experience with Twilio.",
+          "Wear the Customer Shoes: Provide support for common customer inquiries received by email to ensure customers have an excellent experience with Twilio.",
+          "Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking ",
+          "Experience Required: 1 - 3 Yrs*( depending on candidature)"
+        ],
+        "overview": "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 4,
+        "capability_evidence_coverage_pct": 57,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "sql",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "product operations",
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "greenhouse:7626222",
+      "company_board": "okta",
+      "title": "AP & Expenses Projects Analyst",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7626222?gh_jid=7626222",
+      "source": "greenhouse",
+      "source_date": "2026-11-05T12:39:49-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "process improvement",
+        "continuous improvement",
+        "operational excellence"
+      ],
+      "matching_method": "jd_responsibilities",
+      "description_characters": 6277,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><strong>The Opportunity</strong></p>\n<p>The AP &amp; Expenses Projects Analyst will play a key role in driving operational excellence, automation, and project coordination within our Accounts Payable and Employee Expense Management functions. This role sits at the intersection of finance operations and technology, focusing on streamlining processes, identifying efficiency gaps, supporting automation initiatives, and collaborating with cross-functional and global teams.</p>\n<p>&nbsp;</p>\n<p><strong>What you\u2019ll be doing&nbsp;</strong></p>\n<p>&nbsp;</p>\n<ul>\n<li><strong>Process Improvement &amp; Transfor",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/7626222?gh_jid=7626222",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "The AP & Expenses Projects Analyst will play a key role in driving operational excellence, automation, and project coordination within our Accounts Payable and Employee Expense Management functions. This role sits at the intersection of finance operations and technology, focusing",
+          "Process Improvement & Transformation:  Identify process inefficiencies, operational gaps, and bottlenecks across AP and expense management workflows; recommend and support end-to-end continuous improvement initiatives.",
+          "Project Coordination & Documentation:  Support project delivery life cycles, track milestones, gather and articulate business requirements, write process documentation (SOPs), and manage task tracking via platforms such as Jira and Confluence.",
+          "Testing & Implementation:  Coordinate User Acceptance Testing (UAT), author detailed test scenarios/cases, facilitate testing cycles with operational teams, and track defect resolution through go-live.",
+          "Analytics & Business Insights:  Extract, manipulate, and analyze finance data to develop reporting models, monitor key performance indicators (KPIs), and present actionable operational insights to leadership."
+        ],
+        "qualifications": [
+          "Project Coordination & Documentation:  Support project delivery life cycles, track milestones, gather and articulate business requirements, write process documentation (SOPs), and manage task tracking via platforms such as Jira and Confluence.",
+          "Education:  Bachelor\u2019s degree in Commerce, Accounting, Finance, Business Administration, Information Systems, or a related discipline.",
+          "Experience:  2 to 3.5 years of professional experience in Accounts Payable, Finance Operations, Process Improvement, Automation, or Project Coordination.",
+          "Domain Knowledge:  Solid foundational understanding of Accounts Payable and Employee Expense Management processes, including invoice processing, payment runs, expense audits, reconciliations, and internal financial controls.",
+          "Data & Analytical Tools:  Advanced proficiency in Microsoft Excel and Google Sheets (advanced formulas, pivot tables, data modeling, dashboards).",
+          "Interpersonal Skills:  Strong problem-solving abilities, high analytical acumen, excellent verbal/written communication, and capacity to handle multiple priorities in a globally distributed setup."
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 7,
+        "capability_evidence_coverage_pct": 100,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "kpi",
+              "power bi"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement",
+              "continuous improvement",
+              "operational excellence"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "project coordination",
+              "implementation"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation",
+              "sop",
+              "user acceptance testing",
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "lever:7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
+      "company_board": "mindtickle",
+      "title": "Program Manager",
+      "location": "Pune, Maharashtra",
+      "url": "https://jobs.lever.co/mindtickle/7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
+      "source": "lever",
+      "source_date": "2026-11-05T09:52:40.314000+00:00",
+      "date_source": "createdAt",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "program manager",
+        "process improvement",
+        "operational efficiency"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 4630,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have everything they need to build winning sellers.\nGlobal companies, like Fortune 500 organizations, trust Mindtickle to support their revenue teams. Customers and industry analysts have also recognized us. G2 has ranked us the #1 Sales Training & Onboarding platform for 28 consecutive quarters, and Forrester has recognized Mindtickle as a Leader in revenue enablement. Mindtickle was also recognized as AI-Based Sales Solution of the Year by the 2025 AI Breakthrough Awards and has received Stevie Awards for Technology Innovation and Customer Support Excellence.\nAt Mindtickle, we're helping companies create high-performing revenue teams, and we're looking for people who want to help shape what's next.\n\n\nRole summary\nThe Program Manager, Services runs the internal programs that make Mindtickle Services efficient, predictable and profitable. The role spans all four service l",
+      "jd_details": {
+        "source_url": "https://jobs.lever.co/mindtickle/7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
+        "full_description_available": true,
+        "responsibilities": [
+          "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+        ],
+        "qualifications": [],
+        "overview": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "cross-functional"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
     {
       "id": "greenhouse:8260972",
       "company_board": "okta",
@@ -1140,105 +1521,6 @@
       ]
     },
     {
-      "id": "greenhouse:8053011",
-      "company_board": "stripe",
-      "title": "Operations Manager, Stripe Delivery Centre",
-      "location": "Bengaluru",
-      "url": "https://stripe.com/jobs/search?gh_jid=8053011",
-      "source": "greenhouse",
-      "source_date": "2026-07-10T09:23:31-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager",
-        "process improvement",
-        "operational efficiency"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 4229,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<p><strong>About Stripe</strong></p>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<p><strong>About the team</strong></p>\n<p>As Stripe\u2019s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Stripe\u2019s portfolio of operational capabilities to support the scaled needs for external users and internal Stripe teams.</p>\n<p><strong>What you\u2019ll do</strong></p>\n<p>Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe\u2019s operations for the next decade. We are looking for dynamic and curious pe",
-      "jd_details": {
-        "source_url": "https://stripe.com/jobs/search?gh_jid=8053011",
-        "full_description_available": true,
-        "responsibilities": [
-          "As Stripe\u2019s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand Strip",
-          "Stripe is launching Stripe Delivery Centers - a new global team to design, implement and grow Stripe\u2019s operations for the next decade. We are looking for dynamic and curious people that have a passion for solving global user issues, building operations, driving process improvemen",
-          "In this role, you will recruit, manage, and develop a group of Operations Associates that are focused on user support. This person will cultivate the happiness of their team members while guiding them to be the best they can be, through feedback, coaching, mentoring, and advocacy",
-          "Recruit, manage, coach, and develop a new team of in-office Operations Associates",
-          "Drive strong operational delivery and process improvement helping to mitigate risk while balancing operational efficiency and user impact",
-          "Identify gaps in current systems, policies and strategies, and recommend enhancements and process improvements to mitigate risks"
-        ],
-        "qualifications": [
-          "In this role, you will recruit, manage, and develop a group of Operations Associates that are focused on user support. This person will cultivate the happiness of their team members while guiding them to be the best they can be, through feedback, coaching, mentoring, and advocacy",
-          "We\u2019re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
-          "At least 8+ years experience leading operations support teams",
-          "Experience working cross-functionally with multiple teams to deliver high impact initiatives",
-          "Experience in delivering weekly and monthly business metrics and reporting",
-          "Excellent written and verbal communication skills"
-        ],
-        "overview": "Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggeri",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
       "id": "greenhouse:4686774006",
       "company_board": "instawork",
       "title": "Assistant Manager - Operations - Instawork Robotics Labs",
@@ -1515,106 +1797,6 @@
               "operations"
             ],
             "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "greenhouse:7608396",
-      "company_board": "stripe",
-      "title": "Fraud Operations Manager",
-      "location": "Bengaluru",
-      "url": "https://stripe.com/jobs/search?gh_jid=7608396",
-      "source": "greenhouse",
-      "source_date": "2026-02-13T05:34:28-05:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations manager",
-        "continuous improvement",
-        "operational excellence"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 6673,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<h2>Who we are</h2>\n<h3>About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3>About the team</h3>\n<p>As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attacks through Stripe. We build scalable, high-judgement investigation and review operations while minimizing user friction. We work across products, customer segments, and markets and serve as a core pillar of the Stripe risk strategy.</p>\n<h2>What you'll do</h2>\n<p>Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You",
-      "jd_details": {
-        "source_url": "https://stripe.com/jobs/search?gh_jid=7608396",
-        "full_description_available": true,
-        "responsibilities": [
-          "As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from harm. Fraud Operations proactively reduces fraud, making it difficult and unprofitable for fraudsters to carry out attack",
-          "Stripe is hiring a people leader to run our Fraud Operations Center in Bangalore. You'll lead leaders and senior operators responsible for core fraud investigations and complex, high-impact investigations. You'll be accountable for operational excellence across fraud review workf",
-          "Lead the Bangalore Fraud Operations Center by managing team leads and senior associates, setting clear expectations, coaching performance, and building a high-judgement culture rooted in strong decisioning and customer empathy",
-          "Own core fraud investigations and complex investigations, including escalations and time-sensitive incident response in partnership with global Fraud and Risk stakeholders",
-          "Drive process development and continuous improvement through root cause analysis, defect reduction, policy adherence, and consistency across reviewers and teams",
-          "Partner with other Risk teams to evolve fraud tooling and workflows (manual and automated actioning), including safe rollout and measurement of changes"
-        ],
-        "qualifications": [
-          "Own staffing models, capacity planning, scheduling, hiring plans, onboarding, and training strategy to meet business needs while maintaining a high bar for quality and user experience",
-          "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
-          "Experience leading cross-functional initiatives and driving change through ambiguity, including new workflows for new products, markets, or emerging fraud patterns",
-          "Experience leading fraud, risk, trust and safety, or investigations operations in a high-scale environment, including managing managers and team leads",
-          "Comfort working across detection systems and manual and automated actioning systems, with the ability to translate operational needs into product and engineering requirements",
-          "Excellent written and verbal communication skills, including presenting in operational reviews and representing the team in high-pressure escalations in English"
-        ],
-        "overview": "Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world's largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggeri",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "dashboard",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "continuous improvement",
-              "operational excellence"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "sop"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
           }
         ],
         "potential_unverified_requirements": [],
