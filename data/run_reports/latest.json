@@ -1,49 +1,50 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-05",
-  "run_started_at_ist": "2026-11-05T08:03:13+05:30",
-  "run_started_at_utc": "2026-11-05T02:33:13Z",
+  "run_date": "2026-11-06",
+  "run_started_at_ist": "2026-11-06T08:03:02+05:30",
+  "run_started_at_utc": "2026-11-06T02:33:02Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "metrics": {
-    "search_queries_submitted": 14,
+    "search_queries_submitted": 16,
+    "search_batches": 2,
     "raw_search_engine_hits": "UNKNOWN_NOT_EXPORTED",
-    "unique_candidate_job_urls_identified": 11,
-    "employer_native_full_jds_read": 3,
+    "unique_candidate_job_urls_identified": "UNKNOWN_NOT_EXHAUSTIVELY_ENUMERATED",
+    "distinct_full_jds_read": 6,
+    "employer_native_full_jds_read": 6,
     "third_party_full_jds_read": 0,
-    "full_jds_read_total": 3,
     "accessible_potentially_relevant_jd_universe": "UNKNOWN_NOT_EXHAUSTIVE",
     "review_coverage_pct": "UNKNOWN_DENOMINATOR",
     "pending_review_backlog": "UNKNOWN",
     "new_strong": 0,
     "new_possible": 0,
-    "unverified_research_leads_identified": 3,
-    "linkedin_search_queries": 4,
+    "unverified_research_leads_identified": 4,
+    "linkedin_search_queries": 3,
     "linkedin_individual_posts_with_verified_original_timestamp": 0
   },
   "milestones": {
     "INIT": {
       "repository_read": true,
-      "prior_sha": "39849c1fb75bf37093fa4e7d3ca691f6cd07fd42",
+      "prior_sha": "a8a1abda7aabc031b2fa91a14708433e4f05e169",
       "other_public_files_read": true
     },
     "DISCOVERY": {
-      "search_batches": 2,
       "sources_attempted": [
         "Lever",
         "Greenhouse",
-        "Ashby",
+        "Ashby indexed",
         "SmartRecruiters",
-        "Workday",
-        "LinkedIn indexed search"
+        "Workday indexed",
+        "Workable",
+        "LinkedIn indexed"
       ],
-      "sources_yielding_candidate_job_pages": [
+      "sources_yielding_candidate_information": [
         "Lever",
         "Greenhouse",
-        "Ashby",
         "SmartRecruiters",
-        "Workday"
+        "Workable",
+        "LinkedIn indexed"
       ],
       "blocked_or_unsearched": [
         "Naukri not attempted",
@@ -63,70 +64,77 @@
         "Recruitee not attempted",
         "Teamtailor not attempted"
       ],
-      "raw_url_count": "UNKNOWN_NOT_EXPORTED"
+      "raw_url_count": "UNKNOWN_NOT_EXPORTED",
+      "role_location_matrix": "PARTIAL_NOT_EXHAUSTIVE"
     },
     "DEDUPE": {
-      "unique_candidate_job_urls_identified": 11,
-      "method": "Manually enumerated distinct employer-native result URLs; search result count not treated as URL count"
+      "unique_urls": "UNKNOWN_NOT_EXHAUSTIVELY_ENUMERATED",
+      "reason": "Search results included employer boards and nonjob results; did not treat page counts as unique candidate URLs"
     },
     "JD_VALIDATION": {
-      "complete_employer_native_jds_read": 3,
-      "examples": [
-        "https://jobs.lever.co/Sprinto/56d536c2-812c-49be-8421-6ad63c42a273",
-        "https://jobs.smartrecruiters.com/integrichain1/744000152331269",
-        "https://job-boards.greenhouse.io/turing/jobs/6241966004"
+      "complete_employer_native_jds_read": 6,
+      "urls": [
+        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566-business-operations-analyst",
+        "https://jobs.lever.co/Sprinto/9246976f-5d9c-4065-842d-476a093a588a",
+        "https://job-boards.greenhouse.io/accordionindia/jobs/6446297",
+        "https://job-boards.greenhouse.io/xometry/jobs/5154094007",
+        "https://job-boards.greenhouse.io/accordionindia/jobs/6439137",
+        "https://jobs.lever.co/Sprinto/acd12acc-902d-4cca-b0e4-6ec021df72c7"
       ],
-      "unreadable_examples": [
-        "https://jobs.ashbyhq.com/meraki-labs/02d316c1-05dc-4390-bb74-137ee96f8fec/",
-        "https://jobs.ashbyhq.com/nanonets/7609eea2-9c7f-46ae-b473-f43057d1a720"
-      ],
-      "eligibility_notes": [
-        "Sprinto requires hands-on HubSpot workflows and SaaS revenue metrics not verified",
-        "IntegriChain asks 1-3 years and compensation unknown; original date unknown",
-        "Turing remote strategy operations fits verified experience but original posting date unknown"
+      "exclusions": [
+        "Sprinto partnerships: specialized GRC/security frameworks not evidenced",
+        "Xometry: finance/accounts receivable domain gap and 5+ years dedicated BI",
+        "PhonePe: previously identified vacancy; original date not established"
       ]
     },
     "MATCHING": {
-      "strong": 0,
-      "possible": 0,
-      "unverified_research_leads": [
+      "new_strong": 0,
+      "new_possible": 0,
+      "unverified_leads": [
         {
-          "company": "Turing",
-          "title": "Strategy and Operations Associate",
-          "url": "https://job-boards.greenhouse.io/turing/jobs/6241966004",
-          "posting_date": "UNKNOWN",
-          "fixed_salary": "UNKNOWN"
+          "company": "Accordion India",
+          "title": "Manager – Strategic Initiatives",
+          "url": "https://job-boards.greenhouse.io/accordionindia/jobs/6446297",
+          "salary": "UNKNOWN",
+          "original_date": "UNVERIFIED"
+        },
+        {
+          "company": "Accordion India",
+          "title": "Business Associate",
+          "url": "https://job-boards.greenhouse.io/accordionindia/jobs/6439137",
+          "salary": "UNKNOWN",
+          "original_date": "UNVERIFIED"
         },
         {
           "company": "Sprinto",
-          "title": "Revenue Operations Analyst - Customer Experience & Partner Operations",
-          "url": "https://jobs.lever.co/Sprinto/56d536c2-812c-49be-8421-6ad63c42a273",
-          "posting_date": "UNKNOWN",
-          "fixed_salary": "UNKNOWN"
+          "title": "Project Manager – Enterprise Customer Onboarding",
+          "url": "https://jobs.lever.co/Sprinto/9246976f-5d9c-4065-842d-476a093a588a",
+          "salary": "UNKNOWN",
+          "original_date": "UNVERIFIED"
         },
         {
-          "company": "IntegriChain",
-          "title": "Trade Operations Analyst II",
-          "url": "https://jobs.smartrecruiters.com/integrichain1/744000152331269",
-          "posting_date": "UNKNOWN",
-          "fixed_salary": "UNKNOWN"
+          "company": "Xometry",
+          "title": "Business Intelligence & Project Lead",
+          "url": "https://job-boards.greenhouse.io/xometry/jobs/5154094007",
+          "salary": "UNKNOWN",
+          "original_date": "UNVERIFIED"
         }
       ]
     },
     "LINKEDIN": {
-      "search_queries": 4,
-      "verified_post_timestamps": 0,
-      "posts_published": 0,
-      "direct_post_pages_read": 0
+      "indexed_queries": 3,
+      "direct_linkedin_post_pages_opened": 0,
+      "verified_original_timestamps": 0,
+      "published_posts": 0
     },
     "GITHUB_WRITE": {
       "attempted": true,
-      "readback_confirmed": false
+      "success": "PENDING_READBACK",
+      "private_queue_update": "NOT_COMPLETED_PATH_NOT_FOUND"
     },
     "FINAL": {
       "status": "PARTIAL",
-      "reason": "Low discovery breadth, missing verified original publication dates and incomplete JD review universe; no new fresh qualified matches"
+      "reason": "Search breadth far below aspiration; original dates unverified; denominator unknown; private queue path unresolved"
     }
-  },
-  "privacy_note": "Public diagnostic metadata only. No personal candidate information or private applications."
+  }
 }
