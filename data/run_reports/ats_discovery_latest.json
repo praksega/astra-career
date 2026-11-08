@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-07T09:00:38.332920+00:00",
+  "run_at_utc": "2026-11-08T09:17:53.236929+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4798,
-  "individual_screening_records": 4798,
+  "raw_listings_seen": 4801,
+  "individual_screening_records": 4801,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 221,
-    "outside_target_locations": 4430,
+    "role_not_relevant": 223,
+    "outside_target_locations": 4432,
     "title_and_jd": 12,
-    "excluded_specialist_title": 127,
+    "excluded_specialist_title": 126,
     "title": 4
   },
-  "location_eligible_jds_screened": 368,
-  "location_eligible_jds_with_500_plus_chars": 365,
+  "location_eligible_jds_screened": 369,
+  "location_eligible_jds_with_500_plus_chars": 366,
   "unique_role_location_candidates": 20,
   "full_jds_with_accessible_text": 20,
   "jd_evidence_maps_generated": 20,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 20,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4778,
+    "unrelated_or_unapproved_location": 4781,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -49,7 +49,7 @@
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 144
+      "count": 145
     },
     {
       "source": "greenhouse",
@@ -130,19 +130,19 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 765
+      "count": 766
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 924
+      "count": 922
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 375
+      "count": 374
     },
     {
       "source": "greenhouse",
@@ -204,7 +204,7 @@
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 269
+      "count": 270
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 423
+      "count": 425
     },
     {
       "source": "greenhouse",
@@ -267,7 +267,7 @@
       "source": "lever",
       "board": "cred",
       "status": "ok",
-      "count": 13
+      "count": 14
     },
     {
       "source": "lever",
