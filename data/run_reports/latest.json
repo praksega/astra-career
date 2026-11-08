@@ -131,8 +131,10 @@
     },
     "GITHUB_WRITE": {
       "attempted": true,
-      "success": false,
-      "readback_sha": null
+      "success": true,
+      "first_readback_sha": "15b6d6df69b821771d2c6fe5e8ee8f054d5852fd",
+      "readback_confirmed": true,
+      "final_readback_sha": "SEE_GITHUB_FILE_METADATA"
     },
     "FINAL": {
       "status": "PARTIAL",
