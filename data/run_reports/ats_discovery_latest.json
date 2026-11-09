@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-08T09:17:53.236929+00:00",
+  "run_at_utc": "2026-11-09T10:01:36.785806+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4801,
-  "individual_screening_records": 4801,
+  "raw_listings_seen": 4803,
+  "individual_screening_records": 4803,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 223,
-    "outside_target_locations": 4432,
+    "role_not_relevant": 222,
+    "outside_target_locations": 4435,
     "title_and_jd": 12,
     "excluded_specialist_title": 126,
     "title": 4
   },
-  "location_eligible_jds_screened": 369,
-  "location_eligible_jds_with_500_plus_chars": 366,
+  "location_eligible_jds_screened": 368,
+  "location_eligible_jds_with_500_plus_chars": 365,
   "unique_role_location_candidates": 20,
   "full_jds_with_accessible_text": 20,
   "jd_evidence_maps_generated": 20,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 20,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4781,
+    "unrelated_or_unapproved_location": 4783,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -49,7 +49,7 @@
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 145
+      "count": 144
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 766
+      "count": 767
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 922
+      "count": 921
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 374
+      "count": 375
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 40
+      "count": 39
     },
     {
       "source": "greenhouse",
@@ -174,13 +174,13 @@
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 375
+      "count": 376
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 128
+      "count": 129
     },
     {
       "source": "greenhouse",
@@ -198,7 +198,7 @@
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 284
+      "count": 283
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 425
+      "count": 426
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 199
+      "count": 200
     },
     {
       "source": "greenhouse",
