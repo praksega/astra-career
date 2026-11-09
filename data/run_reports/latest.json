@@ -1,57 +1,68 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-08",
-  "run_started_at_utc": "2026-11-08T02:27:49Z",
-  "run_started_at_ist": "2026-11-08T07:57:49+05:30",
+  "run_date": "2026-11-09",
+  "run_started_at_utc": "2026-11-09T02:26:36Z",
+  "run_started_at_ist": "2026-11-09T07:56:36+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "metrics": {
-    "search_queries_submitted": 7,
-    "search_batches": 1,
-    "raw_search_engine_hits_observed": 24,
-    "unique_candidate_job_urls_identified": 12,
-    "employer_native_full_jds_read": 4,
+    "search_queries_submitted": 26,
+    "search_batches": 4,
+    "raw_search_engine_hits_observed": "NOT_RELIABLY_COUNTED",
+    "unique_candidate_job_urls_identified": "NOT_RELIABLY_COUNTED",
+    "employer_native_full_jds_read": 2,
     "third_party_full_jds_read": 0,
+    "additional_employer_native_full_jd_indexed_but_direct_open_blocked": 1,
     "accessible_potentially_relevant_jd_universe": "UNKNOWN_NOT_EXHAUSTIVE",
     "review_coverage_pct": null,
     "pending_review_backlog": "UNKNOWN",
     "new_strong": 0,
     "new_possible": 0,
     "unverified_research_leads_identified": 3,
-    "linkedin_search_queries": 1,
+    "linkedin_search_queries": 5,
     "linkedin_original_timestamps_verified": 0
   },
   "milestones": {
     "INIT": {
       "public_report_read": true,
-      "prior_sha": "421223b1d36f71a8f9a9fdc2ba1d17b8302b541b",
+      "prior_sha": "148ce7f498ef1bf47dc00a4d3cb3890914431369",
       "other_public_files_read": [
         "data/jobs.json",
-        "data/linkedin_posts.json"
+        "data/linkedin_posts.json",
+        "data/manual_linkedin_intake.json"
       ],
-      "private_queue_read": false,
-      "private_queue_error": "data/research_queue.json not found"
+      "private_queue_read": false
     },
     "DISCOVERY": {
-      "attempted": [
-        "Greenhouse",
-        "Lever",
-        "Ashby",
-        "Workday",
-        "SmartRecruiters",
-        "Workable",
-        "LinkedIn indexed"
+      "queries": 26,
+      "batches": 4,
+      "source_domains_attempted": [
+        "job-boards.greenhouse.io",
+        "boards.greenhouse.io",
+        "jobs.lever.co",
+        "jobs.ashbyhq.com",
+        "myworkdayjobs.com",
+        "jobs.smartrecruiters.com",
+        "apply.workable.com",
+        "careers.icims.com",
+        "jobs.jobvite.com",
+        "linkedin.com"
       ],
-      "yielded_relevant_results": [
-        "Greenhouse",
-        "Ashby",
-        "SmartRecruiters",
-        "LinkedIn indexed"
+      "sources_with_useful_job_results": [
+        "jobs.lever.co",
+        "careers.icims.com",
+        "jobs.jobvite.com",
+        "linkedin.com"
       ],
-      "blocked": [
-        "Ashby Meraki-Labs job URL returned 404 on direct open"
+      "blocked_or_limited": [
+        "careers.icims.com individual page direct open 403",
+        "some jobs.lever.co individual pages 403",
+        "search engines did not return candidate results for many ATS-specific queries"
       ],
+      "raw_urls": "NOT_COUNTED",
+      "unique_urls": "NOT_COUNTED",
+      "discovery_matrix_coverage": "INCOMPLETE",
       "unsearched": [
         "Naukri",
         "Foundit",
@@ -59,92 +70,91 @@
         "Wellfound",
         "Cutshort",
         "Hirist",
-        "iCIMS",
-        "Jobvite",
         "BambooHR",
-        "Oracle",
         "SuccessFactors",
+        "Oracle",
         "Darwinbox",
         "Keka",
         "Zoho Recruit",
         "Recruitee",
         "Teamtailor"
-      ],
-      "raw_hits_observed": 24,
-      "unique_candidate_urls": 12
+      ]
     },
     "DEDUPE": {
-      "unique_candidate_urls": 12,
-      "method": "Distinct observed employer-native job URLs; full search-engine result export unavailable"
+      "unique_count": null,
+      "reason": "Search response returned mixed directory pages and individual vacancies; exhaustive URL extraction and canonical deduplication not completed."
     },
     "JD_VALIDATION": {
-      "full_employer_native_jds_read": 4,
-      "urls": [
-        "https://jobs.smartrecruiters.com/IntegriChain1/744000159649504-product-analyst",
-        "https://job-boards.greenhouse.io/karya/jobs/5415057008",
-        "https://job-boards.greenhouse.io/karya/jobs/5464495008",
-        "https://job-boards.greenhouse.io/karya/jobs/5460823008"
+      "complete_full_jds_read": 2,
+      "employer_native": [
+        "https://jobs.jobvite.com/genpactexperience/job/oo5KAfwx",
+        "https://jobs.lever.co/paytm/96a54691-f0c2-46d8-88d1-ee0a84b3b046"
       ],
-      "inaccessible_jd_urls": [
-        "https://jobs.ashbyhq.com/Meraki-Labs/02d316c1-05dc-4390-bb74-137ee96f8fec"
+      "indexed_full_jd_direct_blocked": [
+        "https://careers.icims.com/careers-home/jobs/6593?lang=en-gb"
       ],
-      "exclusions": [
-        "Karya Partnerships Associate requires specific social-sector experience",
-        "Meraki-Labs page inaccessible",
-        "Other results excluded by geography, seniority, specialist requirements or stale dates"
+      "rejection_reasons": [
+        "Genpact: workplace facilities/office administration focus, insufficient match to target product/business operations",
+        "Paytm: city-level consumer growth, marketing activation and fintech market share domain gaps"
       ],
-      "backlog": "UNKNOWN_NOT_EXHAUSTIVE"
+      "review_coverage_pct": null,
+      "pending_backlog": "UNKNOWN"
     },
     "MATCHING": {
       "new_strong": 0,
       "new_possible": 0,
       "unverified_research_leads": [
         {
-          "company": "Karya",
-          "title": "Strategy & Operations Analyst",
-          "url": "https://job-boards.greenhouse.io/karya/jobs/5415057008",
-          "posting_date": "UNKNOWN",
-          "fixed_salary": "UNKNOWN"
+          "company": "iCIMS",
+          "title": "RevOps Analyst, Customer Support",
+          "location": "Hyderabad",
+          "url": "https://careers.icims.com/careers-home/jobs/6593?lang=en-gb",
+          "original_post_date": null,
+          "fixed_salary": null,
+          "status": "UNVERIFIED_DIRECT_PAGE_403"
         },
         {
-          "company": "Karya",
-          "title": "Associate - Founder's Office",
-          "url": "https://job-boards.greenhouse.io/karya/jobs/5464495008",
-          "posting_date": "UNKNOWN",
-          "fixed_salary": "UNKNOWN"
+          "company": "Paytm",
+          "title": "Growth Management - UPI Growth",
+          "location": "Bangalore / Hyderabad",
+          "url": "https://jobs.lever.co/paytm/96a54691-f0c2-46d8-88d1-ee0a84b3b046",
+          "original_post_date": null,
+          "fixed_salary": null,
+          "status": "UNVERIFIED_DOMAIN_GAPS"
         },
         {
-          "company": "IntegriChain",
-          "title": "Product Analyst",
-          "url": "https://jobs.smartrecruiters.com/IntegriChain1/744000159649504-product-analyst",
-          "posting_date": "UNKNOWN",
-          "fixed_salary": "UNKNOWN",
-          "location": "NOT_EXPLICIT_ON_JOB_PAGE"
+          "company": "Genpact",
+          "title": "Operations Support Associate",
+          "location": "Bengaluru",
+          "url": "https://jobs.jobvite.com/genpactexperience/job/oo5KAfwx",
+          "original_post_date": null,
+          "fixed_salary": null,
+          "status": "UNVERIFIED_WORKPLACE_ADMIN_FOCUS"
         }
       ]
     },
     "LINKEDIN": {
-      "indexed_searches": 1,
-      "direct_post_pages_opened": 0,
+      "indexed_searches": 5,
       "original_timestamps_verified": 0,
-      "posts_published": 0
+      "posts_published": 0,
+      "direct_linkedin_post_pages_read": 0,
+      "notes": "Company/profile indexed snippets are not independently verified original post permalinks with timezone timestamps."
     },
     "GITHUB_WRITE": {
       "attempted": true,
-      "success": true,
-      "first_readback_sha": "15b6d6df69b821771d2c6fe5e8ee8f054d5852fd",
-      "readback_confirmed": true,
-      "final_readback_sha": "SEE_GITHUB_FILE_METADATA"
+      "succeeded": null,
+      "readback_sha": null
     },
     "FINAL": {
       "status": "PARTIAL",
-      "reasons": [
-        "DISCOVERY_BREADTH_LOW",
-        "Missing original posting dates",
-        "Incomplete source and JD coverage",
-        "Private queue path not resolved"
-      ]
+      "reason": "Discovery breadth low, candidate URL deduplication incomplete, original dates unavailable, several source gaps."
     }
   },
-  "no_applications_or_outreach": true
+  "obstacles": [
+    "Full discovery target not met",
+    "Original posting dates not independently verified",
+    "Direct 403 on iCIMS page",
+    "Private research queue not updated"
+  ],
+  "github_updates_confirmed": false
 }
