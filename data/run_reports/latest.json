@@ -1,69 +1,46 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-09",
-  "run_started_at_utc": "2026-11-09T02:26:36Z",
-  "run_started_at_ist": "2026-11-09T07:56:36+05:30",
+  "run_date": "2026-11-10",
+  "run_started_at_utc": "2026-11-10T02:26:31Z",
+  "run_started_at_ist": "2026-11-10T07:56:31+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
-  "metrics": {
-    "search_queries_submitted": 26,
-    "search_batches": 4,
-    "raw_search_engine_hits_observed": "NOT_RELIABLY_COUNTED",
-    "unique_candidate_job_urls_identified": "NOT_RELIABLY_COUNTED",
-    "employer_native_full_jds_read": 2,
-    "third_party_full_jds_read": 0,
-    "additional_employer_native_full_jd_indexed_but_direct_open_blocked": 1,
-    "accessible_potentially_relevant_jd_universe": "UNKNOWN_NOT_EXHAUSTIVE",
-    "review_coverage_pct": null,
-    "pending_review_backlog": "UNKNOWN",
-    "new_strong": 0,
-    "new_possible": 0,
-    "unverified_research_leads_identified": 3,
-    "linkedin_search_queries": 5,
-    "linkedin_original_timestamps_verified": 0
-  },
   "milestones": {
     "INIT": {
       "public_report_read": true,
-      "prior_sha": "148ce7f498ef1bf47dc00a4d3cb3890914431369",
-      "other_public_files_read": [
-        "data/jobs.json",
-        "data/linkedin_posts.json",
-        "data/manual_linkedin_intake.json"
-      ],
-      "private_queue_read": false
+      "previous_sha": "8bf88be33f7d05660d8913f692bb9e118ca9a740",
+      "other_public_files_read": true,
+      "private_repo_read": false
     },
     "DISCOVERY": {
-      "queries": 26,
-      "batches": 4,
-      "source_domains_attempted": [
+      "search_queries_submitted": 22,
+      "search_batches": 2,
+      "search_source": "web search",
+      "domains_targeted": [
         "job-boards.greenhouse.io",
         "boards.greenhouse.io",
         "jobs.lever.co",
         "jobs.ashbyhq.com",
         "myworkdayjobs.com",
-        "jobs.smartrecruiters.com",
         "apply.workable.com",
+        "jobs.smartrecruiters.com",
         "careers.icims.com",
         "jobs.jobvite.com",
+        "careers.oracle.com",
+        "jobs.sap.com",
         "linkedin.com"
       ],
-      "sources_with_useful_job_results": [
-        "jobs.lever.co",
-        "careers.icims.com",
-        "jobs.jobvite.com",
+      "sources_with_candidate_results": [
+        "jobs.ashbyhq.com",
+        "myworkdayjobs.com",
+        "apply.workable.com",
+        "jobs.smartrecruiters.com",
         "linkedin.com"
       ],
-      "blocked_or_limited": [
-        "careers.icims.com individual page direct open 403",
-        "some jobs.lever.co individual pages 403",
-        "search engines did not return candidate results for many ATS-specific queries"
-      ],
-      "raw_urls": "NOT_COUNTED",
-      "unique_urls": "NOT_COUNTED",
-      "discovery_matrix_coverage": "INCOMPLETE",
-      "unsearched": [
+      "raw_search_result_count": "NOT_RELIABLY_COUNTED",
+      "unique_candidate_job_urls": 4,
+      "unsearched_sources": [
         "Naukri",
         "Foundit",
         "Instahyre",
@@ -72,89 +49,66 @@
         "Hirist",
         "BambooHR",
         "SuccessFactors",
-        "Oracle",
         "Darwinbox",
         "Keka",
         "Zoho Recruit",
         "Recruitee",
         "Teamtailor"
-      ]
+      ],
+      "blocked_sources": []
     },
     "DEDUPE": {
-      "unique_count": null,
-      "reason": "Search response returned mixed directory pages and individual vacancies; exhaustive URL extraction and canonical deduplication not completed."
+      "unique_candidate_job_urls": 4,
+      "canonical_urls": [
+        "https://jobs.ashbyhq.com/openai/ecd7b6d6-cf20-4e14-a90a-8501cd460557/",
+        "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Principal-PD-Project-Management-Specialist_R74028-1",
+        "https://apply.workable.com/lakshyadigitalglobal/j/DEA5BE8A5A/",
+        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566"
+      ]
     },
     "JD_VALIDATION": {
-      "complete_full_jds_read": 2,
-      "employer_native": [
-        "https://jobs.jobvite.com/genpactexperience/job/oo5KAfwx",
-        "https://jobs.lever.co/paytm/96a54691-f0c2-46d8-88d1-ee0a84b3b046"
-      ],
-      "indexed_full_jd_direct_blocked": [
-        "https://careers.icims.com/careers-home/jobs/6593?lang=en-gb"
-      ],
-      "rejection_reasons": [
-        "Genpact: workplace facilities/office administration focus, insufficient match to target product/business operations",
-        "Paytm: city-level consumer growth, marketing activation and fintech market share domain gaps"
-      ],
+      "full_jds_read": 0,
+      "indexed_descriptions_inspected": 4,
+      "accessible_relevant_jd_universe": "UNKNOWN",
+      "inaccessible_jds": "UNKNOWN",
+      "pending_backlog": "UNKNOWN",
       "review_coverage_pct": null,
-      "pending_backlog": "UNKNOWN"
+      "rejections": [
+        "OpenAI: leadership seniority mismatch",
+        "Medtronic: principal technical program specialization",
+        "Lakshya Digital: unrelated animation role",
+        "PhonePe: previously identified and date unverified"
+      ]
     },
     "MATCHING": {
       "new_strong": 0,
       "new_possible": 0,
-      "unverified_research_leads": [
-        {
-          "company": "iCIMS",
-          "title": "RevOps Analyst, Customer Support",
-          "location": "Hyderabad",
-          "url": "https://careers.icims.com/careers-home/jobs/6593?lang=en-gb",
-          "original_post_date": null,
-          "fixed_salary": null,
-          "status": "UNVERIFIED_DIRECT_PAGE_403"
-        },
-        {
-          "company": "Paytm",
-          "title": "Growth Management - UPI Growth",
-          "location": "Bangalore / Hyderabad",
-          "url": "https://jobs.lever.co/paytm/96a54691-f0c2-46d8-88d1-ee0a84b3b046",
-          "original_post_date": null,
-          "fixed_salary": null,
-          "status": "UNVERIFIED_DOMAIN_GAPS"
-        },
-        {
-          "company": "Genpact",
-          "title": "Operations Support Associate",
-          "location": "Bengaluru",
-          "url": "https://jobs.jobvite.com/genpactexperience/job/oo5KAfwx",
-          "original_post_date": null,
-          "fixed_salary": null,
-          "status": "UNVERIFIED_WORKPLACE_ADMIN_FOCUS"
-        }
-      ]
+      "new_unverified_research_leads": 0,
+      "previously_identified_leads_revisited": 1,
+      "salary_unknown_for_revisited_lead": true
     },
     "LINKEDIN": {
-      "indexed_searches": 5,
-      "original_timestamps_verified": 0,
-      "posts_published": 0,
-      "direct_linkedin_post_pages_read": 0,
-      "notes": "Company/profile indexed snippets are not independently verified original post permalinks with timezone timestamps."
+      "indexed_searches": 3,
+      "direct_original_post_pages_opened": 0,
+      "verified_original_timestamps": 0,
+      "published_posts": 0,
+      "reason": "Only profile/indexed snippets; no independently verified original timestamps and permalinks"
     },
     "GITHUB_WRITE": {
       "attempted": true,
-      "succeeded": null,
+      "succeeded": false,
       "readback_sha": null
     },
     "FINAL": {
       "status": "PARTIAL",
-      "reason": "Discovery breadth low, candidate URL deduplication incomplete, original dates unavailable, several source gaps."
+      "reasons": [
+        "DISCOVERY_BREADTH_LOW",
+        "Original publication dates unavailable",
+        "No full employer JD pages opened",
+        "Private repository not read",
+        "Review universe unknown"
+      ]
     }
   },
-  "obstacles": [
-    "Full discovery target not met",
-    "Original posting dates not independently verified",
-    "Direct 403 on iCIMS page",
-    "Private research queue not updated"
-  ],
-  "github_updates_confirmed": false
+  "notes": "Public-safe run diagnostics; measured web searches only. Search results do not imply direct employer JD validation. No application or outreach. Existing job, LinkedIn and manual intake files left unchanged."
 }
