@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-09T10:01:36.785806+00:00",
+  "run_at_utc": "2026-11-10T10:12:19.212474+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
-  "source_boards_succeeded": 25,
-  "source_boards_failed": 31,
-  "raw_listings_seen": 4803,
-  "individual_screening_records": 4803,
+  "source_boards_succeeded": 24,
+  "source_boards_failed": 32,
+  "raw_listings_seen": 4785,
+  "individual_screening_records": 4785,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 222,
-    "outside_target_locations": 4435,
+    "role_not_relevant": 220,
+    "outside_target_locations": 4417,
     "title_and_jd": 12,
-    "excluded_specialist_title": 126,
+    "excluded_specialist_title": 128,
     "title": 4
   },
   "location_eligible_jds_screened": 368,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 20,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4783,
+    "unrelated_or_unapproved_location": 4765,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -43,13 +43,13 @@
       "source": "greenhouse",
       "board": "reddit",
       "status": "ok",
-      "count": 163
+      "count": 157
     },
     {
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 144
+      "count": 143
     },
     {
       "source": "greenhouse",
@@ -62,7 +62,7 @@
       "source": "greenhouse",
       "board": "airtable",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "source": "greenhouse",
@@ -103,7 +103,7 @@
       "source": "greenhouse",
       "board": "slice",
       "status": "ok",
-      "count": 24
+      "count": 23
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 767
+      "count": 774
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 921
+      "count": 920
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 375
+      "count": 373
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 39
+      "count": 40
     },
     {
       "source": "greenhouse",
@@ -168,49 +168,49 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 59
+      "count": 61
     },
     {
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 376
+      "count": 379
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 129
+      "count": 128
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 108
+      "count": 112
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 268
+      "count": 271
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 283
+      "count": 285
     },
     {
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 270
+      "count": 273
     },
     {
       "source": "greenhouse",
       "board": "gusto",
       "status": "ok",
-      "count": 83
+      "count": 80
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 426
+      "count": 423
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 200
+      "count": 197
     },
     {
       "source": "greenhouse",
@@ -287,7 +287,7 @@
       "source": "lever",
       "board": "mindtickle",
       "status": "ok",
-      "count": 21
+      "count": 20
     },
     {
       "source": "lever",
@@ -320,8 +320,9 @@
     {
       "source": "lever",
       "board": "porter",
-      "status": "ok",
-      "count": 22
+      "status": "error",
+      "error": "TimeoutError",
+      "count": 0
     },
     {
       "source": "lever",
@@ -397,7 +398,7 @@
       "source": "lever",
       "board": "cars24",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     }
   ],
