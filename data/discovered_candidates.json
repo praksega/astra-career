@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T10:12:19.212474+00:00",
+  "updated_at": "2026-11-11T09:41:08.286201+00:00",
   "candidates": [
     {
       "id": "greenhouse:8355801",
@@ -627,7 +627,7 @@
         "performance metrics"
       ],
       "matching_method": "jd_responsibilities",
-      "description_characters": 16153,
+      "description_characters": 16141,
       "jd_text_available_for_scoring": true,
       "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><p><strong>Role Type: </strong>Full-time people leadership role</p>\n<p><strong>Team: </strong>Instawork Robotics Lab (IRL)</p>\n<p><strong>Reports To: </strong>Field Operations Manager / Head of Field Operations</p>\n<p><strong>Manages: </strong>A team of Trainers / Junior Trainers deployed across cities</p>\n<p><strong>Location: </strong>Bengaluru (base) + extensive multi-city field travel</p>\n<p><strong>Experience: </strong>3\u20136 years, including hands-on training and team management</p>\n<p><strong>Travel: </strong>Extensive travel across India is mandatory</p>\n<p><strong>Working Hours: </strong>6 days/week | project-dependent hours</p>\n<h2><strong>About Us: Please Read First</strong>",
       "jd_details": {
@@ -1537,7 +1537,7 @@
         "operational excellence"
       ],
       "matching_method": "jd_responsibilities",
-      "description_characters": 10248,
+      "description_characters": 10236,
       "jd_text_available_for_scoring": true,
       "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><div>\n<p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p>\n</div>\n<div>\n<p>Instawork\u2019s on-demand labor marketplace is uniquely valuable for robotics and physical AI. We\u2019re working with leading frontier labs to create the highest-quality, highest-diversity datasets ",
       "jd_details": {
@@ -1633,103 +1633,6 @@
       ]
     },
     {
-      "id": "greenhouse:7960157",
-      "company_board": "okta",
-      "title": "People Operations Specialist",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7960157?gh_jid=7960157",
-      "source": "greenhouse",
-      "source_date": "2026-05-28T03:44:27-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations specialist",
-        "operational excellence"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 5596,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><h3 data-path-to-node=\"2\">Role Overview</h3>\n<p style=\"text-align: left;\">Are you a seasoned People Ops professional who loves the intersection of HR technology,&nbsp;compliance, and employee experience? We are looking for a high-performing Specialist to join&nbsp;our global team and own critical pillars of our employee journey!&nbsp;In this role, you will be the absolute guardian of our global data integrity and the primary&nbsp;gatekeeper for candidate compliance from hire to retire.</p>\n<h3 data-path-to-node=\"5\">Key Responsibilities</h3>\n<p><strong> Roles (The Mission)</strong></p>\n<ul>\n<li>Lifecycle ",
-      "jd_details": {
-        "source_url": "https://www.okta.com/company/careers/opportunity/7960157?gh_jid=7960157",
-        "full_description_available": true,
-        "responsibilities": [
-          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
-          "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
-          "Risk & Compliance Lead: Act as the primary gatekeeper for global compliance by managing and executing robust background verification (BGC) processes.",
-          "Workday Data Management: Execute complex global data changes (transfers, promotions, comp updates, terminations) and manage mass uploads using Workday EIBs.",
-          "End-to-End BGC Ownership: Partner with external vendors to trigger, track, and review comprehensive background checks. Safely escalate and resolve discrepancies.",
-          "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations."
-        ],
-        "qualifications": [
-          "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
-          "5+ years of core experience in People Operations/HR Ops with deep employee lifecycle exposure.",
-          "Mandatory tech skills: Hands-on proficiency with Workday Core HCM (including EIB execution) and ServiceNow (SNOW).",
-          "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations.",
-          "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
-        ],
-        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "operational excellence"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "documentation"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [
-          "cpa"
-        ],
-        "gap_status": "requires_review",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
       "id": "greenhouse:7805386",
       "company_board": "stripe",
       "title": "Marketing Operations Manager",
@@ -1797,6 +1700,103 @@
               "operations"
             ],
             "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "greenhouse:7727730",
+      "company_board": "okta",
+      "title": "Business Systems Analyst, ServiceNow",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/7727730?gh_jid=7727730",
+      "source": "greenhouse",
+      "source_date": "2026-04-01T04:13:15-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "business systems"
+      ],
+      "matching_method": "title",
+      "description_characters": 5342,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><h2><strong>Description</strong></h2>\n<p>We are seeking a Business Systems Analyst to join our ServiceNow platform team. In this role you will partner with business stakeholders and technical teams to translate process needs into well-defined ServiceNow solutions across IT Service Management (ITSM), IT Operations Management (ITOM), HR Service Delivery (HRSD) / Employee Center, Hardware Asset Management (HAM), Software Asset Management (SAM), and Customer Service Management (CSM). You will work independently on defined projects and enhancements, contribute to platform-wide improvements, and help ensure ou",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/7727730?gh_jid=7727730",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "We are seeking a Business Systems Analyst to join our ServiceNow platform team. In this role you will partner with business stakeholders and technical teams to translate process needs into well-defined ServiceNow solutions across IT Service Management (ITSM), IT Operations Manage",
+          "Elicit, document, and refine business requirements through workshops, interviews, and process mapping, and translate them into user stories with clear acceptance criteria.",
+          "Support and enhance ITSM and ITOM processes, including Incident, Problem, Change, Request, Knowledge, and CMDB.",
+          "Partner with developers and architects to design solutions that align with platform standards and best practices.",
+          "Develop test plans, execute functional testing and UAT, and coordinate defect resolution ahead of each release."
+        ],
+        "qualifications": [
+          "Elicit, document, and refine business requirements through workshops, interviews, and process mapping, and translate them into user stories with clear acceptance criteria.",
+          "Support and enhance ITSM and ITOM processes, including Incident, Problem, Change, Request, Knowledge, and CMDB.",
+          "Bachelor\u2019s degree in Information Systems, Business, Computer Science, or a related field, or equivalent practical experience.",
+          "2\u20135 years of experience as a business systems analyst, business analyst, or ServiceNow functional consultant or administrator.",
+          "Hands-on experience configuring ServiceNow in at least one of ITSM, ITOM, HRSD, CSM, HAM, or SAM, with working knowledge of the platform data model.",
+          "Proven ability to gather requirements, write user stories, and document business processes."
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "dashboard",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "implementation",
+              "agile"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation",
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
           }
         ],
         "potential_unverified_requirements": [],
@@ -1899,7 +1899,7 @@
         "operational excellence"
       ],
       "matching_method": "title_and_jd",
-      "description_characters": 8447,
+      "description_characters": 8435,
       "jd_text_available_for_scoring": true,
       "description_excerpt": "<div class=\"content-intro\"><p>Instawork is on a mission to create meaningful economic opportunities for skilled hourly professionals in communities around the globe. Our AI-powered labor marketplace helps local businesses scale, and enables global technology companies to push the frontiers of robotics and AI. Backed by world-class investors like Benchmark, Spark Capital, Craft Ventures, Greylock, Y Combinator, and others, we\u2019re looking for exceptional talent to reimagine the way the world works.</p></div><p>At our labor marketplace tech company, we believe that even in the age of AI, the core of success comes down to good people doing honest work. We're seeking a detail-oriented and automation-savvy Product Operations Analyst to help us optimize our operational processes and ensure data accuracy across our platforms. This is a fantastic opportunity to grow your career at the intersection of operations, data, and intelligent automation.</p>\n<h4><strong>Who You Are:</strong></h4>\n<ul>\n<li><strong>Automation Enthusiast:</strong> You're passionate about eliminating manual work through automation. You've built workflows using tools like n8n, Zapier, or Make.com, and you're always lookin",
       "jd_details": {

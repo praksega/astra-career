@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-10T10:12:19.212474+00:00",
+  "run_at_utc": "2026-11-11T09:41:08.286201+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
-  "source_boards_succeeded": 24,
-  "source_boards_failed": 32,
-  "raw_listings_seen": 4785,
-  "individual_screening_records": 4785,
+  "source_boards_succeeded": 25,
+  "source_boards_failed": 31,
+  "raw_listings_seen": 4819,
+  "individual_screening_records": 4819,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 220,
-    "outside_target_locations": 4417,
-    "title_and_jd": 12,
+    "role_not_relevant": 219,
+    "outside_target_locations": 4452,
+    "title_and_jd": 11,
     "excluded_specialist_title": 128,
-    "title": 4
+    "title": 5
   },
-  "location_eligible_jds_screened": 368,
-  "location_eligible_jds_with_500_plus_chars": 365,
+  "location_eligible_jds_screened": 367,
+  "location_eligible_jds_with_500_plus_chars": 364,
   "unique_role_location_candidates": 20,
   "full_jds_with_accessible_text": 20,
   "jd_evidence_maps_generated": 20,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 20,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4765,
+    "unrelated_or_unapproved_location": 4799,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -37,7 +37,7 @@
       "source": "greenhouse",
       "board": "instawork",
       "status": "ok",
-      "count": 55
+      "count": 54
     },
     {
       "source": "greenhouse",
@@ -49,7 +49,7 @@
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 143
+      "count": 142
     },
     {
       "source": "greenhouse",
@@ -62,7 +62,7 @@
       "source": "greenhouse",
       "board": "airtable",
       "status": "ok",
-      "count": 6
+      "count": 8
     },
     {
       "source": "greenhouse",
@@ -130,19 +130,19 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 774
+      "count": 779
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 920
+      "count": 918
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 373
+      "count": 376
     },
     {
       "source": "greenhouse",
@@ -174,37 +174,37 @@
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 379
+      "count": 381
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 128
+      "count": 125
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 112
+      "count": 107
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 271
+      "count": 279
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 285
+      "count": 286
     },
     {
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 273
+      "count": 276
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 423
+      "count": 425
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 197
+      "count": 195
     },
     {
       "source": "greenhouse",
@@ -320,9 +320,8 @@
     {
       "source": "lever",
       "board": "porter",
-      "status": "error",
-      "error": "TimeoutError",
-      "count": 0
+      "status": "ok",
+      "count": 22
     },
     {
       "source": "lever",
@@ -398,7 +397,7 @@
       "source": "lever",
       "board": "cars24",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     }
   ],
