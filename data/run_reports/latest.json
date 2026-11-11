@@ -95,8 +95,8 @@
     "GITHUB_WRITE": {
       "attempted": true,
       "succeeded": true,
-      "readback_confirmed": false,
-      "readback_sha": null,
+      "readback_confirmed": true,
+      "readback_sha": "5f085e086d2e55979411b383b04d63f425b6f655",
       "public_jobs_modified": false,
       "linkedin_feed_modified": false,
       "private_queue_modified": false
