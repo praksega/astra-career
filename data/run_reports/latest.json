@@ -1,46 +1,40 @@
 {
   "schema_version": 5,
-  "run_date": "2026-11-10",
-  "run_started_at_utc": "2026-11-10T02:26:31Z",
-  "run_started_at_ist": "2026-11-10T07:56:31+05:30",
+  "run_date": "2026-11-11",
+  "run_started_at_utc": "2026-11-11T02:34:26Z",
+  "run_started_at_ist": "2026-11-11T08:04:26+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
       "public_report_read": true,
-      "previous_sha": "8bf88be33f7d05660d8913f692bb9e118ca9a740",
-      "other_public_files_read": true,
-      "private_repo_read": false
+      "public_jobs_read": true,
+      "public_linkedin_read": true,
+      "private_research_queue_read": false,
+      "private_error": "Requested private paths returned 404; no private modifications"
     },
     "DISCOVERY": {
-      "search_queries_submitted": 22,
+      "search_queries_submitted": 16,
       "search_batches": 2,
-      "search_source": "web search",
-      "domains_targeted": [
+      "source_domains_attempted": [
         "job-boards.greenhouse.io",
-        "boards.greenhouse.io",
         "jobs.lever.co",
         "jobs.ashbyhq.com",
         "myworkdayjobs.com",
-        "apply.workable.com",
         "jobs.smartrecruiters.com",
-        "careers.icims.com",
+        "apply.workable.com",
         "jobs.jobvite.com",
-        "careers.oracle.com",
-        "jobs.sap.com",
+        "careers.icims.com",
         "linkedin.com"
       ],
       "sources_with_candidate_results": [
-        "jobs.ashbyhq.com",
-        "myworkdayjobs.com",
-        "apply.workable.com",
         "jobs.smartrecruiters.com",
+        "jobs.lever.co",
         "linkedin.com"
       ],
-      "raw_search_result_count": "NOT_RELIABLY_COUNTED",
-      "unique_candidate_job_urls": 4,
-      "unsearched_sources": [
+      "raw_result_hits": "UNKNOWN_NOT_RELIABLY_COUNTED",
+      "unsearched": [
         "Naukri",
         "Foundit",
         "Instahyre",
@@ -49,66 +43,74 @@
         "Hirist",
         "BambooHR",
         "SuccessFactors",
+        "Oracle",
         "Darwinbox",
         "Keka",
         "Zoho Recruit",
         "Recruitee",
-        "Teamtailor"
+        "Teamtailor",
+        "Indeed",
+        "recruitment agencies"
       ],
-      "blocked_sources": []
-    },
-    "DEDUPE": {
-      "unique_candidate_job_urls": 4,
-      "canonical_urls": [
-        "https://jobs.ashbyhq.com/openai/ecd7b6d6-cf20-4e14-a90a-8501cd460557/",
-        "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Principal-PD-Project-Management-Specialist_R74028-1",
-        "https://apply.workable.com/lakshyadigitalglobal/j/DEA5BE8A5A/",
-        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566"
+      "blocked": [
+        "jobs.lever.co/Sprinto filtered board: 403 on direct opening"
       ]
     },
+    "DEDUPE": {
+      "unique_individual_employer_job_urls": 2,
+      "urls": [
+        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566-business-operations-analyst",
+        "https://jobs.smartrecruiters.com/boschgroup/744000138994648"
+      ],
+      "note": "Other surfaced results were board indexes, LinkedIn profiles or unrelated results, not unique individual job URLs."
+    },
     "JD_VALIDATION": {
-      "full_jds_read": 0,
-      "indexed_descriptions_inspected": 4,
-      "accessible_relevant_jd_universe": "UNKNOWN",
-      "inaccessible_jds": "UNKNOWN",
-      "pending_backlog": "UNKNOWN",
-      "review_coverage_pct": null,
+      "full_employer_jds_read": 2,
+      "accessible_potentially_relevant_full_jds": 1,
+      "accessible_potentially_relevant_full_jds_read": 1,
+      "review_coverage_pct_within_identified_set": 100,
+      "inaccessible_relevant_jds": 0,
+      "known_pending_backlog": 0,
+      "marketwide_backlog": "UNKNOWN",
       "rejections": [
-        "OpenAI: leadership seniority mismatch",
-        "Medtronic: principal technical program specialization",
-        "Lakshya Digital: unrelated animation role",
-        "PhonePe: previously identified and date unverified"
+        "Bosch: mechanical/automotive cost engineering specialization and 6–8 years",
+        "PhonePe: previously identified, original posting date unverified"
       ]
     },
     "MATCHING": {
       "new_strong": 0,
       "new_possible": 0,
-      "new_unverified_research_leads": 0,
-      "previously_identified_leads_revisited": 1,
-      "salary_unknown_for_revisited_lead": true
+      "new_verified_fresh": 0,
+      "new_unverified_promising": 0,
+      "previously_identified_revisited": 1,
+      "compensation_for_revisited": "UNKNOWN"
     },
     "LINKEDIN": {
-      "indexed_searches": 3,
-      "direct_original_post_pages_opened": 0,
+      "indexed_search_queries": 2,
+      "original_post_pages_opened": 0,
       "verified_original_timestamps": 0,
-      "published_posts": 0,
-      "reason": "Only profile/indexed snippets; no independently verified original timestamps and permalinks"
+      "verified_eligible_posts": 0,
+      "excluded_indexed_posts": "No independent original ISO8601 timestamp and canonical permalink; some older or unrelated"
     },
     "GITHUB_WRITE": {
       "attempted": true,
-      "succeeded": false,
-      "readback_sha": null
+      "succeeded": true,
+      "readback_confirmed": false,
+      "readback_sha": null,
+      "public_jobs_modified": false,
+      "linkedin_feed_modified": false,
+      "private_queue_modified": false
     },
     "FINAL": {
       "status": "PARTIAL",
       "reasons": [
         "DISCOVERY_BREADTH_LOW",
-        "Original publication dates unavailable",
-        "No full employer JD pages opened",
-        "Private repository not read",
-        "Review universe unknown"
+        "16 searches insufficient for systematic matrix",
+        "Original posting dates unverified",
+        "Private research queue path unresolved",
+        "Marketwide relevant JD universe unknown"
       ]
     }
   },
-  "notes": "Public-safe run diagnostics; measured web searches only. Search results do not imply direct employer JD validation. No application or outreach. Existing job, LinkedIn and manual intake files left unchanged."
+  "notes": "No applications or outreach. Counters refer only to observed sources and actual opened JDs. No fresh match promoted."
 }
