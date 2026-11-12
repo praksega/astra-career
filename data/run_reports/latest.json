@@ -1,116 +1,180 @@
 {
-  "schema_version": 5,
-  "run_date": "2026-11-11",
-  "run_started_at_utc": "2026-11-11T02:34:26Z",
-  "run_started_at_ist": "2026-11-11T08:04:26+05:30",
+  "schema_version": 6,
+  "run_date": "2026-11-12",
+  "run_started_at_utc": "2026-11-12T02:29:00Z",
+  "run_started_at_ist": "2026-11-12T07:59:00+05:30",
+  "report_written_at_utc": "2026-11-12T02:30:43.125Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
       "public_report_read": true,
+      "public_report_prior_sha": "9ca7e42fab6f5e79b45154413383c3df6732606b",
       "public_jobs_read": true,
+      "public_jobs_prior_sha": "37126a37ac956cb40feba224e4de0ed54c8f90f0",
       "public_linkedin_read": true,
-      "private_research_queue_read": false,
-      "private_error": "Requested private paths returned 404; no private modifications"
+      "public_linkedin_prior_sha": "e38e877e55304bc9344d5f643981140035683cf3",
+      "public_manual_linkedin_read": true,
+      "private_research_queue_read": true,
+      "private_queue_prior_sha": "b6c705d1c0508f7cdf117488baacbc4489aeb98e"
     },
     "DISCOVERY": {
-      "search_queries_submitted": 16,
-      "search_batches": 2,
+      "search_batches": 6,
+      "search_queries_submitted": 60,
+      "raw_search_result_hits": "UNKNOWN_NOT_RELIABLY_COUNTED",
+      "candidate_job_urls_explicitly_logged": 24,
       "source_domains_attempted": [
+        "boards.greenhouse.io",
         "job-boards.greenhouse.io",
         "jobs.lever.co",
         "jobs.ashbyhq.com",
         "myworkdayjobs.com",
         "jobs.smartrecruiters.com",
         "apply.workable.com",
-        "jobs.jobvite.com",
         "careers.icims.com",
-        "linkedin.com"
+        "jobs.jobvite.com",
+        "careers.oracle.com",
+        "jobs.bamboohr.com",
+        "jobs.successfactors.com",
+        "oraclecloud.com",
+        "darwinbox.in",
+        "recruitee.com",
+        "jobs.teamtailor.com",
+        "jobs.zoho.com",
+        "careers.keka.com",
+        "indeed.com",
+        "naukri.com",
+        "foundit.in",
+        "instahyre.com",
+        "wellfound.com",
+        "cutshort.io",
+        "hirist.tech",
+        "linkedin.com",
+        "amazon.jobs",
+        "careers.fedex.com",
+        "careers.accenture.com",
+        "careers.amgen.com",
+        "careers.wipro.com",
+        "careers.google.com",
+        "careers.microsoft.com"
       ],
-      "sources_with_candidate_results": [
-        "jobs.smartrecruiters.com",
+      "sources_yielding_individual_job_urls": [
         "jobs.lever.co",
-        "linkedin.com"
+        "jobs.ashbyhq.com",
+        "myworkdayjobs.com",
+        "jobs.smartrecruiters.com",
+        "apply.workable.com",
+        "job-boards.greenhouse.io",
+        "wellfound.com"
       ],
-      "raw_result_hits": "UNKNOWN_NOT_RELIABLY_COUNTED",
-      "unsearched": [
-        "Naukri",
-        "Foundit",
-        "Instahyre",
-        "Wellfound",
-        "Cutshort",
-        "Hirist",
-        "BambooHR",
-        "SuccessFactors",
-        "Oracle",
-        "Darwinbox",
-        "Keka",
-        "Zoho Recruit",
-        "Recruitee",
-        "Teamtailor",
-        "Indeed",
-        "recruitment agencies"
+      "additional_sources_yielding_board_or_index_results": [
+        "jobs.jobvite.com",
+        "hirist.tech",
+        "linkedin.com",
+        "indeed.com"
       ],
-      "blocked": [
-        "jobs.lever.co/Sprinto filtered board: 403 on direct opening"
-      ]
+      "source_blocked_or_unreadable": [
+        "naukri.com: robots.txt",
+        "jobs.lever.co: selected individual job pages 403",
+        "jobs.ashbyhq.com: selected individual job pages 404",
+        "myworkdayjobs.com: selected full JD zero readable lines",
+        "apply.workable.com: selected full JD zero readable lines"
+      ],
+      "unsearched_or_unresolved_cells": [
+        "Secunderabad-specific workforce/TA operations",
+        "Remote India process excellence",
+        "Pune product operations",
+        "Gachibowli-specific business transformation",
+        "many combinations across 7 role families and 8 geography variants"
+      ],
+      "role_location_matrix_counters": "NOT_RELIABLY_INSTRUMENTED",
+      "source_raw_url_counts": "NOT_RELIABLY_INSTRUMENTED",
+      "discovery_exhaustive": false
     },
     "DEDUPE": {
-      "unique_individual_employer_job_urls": 2,
-      "urls": [
-        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566-business-operations-analyst",
-        "https://jobs.smartrecruiters.com/boschgroup/744000138994648"
-      ],
-      "note": "Other surfaced results were board indexes, LinkedIn profiles or unrelated results, not unique individual job URLs."
+      "raw_logged_candidate_urls": 24,
+      "canonical_unique_candidate_urls": 24,
+      "ats_requisition_duplicates_within_logged_set": 0,
+      "employer_native_urls_explicitly_logged": 14,
+      "third_party_candidate_urls_explicitly_logged": 10,
+      "note": "Only explicit individual job links counted, not board pages, LinkedIn jobs category pages or search-result totals; canonicalized query strings and trailing slash."
     },
     "JD_VALIDATION": {
-      "full_employer_jds_read": 2,
-      "accessible_potentially_relevant_full_jds": 1,
-      "accessible_potentially_relevant_full_jds_read": 1,
-      "review_coverage_pct_within_identified_set": 100,
-      "inaccessible_relevant_jds": 0,
-      "known_pending_backlog": 0,
-      "marketwide_backlog": "UNKNOWN",
-      "rejections": [
-        "Bosch: mechanical/automotive cost engineering specialization and 6–8 years",
-        "PhonePe: previously identified, original posting date unverified"
-      ]
+      "full_jds_read": 14,
+      "employer_native_full_jds_read": 5,
+      "third_party_full_jds_read": 9,
+      "accessible_potentially_relevant_full_jds_identified": 6,
+      "accessible_potentially_relevant_full_jds_read": 6,
+      "identified_set_review_coverage_pct": 100,
+      "inaccessible_potentially_relevant_full_jds": 4,
+      "known_accessible_pending_backlog": 0,
+      "undiscovered_market_backlog": "UNKNOWN",
+      "exclusions": {
+        "seniority_mismatch": 2,
+        "sector_specialization_or_domain_gap": 4,
+        "compensation_below_target": 2,
+        "location_or_work_authorization": 2,
+        "technical_role_mismatch": 2,
+        "original_posting_older_than_five_days": "MULTIPLE_NOT_UNIQUELY_COUNTED"
+      },
+      "notes": "Four potentially relevant pages inaccessible: Hevo 403, Juniper Square 404, Meraki Labs 404, Capgemini Workable zero readable lines. Additional inaccessible listings objectively excluded. Count of exclusion categories overlaps and is not a count of unique rejections."
     },
     "MATCHING": {
-      "new_strong": 0,
-      "new_possible": 0,
-      "new_verified_fresh": 0,
-      "new_unverified_promising": 0,
-      "previously_identified_revisited": 1,
-      "compensation_for_revisited": "UNKNOWN"
+      "new_verified_fresh_strong": 0,
+      "new_verified_fresh_possible": 0,
+      "new_verified_fresh_total": 0,
+      "new_private_unverified_or_older_leads": 5,
+      "private_queue_total_after_merge": 34,
+      "compensation_unknown_for_new_private_leads": 5,
+      "freshness_window_local_dates": "2026-11-07 through 2026-11-12; original employer posting date required",
+      "scoring_rubric": {
+        "responsibilities": 30,
+        "skills": 25,
+        "seniority": 15,
+        "sector": 10,
+        "geography": 15,
+        "compensation": 5
+      },
+      "min_evidence_coverage": 0.8,
+      "reason": "No discovered vacancy had both confirmed original date within five days and qualifying employer-native full JD plus sufficient fit evidence."
     },
     "LINKEDIN": {
-      "indexed_search_queries": 2,
-      "original_post_pages_opened": 0,
-      "verified_original_timestamps": 0,
+      "public_indexed_post_search_queries": 6,
+      "original_linkedin_post_pages_directly_opened": 0,
+      "independently_verified_original_iso8601_timestamps": 0,
       "verified_eligible_posts": 0,
-      "excluded_indexed_posts": "No independent original ISO8601 timestamp and canonical permalink; some older or unrelated"
+      "rejected_or_unverified_original_timestamps": "AT_LEAST_6_INDEXED_SEARCHES_NO_QUALIFYING_POST",
+      "feed_modified": false,
+      "manual_intake_preserved": true
     },
     "GITHUB_WRITE": {
-      "attempted": true,
-      "succeeded": true,
-      "readback_confirmed": true,
-      "readback_sha": "5f085e086d2e55979411b383b04d63f425b6f655",
+      "public_report_attempted": true,
+      "public_report_succeeded": true,
+      "public_report_readback_confirmed": "TO_BE_VERIFIED_AFTER_WRITE",
+      "public_report_readback_sha": null,
       "public_jobs_modified": false,
-      "linkedin_feed_modified": false,
-      "private_queue_modified": false
+      "public_linkedin_feed_modified": false,
+      "manual_linkedin_intake_modified": false,
+      "private_queue_attempted": true,
+      "private_queue_succeeded": true,
+      "private_queue_readback_confirmed": true,
+      "private_queue_readback_sha": "4da1b2bb82cb00c1691a617260e58480c174009e",
+      "private_queue_commit_sha": "796b257818801975cb44f59b40cc5c1007d94220"
     },
     "FINAL": {
       "status": "PARTIAL",
+      "coverage_status": "INCOMPLETE",
       "reasons": [
-        "DISCOVERY_BREADTH_LOW",
-        "16 searches insufficient for systematic matrix",
-        "Original posting dates unverified",
-        "Private research queue path unresolved",
-        "Marketwide relevant JD universe unknown"
-      ]
+        "DISCOVERY_BREADTH_LOW: 24 unique candidate job URLs versus aspirational 200-500",
+        "Only 7 source domains yielded individual job URLs, fewer than 15 successfully accessible employer/job platforms",
+        "Inaccessible employer ATS full JDs",
+        "Original dates not verified within five-day window",
+        "Not all role/location matrix cells covered; marketwide backlog unknown"
+      ],
+      "applications_submitted": 0,
+      "recruiter_outreach_sent": 0
     }
   },
-  "notes": "No applications or outreach. Counters refer only to observed sources and actual opened JDs. No fresh match promoted."
+  "notes": "Public report contains aggregate metadata only; private research queue holds individual unverified leads. No fresh jobs or LinkedIn posts added to public feeds."
 }
