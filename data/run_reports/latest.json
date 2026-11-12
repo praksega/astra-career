@@ -159,8 +159,8 @@
       "private_queue_attempted": true,
       "private_queue_succeeded": true,
       "private_queue_readback_confirmed": true,
-      "private_queue_readback_sha": "4da1b2bb82cb00c1691a617260e58480c174009e",
-      "private_queue_commit_sha": "796b257818801975cb44f59b40cc5c1007d94220",
+      "private_queue_readback_sha": "bb7ec9eeac3058fb6296cc4ead1f3d272abda494",
+      "private_queue_commit_sha": "d1b4d56504f6c89a0d5c17e4b197ebb3a9b41346",
       "public_report_first_commit_sha": "a999325111f876b19c3cf3b25bfc619ea14703b0"
     },
     "FINAL": {
@@ -177,5 +177,5 @@
       "recruiter_outreach_sent": 0
     }
   },
-  "notes": "Public report contains aggregate metadata only; private research queue holds individual unverified leads. No fresh jobs or LinkedIn posts added to public feeds."
+  "notes": "Public report contains aggregate metadata only; private research queue holds individual unverified leads. No fresh jobs or LinkedIn posts added to public feeds. Third-party dates for Hevo and LogicMonitor retained only as third-party-reported, not verified original."
 }
