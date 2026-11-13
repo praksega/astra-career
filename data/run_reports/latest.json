@@ -1,30 +1,31 @@
 {
-  "schema_version": 6,
-  "run_date": "2026-11-12",
-  "run_started_at_utc": "2026-11-12T02:29:00Z",
-  "run_started_at_ist": "2026-11-12T07:59:00+05:30",
-  "report_written_at_utc": "2026-11-12T02:30:43.125Z",
+  "schema_version": 7,
+  "run_date": "2026-11-13",
+  "run_started_at_utc": "2026-11-13T02:30:16Z",
+  "run_started_at_ist": "2026-11-13T08:00:16+05:30",
+  "report_written_at_utc": "2026-11-13T02:32:52.535Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
       "public_report_read": true,
-      "public_report_prior_sha": "9ca7e42fab6f5e79b45154413383c3df6732606b",
+      "public_report_prior_sha": "177802f969754c97ff094cae2ebeadb21b8f7686",
       "public_jobs_read": true,
       "public_jobs_prior_sha": "37126a37ac956cb40feba224e4de0ed54c8f90f0",
       "public_linkedin_read": true,
       "public_linkedin_prior_sha": "e38e877e55304bc9344d5f643981140035683cf3",
       "public_manual_linkedin_read": true,
+      "public_manual_linkedin_prior_sha": "04b1b58866864d427d8266653bb7bcbc7151192a",
       "private_research_queue_read": true,
-      "private_queue_prior_sha": "b6c705d1c0508f7cdf117488baacbc4489aeb98e"
+      "private_queue_prior_sha": "bb7ec9eeac3058fb6296cc4ead1f3d272abda494"
     },
     "DISCOVERY": {
-      "search_batches": 6,
-      "search_queries_submitted": 60,
-      "raw_search_result_hits": "UNKNOWN_NOT_RELIABLY_COUNTED",
-      "candidate_job_urls_explicitly_logged": 24,
-      "source_domains_attempted": [
+      "search_batches": 7,
+      "search_queries_submitted": 64,
+      "raw_search_result_hits": "UNKNOWN_NOT_INSTRUMENTED",
+      "raw_individual_job_urls_explicitly_logged": 50,
+      "source_domains_or_platforms_targeted": [
         "boards.greenhouse.io",
         "job-boards.greenhouse.io",
         "jobs.lever.co",
@@ -32,17 +33,13 @@
         "myworkdayjobs.com",
         "jobs.smartrecruiters.com",
         "apply.workable.com",
-        "careers.icims.com",
         "jobs.jobvite.com",
-        "careers.oracle.com",
+        "careers.icims.com",
         "jobs.bamboohr.com",
-        "jobs.successfactors.com",
         "oraclecloud.com",
-        "darwinbox.in",
-        "recruitee.com",
+        "jobs.successfactors.com",
+        "jobs.recruitee.com",
         "jobs.teamtailor.com",
-        "jobs.zoho.com",
-        "careers.keka.com",
         "indeed.com",
         "naukri.com",
         "foundit.in",
@@ -51,83 +48,148 @@
         "cutshort.io",
         "hirist.tech",
         "linkedin.com",
-        "amazon.jobs",
+        "careers.amazon.jobs",
         "careers.fedex.com",
         "careers.accenture.com",
-        "careers.amgen.com",
-        "careers.wipro.com",
-        "careers.google.com",
-        "careers.microsoft.com"
+        "careers.kroll.com",
+        "careers.ey.com",
+        "careers.yash.com",
+        "eeug.fa.us6.oraclecloud.com",
+        "jpmc.fa.oraclecloud.com"
       ],
-      "sources_yielding_individual_job_urls": [
-        "jobs.lever.co",
-        "jobs.ashbyhq.com",
-        "myworkdayjobs.com",
-        "jobs.smartrecruiters.com",
-        "apply.workable.com",
-        "job-boards.greenhouse.io",
-        "wellfound.com"
-      ],
-      "additional_sources_yielding_board_or_index_results": [
-        "jobs.jobvite.com",
-        "hirist.tech",
-        "linkedin.com",
-        "indeed.com"
-      ],
+      "source_targets_count": 30,
+      "source_domains_with_explicit_individual_job_urls": {
+        "myworkdayjobs.com": 8,
+        "jobs.smartrecruiters.com": 2,
+        "jobs.ashbyhq.com": 1,
+        "oraclecloud.com": 7,
+        "jobs.lever.co": 6,
+        "careers.ey.com": 11,
+        "careers.kroll.com": 4,
+        "amazon.jobs": 1,
+        "careers.yash.com": 1,
+        "job-boards.greenhouse.io": 1,
+        "linkedin.com/jobs": 2,
+        "wellfound.com": 3,
+        "jobera.com": 1,
+        "jobinaweek.com": 1,
+        "alion.io": 1
+      },
+      "source_domains_with_individual_job_urls_count": 15,
+      "employer_native_source_categories_with_individual_jobs": 10,
       "source_blocked_or_unreadable": [
         "naukri.com: robots.txt",
-        "jobs.lever.co: selected individual job pages 403",
-        "jobs.ashbyhq.com: selected individual job pages 404",
-        "myworkdayjobs.com: selected full JD zero readable lines",
-        "apply.workable.com: selected full JD zero readable lines"
+        "jobs.lever.co: selected job page HTTP 403",
+        "myworkdayjobs.com: selected job pages returned zero readable lines",
+        "oraclecloud.com: selected job pages returned zero readable lines",
+        "careers.ey.com: one tax specialist job returned DisabledError"
       ],
       "unsearched_or_unresolved_cells": [
-        "Secunderabad-specific workforce/TA operations",
+        "Secunderabad-specific TA/workforce operations",
+        "Gachibowli-specific transformation",
         "Remote India process excellence",
         "Pune product operations",
-        "Gachibowli-specific business transformation",
-        "many combinations across 7 role families and 8 geography variants"
+        "many 7-role-family x 8-geography variants not individually covered"
       ],
-      "role_location_matrix_counters": "NOT_RELIABLY_INSTRUMENTED",
-      "source_raw_url_counts": "NOT_RELIABLY_INSTRUMENTED",
+      "role_family_queries_attempted": [
+        "Product Operations",
+        "Business and Strategy Operations",
+        "Business and Product Analyst",
+        "Program and Project Operations",
+        "Process Excellence and Continuous Improvement",
+        "Workforce and TA Operations",
+        "Business Transformation and Operations Analytics"
+      ],
+      "geography_variants_targeted": [
+        "Hyderabad",
+        "Secunderabad",
+        "Gachibowli",
+        "Bengaluru",
+        "Bangalore",
+        "Pune",
+        "Remote India",
+        "India remote"
+      ],
+      "role_location_matrix_per_cell_counts": "NOT_RELIABLY_INSTRUMENTED",
       "discovery_exhaustive": false
     },
     "DEDUPE": {
-      "raw_logged_candidate_urls": 24,
-      "canonical_unique_candidate_urls": 24,
+      "raw_logged_candidate_urls": 50,
+      "canonical_unique_candidate_urls": 50,
       "ats_requisition_duplicates_within_logged_set": 0,
-      "employer_native_urls_explicitly_logged": 14,
-      "third_party_candidate_urls_explicitly_logged": 10,
-      "note": "Only explicit individual job links counted, not board pages, LinkedIn jobs category pages or search-result totals; canonicalized query strings and trailing slash."
+      "employer_native_urls_explicitly_logged": 42,
+      "third_party_individual_job_urls_explicitly_logged": 8,
+      "note": "Counts apply only to manually logged individual result URLs; job boards/indexes excluded; no automatic full-result extraction or pagination. Duplicate requisitions not identified in this explicit set."
     },
     "JD_VALIDATION": {
-      "full_jds_read": 14,
-      "employer_native_full_jds_read": 5,
-      "third_party_full_jds_read": 9,
-      "accessible_potentially_relevant_full_jds_identified": 6,
-      "accessible_potentially_relevant_full_jds_read": 6,
+      "full_jds_read": 10,
+      "employer_native_full_jds_read": 9,
+      "third_party_full_jds_read": 1,
+      "accessible_potentially_relevant_full_jds_identified": 7,
+      "accessible_potentially_relevant_full_jds_read": 7,
       "identified_set_review_coverage_pct": 100,
-      "inaccessible_potentially_relevant_full_jds": 4,
+      "inaccessible_potentially_relevant_full_jds": 3,
       "known_accessible_pending_backlog": 0,
       "undiscovered_market_backlog": "UNKNOWN",
-      "exclusions": {
-        "seniority_mismatch": 2,
-        "sector_specialization_or_domain_gap": 4,
-        "compensation_below_target": 2,
-        "location_or_work_authorization": 2,
-        "technical_role_mismatch": 2,
-        "original_posting_older_than_five_days": "MULTIPLE_NOT_UNIQUELY_COUNTED"
+      "inaccessible_relevant_examples": [
+        "JLL Business Analyst Pune Workday zero readable lines",
+        "Northern Trust Associate Consultant BPA Pune Workday zero readable lines",
+        "TSYS Business Systems Analyst Pune Workday zero readable lines"
+      ],
+      "objective_exclusion_examples": {
+        "trainee_apprentice_internship": [
+          "Michelin trainee",
+          "Deutsche Bank apprenticeship",
+          "Addepar software engineering internship"
+        ],
+        "technical_platform_specialist": [
+          "EY IAM SailPoint/ServiceNow",
+          "Highstreet Oracle HCM",
+          "YASH SAP BTP",
+          "Jobgether ServiceNow",
+          "AHEAD ServiceNow ITOM"
+        ],
+        "seniority": [
+          "Diebold Nixdorf director",
+          "EY tax senior manager",
+          "Kroll Mumbai senior manager PMO"
+        ],
+        "domain_gap": [
+          "TSYS Salesforce",
+          "JPMorgan FEMA payments",
+          "Barclays private banking AVP"
+        ],
+        "geography": [
+          "EY HR Assistant Manager primary location Mumbai",
+          "Kroll PMO senior manager Mumbai"
+        ],
+        "below_target_disclosed_compensation": [
+          "Troopod Strategy & Operations Associate INR 4.8–8.4 LPA"
+        ]
       },
-      "notes": "Four potentially relevant pages inaccessible: Hevo 403, Juniper Square 404, Meraki Labs 404, Capgemini Workable zero readable lines. Additional inaccessible listings objectively excluded. Count of exclusion categories overlaps and is not a count of unique rejections."
+      "notes": "Exclusion categories overlap; exact per-category totals not instrumented. Indexed snippets are not counted as directly opened full JDs."
     },
     "MATCHING": {
       "new_verified_fresh_strong": 0,
-      "new_verified_fresh_possible": 0,
-      "new_verified_fresh_total": 0,
-      "new_private_unverified_or_older_leads": 5,
-      "private_queue_total_after_merge": 34,
-      "compensation_unknown_for_new_private_leads": 5,
-      "freshness_window_local_dates": "2026-11-07 through 2026-11-12; original employer posting date required",
+      "new_verified_fresh_possible": 1,
+      "new_verified_fresh_total": 1,
+      "new_verified_fresh_job": {
+        "company": "Kroll",
+        "title": "Production Operations Analyst II L2",
+        "location": "Hyderabad",
+        "ats_requisition": "21015365",
+        "employer_url": "https://careers.kroll.com/en/job/hyderabad/production-operations-analyst-ii-l2/21015365",
+        "original_posting_date": "2026-11-10",
+        "original_posting_date_evidence_url": "https://hcxs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&sType=Trackr&selectedPostingDatesFacet=30",
+        "score": 81,
+        "evidence_coverage": 0.83,
+        "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
+        "note": "5+ years specifically in data reporting/analytics is a potential gap; salary unknown."
+      },
+      "new_private_unverified_or_older_leads": 6,
+      "private_queue_total_after_merge": 40,
+      "compensation_unknown_for_new_private_leads": 6,
+      "freshness_window": "2026-11-08T08:00:16+05:30 through 2026-11-13T08:00:16+05:30",
       "scoring_rubric": {
         "responsibilities": 30,
         "skills": 25,
@@ -136,46 +198,50 @@
         "geography": 15,
         "compensation": 5
       },
-      "min_evidence_coverage": 0.8,
-      "reason": "No discovered vacancy had both confirmed original date within five days and qualifying employer-native full JD plus sufficient fit evidence."
+      "min_evidence_coverage": 0.8
     },
     "LINKEDIN": {
       "public_indexed_post_search_queries": 6,
       "original_linkedin_post_pages_directly_opened": 0,
+      "individual_linkedin_job_pages_directly_opened": 1,
       "independently_verified_original_iso8601_timestamps": 0,
       "verified_eligible_posts": 0,
-      "rejected_or_unverified_original_timestamps": "AT_LEAST_6_INDEXED_SEARCHES_NO_QUALIFYING_POST",
+      "rejected_or_unverified_original_timestamps": "UNKNOWN_COUNT; no original qualifying post timestamps surfaced",
       "feed_modified": false,
-      "manual_intake_preserved": true
+      "manual_intake_preserved": true,
+      "notes": "Public search returned mainly LinkedIn jobs and profile/company pages, not independently timestamped original hiring post permalinks. No scrolling claimed."
     },
     "GITHUB_WRITE": {
-      "public_report_attempted": true,
-      "public_report_succeeded": true,
-      "public_report_readback_confirmed": true,
-      "public_report_readback_sha": "04fef356b5cfeb083cdf1b73d6fbe817f0b79fc8",
-      "public_jobs_modified": false,
-      "public_linkedin_feed_modified": false,
-      "manual_linkedin_intake_modified": false,
+      "public_jobs_attempted": true,
+      "public_jobs_succeeded": true,
+      "public_jobs_readback_confirmed": true,
+      "public_jobs_readback_sha": "4c0565237d8f39bd1b06810e9f205c6a1e48e58c",
+      "public_jobs_commit_sha": "e7426b082233412112d3da87e567613773f4431b",
       "private_queue_attempted": true,
       "private_queue_succeeded": true,
       "private_queue_readback_confirmed": true,
-      "private_queue_readback_sha": "bb7ec9eeac3058fb6296cc4ead1f3d272abda494",
-      "private_queue_commit_sha": "d1b4d56504f6c89a0d5c17e4b197ebb3a9b41346",
-      "public_report_first_commit_sha": "a999325111f876b19c3cf3b25bfc619ea14703b0"
+      "private_queue_readback_sha": "9f14e69669547c5e37b3cd107898143b27a4b6a6",
+      "private_queue_commit_sha": "a6f157c0a677d8a33e2ffac9d83e7591aea88943",
+      "public_report_attempted": true,
+      "public_report_succeeded": false,
+      "public_report_readback_confirmed": false,
+      "public_report_readback_sha": null,
+      "public_linkedin_feed_modified": false,
+      "public_manual_linkedin_intake_modified": false
     },
     "FINAL": {
       "status": "PARTIAL",
       "coverage_status": "INCOMPLETE",
       "reasons": [
-        "DISCOVERY_BREADTH_LOW: 24 unique candidate job URLs versus aspirational 200-500",
-        "Only 7 source domains yielded individual job URLs, fewer than 15 successfully accessible employer/job platforms",
-        "Inaccessible employer ATS full JDs",
-        "Original dates not verified within five-day window",
-        "Not all role/location matrix cells covered; marketwide backlog unknown"
+        "DISCOVERY_BREADTH_LOW: 50 logged unique candidate job URLs versus aspirational 200–500",
+        "Only 10 complete full JDs directly opened; three potentially relevant Workday JDs unreadable",
+        "Search matrix not exhaustive and marketwide backlog unknown",
+        "Original posting dates missing for multiple otherwise relevant jobs",
+        "Some platforms blocked or indexed results incomplete"
       ],
       "applications_submitted": 0,
       "recruiter_outreach_sent": 0
     }
   },
-  "notes": "Public report contains aggregate metadata only; private research queue holds individual unverified leads. No fresh jobs or LinkedIn posts added to public feeds. Third-party dates for Hevo and LogicMonitor retained only as third-party-reported, not verified original."
+  "notes": "Public-safe aggregate report; no personal details. New fresh possible job in public data/jobs.json, older/unverified leads in private queue, no verified LinkedIn posts."
 }
