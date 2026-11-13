@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-13",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -41,6 +41,33 @@
       "previously_shown": false,
       "application_status": "NOT_APPLIED",
       "notes": "New distinct Greenhouse requisition; employer page labeled New; independent ATS tracker records posted 2026-10-30T06:13:15Z and first seen 2026-10-30T09:01:04Z. Older similar title exists under different req 8813454002; not treated as same job. Partner onboarding, support, adoption and cross-functional fit; insurance domain gap. Compensation unknown."
+    },
+    {
+      "id": "kroll-production-operations-analyst-ii-l2-21015365",
+      "company": "Kroll",
+      "title": "Production Operations Analyst II L2",
+      "location": "Hyderabad, India (hybrid)",
+      "url": "https://careers.kroll.com/en/job/hyderabad/production-operations-analyst-ii-l2/21015365",
+      "ats_requisition": "21015365",
+      "date_posted": "2026-11-10",
+      "date_posted_evidence_url": "https://hcxs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&sType=Trackr&selectedPostingDatesFacet=30",
+      "employer_page_verified": true,
+      "first_shown_date": "2026-11-13",
+      "score": 81,
+      "score_status": "possible_verified_fresh",
+      "score_breakdown": {
+        "responsibilities": 27,
+        "skills": 22,
+        "seniority": 9,
+        "sector": 8,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage": 0.83,
+      "fixed_salary_lpa": null,
+      "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
+      "previously_shown": false,
+      "notes": "Original employer Oracle ATS listing displays Posting Date 11/10/2026. Exact employer career JD directly reviewed. Evidence gap: five-plus years specifically in data analytics/reporting not conclusively demonstrated; 2+ years at SERCO in analytics plus earlier cross-functional operational reporting. SQL joins, Excel, Python and Power BI verified. Compensation unknown and not assumed to meet INR 12 LPA fixed."
     }
   ],
   "last_run": {
