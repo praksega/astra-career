@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T10:02:03.739318+00:00",
+  "updated_at": "2026-11-13T09:50:11.961128+00:00",
   "candidates": [
     {
       "id": "greenhouse:8355801",
@@ -61,97 +61,6 @@
             "category": "stakeholders",
             "jd_terms": [
               "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "product operations",
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "greenhouse:8355804",
-      "company_board": "twilio",
-      "title": "Onboarding Operations Specialist 1",
-      "location": "Remote - India",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8355804",
-      "source": "greenhouse",
-      "source_date": "2026-11-06T02:30:27-05:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations specialist",
-        "process improvement"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 8900,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p>\n<p>At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringify-link=\"https://customers.twilio.com/\" data-sk=\"tooltip_parent\">&nbsp;hundreds of thousands of businesses&nbsp;</a>and empower millions of developers worldwide to craft personalized customer experiences.</p>\n<p>Our dedication to <a class=\"c-link\" href=\"https://www.twilio.com/en-us/blog/open-work\" target=\"_blank\" data-stringify-link=\"https://www.twilio.com/en-us/blog/open-work\" data-sk=\"tooltip_parent\">remote-first work</a>, and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.<br><span style=\"color: rgb(255, 255, 255);\">.</span></p>\n<p><strong>Hiring and how we work</strong></p>\n<p>We use Artificial Intelligence ",
-      "jd_details": {
-        "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8355804",
-        "full_description_available": true,
-        "responsibilities": [
-          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
-          "We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!",
-          "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
-          "Twilio is seeking an Operations Specialist to join the team that runs Twilio\u2019s phone number operations globally. This role will work directly with customers to help them port their phone numbers into Twilio, procure Sender IDs, and have access to phone numbers they require for th",
-          "Learn new processes across a variety of subject areas and ensure our operations are running smoothly.",
-          "Be Bold: Learn new processes across a variety of subject areas and ensure our operations are running smoothly."
-        ],
-        "qualifications": [
-          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
-          "Our dedication to  remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re ",
-          "Provide support for common customer inquiries received by email to ensure customers have an excellent experience with Twilio.",
-          "Wear the Customer Shoes: Provide support for common customer inquiries received by email to ensure customers have an excellent experience with Twilio.",
-          "Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking ",
-          "Experience Required: 1 - 3 Yrs*( depending on candidature)"
-        ],
-        "overview": "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 4,
-        "capability_evidence_coverage_pct": 57,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "sql",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional"
             ],
             "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
           },
