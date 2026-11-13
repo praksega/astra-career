@@ -3,7 +3,7 @@
   "run_date": "2026-11-13",
   "run_started_at_utc": "2026-11-13T02:30:16Z",
   "run_started_at_ist": "2026-11-13T08:00:16+05:30",
-  "report_written_at_utc": "2026-11-13T02:32:52.535Z",
+  "report_written_at_utc": "2026-11-13T02:32:59.527Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -223,11 +223,13 @@
       "private_queue_readback_sha": "9f14e69669547c5e37b3cd107898143b27a4b6a6",
       "private_queue_commit_sha": "a6f157c0a677d8a33e2ffac9d83e7591aea88943",
       "public_report_attempted": true,
-      "public_report_succeeded": false,
-      "public_report_readback_confirmed": false,
-      "public_report_readback_sha": null,
+      "public_report_succeeded": true,
+      "public_report_readback_confirmed": true,
+      "public_report_readback_sha": "05f348aa54de12722482270e5a50c0f0d7964937",
       "public_linkedin_feed_modified": false,
-      "public_manual_linkedin_intake_modified": false
+      "public_manual_linkedin_intake_modified": false,
+      "public_report_first_commit_sha": "5fa231780dac9fb31e89e57d67da9c2d11a603e5",
+      "public_report_verification_note": "First report commit independently fetched and matched blob SHA; final diagnostic status update also fetched after write."
     },
     "FINAL": {
       "status": "PARTIAL",
