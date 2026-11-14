@@ -554,9 +554,9 @@
     "GITHUB_WRITE": {
       "attempted": true,
       "public_report_write_attempted": true,
-      "public_report_write_succeeded": false,
-      "public_report_readback_confirmed": false,
-      "public_report_readback_sha": null,
+      "public_report_write_succeeded": true,
+      "public_report_readback_confirmed": true,
+      "public_report_readback_sha": "7c9e80348a32ee3489dd6c7e104343545a1513a9",
       "private_queue_write_attempted": true,
       "private_queue_write_succeeded": true,
       "private_queue_readback_confirmed": true,
