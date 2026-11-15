@@ -1,584 +1,329 @@
 {
   "schema_version": 8,
-  "run_date": "2026-11-14",
-  "run_started_at_utc": "2026-11-14T02:34:09Z",
-  "run_started_at_ist": "2026-11-14T08:04:09+05:30",
-  "report_written_at_utc": "2026-11-14T02:36:35.984Z",
+  "run_date": "2026-11-15",
+  "run_started_at_utc": "2026-11-15T02:29:04Z",
+  "run_started_at_ist": "2026-11-15T07:59:04+05:30",
+  "report_written_at_utc": "2026-11-15T02:31:40.511Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
-      "run_timestamp_utc": "2026-11-14T02:34:09Z",
-      "run_timestamp_ist": "2026-11-14T08:04:09+05:30",
-      "public_report_read": true,
-      "public_jobs_read": true,
-      "public_linkedin_read": true,
-      "public_manual_linkedin_read": true,
-      "private_queue_read": true,
-      "public_report_prior_sha": "e815b0c6c0254dc3bcf6585b282322c1fc0fbf77",
-      "public_jobs_prior_sha": "4c0565237d8f39bd1b06810e9f205c6a1e48e58c",
-      "public_linkedin_prior_sha": "e38e877e55304bc9344d5f643981140035683cf3",
-      "public_manual_linkedin_prior_sha": "04b1b58866864d427d8266653bb7bcbc7151192a"
-    },
-    "DISCOVERY": {
-      "search_batches": 10,
-      "search_queries_submitted": 82,
-      "raw_search_result_hits": null,
-      "raw_search_result_hits_status": "UNKNOWN_NOT_INSTRUMENTED",
-      "raw_individual_job_urls_explicitly_logged": 27,
-      "source_domains_or_platforms_targeted": [
+      "timestamp_utc": "2026-11-15T02:29:04Z",
+      "timestamp_ist": "2026-11-15T07:59:04+05:30",
+      "repository_reads": [
         {
-          "name": "boards.greenhouse.io",
-          "status": "indexed_no_individual",
-          "observed_individual_candidate_urls": 9
+          "repository": "praksega/astra-career",
+          "path": "data/run_reports/latest.json",
+          "succeeded": true,
+          "prior_sha": "b9d4ee3981d641d97f93d0f63efa6e305a0b3e76"
         },
         {
-          "name": "job-boards.greenhouse.io",
-          "status": "individual_jds_opened",
-          "observed_individual_candidate_urls": 9
+          "repository": "praksega/astra-career",
+          "path": "data/jobs.json",
+          "succeeded": true,
+          "prior_sha": "4c0565237d8f39bd1b06810e9f205c6a1e48e58c"
         },
         {
-          "name": "jobs.lever.co",
-          "status": "boards_accessible",
-          "observed_individual_candidate_urls": 0
+          "repository": "praksega/astra-career",
+          "path": "data/linkedin_posts.json",
+          "succeeded": true,
+          "prior_sha": "e38e877e55304bc9344d5f643981140035683cf3"
         },
         {
-          "name": "jobs.ashbyhq.com",
-          "status": "indexed_individual_direct_404",
-          "observed_individual_candidate_urls": 4
+          "repository": "praksega/astra-career",
+          "path": "data/manual_linkedin_intake.json",
+          "succeeded": true,
+          "prior_sha": "04b1b58866864d427d8266653bb7bcbc7151192a"
         },
         {
-          "name": "myworkdayjobs.com",
-          "status": "indexed_individual_direct_empty",
-          "observed_individual_candidate_urls": 2
-        },
-        {
-          "name": "jobs.smartrecruiters.com",
-          "status": "individual_jds_opened",
-          "observed_individual_candidate_urls": 3
-        },
-        {
-          "name": "apply.workable.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "careers.icims.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "jobs.jobvite.com",
-          "status": "board_only",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "jobs.bamboohr.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "oraclecloud.com",
-          "status": "indexed_individual_direct_empty",
-          "observed_individual_candidate_urls": 2
-        },
-        {
-          "name": "jobs.successfactors.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "jobs.recruitee.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "jobs.teamtailor.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "darwinbox.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "jobs.keka.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "zoho.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "indeed.com",
-          "status": "indexed_leads",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "naukri.com",
-          "status": "blocked_robots",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "foundit.in",
-          "status": "indexed_leads",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "instahyre.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "wellfound.com",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "cutshort.io",
-          "status": "no_relevant_individual",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "hirist.tech",
-          "status": "indexed_board_only",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "linkedin.com",
-          "status": "jobs_read_posts_timestamp_unverified",
-          "observed_individual_candidate_urls": 3
-        },
-        {
-          "name": "careers.3m.com",
-          "status": "individual_jd_opened",
-          "observed_individual_candidate_urls": 1
-        },
-        {
-          "name": "careers.kroll.com",
-          "status": "individual_jd_opened",
-          "observed_individual_candidate_urls": 1
-        },
-        {
-          "name": "amazon.jobs",
-          "status": "individual_jd_opened",
-          "observed_individual_candidate_urls": 1
-        },
-        {
-          "name": "careers.ey.com",
-          "status": "individual_indexed",
-          "observed_individual_candidate_urls": 1
-        },
-        {
-          "name": "careers.linkedin.com",
-          "status": "no_employer_ats_resolved",
-          "observed_individual_candidate_urls": 0
-        },
-        {
-          "name": "careers.shipbob.com",
-          "status": "no_employer_ats_resolved",
-          "observed_individual_candidate_urls": 0
-        }
-      ],
-      "source_count_targeted": 31,
-      "source_count_yielding_individual_candidate_urls": 7,
-      "role_family_logged_counts": {
-        "Business/Product Analyst": 3,
-        "Business/Strategy Ops": 7,
-        "Operations Analytics": 2,
-        "Process Excellence/CI": 1,
-        "Product Ops": 7,
-        "Program/Project Ops": 5,
-        "Workforce/TA Ops": 2
-      },
-      "location_logged_counts": {
-        "Bengaluru": 10,
-        "Bengaluru per prior research": 1,
-        "Hyderabad": 8,
-        "India location unconfirmed": 2,
-        "Pune": 3,
-        "Pune/Hyderabad": 1,
-        "Remote India": 2
-      },
-      "source_logged_counts": {
-        "ashby": 4,
-        "employer_careers": 4,
-        "greenhouse": 9,
-        "linkedin_jobs": 3,
-        "oracle": 2,
-        "smartrecruiters": 3,
-        "workday": 2
-      },
-      "unsearched_or_undersearched_cells": [
-        "Secunderabad workforce/TA operations",
-        "Gachibowli business process analyst",
-        "Remote India continuous improvement",
-        "Pune product operations",
-        "Pune workforce operations",
-        "India remote business transformation"
-      ],
-      "notes": "Targeted public indexed search across role families, locations and ATS systems. Indexed job-board pages do not prove individual JDs were opened."
-    },
-    "DEDUPE": {
-      "canonical_unique_candidate_urls": 27,
-      "duplicates_removed": 0,
-      "employer_native_urls_logged": 24,
-      "third_party_or_social_urls_logged": 3,
-      "observed_candidates": [
-        {
-          "company": "FinAgra",
-          "title": "ERP Business Product Owner",
-          "url": "https://jobs.ashbyhq.com/finagra/6f3c7a71-2488-468c-81e8-1252268ed2c6",
-          "role_family": "Product Ops",
-          "location": "Remote India",
-          "source": "ashby",
-          "status": "excluded_expired"
-        },
-        {
-          "company": "Nexus One",
-          "title": "Product Operations Associate",
-          "url": "https://jobs.ashbyhq.com/nexus-cognitive/c92ab232-2a84-4241-99fb-bf7acfba96ec",
-          "role_family": "Product Ops",
-          "location": "Pune",
-          "source": "ashby",
-          "status": "inaccessible_404"
-        },
-        {
-          "company": "Sarvam",
-          "title": "COO's Office (Business Analyst)",
-          "url": "https://jobs.ashbyhq.com/sarvam/b9bbee38-51c2-4113-8b22-70041e9da054",
-          "role_family": "Business/Product Analyst",
-          "location": "Bengaluru",
-          "source": "ashby",
-          "status": "inaccessible_404"
-        },
-        {
-          "company": "PhonePe",
-          "title": "Business Operations Analyst, Payments Business",
-          "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003165-business-operations-analyst-payments-business",
-          "role_family": "Business/Strategy Ops",
-          "location": "India location unconfirmed",
-          "source": "smartrecruiters",
-          "status": "reviewed_excluded_expired"
-        },
-        {
-          "company": "PhonePe",
-          "title": "Business Operations Analyst, Terminal Management",
-          "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000003142",
-          "role_family": "Business/Strategy Ops",
-          "location": "India location unconfirmed",
-          "source": "smartrecruiters",
-          "status": "reviewed_excluded_payment_specialization"
-        },
-        {
-          "company": "PhonePe",
-          "title": "Business Operations Analyst",
-          "url": "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000002566",
-          "role_family": "Business/Strategy Ops",
-          "location": "Bengaluru per prior research",
-          "source": "smartrecruiters",
-          "status": "reviewed_unverified_date"
-        },
-        {
-          "company": "Aspora",
-          "title": "Operations Lead",
-          "url": "https://jobs.ashbyhq.com/Aspora/c83620ce-985c-407f-acdc-e48b7164d74d",
-          "role_family": "Business/Strategy Ops",
-          "location": "Bengaluru",
-          "source": "ashby",
-          "status": "inaccessible_404"
-        },
-        {
-          "company": "Instawork",
-          "title": "Product Operations Analyst",
-          "url": "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
-          "role_family": "Product Ops",
-          "location": "Bengaluru",
-          "source": "greenhouse",
-          "status": "reviewed_unverified_date"
-        },
-        {
-          "company": "Instawork",
-          "title": "Assistant Manager - Operations",
-          "url": "https://job-boards.greenhouse.io/instawork/jobs/4686774006",
-          "role_family": "Program/Project Ops",
-          "location": "Bengaluru",
-          "source": "greenhouse",
-          "status": "reviewed_older"
-        },
-        {
-          "company": "Instawork",
-          "title": "Operations Associate — Fleet Manager",
-          "url": "https://job-boards.greenhouse.io/instawork/jobs/4716232006",
-          "role_family": "Business/Strategy Ops",
-          "location": "Bengaluru",
-          "source": "greenhouse",
-          "status": "reviewed_excluded_junior_field"
-        },
-        {
-          "company": "Instawork",
-          "title": "Internal Coordinator",
-          "url": "https://job-boards.greenhouse.io/instawork/jobs/4646649006",
-          "role_family": "Workforce/TA Ops",
-          "location": "Bengaluru",
-          "source": "greenhouse",
-          "status": "reviewed_excluded_field"
-        },
-        {
-          "company": "Zenoti",
-          "title": "Payments Program Manager",
-          "url": "https://job-boards.greenhouse.io/zenoti/jobs/7747999003",
-          "role_family": "Program/Project Ops",
-          "location": "Hyderabad",
-          "source": "greenhouse",
-          "status": "reviewed_excluded_seniority_domain"
-        },
-        {
-          "company": "Zenoti",
-          "title": "Project Manager",
-          "url": "https://job-boards.greenhouse.io/zenoti/jobs/6617580003",
-          "role_family": "Program/Project Ops",
-          "location": "Hyderabad",
-          "source": "greenhouse",
-          "status": "reviewed_unverified_date"
-        },
-        {
-          "company": "Zenoti",
-          "title": "Sales Operations Analyst",
-          "url": "https://job-boards.greenhouse.io/zenoti/jobs/8045789003",
-          "role_family": "Business/Strategy Ops",
-          "location": "Hyderabad",
-          "source": "greenhouse",
-          "status": "reviewed_older_skills_gap"
-        },
-        {
-          "company": "Zenoti",
-          "title": "Senior Product Specialist - Adoption",
-          "url": "https://job-boards.greenhouse.io/zenoti/jobs/7793410003",
-          "role_family": "Product Ops",
-          "location": "Hyderabad",
-          "source": "greenhouse",
-          "status": "reviewed_excluded_enterprise_impl_gap"
-        },
-        {
-          "company": "Northern Trust",
-          "title": "Associate, Consultant BPA",
-          "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Associate--Consultant-BPA_R157738-2",
-          "role_family": "Business/Product Analyst",
-          "location": "Pune",
-          "source": "workday",
-          "status": "inaccessible_empty_jd"
-        },
-        {
-          "company": "3M",
-          "title": "Continuous Improvement and Plant Execution System Administrator",
-          "url": "https://careers.3m.com/en/job/bengaluru/continuous-improvement-and-plant-execution-system-administrator/49341/101708427792",
-          "role_family": "Process Excellence/CI",
-          "location": "Bengaluru",
-          "source": "employer_careers",
-          "status": "reviewed_fresh_excluded_mandatory_MES"
-        },
-        {
-          "company": "LinkedIn",
-          "title": "Product Operations Manager",
-          "url": "https://in.linkedin.com/jobs/view/product-operations-manager-at-linkedin-4490076745",
-          "role_family": "Product Ops",
-          "location": "Bengaluru",
-          "source": "linkedin_jobs",
-          "status": "reviewed_native_ats_unresolved_original_date_unverified"
-        },
-        {
-          "company": "RISA",
-          "title": "Product Operations Manager",
-          "url": "https://in.linkedin.com/jobs/view/product-operations-manager-at-risa-4487608704",
-          "role_family": "Product Ops",
-          "location": "Bengaluru",
-          "source": "linkedin_jobs",
-          "status": "reviewed_native_ats_unresolved"
-        },
-        {
-          "company": "ShipBob",
-          "title": "Success Operations Associate",
-          "url": "https://in.linkedin.com/jobs/view/success-operations-associate-at-shipbob-4482339608",
-          "role_family": "Business/Strategy Ops",
-          "location": "Remote India",
-          "source": "linkedin_jobs",
-          "status": "reviewed_native_ats_unresolved"
-        },
-        {
-          "company": "Kroll",
-          "title": "Production Operations Analyst II L2",
-          "url": "https://careers.kroll.com/en/job/hyderabad/production-operations-analyst-ii-l2/21015365",
-          "role_family": "Operations Analytics",
-          "location": "Hyderabad",
-          "source": "employer_careers",
-          "status": "reviewed_previously_qualified"
-        },
-        {
-          "company": "JPMorgan Chase",
-          "title": "Associate - Strategic Data Analytics",
-          "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784840",
-          "role_family": "Operations Analytics",
-          "location": "Hyderabad",
-          "source": "oracle",
-          "status": "inaccessible_empty_jd_closed"
-        },
-        {
-          "company": "EY",
-          "title": "Project Analyst - Indirect Tax Global Trade",
-          "url": "https://careers.ey.com/ey/job/Pune-Project-Analyst-TAX-National-TAX-Indirect-Tax-Indirect-Tax-Global-Trade-Pune-MH-411001/1455367833/",
-          "role_family": "Program/Project Ops",
-          "location": "Pune",
-          "source": "employer_careers",
-          "status": "excluded_older_tax_specialist"
-        },
-        {
-          "company": "Amazon",
-          "title": "Capacity Planner AMZL",
-          "url": "https://www.amazon.jobs/en-gb/jobs/10537746/capacity-planner-amzl-amzl",
-          "role_family": "Workforce/TA Ops",
-          "location": "Bengaluru",
-          "source": "employer_careers",
-          "status": "reviewed_older"
-        },
-        {
-          "company": "Evernorth",
-          "title": "Product Management Senior Manager",
-          "url": "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/Product-Management-Senior-Manager--HIH---Evernorth_26013715",
-          "role_family": "Product Ops",
-          "location": "Hyderabad",
-          "source": "workday",
-          "status": "excluded_seniority"
-        },
-        {
-          "company": "Truveta",
-          "title": "Senior Technical Program Manager, Data",
-          "url": "https://job-boards.greenhouse.io/truveta/jobs/6207309004",
-          "role_family": "Program/Project Ops",
-          "location": "Hyderabad",
-          "source": "greenhouse",
-          "status": "excluded_technical_seniority"
-        },
-        {
-          "company": "Vertiv",
-          "title": "Application Development & Support Senior Analyst",
-          "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20279973",
-          "role_family": "Business/Product Analyst",
-          "location": "Pune/Hyderabad",
-          "source": "oracle",
-          "status": "excluded_application_development"
+          "repository": "praksega/astra-career-private",
+          "path": "data/research_queue/2026-11-01.json",
+          "succeeded": true,
+          "prior_sha": "8f0bc826e59c7076706eb1d5bdb610f8ad64e3ef"
         }
       ]
     },
-    "JD_VALIDATION": {
-      "full_jds_directly_opened_and_read": 17,
-      "full_employer_native_jds_read": 14,
-      "full_third_party_or_social_jds_read": 3,
-      "inaccessible_individual_jds": 5,
-      "inaccessible_urls": [
+    "DISCOVERY": {
+      "search_batches": 10,
+      "search_queries_submitted": 84,
+      "raw_search_result_hits": null,
+      "raw_search_result_hits_status": "UNKNOWN_NOT_INSTRUMENTED",
+      "explicit_individual_candidate_URLs_logged": 45,
+      "source_platforms_attempted": 30,
+      "sources": [
         {
-          "url": "https://jobs.ashbyhq.com/nexus-cognitive/c92ab232-2a84-4241-99fb-bf7acfba96ec",
-          "reason": "inaccessible_404"
+          "name": "Greenhouse boards.greenhouse.io",
+          "status": "indexed boards"
         },
         {
-          "url": "https://jobs.ashbyhq.com/sarvam/b9bbee38-51c2-4113-8b22-70041e9da054",
-          "reason": "inaccessible_404"
+          "name": "Greenhouse job-boards.greenhouse.io",
+          "status": "direct JDs read"
         },
         {
-          "url": "https://jobs.ashbyhq.com/Aspora/c83620ce-985c-407f-acdc-e48b7164d74d",
-          "reason": "inaccessible_404"
+          "name": "Lever",
+          "status": "indexed boards only"
         },
         {
-          "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Associate--Consultant-BPA_R157738-2",
-          "reason": "inaccessible_empty_jd"
+          "name": "Ashby",
+          "status": "indexed job URLs, direct 404"
         },
         {
-          "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784840",
-          "reason": "inaccessible_empty_jd_closed"
+          "name": "Workday",
+          "status": "indexed job URLs, direct empty or disabled"
+        },
+        {
+          "name": "SmartRecruiters",
+          "status": "indexed individual URL"
+        },
+        {
+          "name": "Workable",
+          "status": "indexed URLs, direct empty"
+        },
+        {
+          "name": "iCIMS",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Jobvite",
+          "status": "board found, individual 404"
+        },
+        {
+          "name": "Oracle",
+          "status": "indexed individual URLs, direct empty"
+        },
+        {
+          "name": "SuccessFactors/EY",
+          "status": "direct JDs read"
+        },
+        {
+          "name": "BambooHR",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Naukri",
+          "status": "robots blocked"
+        },
+        {
+          "name": "Foundit",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Instahyre",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Wellfound",
+          "status": "individual JDs indexed"
+        },
+        {
+          "name": "Cutshort",
+          "status": "job boards indexed"
+        },
+        {
+          "name": "Hirist",
+          "status": "individual JD indexed"
+        },
+        {
+          "name": "Indeed",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Darwinbox",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Keka",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Zoho Recruit",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "Recruitee",
+          "status": "board indexed"
+        },
+        {
+          "name": "Teamtailor",
+          "status": "no relevant individual URL"
+        },
+        {
+          "name": "LinkedIn public indexed",
+          "status": "profiles and indexed posts only; no original timestamp"
+        },
+        {
+          "name": "Employer-hosted Kroll",
+          "status": "direct JD read"
+        },
+        {
+          "name": "Nextraise",
+          "status": "complete third-party employer-attributed JD"
+        },
+        {
+          "name": "Startup.jobs",
+          "status": "indexed lead"
+        },
+        {
+          "name": "Metaintro",
+          "status": "indexed lead"
+        },
+        {
+          "name": "Jobera",
+          "status": "indexed lead"
         }
       ],
-      "identified_accessible_potentially_relevant_jds": 10,
-      "identified_accessible_potentially_relevant_full_jds_read": 10,
-      "identified_accessible_potentially_relevant_pending_backlog": 0,
-      "identified_set_review_coverage_pct": 100,
-      "market_wide_review_coverage_pct": null,
-      "market_wide_backlog": "UNKNOWN",
-      "eligibility_rejections": {
-        "internship_or_junior_field_ops": 2,
-        "mandatory_payment_specialization_or_experience": 2,
-        "enterprise_implementation_experience_gap": 1,
-        "manufacturing_MES_PES_gap": 1,
-        "expired_payment_job": 1,
-        "other_objective_indexed_exclusions": "NOT_INSTRUMENTED_EXACTLY"
+      "individual_URLs_by_source": {
+        "ashby": 12,
+        "greenhouse": 11,
+        "workable": 2,
+        "workday": 3,
+        "oracle": 4,
+        "successfactors": 5,
+        "jobvite": 1,
+        "employer": 1,
+        "smartrecruiters": 1,
+        "thirdparty": 1,
+        "wellfound": 3,
+        "hirist": 1
       },
-      "note": "17 full descriptions opened and read; 10 identified accessible potentially relevant descriptions read. 100% applies to identified subset only, not all market vacancies."
+      "geographies_sampled": [
+        "Hyderabad",
+        "Bengaluru",
+        "Pune",
+        "Remote India"
+      ],
+      "unsearched_or_undersearched_matrix_cells": [
+        "Secunderabad Workforce/TA Ops",
+        "Gachibowli Process Excellence",
+        "Pune Product Ops across all ATS",
+        "Remote India Workforce/TA Ops",
+        "Remote India Continuous Improvement across all ATS"
+      ]
+    },
+    "DEDUPE": {
+      "raw_explicit_candidate_URLs": 45,
+      "canonical_unique_URLs": 45,
+      "duplicates_removed": 0,
+      "method": "Curated distinct individual job URLs by ATS path or requisition; excludes board and search-result pages",
+      "full_market_unique_URLs_unknown": true
+    },
+    "JD_VALIDATION": {
+      "employer_native_full_JDs_read": 10,
+      "third_party_complete_JDs_read": 1,
+      "total_full_JDs_read": 11,
+      "employer_native_titles_read": [
+        "Cohere Health Sales Support Analyst",
+        "Redwood Partner Operations Analyst",
+        "Redwood Marketing Operations Specialist",
+        "Zenoti Payments Program Manager",
+        "Zenoti Project Manager",
+        "Instawork Product Operations Analyst",
+        "Kroll Production Operations Analyst II",
+        "EY GDS Account Support Leader",
+        "EY GMx-MS Transition Manager",
+        "AB InBev Marketplace Operations Analyst"
+      ],
+      "accessible_potentially_relevant_identified": 6,
+      "accessible_potentially_relevant_read": 6,
+      "identified_accessible_relevant_review_pct": 100,
+      "identified_accessible_relevant_pending_backlog": 0,
+      "inaccessible_potentially_relevant_JDs": 10,
+      "inaccessible_examples": [
+        "Nexus One Product Operations Associate",
+        "Aspora Operations Lead",
+        "Verto Customer Experience Analyst",
+        "Riveron Finance Operations Analyst",
+        "Bjak Founder's Office",
+        "Juniper Square Marketing Operations Analyst",
+        "Capgemini FBS Operations Execution Analyst II",
+        "Capgemini FBS Application Support Analyst III",
+        "Resolver Resource Planning Analyst",
+        "Cloudflare Partner Strategy & Operations Analyst"
+      ],
+      "undiscovered_backlog": null,
+      "objective_exclusions": [
+        "wrong geography",
+        "internship",
+        "director/VP seniority",
+        "mandatory Salesforce/Marketo/AWS Marketplace experience not verified",
+        "specialized payments 5+ years",
+        "specialist SAP, tax/CA, engineering",
+        "explicit salary below INR 12 LPA",
+        "application deadline passed"
+      ]
     },
     "MATCHING": {
-      "new_strong_86_100": 0,
-      "new_possible_71_85": 0,
-      "verified_fresh_qualified": 0,
-      "fresh_date_verified_but_excluded": [
-        {
-          "company": "3M",
-          "requisition": "R01171367",
-          "date": "2026-11-12",
-          "reason": "Required manufacturing MES/PES platform experience unverified; fails evidence threshold"
-        }
-      ],
-      "previously_qualified_revisited": [
-        {
-          "company": "Kroll",
-          "requisition": "21015365",
-          "previous_score": 81
-        }
-      ],
-      "unverified_or_older_research_leads_proposed": 6,
-      "compensation_known_qualifying": 0,
-      "compensation_unknown_for_proposed": 6,
-      "scoring_policy": "Responsibilities 30; skills 25; seniority 15; sector 10; geography 15; compensation 5; minimum 80% evidence coverage; no provisional fresh scores."
+      "strong_86_100": 0,
+      "possible_71_85": 0,
+      "new_verified_fresh_matches": 0,
+      "unverified_research_leads_identified": 8,
+      "private_queue_leads_added": 8,
+      "private_queue_count_before": 46,
+      "private_queue_count_after": 54,
+      "compensation_unknown_not_assumed_to_meet_floor": true,
+      "original_employer_posting_date_unverified_not_promoted": true,
+      "scoring_weights": {
+        "responsibilities": 30,
+        "skills": 25,
+        "seniority": 15,
+        "sector": 10,
+        "geography": 15,
+        "compensation": 5
+      },
+      "minimum_evidence_coverage": 0.8
     },
     "LINKEDIN": {
-      "indexed_public_hiring_post_searches": 6,
-      "individual_linkedin_job_pages_directly_opened": 3,
-      "original_social_post_permalinks_verified": 0,
-      "original_iso8601_timestamps_verified": 0,
-      "posts_eligible_for_public_feed": 0,
-      "posts_rejected_or_not_publishable_exact_count": "UNKNOWN",
-      "direct_feed_scrolling_performed": false,
-      "manual_intake_preserved": true
+      "public_indexed_queries": 6,
+      "direct_original_social_post_pages_opened": 0,
+      "original_post_timestamp_verified": 0,
+      "original_post_timestamp_rejected_count": null,
+      "original_post_timestamp_rejected_count_status": "UNKNOWN_INDEXED_PROFILE_ITEM_COUNT",
+      "verified_24h_posts": 0,
+      "feed_write_attempted": false,
+      "scrolling_performed": false
     },
     "GITHUB_WRITE": {
-      "attempted": true,
-      "public_report_write_attempted": true,
-      "public_report_write_succeeded": true,
-      "public_report_readback_confirmed": true,
-      "public_report_readback_sha": "7c9e80348a32ee3489dd6c7e104343545a1513a9",
-      "private_queue_write_attempted": true,
-      "private_queue_write_succeeded": true,
-      "private_queue_readback_confirmed": true,
-      "private_queue_added": 6,
-      "public_jobs_write_attempted": false,
-      "public_linkedin_write_attempted": false,
-      "manual_linkedin_write_attempted": false,
-      "private_queue_total_records": 46
+      "private_queue": {
+        "attempted": true,
+        "succeeded": true,
+        "added": 8,
+        "prior_count": 46,
+        "final_count": 54,
+        "readback_sha": "aa8086363f75724bc3cb687409a8f7bf814ff5c2",
+        "error": null
+      },
+      "public_jobs": {
+        "attempted": false,
+        "reason": "No verified fresh matches"
+      },
+      "public_linkedin": {
+        "attempted": false,
+        "reason": "No independently timestamp-verified posts"
+      },
+      "manual_intake": {
+        "attempted": false,
+        "reason": "Preserved"
+      },
+      "public_report": {
+        "attempted": true,
+        "succeeded": false,
+        "readback_sha": null
+      }
     },
     "FINAL": {
       "status": "PARTIAL",
       "coverage_status": "INCOMPLETE",
       "reasons": [
-        "DISCOVERY_BREADTH_LOW: fewer than 100 distinct individual candidate URLs logged",
-        "Original posting date absent or older for high-alignment employer-native roles",
-        "Employer-native ATS unavailable for relevant LinkedIn listings",
-        "Five individual pages inaccessible or unreadable",
-        "Search matrix and accessible market-wide JD universe not exhaustive"
+        "DISCOVERY_BREADTH_LOW: fewer than 100 individual URLs",
+        "Incomplete role/location/platform matrix",
+        "Original posting dates not verified for promising jobs",
+        "Some ATS pages 404, empty, redirected or blocked",
+        "Raw search hits and undiscovered backlog unknown"
       ],
       "applications_submitted": 0,
       "recruiter_outreach_sent": 0
     }
   },
-  "notes": "No personal identifiers, CVs, applications or private queue contents published. Source dates are not inferred from search crawl timestamps."
+  "notes": "Public-safe diagnostics only. No personal data, applications, or private queue details. Discovery target 200-500 is aspirational, not achieved."
 }
