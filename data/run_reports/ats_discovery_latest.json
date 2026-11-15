@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-14T09:13:32.369998+00:00",
+  "run_at_utc": "2026-11-15T09:42:34.362174+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4710,
-  "individual_screening_records": 4710,
+  "raw_listings_seen": 4705,
+  "individual_screening_records": 4705,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 210,
-    "outside_target_locations": 4359,
+    "role_not_relevant": 209,
+    "outside_target_locations": 4355,
     "title_and_jd": 10,
     "excluded_specialist_title": 122,
     "title": 5
   },
-  "location_eligible_jds_screened": 351,
-  "location_eligible_jds_with_500_plus_chars": 348,
+  "location_eligible_jds_screened": 350,
+  "location_eligible_jds_with_500_plus_chars": 347,
   "unique_role_location_candidates": 19,
   "full_jds_with_accessible_text": 19,
   "jd_evidence_maps_generated": 19,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 19,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4691,
+    "unrelated_or_unapproved_location": 4686,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -130,19 +130,19 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 786
+      "count": 785
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 896
+      "count": 895
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 391
+      "count": 390
     },
     {
       "source": "greenhouse",
@@ -180,7 +180,7 @@
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 115
+      "count": 114
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 186
+      "count": 185
     },
     {
       "source": "greenhouse",
