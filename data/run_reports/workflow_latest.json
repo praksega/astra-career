@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "timestamp_utc": "2026-11-15T09:42:34.479455+00:00",
-  "run_id": "43700518824",
+  "timestamp_utc": "2026-11-16T09:59:42.401737+00:00",
+  "run_id": "43844749934",
   "attempt": "1",
-  "commit": "5a0a584faf088979ca8b4f5fc7fa85457a9264dc",
+  "commit": "7e4f5358e92482f3aca0621f37701a521c2f3a20",
   "workflow": "Astra 08AM Discovery + Requirement Verification",
   "status": "SUCCESS",
   "steps": {
@@ -13,9 +13,9 @@
   },
   "report_present": true,
   "candidates_present": true,
-  "discovery_report_time": "2026-11-15T09:42:34.362174+00:00",
-  "raw_listings_seen": 4705,
-  "candidate_count": 19,
-  "candidates_awaiting_verification": 19,
+  "discovery_report_time": "2026-11-16T09:59:42.293456+00:00",
+  "raw_listings_seen": 4710,
+  "candidate_count": 20,
+  "candidates_awaiting_verification": 20,
   "verified_match_count": 0
 }

@@ -1,7 +1,85 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T09:42:34.362174+00:00",
+  "updated_at": "2026-11-16T09:59:42.293456+00:00",
   "candidates": [
+    {
+      "id": "greenhouse:8354829",
+      "company_board": "okta",
+      "title": "Benefits Operations Specialist",
+      "location": "Bengaluru, India",
+      "url": "https://www.okta.com/company/careers/opportunity/8354829?gh_jid=8354829",
+      "source": "greenhouse",
+      "source_date": "2026-11-16T01:40:33-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist"
+      ],
+      "matching_method": "title",
+      "description_characters": 5117,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is looking for a Benefits Operations Specialist to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs. You will be a key member of the People Operations team focused on delivering an exceptional employee experience across the People Operations &amp; Benefits teams. The ideal candidate will be a self-starter with great customer service skills and broad knowledge of global employee benefits programs &amp; processes.</p>\n<p>People Operations Specialist (Benefits) job description:</p>\n<ul>\n<li>First line support in response t",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/8354829?gh_jid=8354829",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "Okta is looking for a Benefits Operations Specialist to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs. You will be a key member of the People Operations team focused on delivering an exceptional empl",
+          "First line support in response to employee requests and queries on policies, processes, resources, etc. - triage, prioritize, and escalate as appropriate",
+          "Administering benefits, leave of absence (LOA), and workers\u2019 compensation processes.",
+          "Reporting benefits plan information to upper management.",
+          "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content"
+        ],
+        "qualifications": [
+          "Okta is looking for a Benefits Operations Specialist to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs. You will be a key member of the People Operations team focused on delivering an exceptional empl",
+          "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content",
+          "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
     {
       "id": "greenhouse:8355801",
       "company_board": "twilio",

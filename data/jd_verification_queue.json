@@ -1,12 +1,77 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T09:42:34.362174+00:00",
+  "updated_at": "2026-11-16T09:59:42.293456+00:00",
   "status": "REVIEW_REQUIRED",
-  "total": 19,
+  "total": 20,
   "verified": 0,
-  "fresh_for_review": 0,
+  "fresh_for_review": 1,
   "older_or_unverified": 19,
   "jobs": [
+    {
+      "job_id": "greenhouse:8354829",
+      "company": "okta",
+      "title": "Benefits Operations Specialist",
+      "url": "https://www.okta.com/company/careers/opportunity/8354829?gh_jid=8354829",
+      "posting_date": "2026-11-16T01:40:33-05:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "Okta is looking for a Benefits Operations Specialist to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs. You will be a key member of the People Operations team focused on delivering an exceptional empl",
+        "First line support in response to employee requests and queries on policies, processes, resources, etc. - triage, prioritize, and escalate as appropriate",
+        "Administering benefits, leave of absence (LOA), and workers\u2019 compensation processes.",
+        "Reporting benefits plan information to upper management.",
+        "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content"
+      ],
+      "jd_qualifications": [
+        "Okta is looking for a Benefits Operations Specialist to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs. You will be a key member of the People Operations team focused on delivering an exceptional empl",
+        "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content",
+        "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": true,
+      "days_since_posting": 0.14,
+      "verification_blockers": [
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
     {
       "job_id": "greenhouse:8355801",
       "company": "twilio",
@@ -61,7 +126,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 9.09,
+      "days_since_posting": 10.1,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -168,7 +233,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 9.67,
+      "days_since_posting": 10.68,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -241,7 +306,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 9.99,
+      "days_since_posting": 11.0,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -347,7 +412,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 15.69,
+      "days_since_posting": 16.7,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -439,7 +504,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 15.71,
+      "days_since_posting": 16.72,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -529,7 +594,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 16.23,
+      "days_since_posting": 17.24,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -630,7 +695,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 30.06,
+      "days_since_posting": 31.07,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -690,7 +755,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 32.01,
+      "days_since_posting": 33.02,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -775,7 +840,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 40.96,
+      "days_since_posting": 41.97,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -852,7 +917,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 43.9,
+      "days_since_posting": 44.91,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -947,7 +1012,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 50.71,
+      "days_since_posting": 51.72,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1027,7 +1092,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 67.05,
+      "days_since_posting": 68.07,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1129,7 +1194,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 92.91,
+      "days_since_posting": 93.92,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1225,7 +1290,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 102.79,
+      "days_since_posting": 103.8,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1322,7 +1387,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 164.02,
+      "days_since_posting": 165.04,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1391,7 +1456,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 201.11,
+      "days_since_posting": 202.12,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1476,7 +1541,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 228.06,
+      "days_since_posting": 229.07,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1534,7 +1599,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 401.0,
+      "days_since_posting": 402.01,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1631,7 +1696,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 964.82,
+      "days_since_posting": 965.83,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
