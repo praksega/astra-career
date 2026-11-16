@@ -1,268 +1,249 @@
 {
-  "schema_version": 8,
-  "run_date": "2026-11-15",
-  "run_started_at_utc": "2026-11-15T02:29:04Z",
-  "run_started_at_ist": "2026-11-15T07:59:04+05:30",
-  "report_written_at_utc": "2026-11-15T02:31:50.599Z",
+  "schema_version": 9,
+  "run_date": "2026-11-16",
+  "run_started_at_utc": "2026-11-16T02:32:06.122Z",
+  "run_started_at_ist": "2026-11-16T08:02:06.122+05:30",
+  "report_written_at_utc": "2026-11-16T02:32:06.122Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
-      "timestamp_utc": "2026-11-15T02:29:04Z",
-      "timestamp_ist": "2026-11-15T07:59:04+05:30",
+      "timestamp_utc": "2026-11-16T02:32:06.122Z",
+      "timestamp_ist": "2026-11-16T08:02:06.122+05:30",
       "repository_reads": [
         {
           "repository": "praksega/astra-career",
           "path": "data/run_reports/latest.json",
-          "succeeded": true,
-          "prior_sha": "b9d4ee3981d641d97f93d0f63efa6e305a0b3e76"
+          "ok": true,
+          "sha": "80e2fa093f1cd238d44b7eafe22a81d39166f643",
+          "count": null
         },
         {
           "repository": "praksega/astra-career",
           "path": "data/jobs.json",
-          "succeeded": true,
-          "prior_sha": "4c0565237d8f39bd1b06810e9f205c6a1e48e58c"
+          "ok": true,
+          "sha": "743ec683bae782b266f7fb3d5b3b5b61f17b4f88",
+          "count": 5
         },
         {
           "repository": "praksega/astra-career",
           "path": "data/linkedin_posts.json",
-          "succeeded": true,
-          "prior_sha": "e38e877e55304bc9344d5f643981140035683cf3"
+          "ok": true,
+          "sha": "e38e877e55304bc9344d5f643981140035683cf3",
+          "count": null
         },
         {
           "repository": "praksega/astra-career",
           "path": "data/manual_linkedin_intake.json",
-          "succeeded": true,
-          "prior_sha": "04b1b58866864d427d8266653bb7bcbc7151192a"
+          "ok": true,
+          "sha": "04b1b58866864d427d8266653bb7bcbc7151192a",
+          "count": null
         },
         {
           "repository": "praksega/astra-career-private",
           "path": "data/research_queue/2026-11-01.json",
-          "succeeded": true,
-          "prior_sha": "8f0bc826e59c7076706eb1d5bdb610f8ad64e3ef"
+          "ok": true,
+          "sha": "9594f7905d095b9cff229f1f4d5dc4fdafcd5e3a",
+          "count": 62
         }
       ]
     },
     "DISCOVERY": {
-      "search_batches": 10,
-      "search_queries_submitted": 84,
-      "raw_search_result_hits": null,
-      "raw_search_result_hits_status": "UNKNOWN_NOT_INSTRUMENTED",
-      "explicit_individual_candidate_URLs_logged": 45,
-      "source_platforms_attempted": 30,
-      "sources": [
+      "search_queries_executed": 127,
+      "search_batches": 12,
+      "source_categories_targeted": 37,
+      "sources_attempted": [
+        "Greenhouse boards.greenhouse.io",
+        "Greenhouse job-boards.greenhouse.io",
+        "Lever",
+        "Ashby",
+        "Workday",
+        "Workable",
+        "SmartRecruiters",
+        "iCIMS",
+        "Jobvite",
+        "BambooHR",
+        "Oracle",
+        "SuccessFactors",
+        "Darwinbox",
+        "Keka",
+        "Zoho Recruit",
+        "Recruitee",
+        "Teamtailor",
+        "Indeed",
+        "Naukri",
+        "Foundit",
+        "Instahyre",
+        "Wellfound",
+        "Cutshort",
+        "Hirist",
+        "RecruitCRM",
+        "LinkedIn public indexed",
+        "Amazon jobs",
+        "Accenture careers",
+        "Genpact careers",
+        "EY careers",
+        "Novartis careers",
+        "Unilever careers",
+        "Caterpillar careers",
+        "Kroll careers",
+        "UKG careers",
+        "Diageo careers",
+        "Wells Fargo careers"
+      ],
+      "source_domains_yielding_manually_logged_individual_urls": [
+        "www.novartis.com",
+        "careers.unilever.com",
+        "jobs.smartrecruiters.com",
+        "in.indeed.com",
+        "up2staff.com",
+        "jobs.lever.co",
+        "jobs.ashbyhq.com",
+        "wellfound.com",
+        "careers.caterpillar.com",
+        "apply.workable.com",
+        "copart.wd12.myworkdayjobs.com",
+        "iff.wd5.myworkdayjobs.com",
+        "fmc.wd12.myworkdayjobs.com",
+        "cutshort.io",
+        "www.hirist.tech",
+        "bearingpointindia.teamtailor.com",
+        "job-boards.greenhouse.io"
+      ],
+      "logged_individual_url_counts_by_domain": {
+        "www.novartis.com": 3,
+        "careers.unilever.com": 3,
+        "jobs.smartrecruiters.com": 6,
+        "in.indeed.com": 1,
+        "up2staff.com": 1,
+        "jobs.lever.co": 2,
+        "jobs.ashbyhq.com": 12,
+        "wellfound.com": 2,
+        "careers.caterpillar.com": 1,
+        "apply.workable.com": 2,
+        "copart.wd12.myworkdayjobs.com": 1,
+        "iff.wd5.myworkdayjobs.com": 1,
+        "fmc.wd12.myworkdayjobs.com": 1,
+        "cutshort.io": 1,
+        "www.hirist.tech": 1,
+        "bearingpointindia.teamtailor.com": 1,
+        "job-boards.greenhouse.io": 1
+      },
+      "raw_search_hits": null,
+      "raw_search_hits_status": "UNKNOWN_NOT_INSTRUMENTED",
+      "role_location_cells_targeted": {
+        "product_ops": [
+          "Bengaluru",
+          "Pune",
+          "Remote India"
+        ],
+        "business_strategy_ops": [
+          "Hyderabad",
+          "Bengaluru",
+          "Remote India"
+        ],
+        "business_product_analyst": [
+          "Hyderabad",
+          "Bengaluru",
+          "Pune"
+        ],
+        "program_project_ops": [
+          "Hyderabad",
+          "Bengaluru",
+          "Remote India"
+        ],
+        "process_excellence": [
+          "Hyderabad",
+          "Bengaluru",
+          "Pune",
+          "Remote India"
+        ],
+        "workforce_ta_ops": [
+          "Secunderabad",
+          "Hyderabad",
+          "Pune"
+        ],
+        "business_transformation_analytics": [
+          "Bengaluru",
+          "Pune",
+          "Remote India"
+        ]
+      },
+      "blocked": [
         {
-          "name": "Greenhouse boards.greenhouse.io",
-          "status": "indexed boards"
+          "source": "Naukri",
+          "reason": "robots.txt"
         },
         {
-          "name": "Greenhouse job-boards.greenhouse.io",
-          "status": "direct JDs read"
+          "source": "Lever",
+          "reason": "selected individual job pages HTTP 403"
         },
         {
-          "name": "Lever",
-          "status": "indexed boards only"
+          "source": "Ashby",
+          "reason": "selected pages HTTP 404 or JS-only"
         },
         {
-          "name": "Ashby",
-          "status": "indexed job URLs, direct 404"
+          "source": "Workable",
+          "reason": "selected listing redirected to not found"
         },
         {
-          "name": "Workday",
-          "status": "indexed job URLs, direct empty or disabled"
-        },
-        {
-          "name": "SmartRecruiters",
-          "status": "indexed individual URL"
-        },
-        {
-          "name": "Workable",
-          "status": "indexed URLs, direct empty"
-        },
-        {
-          "name": "iCIMS",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Jobvite",
-          "status": "board found, individual 404"
-        },
-        {
-          "name": "Oracle",
-          "status": "indexed individual URLs, direct empty"
-        },
-        {
-          "name": "SuccessFactors/EY",
-          "status": "direct JDs read"
-        },
-        {
-          "name": "BambooHR",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Naukri",
-          "status": "robots blocked"
-        },
-        {
-          "name": "Foundit",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Instahyre",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Wellfound",
-          "status": "individual JDs indexed"
-        },
-        {
-          "name": "Cutshort",
-          "status": "job boards indexed"
-        },
-        {
-          "name": "Hirist",
-          "status": "individual JD indexed"
-        },
-        {
-          "name": "Indeed",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Darwinbox",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Keka",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Zoho Recruit",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "Recruitee",
-          "status": "board indexed"
-        },
-        {
-          "name": "Teamtailor",
-          "status": "no relevant individual URL"
-        },
-        {
-          "name": "LinkedIn public indexed",
-          "status": "profiles and indexed posts only; no original timestamp"
-        },
-        {
-          "name": "Employer-hosted Kroll",
-          "status": "direct JD read"
-        },
-        {
-          "name": "Nextraise",
-          "status": "complete third-party employer-attributed JD"
-        },
-        {
-          "name": "Startup.jobs",
-          "status": "indexed lead"
-        },
-        {
-          "name": "Metaintro",
-          "status": "indexed lead"
-        },
-        {
-          "name": "Jobera",
-          "status": "indexed lead"
+          "source": "Workday",
+          "reason": "selected pages contained no readable JD"
         }
       ],
-      "individual_URLs_by_source": {
-        "ashby": 12,
-        "greenhouse": 11,
-        "workable": 2,
-        "workday": 3,
-        "oracle": 4,
-        "successfactors": 5,
-        "jobvite": 1,
-        "employer": 1,
-        "smartrecruiters": 1,
-        "thirdparty": 1,
-        "wellfound": 3,
-        "hirist": 1
-      },
-      "geographies_sampled": [
-        "Hyderabad",
-        "Bengaluru",
-        "Pune",
-        "Remote India"
+      "undersearched_cells": [
+        "Secunderabad workforce/TA operations",
+        "Gachibowli product operations",
+        "Remote India continuous improvement",
+        "Pune product operations outside specific indexed results"
       ],
-      "unsearched_or_undersearched_matrix_cells": [
-        "Secunderabad Workforce/TA Ops",
-        "Gachibowli Process Excellence",
-        "Pune Product Ops across all ATS",
-        "Remote India Workforce/TA Ops",
-        "Remote India Continuous Improvement across all ATS"
-      ]
+      "notes": "Source attempted is not equivalent to successfully accessed or exhaustively searched."
     },
     "DEDUPE": {
-      "raw_explicit_candidate_URLs": 45,
-      "canonical_unique_URLs": 45,
+      "raw_manually_logged_individual_url_occurrences": 40,
+      "canonical_unique_candidate_urls": 40,
       "duplicates_removed": 0,
-      "method": "Curated distinct individual job URLs by ATS path or requisition; excludes board and search-result pages",
-      "full_market_unique_URLs_unknown": true
+      "employer_native_or_official_ats_candidate_urls": 34,
+      "method": "canonical lowercased URL without query or trailing slash; ATS requisition used for fresh records",
+      "scope": "Manually logged subset of returned search results; total raw result universe unknown."
     },
     "JD_VALIDATION": {
-      "employer_native_full_JDs_read": 10,
-      "third_party_complete_JDs_read": 1,
-      "total_full_JDs_read": 11,
-      "employer_native_titles_read": [
-        "Cohere Health Sales Support Analyst",
-        "Redwood Partner Operations Analyst",
-        "Redwood Marketing Operations Specialist",
-        "Zenoti Payments Program Manager",
-        "Zenoti Project Manager",
-        "Instawork Product Operations Analyst",
-        "Kroll Production Operations Analyst II",
-        "EY GDS Account Support Leader",
-        "EY GMx-MS Transition Manager",
-        "AB InBev Marketplace Operations Analyst"
-      ],
-      "accessible_potentially_relevant_identified": 6,
-      "accessible_potentially_relevant_read": 6,
-      "identified_accessible_relevant_review_pct": 100,
-      "identified_accessible_relevant_pending_backlog": 0,
-      "inaccessible_potentially_relevant_JDs": 10,
-      "inaccessible_examples": [
-        "Nexus One Product Operations Associate",
-        "Aspora Operations Lead",
-        "Verto Customer Experience Analyst",
-        "Riveron Finance Operations Analyst",
-        "Bjak Founder's Office",
-        "Juniper Square Marketing Operations Analyst",
-        "Capgemini FBS Operations Execution Analyst II",
-        "Capgemini FBS Application Support Analyst III",
-        "Resolver Resource Planning Analyst",
-        "Cloudflare Partner Strategy & Operations Analyst"
-      ],
-      "undiscovered_backlog": null,
-      "objective_exclusions": [
-        "wrong geography",
+      "complete_full_jds_read": 15,
+      "employer_native_full_jds_read": 12,
+      "third_party_full_jds_read": 3,
+      "identified_accessible_potentially_relevant_jds": 13,
+      "identified_accessible_potentially_relevant_jds_read": 13,
+      "identified_set_review_coverage_pct": 100,
+      "identified_inaccessible_potentially_relevant_jds": 7,
+      "accessible_pending_backlog_in_identified_set": 0,
+      "undiscovered_market_backlog": null,
+      "exclusion_reasons": [
+        "Delhi NCR or outside permitted geography",
         "internship",
-        "director/VP seniority",
-        "mandatory Salesforce/Marketo/AWS Marketplace experience not verified",
-        "specialized payments 5+ years",
-        "specialist SAP, tax/CA, engineering",
-        "explicit salary below INR 12 LPA",
-        "application deadline passed"
-      ]
+        "unrelated specialist engineering",
+        "director/principal seniority",
+        "mandatory accounting/SAP/NICE IEX/Snowflake semantic layer expertise not verified",
+        "original posting outside five-day window",
+        "salary below ₹12 LPA fixed or pay unit ambiguous",
+        "original posting date unverified"
+      ],
+      "specific_exclusions": [
+        "Skild AI req 5235765008 independently indexed May 29, not fresh; pay ₹25–₹35 with ambiguous unit",
+        "Novartis transparency req 10086923 original Oct 23 on another official locale, despite Nov 13 index",
+        "Unilever intercompany roles require specialized R2R accounting/SAP",
+        "Caterpillar business process analyst Oct 27 and deadline Nov 15"
+      ],
+      "scope": "13/13 covers only identified accessible potentially relevant JDs; 7 inaccessible not counted as read."
     },
     "MATCHING": {
-      "strong_86_100": 0,
-      "possible_71_85": 0,
-      "new_verified_fresh_matches": 0,
-      "unverified_research_leads_identified": 8,
-      "private_queue_leads_added": 8,
-      "private_queue_count_before": 46,
-      "private_queue_count_after": 54,
-      "compensation_unknown_not_assumed_to_meet_floor": true,
-      "original_employer_posting_date_unverified_not_promoted": true,
+      "new_strong": 0,
+      "new_possible": 2,
+      "new_verified_fresh_total": 2,
+      "new_unverified_or_older_research_leads": 8,
+      "private_queue_total_after_write": 62,
+      "fixed_salary_verified_above_threshold": 0,
+      "fixed_salary_unknown_for_new_matches": 2,
       "scoring_weights": {
         "responsibilities": 30,
         "skills": 25,
@@ -271,60 +252,52 @@
         "geography": 15,
         "compensation": 5
       },
-      "minimum_evidence_coverage": 0.8
+      "evidence_coverage_minimum": 0.8,
+      "notes": "Unilever UFS CX Business Analyst posted Nov 12 scored 84/100; Novartis ERC Innovation Product Assurance posted Nov 13 scored 82/100. Both employer native, fixed salary unknown."
     },
     "LINKEDIN": {
-      "public_indexed_queries": 6,
-      "direct_original_social_post_pages_opened": 0,
-      "original_post_timestamp_verified": 0,
-      "original_post_timestamp_rejected_count": null,
-      "original_post_timestamp_rejected_count_status": "UNKNOWN_INDEXED_PROFILE_ITEM_COUNT",
-      "verified_24h_posts": 0,
-      "feed_write_attempted": false,
-      "scrolling_performed": false
+      "public_indexed_search_queries": 8,
+      "verified_original_post_timestamps_with_timezone_last_24h": 0,
+      "qualifying_original_post_permalinks": 0,
+      "new_posts_published": 0,
+      "direct_linkedin_content_access": "Indexed pages surfaced, no authenticated scrolling; no qualifying timestamp verification.",
+      "manual_intake_preserved": true
     },
     "GITHUB_WRITE": {
+      "jobs": {
+        "attempted": true,
+        "succeeded": true,
+        "readback_verified": true,
+        "readback_sha": "743ec683bae782b266f7fb3d5b3b5b61f17b4f88",
+        "commit_sha": "463c3c96c1c73c7afae19173641e817e5fe2aa60"
+      },
       "private_queue": {
         "attempted": true,
         "succeeded": true,
-        "added": 8,
-        "prior_count": 46,
-        "final_count": 54,
-        "readback_sha": "aa8086363f75724bc3cb687409a8f7bf814ff5c2",
-        "error": null
-      },
-      "public_jobs": {
-        "attempted": false,
-        "reason": "No verified fresh matches"
-      },
-      "public_linkedin": {
-        "attempted": false,
-        "reason": "No independently timestamp-verified posts"
-      },
-      "manual_intake": {
-        "attempted": false,
-        "reason": "Preserved"
+        "readback_verified": true,
+        "readback_sha": "9594f7905d095b9cff229f1f4d5dc4fdafcd5e3a",
+        "commit_sha": "a441b71f70a752dbf6ae9563c2a12f8ba88a2a78"
       },
       "public_report": {
         "attempted": true,
-        "succeeded": true,
-        "verified_first_write_readback_sha": "904621ec2cfd4d41bd13f177828277661925e7a8",
-        "verification": "First diagnostic write fetched and SHA matched; final updated report also fetched after commit"
+        "succeeded": null,
+        "readback_sha": null,
+        "note": "Final report readback happens after write; final blob SHA cannot be embedded in same blob."
       }
     },
     "FINAL": {
       "status": "PARTIAL",
       "coverage_status": "INCOMPLETE",
       "reasons": [
-        "DISCOVERY_BREADTH_LOW: fewer than 100 individual URLs",
-        "Incomplete role/location/platform matrix",
-        "Original posting dates not verified for promising jobs",
-        "Some ATS pages 404, empty, redirected or blocked",
-        "Raw search hits and undiscovered backlog unknown"
+        "Less than 100 unique manually logged candidate URLs",
+        "200–500 discovery target not met",
+        "Some ATS pages inaccessible",
+        "Unverified original dates and salaries for most vacancies",
+        "Market-wide unseen backlog unknown"
       ],
       "applications_submitted": 0,
       "recruiter_outreach_sent": 0
     }
   },
-  "notes": "Public-safe diagnostics only. No personal data, applications, or private queue details. Discovery target 200-500 is aspirational, not achieved."
+  "notes": "Public-safe aggregate diagnostics only. Public job metadata exclusively in data/jobs.json; unverified research leads only in private queue; no personal data or application records."
 }
