@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-16",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -68,14 +68,68 @@
       "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
       "previously_shown": false,
       "notes": "Original employer Oracle ATS listing displays Posting Date 11/10/2026. Exact employer career JD directly reviewed. Evidence gap: five-plus years specifically in data analytics/reporting not conclusively demonstrated; 2+ years at SERCO in analytics plus earlier cross-functional operational reporting. SQL joins, Excel, Python and Power BI verified. Compensation unknown and not assumed to meet INR 12 LPA fixed."
+    },
+    {
+      "company": "Unilever",
+      "title": "UFS CX Regional Hub Business Analyst",
+      "location": "Bengaluru",
+      "url": "https://careers.unilever.com/en/job/bengaluru/ufs-cx-regional-hub-business-analyst/34155/103199511600",
+      "ats_requisition": "R-1191032",
+      "date_posted": "2026-11-12",
+      "score": 84,
+      "score_breakdown": {
+        "responsibilities": 27,
+        "skills": 21,
+        "seniority": 13,
+        "sector": 8,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage": 0.85,
+      "notes": "Verified Power BI, SQL, analytics, cross-functional coordination; gaps Spark, CRM ownership and consumer CX domain.",
+      "id": "r-1191032",
+      "date_posted_evidence_url": "https://careers.unilever.com/en/job/bengaluru/ufs-cx-regional-hub-business-analyst/34155/103199511600",
+      "employer_page_verified": true,
+      "first_shown_date": "2026-11-16",
+      "score_status": "possible_verified_fresh",
+      "fixed_salary_lpa": null,
+      "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
+      "previously_shown": false
+    },
+    {
+      "company": "Novartis",
+      "title": "Manager – ERC Innovation Product Assurance",
+      "location": "Hyderabad",
+      "url": "https://www.novartis.com/careers/career-search/job/details/req-10087341-manager-erc-innovation-product-assurance",
+      "ats_requisition": "REQ-10087341",
+      "date_posted": "2026-11-13",
+      "score": 82,
+      "score_breakdown": {
+        "responsibilities": 27,
+        "skills": 21,
+        "seniority": 12,
+        "sector": 7,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage": 0.83,
+      "notes": "Verified ticket triage, product support, access/account configuration, KPIs, Power BI and SOPs; gaps formal test-case/release ownership, compliance domain and 8+ years directly relevant classification.",
+      "id": "req-10087341",
+      "date_posted_evidence_url": "https://www.novartis.com/careers/career-search/job/details/req-10087341-manager-erc-innovation-product-assurance",
+      "employer_page_verified": true,
+      "first_shown_date": "2026-11-16",
+      "score_status": "possible_verified_fresh",
+      "fixed_salary_lpa": null,
+      "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
+      "previously_shown": false
     }
   ],
   "last_run": {
-    "date": "2026-11-01",
-    "type": "astra_daily_recruiter_discovery_breadth_upgrade_partial",
+    "date": "2026-11-16",
+    "type": "astra_daily_recruiter_partial",
     "new_strong": 0,
-    "new_possible": 1,
+    "new_possible": 2,
     "new_linkedin_leads": 0,
-    "notes": "New Ethos Life Greenhouse 8920621002 possible match; independent Oct 30 posting evidence; salary undisclosed. Previous provisional Loop AI retained."
+    "notes": "Two employer-date-verified possible matches; salary unknown."
   }
 }
