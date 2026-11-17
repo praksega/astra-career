@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-17",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -122,14 +122,40 @@
       "fixed_salary_lpa": null,
       "fixed_salary_status": "UNKNOWN_NOT_DISCLOSED",
       "previously_shown": false
+    },
+    {
+      "id": "amazon-10605657",
+      "company": "Amazon Pay (India) Private Limited",
+      "title": "Program Manager - POD, Pay on Delivery",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://www.amazon.jobs/en/jobs/10605657/program-manager-pod-pay-on-delivery",
+      "requisition_id": "10605657",
+      "score": 84,
+      "score_status": "possible_verified_fresh",
+      "score_breakdown": {
+        "responsibilities": 26,
+        "skills": 22,
+        "seniority": 14,
+        "sector": 7,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage_percent": 90,
+      "date_posted": "2026-11-16",
+      "date_posted_source_url": "https://www.amazon.jobs/en/search?distanceType=Mi&industry_experience=seven_plus_years&radius=24km&result_limit=10",
+      "official_url_verified": true,
+      "fixed_salary_inr_lpa": null,
+      "compensation_status": "unknown",
+      "first_shown_date": "2026-11-17",
+      "previously_shown": false
     }
   ],
   "last_run": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "type": "astra_daily_recruiter_partial",
     "new_strong": 0,
-    "new_possible": 2,
+    "new_possible": 1,
     "new_linkedin_leads": 0,
-    "notes": "Two employer-date-verified possible matches; salary unknown."
+    "notes": "Employer-original-date verified Amazon Program Manager; fixed compensation unknown. Coverage incomplete."
   }
 }
