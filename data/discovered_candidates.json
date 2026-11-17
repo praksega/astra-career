@@ -1,7 +1,196 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T09:59:42.293456+00:00",
+  "updated_at": "2026-11-17T10:56:39.345085+00:00",
   "candidates": [
+    {
+      "id": "greenhouse:8336296",
+      "company_board": "stripe",
+      "title": "Operations Manager (FinCrime)",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8336296",
+      "source": "greenhouse",
+      "source_date": "2026-11-17T05:10:19-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations manager",
+        "continuous improvement"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 6207,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div data-kai-message-id=\"19a32596-569d-4559-8a83-ae6e8243cd2b\">\n<div class=\"kai-message-hover-actions\">\n<div data-testid=\"kai-message-content-row\">\n<div data-testid=\"kai-message-content\">\n<div class=\"\u2699\">\n<div class=\"\u2699 rs-2  as-21 as-22 as-aj as-ak as-al as-ac as-14 as-7 as-25 as-15 as-16 as-am as-27 as-an \u26991ia3eq8\" data-kai-agent-message-content=\"true\" data-kai-response-surface=\"background\">\n<div>\n<div class=\"kai-markdown\">\n<h2 id=\"who-we-are\">Who we are</h2>\n<h3 id=\"about-stripe\">About Stripe</h3>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world\u2019s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.</p>\n<h3 id=\"about-the-team\">About the team</h3>\n<p>The Financial Crimes Operations team helps protect Stripe\u2019s financial ecosystem while supporting legitimate businesses. We conduct risk-based",
+      "jd_details": {
+        "source_url": "https://stripe.com/jobs/search?gh_jid=8336296",
+        "full_description_available": true,
+        "responsibilities": [
+          "The Financial Crimes Operations team helps protect Stripe\u2019s financial ecosystem while supporting legitimate businesses. We conduct risk-based reviews and investigations, applying sound judgment and operational rigor to identify and mitigate financial crime risks. We collaborate a",
+          "As a Financial Crimes Operations Manager, you\u2019ll lead and develop a team conducting complex financial crime reviews. You\u2019ll own day-to-day team performance, help investigators navigate ambiguous cases, and build a culture of sound judgment, accountability, and continuous improvem",
+          "Lead, coach, and develop a team of investigators through regular feedback, performance conversations, and career development.",
+          "Manage daily operations, including workload prioritization, queue health, and capacity planning, to meet quality and service-level expectations.",
+          "Reinforce consistent application of policies and procedures, partnering with relevant stakeholders to resolve questions and address gaps.",
+          "Partner with quality and training teams to address recurring errors, strengthen investigative skills, and improve onboarding."
+        ],
+        "qualifications": [
+          "The Financial Crimes Operations team helps protect Stripe\u2019s financial ecosystem while supporting legitimate businesses. We conduct risk-based reviews and investigations, applying sound judgment and operational rigor to identify and mitigate financial crime risks. We collaborate a",
+          "As a Financial Crimes Operations Manager, you\u2019ll lead and develop a team conducting complex financial crime reviews. You\u2019ll own day-to-day team performance, help investigators navigate ambiguous cases, and build a culture of sound judgment, accountability, and continuous improvem",
+          "Partner with quality and training teams to address recurring errors, strengthen investigative skills, and improve onboarding.",
+          "Translate changing business priorities and requirements into clear team goals and actionable operating plans.",
+          "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
+          "Experience in financial crime operations, customer due diligence, anti-money laundering investigations, or a closely related risk function."
+        ],
+        "overview": "Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world\u2019s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a stag",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 6,
+        "capability_evidence_coverage_pct": 86,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "sql"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "continuous improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operational performance",
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "greenhouse:8358938",
+      "company_board": "twilio",
+      "title": "Fast Track Operations Specialist 2",
+      "location": "Remote - India",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8358938",
+      "source": "greenhouse",
+      "source_date": "2026-11-17T04:47:59-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist"
+      ],
+      "matching_method": "title",
+      "description_characters": 8467,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p>\n<p>At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringify-link=\"https://customers.twilio.com/\" data-sk=\"tooltip_parent\">&nbsp;hundreds of thousands of businesses&nbsp;</a>and empower millions of developers worldwide to craft personalized customer experiences.</p>\n<p>Our dedication to <a class=\"c-link\" href=\"https://www.twilio.com/en-us/blog/open-work\" target=\"_blank\" data-stringify-link=\"https://www.twilio.com/en-us/blog/open-work\" data-sk=\"tooltip_parent\">remote-first work</a>, and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.<br><span style=\"color: rgb(255, 255, 255);\">.</span></p>\n<p><strong>Hiring and how we work</strong></p>\n<p>We use Artificial Intelligence ",
+      "jd_details": {
+        "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8358938",
+        "full_description_available": true,
+        "responsibilities": [
+          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+          "We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!",
+          "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
+          "Manage Onboarding SLAs and credit utilization for each product",
+          "Partner with operations teams to scale onboarding volumes per assigned customer",
+          "Join weekly calls with customers to report metrics and review any open items or additional onboarding needs"
+        ],
+        "qualifications": [
+          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+          "Our dedication to  remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re ",
+          "Wear the Customer Shoes: Provide onboarding support for common customer inquiries through slack in addition to Service now; to ensure customers have an excellent experience with Twilio.",
+          "Be an Owner: Partner with the account team to proactively address issues and advise on any industry changes that could impact customer onboarding experience.",
+          "Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking ",
+          "Experience Required: 2 plus Years specializing in at least one a2p products"
+        ],
+        "overview": "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "metrics",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "cross-functional"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
     {
       "id": "greenhouse:8354829",
       "company_board": "okta",
@@ -65,6 +254,116 @@
             "category": "documentation",
             "jd_terms": [
               "documentation"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "greenhouse:8327106",
+      "company_board": "mongodb",
+      "title": "Business Systems Analyst 3",
+      "location": "Bengaluru; Gurugram",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8327106",
+      "source": "greenhouse",
+      "source_date": "2026-11-11T11:20:59-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "business systems",
+        "stakeholder management",
+        "process improvement",
+        "requirements gathering"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 7492,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<p>We are seeking an experienced, techno-functional Business Systems Analyst (BSA) with broad experience across enterprise finance systems and processes, including accounting, Order-to-Cash (OTC), Source-to-Pay (S2P), and Procure-to-Pay (P2P). The ideal candidate will bridge business stakeholders and technical teams to deliver system enhancements, integrations, automation, and process improvements across the finance function. The role requires an understanding of end-to-end finance processes, requirements gathering, functional configuration, integration design, testing, production support, and stakeholder management.</p>\n<h3>1. Business Analysis and Process Management</h3>\n<ul>\n<li>Partner with Procurement, Accounts Payable, Finance, and business stakeholders to gather, analyze, and document business requirements</li>\n<li>Translate business requirements into functional specifications, user stories, process flows, and solution designs</li>\n<li>Analyze and optimize end-to-end finance processes, including general ledger, record-to-report, accounts payable, accounts receivable, Order-to-Cash (OTC), Source-to-Pay (S2P), Procure-to-Pay (P2P), billing, collections, reconciliations, and fi",
+      "jd_details": {
+        "source_url": "https://www.mongodb.com/careers/job/?gh_jid=8327106",
+        "full_description_available": true,
+        "responsibilities": [
+          "We are seeking an experienced, techno-functional Business Systems Analyst (BSA) with broad experience across enterprise finance systems and processes, including accounting, Order-to-Cash (OTC), Source-to-Pay (S2P), and Procure-to-Pay (P2P). The ideal candidate will bridge busines",
+          "1. Business Analysis and Process Management",
+          "Partner with Procurement, Accounts Payable, Finance, and business stakeholders to gather, analyze, and document business requirements",
+          "Translate business requirements into functional specifications, user stories, process flows, and solution designs",
+          "Analyze and optimize end-to-end finance processes, including general ledger, record-to-report, accounts payable, accounts receivable, Order-to-Cash (OTC), Source-to-Pay (S2P), Procure-to-Pay (P2P), billing, collections, reconciliations, and financial close",
+          "Conduct fit-gap analysis and recommend scalable solutions aligned with business and compliance requirements"
+        ],
+        "qualifications": [
+          "We are seeking an experienced, techno-functional Business Systems Analyst (BSA) with broad experience across enterprise finance systems and processes, including accounting, Order-to-Cash (OTC), Source-to-Pay (S2P), and Procure-to-Pay (P2P). The ideal candidate will bridge busines",
+          "Partner with Procurement, Accounts Payable, Finance, and business stakeholders to gather, analyze, and document business requirements",
+          "Translate business requirements into functional specifications, user stories, process flows, and solution designs",
+          "Conduct fit-gap analysis and recommend scalable solutions aligned with business and compliance requirements",
+          "Facilitate stakeholder workshops, requirement reviews, and solution walkthroughs",
+          "Work with integration developers to define interface requirements, data mappings, transformation rules, and error-handling mechanisms"
+        ],
+        "overview": "We are seeking an experienced, techno-functional Business Systems Analyst (BSA) with broad experience across enterprise finance systems and processes, including accounting, Order-to-Cash (OTC), Source-to-Pay (S2P), and Procure-to-Pay (P2P). The ideal candidate will bridge business stakeholders and technical teams to de",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 6,
+        "capability_evidence_coverage_pct": 86,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "sql"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement",
+              "standardization"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "implementation",
+              "agile"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation",
+              "requirements gathering",
+              "user acceptance testing",
+              "uat"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
           }
@@ -270,93 +569,6 @@
               "uat"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "lever:7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
-      "company_board": "mindtickle",
-      "title": "Program Manager",
-      "location": "Pune, Maharashtra",
-      "url": "https://jobs.lever.co/mindtickle/7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
-      "source": "lever",
-      "source_date": "2026-11-05T09:52:40.314000+00:00",
-      "date_source": "createdAt",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "program manager",
-        "process improvement",
-        "operational efficiency"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 4630,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have everything they need to build winning sellers.\nGlobal companies, like Fortune 500 organizations, trust Mindtickle to support their revenue teams. Customers and industry analysts have also recognized us. G2 has ranked us the #1 Sales Training & Onboarding platform for 28 consecutive quarters, and Forrester has recognized Mindtickle as a Leader in revenue enablement. Mindtickle was also recognized as AI-Based Sales Solution of the Year by the 2025 AI Breakthrough Awards and has received Stevie Awards for Technology Innovation and Customer Support Excellence.\nAt Mindtickle, we're helping companies create high-performing revenue teams, and we're looking for people who want to help shape what's next.\n\n\nRole summary\nThe Program Manager, Services runs the internal programs that make Mindtickle Services efficient, predictable and profitable. The role spans all four service l",
-      "jd_details": {
-        "source_url": "https://jobs.lever.co/mindtickle/7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
-        "full_description_available": true,
-        "responsibilities": [
-          "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
-        ],
-        "qualifications": [],
-        "overview": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "dashboard",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "automation",
-            "jd_terms": [
-              "automation"
-            ],
-            "candidate_evidence": "SERCO: seven operational automations"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
           }
         ],
         "potential_unverified_requirements": [],
@@ -819,78 +1031,6 @@
       ]
     },
     {
-      "id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-      "company_board": "Loop%20AI",
-      "title": "Strategist II - Product Operations & Strategy",
-      "location": "Bengaluru",
-      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-      "source": "lever",
-      "source_date": "2026-10-14T09:32:24.506000+00:00",
-      "date_source": "createdAt",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "product operation"
-      ],
-      "matching_method": "title",
-      "description_characters": 1667,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter experts into restaurant brands bringing industry best practices in handling complex internal functions. We have offices in San Francisco, New York, Tampa and India.\nLoop is one of the fastest growing restaurant technology companies powering a few billion dollars in revenue and growing to serve 10K+ restaurants within 3 years across some of the most recognizable brands of the USA, helping them grow their topline & bottomline.\u00a0\nLoop is built by a world class team of entrepreneurs, operators, leaders and AI engineers from different industries, ranging from cutting edge big-tech, management consulting, investment banking among others across companies like Uber, Google, Amazon, McKinsey and others.\u00a0\nAbout the Role:\u00a0\nAs a Product Operations strategist in the Strategy & Operations charter of Loop, you are a custodian of value delivered to Loop\u2019s customers. Loop\u2019s products powe",
-      "jd_details": {
-        "source_url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
-        "full_description_available": true,
-        "responsibilities": [
-          "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
-        ],
-        "qualifications": [
-          "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
-        ],
-        "overview": "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engineers, strategists and subject matter ex",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 3,
-        "capability_evidence_coverage_pct": 43,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "metrics"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "product operations",
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
       "id": "greenhouse:8248096",
       "company_board": "stripe",
       "title": "Risk Operations Manager",
@@ -991,15 +1131,15 @@
     {
       "id": "greenhouse:8245298",
       "company_board": "okta",
-      "title": "Global Partner Program Operations Manager",
-      "location": "Bengaluru, India",
+      "title": "Partner Program Manager, APJ",
+      "location": "Bengaluru",
       "url": "https://www.okta.com/company/careers/opportunity/8245298?gh_jid=8245298",
       "source": "greenhouse",
       "source_date": "2026-10-02T08:10:58-04:00",
       "date_source": "first_published",
       "posting_date_verified": true,
       "matched_keywords": [
-        "operations manager"
+        "program manager"
       ],
       "matching_method": "title",
       "description_characters": 7830,
@@ -1784,77 +1924,6 @@
               "uat"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "lever:c1226a68-b1fa-40eb-8507-6f4903d28feb",
-      "company_board": "mindtickle",
-      "title": "Senior Program Manager",
-      "location": "Pune, Maharashtra",
-      "url": "https://jobs.lever.co/mindtickle/c1226a68-b1fa-40eb-8507-6f4903d28feb",
-      "source": "lever",
-      "source_date": "2025-10-10T09:42:11.758000+00:00",
-      "date_source": "createdAt",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "program manager",
-        "operational excellence"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 1867,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have everything they need to build winning sellers.\nGlobal companies, like Fortune 500 organizations, trust Mindtickle to support their revenue teams. Customers and industry analysts have also recognized us. G2 has ranked us the #1 Sales Training & Onboarding platform for 28 consecutive quarters, and Forrester has recognized Mindtickle as a Leader in revenue enablement. Mindtickle was also recognized as AI-Based Sales Solution of the Year by the 2025 AI Breakthrough Awards and has received Stevie Awards for Technology Innovation and Customer Support Excellence.\nAt Mindtickle, we're helping companies create high-performing revenue teams, and we're looking for people who want to help shape what's next.\n\n\nJob Snapshot\n\u00a0\nWe\u2019re looking for a Senior Program Manager to lead strategic, customer-facing programs within our Professional Services organization. This role is ideal for ",
-      "jd_details": {
-        "source_url": "https://jobs.lever.co/mindtickle/c1226a68-b1fa-40eb-8507-6f4903d28feb",
-        "full_description_available": true,
-        "responsibilities": [
-          "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
-        ],
-        "qualifications": [
-          "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
-        ],
-        "overview": "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays into one platform so revenue teams have",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 3,
-        "capability_evidence_coverage_pct": 43,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "operational excellence"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
           }
         ],
         "potential_unverified_requirements": [],

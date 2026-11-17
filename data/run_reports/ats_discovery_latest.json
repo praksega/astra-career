@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-16T09:59:42.293456+00:00",
+  "run_at_utc": "2026-11-17T10:56:39.345085+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
-  "source_boards_succeeded": 25,
-  "source_boards_failed": 31,
-  "raw_listings_seen": 4710,
-  "individual_screening_records": 4710,
+  "source_boards_succeeded": 21,
+  "source_boards_failed": 35,
+  "raw_listings_seen": 4602,
+  "individual_screening_records": 4602,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 210,
-    "outside_target_locations": 4357,
+    "role_not_relevant": 181,
+    "outside_target_locations": 4281,
     "title_and_jd": 10,
-    "excluded_specialist_title": 123,
+    "excluded_specialist_title": 120,
     "title": 6
   },
-  "location_eligible_jds_screened": 353,
-  "location_eligible_jds_with_500_plus_chars": 350,
+  "location_eligible_jds_screened": 321,
+  "location_eligible_jds_with_500_plus_chars": 321,
   "unique_role_location_candidates": 20,
   "full_jds_with_accessible_text": 20,
   "jd_evidence_maps_generated": 20,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 20,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4690,
+    "unrelated_or_unapproved_location": 4582,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -43,13 +43,13 @@
       "source": "greenhouse",
       "board": "reddit",
       "status": "ok",
-      "count": 145
+      "count": 148
     },
     {
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 139
+      "count": 140
     },
     {
       "source": "greenhouse",
@@ -130,19 +130,19 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 786
+      "count": 793
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 895
+      "count": 891
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 394
+      "count": 399
     },
     {
       "source": "greenhouse",
@@ -174,43 +174,43 @@
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 361
+      "count": 358
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 113
+      "count": 115
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 109
+      "count": 113
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 286
+      "count": 277
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 265
+      "count": 259
     },
     {
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 270
+      "count": 265
     },
     {
       "source": "greenhouse",
       "board": "gusto",
       "status": "ok",
-      "count": 75
+      "count": 78
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 401
+      "count": 382
     },
     {
       "source": "greenhouse",
@@ -242,13 +242,13 @@
       "source": "greenhouse",
       "board": "wise",
       "status": "ok",
-      "count": 19
+      "count": 18
     },
     {
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 186
+      "count": 183
     },
     {
       "source": "greenhouse",
@@ -260,20 +260,22 @@
     {
       "source": "lever",
       "board": "Loop%20AI",
-      "status": "ok",
-      "count": 27
+      "status": "error",
+      "error": "TimeoutError",
+      "count": 0
     },
     {
       "source": "lever",
       "board": "cred",
-      "status": "ok",
-      "count": 15
+      "status": "error",
+      "error": "TimeoutError",
+      "count": 0
     },
     {
       "source": "lever",
       "board": "gojek",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
@@ -286,48 +288,50 @@
     {
       "source": "lever",
       "board": "mindtickle",
-      "status": "ok",
-      "count": 20
+      "status": "error",
+      "error": "HTTPError",
+      "count": 0
     },
     {
       "source": "lever",
       "board": "hackerone",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "atlassian",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "zomato",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "urbancompany",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "porter",
-      "status": "ok",
-      "count": 21
+      "status": "error",
+      "error": "TimeoutError",
+      "count": 0
     },
     {
       "source": "lever",
       "board": "swiggy",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
@@ -348,7 +352,7 @@
       "source": "lever",
       "board": "whatfix",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
@@ -369,7 +373,7 @@
       "source": "lever",
       "board": "browserstack",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
@@ -390,16 +394,16 @@
       "source": "lever",
       "board": "ninjacart",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "cars24",
       "status": "error",
-      "error": "HTTPError",
+      "error": "TimeoutError",
       "count": 0
     }
   ],
-  "potential_fit_reviews": 15
+  "potential_fit_reviews": 16
 }
