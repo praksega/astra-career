@@ -3,7 +3,7 @@
   "run_date": "2026-11-17",
   "run_started_at_utc": "2026-11-17T02:26:19Z",
   "run_started_at_ist": "2026-11-17T07:56:19+05:30",
-  "report_written_at_utc": "2026-11-17T02:29:29.516Z",
+  "report_written_at_utc": "2026-11-17T02:29:32.685Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -236,9 +236,10 @@
       },
       "public_report": {
         "attempted": true,
-        "succeeded": null,
-        "readback_confirmed": null,
-        "readback_sha": null
+        "succeeded": true,
+        "first_readback_confirmed": true,
+        "first_readback_sha": "6bb4adfc9c9f5176c8d0e67c2a10b456ce10e809",
+        "readback_confirmed": true
       },
       "linkedin_posts": {
         "attempted": false,
