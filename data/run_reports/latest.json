@@ -3,7 +3,7 @@
   "run_date": "2026-11-18",
   "run_started_at_utc": "2026-11-18T02:32:26Z",
   "run_started_at_ist": "2026-11-18T08:02:26+05:30",
-  "report_written_at_utc": "2026-11-18T02:35:53.593Z",
+  "report_written_at_utc": "2026-11-18T02:35:56.018Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -455,8 +455,10 @@
       },
       "public_report": {
         "attempted": true,
-        "succeeded": false,
-        "readback_confirmed": false
+        "succeeded": true,
+        "readback_confirmed": true,
+        "readback_sha": "839b1be994af9aa0071d93720ae18cc9b419c6a2",
+        "commit_sha": "7f42181bc424d970a26221754e26ee4d9db19211"
       }
     },
     "FINAL": {
