@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T10:56:39.345085+00:00",
+  "updated_at": "2026-11-18T10:27:46.886184+00:00",
   "status": "REVIEW_REQUIRED",
-  "total": 20,
+  "total": 24,
   "verified": 0,
   "fresh_for_review": 3,
-  "older_or_unverified": 17,
+  "older_or_unverified": 21,
   "jobs": [
     {
       "job_id": "greenhouse:8336296",
@@ -85,7 +85,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 0.03,
+      "days_since_posting": 1.01,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -154,7 +154,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 0.05,
+      "days_since_posting": 1.03,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -183,12 +183,15 @@
         "First line support in response to employee requests and queries on policies, processes, resources, etc. - triage, prioritize, and escalate as appropriate",
         "Administering benefits, leave of absence (LOA), and workers\u2019 compensation processes.",
         "Reporting benefits plan information to upper management.",
-        "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content"
+        "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content."
       ],
       "jd_qualifications": [
         "Okta is looking for a Benefits Operations Specialist to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs. You will be a key member of the People Operations team focused on delivering an exceptional empl",
-        "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content",
-        "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+        "Strong organizational skills, including effective documentation and management of benefits operations processes and workflows. Ensure consistent and timely upkeep of knowledge content.",
+        "Required Knowledge & Experience:",
+        "2 to 5 years experience in benefits operations, benefits administration, global employee benefits, and/or leave management",
+        "Previous experience working in Workday & ServiceNow is highly desired",
+        "Experience working in a high-speed, global technology company preferred"
       ],
       "candidate_evidence": [
         {
@@ -198,6 +201,20 @@
             "excel"
           ],
           "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
         },
         {
           "category": "operations",
@@ -219,7 +236,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 1.18,
+      "days_since_posting": 2.16,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -313,7 +330,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 5.77,
+      "days_since_posting": 6.75,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -383,7 +400,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 11.14,
+      "days_since_posting": 12.12,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -490,7 +507,80 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 11.72,
+      "days_since_posting": 12.7,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "lever:7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
+      "company": "mindtickle",
+      "title": "Program Manager",
+      "url": "https://jobs.lever.co/mindtickle/7bb05102-cc74-4b4e-b0cc-a3267a6e2af3",
+      "posting_date": "2026-11-05T09:52:40.314000+00:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+      ],
+      "jd_qualifications": [],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "reporting",
+            "dashboard",
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "automation",
+          "jd_terms": [
+            "automation"
+          ],
+          "candidate_evidence": "SERCO: seven operational automations"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 13.02,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -596,7 +686,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 17.74,
+      "days_since_posting": 18.72,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -688,7 +778,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 17.76,
+      "days_since_posting": 18.74,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -778,7 +868,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 18.28,
+      "days_since_posting": 19.26,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -879,7 +969,67 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 32.11,
+      "days_since_posting": 33.09,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "lever:ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "company": "Loop%20AI",
+      "title": "Strategist II - Product Operations & Strategy",
+      "url": "https://jobs.lever.co/Loop%20AI/ebb99d0c-7fae-428d-87d4-b690f5f50e36",
+      "posting_date": "2026-10-14T09:32:24.506000+00:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+      ],
+      "jd_qualifications": [
+        "About Loop:\u00a0\nLoop is an agentic restaurant intelligence software that augments back office of restaurant chains by automating workflows and delivering intelligence across the finance, operations and marketing functions. Loop deploys AI agents built by our in-house team of AI engi"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "product operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 35.04,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -964,7 +1114,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 43.01,
+      "days_since_posting": 43.99,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1041,7 +1191,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 45.95,
+      "days_since_posting": 46.93,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1136,7 +1286,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 52.76,
+      "days_since_posting": 53.74,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1216,7 +1366,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 69.11,
+      "days_since_posting": 70.09,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1318,7 +1468,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 94.96,
+      "days_since_posting": 95.94,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1414,7 +1564,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 104.84,
+      "days_since_posting": 105.82,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1511,9 +1661,94 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 166.08,
+      "days_since_posting": 167.06,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:7960157",
+      "company": "okta",
+      "title": "People Operations Specialist",
+      "url": "https://www.okta.com/company/careers/opportunity/7960157?gh_jid=7960157",
+      "posting_date": "2026-05-28T03:44:27-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+        "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
+        "Risk & Compliance Lead: Act as the primary gatekeeper for global compliance by managing and executing robust background verification (BGC) processes.",
+        "Workday Data Management: Execute complex global data changes (transfers, promotions, comp updates, terminations) and manage mass uploads using Workday EIBs.",
+        "End-to-End BGC Ownership: Partner with external vendors to trigger, track, and review comprehensive background checks. Safely escalate and resolve discrepancies.",
+        "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations."
+      ],
+      "jd_qualifications": [
+        "Are you a seasoned People Ops professional who loves the intersection of HR technology,\u00a0compliance, and employee experience? We are looking for a high-performing Specialist to join\u00a0our global team and own critical pillars of our employee journey!\u00a0In this role, you will be the abs",
+        "5+ years of core experience in People Operations/HR Ops with deep employee lifecycle exposure.",
+        "Mandatory tech skills: Hands-on proficiency with Workday Core HCM (including EIB execution) and ServiceNow (SNOW).",
+        "Compliance expertise: Proven track record of managing high-volume, global background verification processes and vendor relations.",
+        "We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from "
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "metrics",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [
+        "cpa"
+      ],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 174.11,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "specialized_experience_not_confirmed",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -1580,7 +1815,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 203.16,
+      "days_since_posting": 204.14,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1665,7 +1900,65 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 230.11,
+      "days_since_posting": 231.09,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "lever:c1226a68-b1fa-40eb-8507-6f4903d28feb",
+      "company": "mindtickle",
+      "title": "Senior Program Manager",
+      "url": "https://jobs.lever.co/mindtickle/c1226a68-b1fa-40eb-8507-6f4903d28feb",
+      "posting_date": "2025-10-10T09:42:11.758000+00:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+      ],
+      "jd_qualifications": [
+        "Who we are\nMindtickle is the leading AI-powered revenue enablement platform, helping sales teams learn faster, practice smarter, and perform at their best. We bring together onboarding, training, coaching, content, digital sales rooms, conversation intelligence, and AI role-plays"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 404.03,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1762,7 +2055,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 966.87,
+      "days_since_posting": 967.85,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",

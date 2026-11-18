@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-17T10:56:39.345085+00:00",
+  "run_at_utc": "2026-11-18T10:27:46.886184+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
-  "source_boards_succeeded": 21,
-  "source_boards_failed": 35,
-  "raw_listings_seen": 4602,
-  "individual_screening_records": 4602,
+  "source_boards_succeeded": 25,
+  "source_boards_failed": 31,
+  "raw_listings_seen": 4662,
+  "individual_screening_records": 4662,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 181,
-    "outside_target_locations": 4281,
-    "title_and_jd": 10,
-    "excluded_specialist_title": 120,
+    "role_not_relevant": 207,
+    "outside_target_locations": 4309,
+    "title_and_jd": 14,
+    "excluded_specialist_title": 122,
     "title": 6
   },
-  "location_eligible_jds_screened": 321,
-  "location_eligible_jds_with_500_plus_chars": 321,
-  "unique_role_location_candidates": 20,
-  "full_jds_with_accessible_text": 20,
-  "jd_evidence_maps_generated": 20,
+  "location_eligible_jds_screened": 353,
+  "location_eligible_jds_with_500_plus_chars": 350,
+  "unique_role_location_candidates": 24,
+  "full_jds_with_accessible_text": 24,
+  "jd_evidence_maps_generated": 24,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
   "verified_matches": 0,
-  "review_required": 20,
+  "review_required": 24,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4582,
+    "unrelated_or_unapproved_location": 4638,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -43,13 +43,13 @@
       "source": "greenhouse",
       "board": "reddit",
       "status": "ok",
-      "count": 148
+      "count": 147
     },
     {
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 140
+      "count": 143
     },
     {
       "source": "greenhouse",
@@ -62,7 +62,7 @@
       "source": "greenhouse",
       "board": "airtable",
       "status": "ok",
-      "count": 9
+      "count": 11
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 793
+      "count": 789
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 891
+      "count": 897
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 399
+      "count": 392
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 39
+      "count": 38
     },
     {
       "source": "greenhouse",
@@ -168,7 +168,7 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 59
+      "count": 58
     },
     {
       "source": "greenhouse",
@@ -180,25 +180,25 @@
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 115
+      "count": 110
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 113
+      "count": 114
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 277
+      "count": 266
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 259
+      "count": 256
     },
     {
       "source": "greenhouse",
@@ -242,13 +242,13 @@
       "source": "greenhouse",
       "board": "wise",
       "status": "ok",
-      "count": 18
+      "count": 19
     },
     {
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 183
+      "count": 182
     },
     {
       "source": "greenhouse",
@@ -260,22 +260,20 @@
     {
       "source": "lever",
       "board": "Loop%20AI",
-      "status": "error",
-      "error": "TimeoutError",
-      "count": 0
+      "status": "ok",
+      "count": 27
     },
     {
       "source": "lever",
       "board": "cred",
-      "status": "error",
-      "error": "TimeoutError",
-      "count": 0
+      "status": "ok",
+      "count": 13
     },
     {
       "source": "lever",
       "board": "gojek",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
@@ -288,50 +286,48 @@
     {
       "source": "lever",
       "board": "mindtickle",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "source": "lever",
+      "board": "hackerone",
       "status": "error",
       "error": "HTTPError",
       "count": 0
     },
     {
       "source": "lever",
-      "board": "hackerone",
-      "status": "error",
-      "error": "TimeoutError",
-      "count": 0
-    },
-    {
-      "source": "lever",
       "board": "atlassian",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "zomato",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "urbancompany",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "porter",
-      "status": "error",
-      "error": "TimeoutError",
-      "count": 0
+      "status": "ok",
+      "count": 21
     },
     {
       "source": "lever",
       "board": "swiggy",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
@@ -352,7 +348,7 @@
       "source": "lever",
       "board": "whatfix",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
@@ -373,7 +369,7 @@
       "source": "lever",
       "board": "browserstack",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
@@ -394,16 +390,16 @@
       "source": "lever",
       "board": "ninjacart",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     },
     {
       "source": "lever",
       "board": "cars24",
       "status": "error",
-      "error": "TimeoutError",
+      "error": "HTTPError",
       "count": 0
     }
   ],
-  "potential_fit_reviews": 16
+  "potential_fit_reviews": 19
 }
