@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T10:27:46.886184+00:00",
+  "updated_at": "2026-11-19T10:35:09.691040+00:00",
   "status": "REVIEW_REQUIRED",
-  "total": 24,
+  "total": 23,
   "verified": 0,
   "fresh_for_review": 3,
-  "older_or_unverified": 21,
+  "older_or_unverified": 20,
   "jobs": [
     {
       "job_id": "greenhouse:8336296",
@@ -85,7 +85,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 1.01,
+      "days_since_posting": 2.02,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -154,7 +154,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 1.03,
+      "days_since_posting": 2.03,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -236,7 +236,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 2.16,
+      "days_since_posting": 3.16,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -330,7 +330,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 6.75,
+      "days_since_posting": 7.76,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -400,7 +400,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 12.12,
+      "days_since_posting": 13.12,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -507,7 +507,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 12.7,
+      "days_since_posting": 13.71,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -580,7 +580,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 13.02,
+      "days_since_posting": 14.03,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -686,7 +686,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 18.72,
+      "days_since_posting": 19.73,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -778,7 +778,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 18.74,
+      "days_since_posting": 19.75,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -868,7 +868,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 19.26,
+      "days_since_posting": 20.26,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -969,7 +969,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 33.09,
+      "days_since_posting": 34.1,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1029,7 +1029,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 35.04,
+      "days_since_posting": 36.04,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1114,7 +1114,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 43.99,
+      "days_since_posting": 44.99,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1191,7 +1191,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 46.93,
+      "days_since_posting": 47.93,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1286,7 +1286,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 53.74,
+      "days_since_posting": 54.75,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1366,7 +1366,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 70.09,
+      "days_since_posting": 71.09,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1468,7 +1468,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 95.94,
+      "days_since_posting": 96.94,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1564,7 +1564,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 105.82,
+      "days_since_posting": 106.83,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1661,7 +1661,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 167.06,
+      "days_since_posting": 168.06,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1745,79 +1745,10 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 174.11,
+      "days_since_posting": 175.12,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "specialized_experience_not_confirmed",
-        "mandatory_requirements_not_individually_verified",
-        "salary_not_confirmed"
-      ],
-      "blocking_checks": [
-        "all_mandatory_requirements",
-        "minimum_80_percent_evidence_coverage",
-        "seniority",
-        "specialized_skills",
-        "salary_fixed_at_least_12LPA_or_unknown",
-        "posting_date_within_5_days",
-        "official_link"
-      ]
-    },
-    {
-      "job_id": "greenhouse:7805386",
-      "company": "stripe",
-      "title": "Marketing Operations Manager",
-      "url": "https://stripe.com/jobs/search?gh_jid=7805386",
-      "posting_date": "2026-04-28T03:00:19-04:00",
-      "posting_date_verified": true,
-      "jd_source_available": true,
-      "jd_responsibilities": [
-        "As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the ",
-        "You'll recruit, manage, and develop a group of Marketing Operations Associates and team leads that are focused on delivering repeatable, measurable programs and campaigns targeted on spend optimization, producing highly qualified leads, improving the customer experience, and incr",
-        "Partner with global counterparts in EMEA and AMER, necessitating flexible scheduling for cross-regional alignment on email marketing success, best practices, process, workflows, policies, execution, and enablement",
-        "Project manage marketing campaign production across the globe, including managing handoffs",
-        "Support Marketo workflows, performance marketing operations, and event analysis",
-        "Ensure reportability of core operations cycles"
-      ],
-      "jd_qualifications": [
-        "As the Stripe user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational leverage and expand the ",
-        "You'll recruit, manage, and develop a group of Marketing Operations Associates and team leads that are focused on delivering repeatable, measurable programs and campaigns targeted on spend optimization, producing highly qualified leads, improving the customer experience, and incr",
-        "We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement.",
-        "10+ years relevant work experience in Marketing Operations",
-        "5+ years of experience in leading teams",
-        "6+ years of hands-on experience in Marketo (or similar) with a deep understanding of campaign architecture"
-      ],
-      "candidate_evidence": [
-        {
-          "category": "reporting_analytics",
-          "jd_terms": [
-            "metrics",
-            "excel"
-          ],
-          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-        },
-        {
-          "category": "stakeholders",
-          "jd_terms": [
-            "cross-functional"
-          ],
-          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-        },
-        {
-          "category": "operations",
-          "jd_terms": [
-            "operations"
-          ],
-          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-        }
-      ],
-      "potential_gaps": [],
-      "requirements_verified": false,
-      "verified_score": null,
-      "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": false,
-      "days_since_posting": 204.14,
-      "verification_blockers": [
-        "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -1900,7 +1831,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 231.09,
+      "days_since_posting": 232.1,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1958,7 +1889,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 404.03,
+      "days_since_posting": 405.04,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -2055,7 +1986,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 967.85,
+      "days_since_posting": 968.85,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",

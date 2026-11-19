@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-18T10:27:46.886184+00:00",
+  "run_at_utc": "2026-11-19T10:35:09.691040+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4662,
-  "individual_screening_records": 4662,
+  "raw_listings_seen": 4665,
+  "individual_screening_records": 4665,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 207,
-    "outside_target_locations": 4309,
+    "role_not_relevant": 202,
+    "outside_target_locations": 4313,
     "title_and_jd": 14,
-    "excluded_specialist_title": 122,
-    "title": 6
+    "excluded_specialist_title": 127,
+    "title": 5
   },
-  "location_eligible_jds_screened": 353,
-  "location_eligible_jds_with_500_plus_chars": 350,
-  "unique_role_location_candidates": 24,
-  "full_jds_with_accessible_text": 24,
-  "jd_evidence_maps_generated": 24,
+  "location_eligible_jds_screened": 352,
+  "location_eligible_jds_with_500_plus_chars": 349,
+  "unique_role_location_candidates": 23,
+  "full_jds_with_accessible_text": 23,
+  "jd_evidence_maps_generated": 23,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
   "verified_matches": 0,
-  "review_required": 24,
+  "review_required": 23,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4638,
+    "unrelated_or_unapproved_location": 4642,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -37,13 +37,13 @@
       "source": "greenhouse",
       "board": "instawork",
       "status": "ok",
-      "count": 53
+      "count": 54
     },
     {
       "source": "greenhouse",
       "board": "reddit",
       "status": "ok",
-      "count": 147
+      "count": 148
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 789
+      "count": 782
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 897
+      "count": 906
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 392
+      "count": 403
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 38
+      "count": 37
     },
     {
       "source": "greenhouse",
@@ -168,37 +168,37 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 58
+      "count": 54
     },
     {
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 358
+      "count": 366
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 110
+      "count": 108
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 114
+      "count": 116
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 266
+      "count": 260
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 256
+      "count": 255
     },
     {
       "source": "greenhouse",
@@ -210,7 +210,7 @@
       "source": "greenhouse",
       "board": "gusto",
       "status": "ok",
-      "count": 78
+      "count": 82
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 382
+      "count": 369
     },
     {
       "source": "greenhouse",
@@ -242,13 +242,13 @@
       "source": "greenhouse",
       "board": "wise",
       "status": "ok",
-      "count": 19
+      "count": 18
     },
     {
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 182
+      "count": 185
     },
     {
       "source": "greenhouse",
@@ -321,7 +321,7 @@
       "source": "lever",
       "board": "porter",
       "status": "ok",
-      "count": 21
+      "count": 20
     },
     {
       "source": "lever",
