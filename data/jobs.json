@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19T02:31:09Z",
   "jobs": [
     {
       "id": "loop-ai-strategist-ii-ebb99d0c",
@@ -264,14 +264,45 @@
       "evidence_gaps": [
         "AI/ML product ownership not established; roadmap decisions at Xeality were shared"
       ]
+    },
+    {
+      "id": "novartis-req-10092201",
+      "company": "Novartis",
+      "title": "Manager, Access Capabilities and Portfolio Excellence",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://www.novartis.com/uk-en/careers/career-search/job/details/req-10092201-manager-access-capabilities-and-portfolio-excellence",
+      "requisition_id": "REQ-10092201",
+      "score": 80,
+      "score_status": "possible_verified_fresh",
+      "score_breakdown": {
+        "responsibilities": 27,
+        "skills": 21,
+        "seniority": 9,
+        "sector": 8,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage_percent": 83,
+      "date_posted": "2026-11-16",
+      "date_posted_source_url": "https://www.novartis.com/uk-en/careers/career-search/job/details/req-10092201-manager-access-capabilities-and-portfolio-excellence",
+      "official_url_verified": true,
+      "fixed_salary_inr_lpa": null,
+      "compensation_status": "unknown",
+      "first_shown_date": "2026-11-19",
+      "previously_shown": false,
+      "evidence_gaps": [
+        "Enterprise PMO governance and portfolio leadership not established",
+        "7-10 years directly relevant portfolio experience not established",
+        "Pharma market-access domain experience not established"
+      ]
     }
   ],
   "last_run": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "type": "astra_daily_recruiter_partial",
-    "new_strong": 1,
-    "new_possible": 3,
+    "new_strong": 0,
+    "new_possible": 1,
     "new_linkedin_leads": 0,
-    "notes": "Employer-original dates verified on Amazon careers; salary unknown; coverage incomplete."
+    "notes": "Employer date Nov 16; salary unknown; incomplete coverage."
   }
 }
