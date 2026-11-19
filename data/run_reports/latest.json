@@ -1,478 +1,315 @@
 {
   "schema_version": 11,
-  "run_date": "2026-11-18",
-  "run_started_at_utc": "2026-11-18T02:32:26Z",
-  "run_started_at_ist": "2026-11-18T08:02:26+05:30",
-  "report_written_at_utc": "2026-11-18T02:35:56.018Z",
+  "run_date": "2026-11-19",
+  "run_started_at_utc": "2026-11-19T02:31:09Z",
+  "run_started_at_ist": "2026-11-19T08:01:09+05:30",
+  "report_written_at_utc": "2026-11-19T02:34:44.648Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
-      "timestamp_utc": "2026-11-18T02:32:26Z",
-      "timestamp_ist": "2026-11-18T08:02:26+05:30",
+      "timestamp_utc": "2026-11-19T02:31:09Z",
+      "timestamp_ist": "2026-11-19T08:01:09+05:30",
       "repository_reads": [
         {
           "repository": "praksega/astra-career",
           "path": "data/jobs.json",
           "ok": true,
-          "sha": "39f9d403b6198b5eb793d8139a4ed4528bdfe83a"
+          "sha": "39f9d403b6198b5eb793d8139a4ed4528bdfe83a",
+          "error": null
         },
         {
           "repository": "praksega/astra-career",
           "path": "data/linkedin_posts.json",
           "ok": true,
-          "sha": "e38e877e55304bc9344d5f643981140035683cf3"
+          "sha": "e38e877e55304bc9344d5f643981140035683cf3",
+          "error": null
         },
         {
           "repository": "praksega/astra-career",
           "path": "data/manual_linkedin_intake.json",
           "ok": true,
-          "sha": "04b1b58866864d427d8266653bb7bcbc7151192a"
+          "sha": "04b1b58866864d427d8266653bb7bcbc7151192a",
+          "error": null
         },
         {
           "repository": "praksega/astra-career",
           "path": "data/run_reports/latest.json",
           "ok": true,
-          "sha": "c60bd16aaa52869a45c227f73783605aa054ba02"
+          "sha": "c5e5a56fd30f9c2007d924a208ff11453791efcd",
+          "error": null
         },
         {
           "repository": "praksega/astra-career-private",
           "path": "data/research_queue/2026-11-01.json",
           "ok": true,
-          "sha": "166d260e406f05436e6388ae431efeb4ec39c147"
+          "sha": "166d260e406f05436e6388ae431efeb4ec39c147",
+          "error": null
         }
       ]
     },
     "DISCOVERY": {
-      "search_batches": 7,
-      "search_queries_executed": 114,
-      "source_patterns_attempted": 38,
+      "search_batches": 16,
+      "search_queries_executed": 83,
+      "raw_search_result_hits": null,
+      "raw_result_url_count": null,
+      "explicitly_logged_individual_url_count": 24,
+      "source_patterns_attempted": 27,
       "source_outcomes": {
-        "Greenhouse (job-boards.greenhouse.io)": {
+        "Greenhouse (new)": {
           "attempted": true,
-          "individual_candidate_url_observations": 7,
-          "full_jd_opened": true
+          "individual_urls_logged": 0
         },
-        "Greenhouse legacy (boards.greenhouse.io)": {
+        "Greenhouse (legacy)": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Lever": {
           "attempted": true,
-          "individual_candidate_url_observations": 2,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Ashby": {
           "attempted": true,
-          "individual_candidate_url_observations": 8,
-          "full_jd_opened": false
+          "individual_urls_logged": 1
         },
         "Workday": {
           "attempted": true,
-          "individual_candidate_url_observations": 12,
-          "full_jd_opened": false
+          "individual_urls_logged": 1
         },
         "Workable": {
           "attempted": true,
-          "individual_candidate_url_observations": 1,
-          "full_jd_opened": false
+          "individual_urls_logged": 1
         },
         "SmartRecruiters": {
           "attempted": true,
-          "individual_candidate_url_observations": 8,
-          "full_jd_opened": true
+          "individual_urls_logged": 3
         },
         "iCIMS": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Jobvite": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Oracle": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "SuccessFactors": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "BambooHR": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Recruitee": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Teamtailor": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Darwinbox": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Keka": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
         "Zoho Recruit": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
-        "Amazon Careers": {
+        "Indeed": {
           "attempted": true,
-          "individual_candidate_url_observations": 5,
-          "full_jd_opened": true
+          "individual_urls_logged": 0
         },
-        "Unilever Careers": {
+        "Wellfound": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Kroll Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 1,
-          "full_jd_opened": true
-        },
-        "EY Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Deloitte Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Accenture Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Genpact Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Novartis Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Gartner Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Wells Fargo Careers": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Naukri indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Indeed indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Wellfound indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Cutshort indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Hirist indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Instahyre indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
-        },
-        "Foundit indexed": {
-          "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 2
         },
         "LinkedIn indexed": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
         },
-        "Jobera": {
+        "Amazon careers": {
           "attempted": true,
-          "individual_candidate_url_observations": 3,
-          "full_jd_opened": true
+          "individual_urls_logged": 1
         },
-        "WorkMundi": {
+        "Novartis careers": {
           "attempted": true,
-          "individual_candidate_url_observations": 3,
-          "full_jd_opened": false
+          "individual_urls_logged": 9
         },
-        "Alion": {
+        "PhonePe careers": {
           "attempted": true,
-          "individual_candidate_url_observations": 0,
-          "full_jd_opened": false
+          "individual_urls_logged": 0
+        },
+        "EY careers": {
+          "attempted": true,
+          "individual_urls_logged": 4
+        },
+        "Arrow careers": {
+          "attempted": true,
+          "individual_urls_logged": 1
+        },
+        "Diageo indexed": {
+          "attempted": true,
+          "individual_urls_logged": 1
+        },
+        "Capgemini indexed": {
+          "attempted": true,
+          "individual_urls_logged": 1
         }
       },
-      "raw_search_result_hits": null,
-      "raw_search_result_hits_status": "UNKNOWN_NOT_INSTRUMENTED",
-      "explicit_candidate_url_observations": 50,
-      "successful_full_jd_source_families": [
-        "Amazon Careers",
-        "Greenhouse",
+      "logged_source_domains": {
+        "www.novartis.com": 8,
+        "jobapi.novartis.com.cn": 1,
+        "www.amazon.jobs": 1,
+        "jobs.smartrecruiters.com": 3,
+        "arrow.wd1.myworkdayjobs.com": 1,
+        "apply.workable.com": 1,
+        "jobs.ashbyhq.com": 1,
+        "wellfound.com": 2,
+        "careers.ey.com": 4,
+        "jobs-radar.com": 1,
+        "alion.io": 1
+      },
+      "logged_role_location_matrix": {
+        "program|Hyderabad": 2,
+        "process|Hyderabad": 2,
+        "analytics|Hyderabad": 2,
+        "ops|Hyderabad": 1,
+        "workforce|Hyderabad": 1,
+        "transformation|Hyderabad": 1,
+        "program|Bengaluru": 1,
+        "ops|Bengaluru": 5,
+        "product|Bengaluru": 2,
+        "workforce|Pune": 1,
+        "strategy|Bengaluru": 1,
+        "strategy|Delhi NCR": 1,
+        "workforce|outside India": 2,
+        "analytics|Kochi": 1,
+        "workforce|Bengaluru": 1
+      },
+      "successfully_accessible_full_jd_source_families": [
+        "Novartis careers",
+        "Amazon careers",
         "SmartRecruiters",
-        "Kroll Careers",
-        "Jobera"
+        "Wellfound",
+        "Ocean of Jobs"
       ],
-      "blocked_or_unreadable": [
-        "Lever Hevo Data HTTP 403",
-        "Ashby Gainsight/Nexus HTTP 404",
-        "Ashby Fairground JS-only",
-        "Workable Mitti Labs no readable JD",
-        "Workday Genpact no readable JD",
-        "PhonePe Ads employer page incomplete",
-        "Indexed Naukri/Foundit/Instahyre/Cutshort/Hirist yielded no logged individual URLs; direct login/robots status not tested"
-      ],
-      "role_location_matrix_status": "PARTIALLY_SEARCHED",
-      "role_location_unsearched_or_undercovered": [
+      "undersearched_cells": [
         "Secunderabad workforce operations",
         "Gachibowli process excellence",
-        "Pune product operations beyond one Ashby lead",
-        "Remote India transformation and TA operations"
+        "Pune product operations",
+        "Remote India business transformation",
+        "Remote India TA operations"
       ],
-      "role_location_cell_counts": null,
-      "role_location_cell_counts_reason": "Queries were executed but not separately instrumented by exact role-location cell"
+      "notes": "83 executed search queries; indexed searches are not direct LinkedIn scrolling or external crawling. Many domains yielded no individually logged vacancy."
     },
     "DEDUPE": {
-      "explicit_unique_candidate_urls": 50,
-      "duplicate_observations": 0,
-      "source_domain_counts": {
-        "barclays.wd3.myworkdayjobs.com": 7,
-        "genpact.wd108.myworkdayjobs.com": 4,
-        "roche.wd3.myworkdayjobs.com": 1,
-        "jobs.ashbyhq.com": 8,
-        "jobs.smartrecruiters.com": 8,
-        "jobs.lever.co": 2,
-        "apply.workable.com": 1,
-        "job-boards.greenhouse.io": 7,
-        "careers.kroll.com": 1,
-        "jobera.com": 3,
-        "www.amazon.jobs": 5,
-        "www.workmundi.com": 3
-      },
-      "employer_native_candidate_urls": 44,
-      "canonicalization": "lowercase host/path and strip query/trailing slash; ATS requisition IDs for published jobs",
-      "explicit_candidate_urls": [
-        "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Business-Analyst_JR-0000107996-1",
-        "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Business-Analyst_JR-0000113985-1",
-        "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Business-Analyst_JR-0000123742-1",
-        "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Business-Analyst_JR-0000113307-3",
-        "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Gera-Commerzone-SEZ--Pune/Business-Analyst_JR-0000088467-1",
-        "https://barclays.wd3.myworkdayjobs.com/en-US/external_career_site_barclays/job/Pune-Gera-Commerzone-SEZ/Lead-BI-Engineer---IDL-Technology_JR-0000107428",
-        "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Business-Analyst_JR-0000087352-1",
-        "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/Business-Analyst---Lean-Digital-Transformation-4B_JR10012288",
-        "https://genpact.wd108.myworkdayjobs.com/en-US/External_Careers/job/Business-Analyst---Enterprise-Programs-4B_JR10014208",
-        "https://genpact.wd108.myworkdayjobs.com/en-US/external_careers/job/1401-G-India-1st-floor-Nyati-tech-park-Pune/Sr-Business-Analyst-4C_JR10013544",
-        "https://genpact.wd108.myworkdayjobs.com/External_Careers/job/1401-G-India-1st-floor-Nyati-tech-park-Pune/Sr-Business-Analyst-4C_JR10021645",
-        "https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Business-Analyst_202605-112958-1",
-        "https://jobs.ashbyhq.com/gainsight/afac7ed9-534f-40a4-9d4e-2f5a29c1a963",
-        "https://jobs.smartrecruiters.com/TSSConsultancyPvtLtd/744000157130478-product-analyst",
-        "https://jobs.smartrecruiters.com/IntegriChain1/744000160955029-director-finance-operations",
-        "https://jobs.lever.co/hevodata/8d0ee4a7-1ecb-4129-af6b-14abc69b84e5",
-        "https://jobs.ashbyhq.com/sarvam/6a5df2a7-5335-41b7-9b50-7f2f5de26d18",
-        "https://apply.workable.com/mitti-labs/j/3A6D41FCEF/",
-        "https://job-boards.greenhouse.io/zenoti/jobs/6617580003-40",
-        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000005517",
-        "https://jobs.smartrecruiters.com/PHONEPELIMITED/1000000000004665-business-analyst-2-4-years-corporate",
-        "https://job-boards.greenhouse.io/coherehealth/jobs/8002135003",
-        "https://jobs.smartrecruiters.com/AllegisGlobalSolutions/744000142117967",
-        "https://jobs.smartrecruiters.com/allegisglobalsolutions/744000152372369",
-        "https://jobs.smartrecruiters.com/allegisglobalsolutions/744000152372959",
-        "https://jobs.smartrecruiters.com/allegisglobalsolutions/744000142089317",
-        "https://careers.kroll.com/en/job/hyderabad/lead-client-service-operations/21014540",
-        "https://jobera.com/job/astellas-continuous-improvement-specialist-580d4399/",
-        "https://jobera.com/job/astellas-hr-continuous-improvement-lead-54171cf6/",
-        "https://jobs.ashbyhq.com/fairground/c63376c3-5efd-41d3-8541-53365bf65aa5/",
-        "https://jobs.ashbyhq.com/nexus-cognitive/c92ab232-2a84-4241-99fb-bf7acfba96ec",
-        "https://job-boards.greenhouse.io/instawork/jobs/4350762006",
-        "https://job-boards.greenhouse.io/instawork/jobs/4686774006",
-        "https://job-boards.greenhouse.io/instawork/jobs/4716232006",
-        "https://job-boards.greenhouse.io/instawork/jobs/4702041006",
-        "https://www.amazon.jobs/en/jobs/10606886/program-manager-amazon-ads",
-        "https://www.amazon.jobs/en/jobs/10604023/sr-program-manager-transportation-controllership",
-        "https://www.amazon.jobs/en/jobs/10492474/sr-program-manager-pricing-amazon-business",
-        "https://www.amazon.jobs/en/jobs/10606887/product-manager-in-private-brands-in-private-brands",
-        "https://www.amazon.jobs/en/jobs/10460778/business-analyst-data-insights-translation-services-operations",
-        "https://www.workmundi.com/vaga/Zm91bmRpdDo2OTgyNTk3Ng",
-        "https://www.workmundi.com/vaga/Zm91bmRpdDo2OTgxMTM2Nw",
-        "https://jobera.com/job/invesco-senior-business-analyst-9bd437e0/",
-        "https://www.workmundi.com/vaga/Zm91bmRpdDo2OTY5NTU5MA",
-        "https://jobs.ashbyhq.com/claim-health/bb76582b-fe73-48d5-8897-a863bfd88013",
-        "https://job-boards.greenhouse.io/capitalontap/jobs/8944342002",
-        "https://jobs.ashbyhq.com/eliseai/ace2ba35-b2fa-41a2-a3da-e9279241d3da",
-        "https://jobs.ashbyhq.com/tennr/5cbe9ece-a98b-4412-b872-8051077e3e7d",
-        "https://jobs.ashbyhq.com/Vetcove/97ffd905-7561-475c-8afc-da3afd1d8fe8",
-        "https://jobs.lever.co/lalamove/3660ba06-1b6d-46c1-bcca-f45ea08ff045"
-      ]
+      "logged_individual_urls": 24,
+      "unique_canonical_urls": 24,
+      "duplicate_logged_urls": 0,
+      "employer_native_urls_resolved": 15,
+      "raw_search_hit_deduplication_unmeasured": true
     },
     "JD_VALIDATION": {
-      "complete_employer_native_jds_opened_and_read": 17,
-      "complete_third_party_jds_opened_and_read": 1,
-      "complete_jds_read_total": 18,
-      "accessible_potentially_relevant_jds_identified": 15,
-      "accessible_potentially_relevant_jds_read": 15,
-      "accessible_potentially_relevant_jds_pending": 0,
+      "complete_employer_native_jds_read": 10,
+      "complete_third_party_jds_read": 3,
+      "total_complete_jds_read": 13,
+      "identified_accessible_potentially_relevant_jds": 10,
+      "identified_accessible_potentially_relevant_jds_read": 10,
       "identified_set_review_coverage_percent": 100,
-      "potentially_relevant_direct_jds_inaccessible": 7,
-      "marketwide_backlog": null,
-      "marketwide_backlog_status": "UNKNOWN_DISCOVERY_INCOMPLETE",
-      "exclusions": {
-        "geography": [
-          "TSS Mumbai/Rajkot/Gandhinagar",
-          "Tennr New York"
-        ],
-        "internship": [
-          "Sarvam Product Operations & Analytics Intern"
-        ],
-        "seniority": [
-          "IntegriChain Director Finance Operations",
-          "JumpCloud Director"
-        ],
-        "specialist_skill_gaps": [
-          "PhonePe Corporate: mandatory lending domain",
-          "Zenoti: 4 years technical integration project management",
-          "Astellas: 7-10 years HR continuous improvement"
-        ],
-        "expired": [
-          "Allegis Recruitment Administrator"
-        ],
-        "older": [
-          "Amazon Translation Services BA June 29",
-          "Older Barclays/Genpact requisitions"
-        ]
-      }
+      "inaccessible_potentially_relevant_jds": 3,
+      "pending_accessible_backlog": 0,
+      "undiscovered_backlog": null,
+      "exclusion_reasons": {
+        "out_of_geography": 4,
+        "specialized_experience_or_seniority": 5,
+        "contract_or_junior": 1,
+        "original_posting_date_older_or_conflicting": 4
+      },
+      "inaccessible_examples": [
+        "Capgemini Workforce Analyst",
+        "Sieve Founding Operations",
+        "Arrow Workday (third-party full JD read)"
+      ],
+      "notes": "Only opened readable full JDs counted. Identified-set coverage not exhaustive market coverage."
     },
     "MATCHING": {
-      "rubric": {
-        "responsibilities": 30,
-        "skills": 25,
-        "seniority": 15,
-        "sector": 10,
-        "geography": 15,
-        "compensation": 5
-      },
-      "minimum_evidence_coverage_percent": 80,
-      "new_strong": 1,
-      "new_possible": 3,
-      "verified_fresh_jobs": [
-        {
-          "requisition": "10606886",
-          "score": 87,
-          "posted": "2026-11-17",
-          "url": "https://www.amazon.jobs/en/jobs/10606886/program-manager-amazon-ads"
-        },
-        {
-          "requisition": "10604023",
-          "score": 82,
-          "posted": "2026-11-16",
-          "url": "https://www.amazon.jobs/en/jobs/10604023/sr-program-manager-transportation-controllership"
-        },
-        {
-          "requisition": "10492474",
-          "score": 80,
-          "posted": "2026-11-17",
-          "url": "https://www.amazon.jobs/en/jobs/10492474/sr-program-manager-pricing-amazon-business"
-        },
-        {
-          "requisition": "10606887",
-          "score": 78,
-          "posted": "2026-11-17",
-          "url": "https://www.amazon.jobs/en/jobs/10606887/product-manager-in-private-brands-in-private-brands"
-        }
+      "new_strong": 0,
+      "new_possible": 1,
+      "possible_requisitions": [
+        "REQ-10092201"
       ],
-      "compensation_status": "unknown_for_all_four",
-      "private_research_leads_added": 8,
-      "private_research_queue_total": 77
+      "score_breakdown": {
+        "responsibilities": 27,
+        "skills": 21,
+        "seniority": 9,
+        "sector": 8,
+        "geography": 15,
+        "compensation": 0
+      },
+      "evidence_coverage_percent": 83,
+      "unknown_fixed_salary": true,
+      "private_leads_added": 6,
+      "original_date_discrepancy": "Novartis REQ-10091211 employer now displays Nov 16; third-party Bioksha recorded Nov 9; excluded from fresh band."
     },
     "LINKEDIN": {
-      "indexed_post_search_queries": 8,
-      "direct_original_social_post_pages_opened": 0,
-      "original_iso8601_timestamps_verified": 0,
-      "original_timestamps_rejected": 0,
-      "unknown_timestamps": null,
-      "new_verified_posts_published": 0,
-      "direct_scrolling_performed": false,
+      "indexed_searches": 6,
+      "original_post_content_pages_directly_opened": 0,
+      "independently_verified_original_timestamps": 0,
+      "unverified_or_rejected_timestamp_count": null,
+      "posts_published": 0,
       "manual_intake_preserved": true
     },
     "GITHUB_WRITE": {
       "jobs": {
         "attempted": true,
-        "succeeded": true,
-        "readback_confirmed": true,
-        "readback_sha": "39f9d403b6198b5eb793d8139a4ed4528bdfe83a",
-        "commit_sha": "f8c8607b24126243279a0cb8ccdc34f39e1c466b"
+        "success": true,
+        "readback_sha": "60dcf56415f91118fd7f2046634e7ef365d81457",
+        "commit_sha": null
       },
       "private_queue": {
         "attempted": true,
-        "succeeded": true,
-        "readback_confirmed": true,
-        "readback_sha": "166d260e406f05436e6388ae431efeb4ec39c147",
-        "commit_sha": "538bbd5c165987433b5fc3de6925077d2acf48b8"
+        "success": true,
+        "added": 6,
+        "total": 83,
+        "readback_sha": "6b33d5d4224d63ef3a785066eaa54f101a7ee891",
+        "commit_sha": null
+      },
+      "report": {
+        "attempted": true,
+        "success": null,
+        "readback_sha": null
       },
       "linkedin_posts": {
         "attempted": false,
-        "reason": "No verified original timestamp"
+        "preserved": true
       },
-      "manual_intake": {
+      "manual_linkedin_intake": {
         "attempted": false,
-        "reason": "Preserved"
-      },
-      "public_report": {
-        "attempted": true,
-        "succeeded": true,
-        "readback_confirmed": true,
-        "readback_sha": "839b1be994af9aa0071d93720ae18cc9b419c6a2",
-        "commit_sha": "7f42181bc424d970a26221754e26ee4d9db19211"
+        "preserved": true
       }
     },
     "FINAL": {
       "status": "PARTIAL",
       "coverage_status": "INCOMPLETE",
       "reasons": [
-        "DISCOVERY_BREADTH_LOW: fewer than 100 explicitly logged unique candidate URLs",
-        "Not all role-location cells or requested platforms covered",
-        "Raw search hits and undiscovered backlog unknown",
-        "Seven potentially relevant direct JDs inaccessible"
+        "DISCOVERY_BREADTH_LOW (<100 unique logged URLs)",
+        "Fewer than 15 successfully accessible full-JD platforms",
+        "Some original posting dates contradictory or unknown",
+        "Market-wide candidate universe and raw search hit counts unknown"
       ],
-      "applications_submitted": 0,
-      "recruiter_outreach_sent": 0
+      "no_applications": true,
+      "no_recruiter_outreach": true
     }
   },
-  "notes": "Public-safe diagnostics and job metadata only; no private career profile or application records published."
+  "notes": "Public-safe diagnostic. Unknown fixed salary is not assumed to meet INR 12 LPA. No recruiter contact or applications."
 }
