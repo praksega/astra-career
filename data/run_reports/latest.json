@@ -3,7 +3,7 @@
   "run_date": "2026-11-19",
   "run_started_at_utc": "2026-11-19T02:31:09Z",
   "run_started_at_ist": "2026-11-19T08:01:09+05:30",
-  "report_written_at_utc": "2026-11-19T02:34:44.648Z",
+  "report_written_at_utc": "2026-11-19T02:34:54.360Z",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -55,7 +55,7 @@
       "raw_search_result_hits": null,
       "raw_result_url_count": null,
       "explicitly_logged_individual_url_count": 24,
-      "source_patterns_attempted": 27,
+      "source_patterns_attempted": 28,
       "source_outcomes": {
         "Greenhouse (new)": {
           "attempted": true,
@@ -164,6 +164,10 @@
         "Capgemini indexed": {
           "attempted": true,
           "individual_urls_logged": 1
+        },
+        "Wissen indexed via search": {
+          "attempted": true,
+          "individual_urls_logged": 1
         }
       },
       "logged_source_domains": {
@@ -216,7 +220,7 @@
       "logged_individual_urls": 24,
       "unique_canonical_urls": 24,
       "duplicate_logged_urls": 0,
-      "employer_native_urls_resolved": 15,
+      "employer_native_urls_resolved": 20,
       "raw_search_hit_deduplication_unmeasured": true
     },
     "JD_VALIDATION": {
@@ -286,8 +290,9 @@
       },
       "report": {
         "attempted": true,
-        "success": null,
-        "readback_sha": null
+        "success": true,
+        "first_readback_sha": "3eaeacb7a22ce2b2c4fdddb33b914bf5732b9027",
+        "final_readback_sha_self_reference": "not_embedded_to_avoid_self_referential_hash"
       },
       "linkedin_posts": {
         "attempted": false,
