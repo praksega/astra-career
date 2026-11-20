@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-19T10:35:09.691040+00:00",
+  "run_at_utc": "2026-11-20T10:16:07.349585+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4665,
-  "individual_screening_records": 4665,
+  "raw_listings_seen": 4642,
+  "individual_screening_records": 4642,
   "screening_reason_counts": {
     "jd_responsibilities": 4,
-    "role_not_relevant": 202,
-    "outside_target_locations": 4313,
+    "role_not_relevant": 198,
+    "outside_target_locations": 4295,
     "title_and_jd": 14,
-    "excluded_specialist_title": 127,
+    "excluded_specialist_title": 126,
     "title": 5
   },
-  "location_eligible_jds_screened": 352,
-  "location_eligible_jds_with_500_plus_chars": 349,
+  "location_eligible_jds_screened": 347,
+  "location_eligible_jds_with_500_plus_chars": 344,
   "unique_role_location_candidates": 23,
   "full_jds_with_accessible_text": 23,
   "jd_evidence_maps_generated": 23,
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 23,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4642,
+    "unrelated_or_unapproved_location": 4619,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -37,19 +37,19 @@
       "source": "greenhouse",
       "board": "instawork",
       "status": "ok",
-      "count": 54
+      "count": 56
     },
     {
       "source": "greenhouse",
       "board": "reddit",
       "status": "ok",
-      "count": 148
+      "count": 143
     },
     {
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 143
+      "count": 146
     },
     {
       "source": "greenhouse",
@@ -103,7 +103,7 @@
       "source": "greenhouse",
       "board": "slice",
       "status": "ok",
-      "count": 21
+      "count": 23
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 782
+      "count": 773
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 906
+      "count": 898
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 403
+      "count": 413
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 37
+      "count": 33
     },
     {
       "source": "greenhouse",
@@ -168,37 +168,37 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 54
+      "count": 55
     },
     {
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 366
+      "count": 365
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 108
+      "count": 106
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 116
+      "count": 113
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 260
+      "count": 249
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 255
+      "count": 253
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 185
+      "count": 191
     },
     {
       "source": "greenhouse",
@@ -267,7 +267,7 @@
       "source": "lever",
       "board": "cred",
       "status": "ok",
-      "count": 13
+      "count": 11
     },
     {
       "source": "lever",
