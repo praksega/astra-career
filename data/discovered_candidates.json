@@ -1,7 +1,224 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T10:16:07.349585+00:00",
+  "updated_at": "2026-11-21T10:00:46.091950+00:00",
   "candidates": [
+    {
+      "id": "greenhouse:8405211",
+      "company_board": "okta",
+      "title": "People Operations Specialist (Payroll & Compensation )",
+      "location": "Bengaluru",
+      "url": "https://www.okta.com/company/careers/opportunity/8405211?gh_jid=8405211",
+      "source": "greenhouse",
+      "source_date": "2026-11-20T06:59:38-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist",
+        "operational efficiency",
+        "continuous improvement"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 5856,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><strong>People Operations Specialist - Payroll &amp; Compensation&nbsp;</strong></p>\n<p>As a People Operations Specialist, you\u2019ll play a critical role in executing our Shared Services processes and programs supporting the Okta Compensation Team across regions. You will be covering our Global Compensation and Global Payroll landscape including but not limited to employee inquiries, annual programs, recognition programs, onboarding, audits and reporting.&nbsp;&nbsp;&nbsp;</p>\n<p>In your role, you will be exposed to, and have the ability to support in shaping the employee experience globally by administe",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/8405211?gh_jid=8405211",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "As a People Operations Specialist, you\u2019ll play a critical role in executing our Shared Services processes and programs supporting the Okta Compensation Team across regions. You will be covering our Global Compensation and Global Payroll landscape including but not limited to empl",
+          "In your role, you will be exposed to, and have the ability to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs.",
+          "First line support in response to employee requests and queries on policies, processes, resources, etc. - triage, prioritize, and escalate as appropriate",
+          "New hires\u2019 onboarding audit to ensure the process is completed timely for payroll processing",
+          "Participate in training, review and improvement of new tasks/processes transitioned to People Operations as we expand the Shared Services support globally"
+        ],
+        "qualifications": [
+          "In your role, you will be exposed to, and have the ability to support in shaping the employee experience globally by administering thoughtful, business-critical and people-focused programs.",
+          "Support building Compensation and Payroll content and administrating knowledge articles",
+          "Apply learnings from previous experiences to future opportunities, continuously seeking ways to improve processes and outcomes.",
+          "Experience working in a high-growth organisation, with the ability to thrive in a fast-paced and dynamic environment.",
+          "Strong administrative, organisational, and problem-solving skills, with excellent attention to detail.",
+          "Adaptable to changing business requirements, priorities, and evolving processes."
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 5,
+        "capability_evidence_coverage_pct": 71,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "continuous improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "ai tools"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
+      "id": "greenhouse:8405220",
+      "company_board": "okta",
+      "title": "Staff Product Manager - Finance (RTR)",
+      "location": "Bengaluru",
+      "url": "https://www.okta.com/company/careers/opportunity/8405220?gh_jid=8405220",
+      "source": "greenhouse",
+      "source_date": "2026-11-20T06:56:04-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "process improvement",
+        "process automation",
+        "performance metrics"
+      ],
+      "matching_method": "jd_responsibilities",
+      "description_characters": 7686,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><span style=\"color:#000000\"><i><b>About Okta:</b></i></span></p><br><p><span style=\"color:#000000\">Okta is the leading independent provider of identity solutions for enterprises. With a deep commitment to innovation and customer success, we power and secure digital transformation for the world's biggest brands. We're scaling rapidly, and we\u2019re seeking talented individuals to join us in enabling secure and seamless digital experiences.</span></p><br><p><span style=\"color:#000000\">One of the most important components of our operations is an efficient financial system, including seamless processes for th",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/8405220?gh_jid=8405220",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "One of the most important components of our operations is an efficient financial system, including seamless processes for the Record-to-Report (R2R) cycle. As a NetSuite R2R Analyst, your role will support and strengthen Okta's financial systems and processes to ensure accuracy, ",
+          "Define and execute the product strategy and roadmap for Record-to-Report (R2R) financial systems, ensuring alignment with enterprise finance goals and compliance standards (SOX, GAAP, IFRS).",
+          "Drive end-to-end product delivery for ERP (NetSuite) and Treasury Management System (Kyriba) integrations, optimizing financial workflows, automated reconciliations, and intercompany accounting.",
+          "Partner with cross-functional leadership across Finance, Accounting, IT, and Engineering to prioritize features, define business requirements, and streamline financial close cycles.",
+          "Lead initiatives to integrate GenAI and automation solutions within R2R processes to accelerate month-end close, enhance anomaly detection, and reduce manual reporting efforts."
+        ],
+        "qualifications": [
+          "Okta is the leading independent provider of identity solutions for enterprises. With a deep commitment to innovation and customer success, we power and secure digital transformation for the world's biggest brands. We're scaling rapidly, and we\u2019re seeking talented individuals to j",
+          "Partner with cross-functional leadership across Finance, Accounting, IT, and Engineering to prioritize features, define business requirements, and streamline financial close cycles.",
+          "Bachelor\u2019s degree in Accounting, Finance, Information Systems, Computer Science, or a related field, with 10+ years of total experience, including 7+ years of Product Management experience focused on enterprise finance systems or Record-to-Report (R2R) processes.",
+          "Demonstrated experience partnering with cross-functional executive stakeholders in Finance, Accounting, IT, and Engineering to translate complex business needs into product requirements and epics.",
+          "Strong analytical abilities, acute attention to detail, and problem-solving skills to handle complex financial processes effectively.",
+          "Excellent communication skills to convey technical concepts to non-technical stakeholders, with a collaborative mindset to work across cross-functional teams."
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 7,
+        "capability_evidence_coverage_pct": 100,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "metrics",
+              "kpi"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation",
+              "process automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "project management",
+              "implementation",
+              "roadmap"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
     {
       "id": "greenhouse:8336296",
       "company_board": "stripe",
