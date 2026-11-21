@@ -1,112 +1,104 @@
 {
   "schema_version": 11,
-  "run_date": "2026-11-20",
-  "run_started_at_utc": "2026-11-20T02:33:26Z",
-  "run_started_at_ist": "2026-11-20T08:03:26+05:30",
+  "run_date": "2026-11-21",
+  "run_started_at_utc": "2026-11-21T02:31:48Z",
+  "run_started_at_ist": "2026-11-21T08:01:48+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
   "milestones": {
     "INIT": {
-      "repository_reads": "5 files successfully read, including private queue",
-      "prior_report_sha": "27a3a80b5349b50a87fdc60b16735379d01d47e7"
+      "repository_reads": 5,
+      "read_success": 5,
+      "prior_report_sha": "ec119fc72aee1a2f5deeeac1551959b56275b983"
     },
     "DISCOVERY": {
-      "search_queries": 12,
+      "search_queries": 9,
       "search_batches": 1,
-      "raw_result_urls": null,
       "source_domains_attempted": [
-        "amazon.jobs",
-        "careers.unilever.com",
         "job-boards.greenhouse.io",
         "jobs.lever.co",
         "jobs.ashbyhq.com",
         "myworkdayjobs.com",
         "jobs.smartrecruiters.com",
         "apply.workable.com",
-        "careers.novartis.com",
+        "amazon.jobs",
         "linkedin.com"
       ],
-      "source_domains_with_individual_job_results": [
-        "job-boards.greenhouse.io",
-        "jobs.lever.co",
-        "jobs.ashbyhq.com",
-        "jobs.smartrecruiters.com"
-      ],
-      "source_blocked": [],
-      "unsearched_platforms": [
-        "Naukri",
-        "Foundit",
-        "Instahyre",
-        "Wellfound",
-        "Cutshort",
-        "Hirist",
-        "Indeed",
-        "iCIMS",
-        "Jobvite",
-        "BambooHR",
-        "SuccessFactors",
-        "Oracle",
-        "Darwinbox",
-        "Keka",
-        "Zoho Recruit",
-        "Recruitee",
-        "Teamtailor"
-      ],
-      "matrix_coverage": "Partial; multiple role-location combinations unsearched"
+      "source_domains_with_relevant_individual_results": 0,
+      "raw_search_result_urls": null,
+      "notes": "Search returned largely irrelevant US technical roles and indexed LinkedIn profiles; results do not establish accessible relevant jobs."
     },
     "DEDUPE": {
-      "individual_job_urls_observed": 5,
-      "canonical_unique_urls": 5,
-      "employer_native_resolved": 4
+      "unique_potentially_relevant_individual_job_urls": 0,
+      "raw_candidate_urls": 0,
+      "employer_native_resolved": 0
     },
     "JD_VALIDATION": {
-      "complete_jds_read": 4,
-      "employer_native_complete_jds_read": 3,
-      "third_party_complete_jds_read": 1,
-      "accessible_potentially_relevant_jds_read": 3,
-      "accessible_potentially_relevant_jds_identified": 3,
-      "review_coverage_percent": 100,
-      "inaccessible_relevant_jds": 0,
-      "known_pending_backlog": 0,
-      "undiscovered_backlog": null,
+      "full_jds_read": 0,
+      "accessible_potentially_relevant_jds": 0,
+      "inaccessible_potentially_relevant_jds": 0,
+      "pending_accessible_backlog": 0,
+      "review_coverage_percentage": null,
       "exclusions": [
-        "Investment banking specialization and stale listing",
-        "Field-heavy site deployment with language and industry requirements"
+        "US-only infrastructure and satellite technical program management",
+        "fresher-only low-pay fraud analyst",
+        "specialist cybersecurity, Snowflake engineering, and LIMS roles"
       ]
     },
     "MATCHING": {
       "strong": 0,
       "possible": 0,
-      "unverified_promising_leads": 1,
-      "unverified_lead_urls": [
-        "https://job-boards.greenhouse.io/enterpret/jobs/8194486003"
-      ],
-      "note": "Original employer publication date not verified; no scoring. Jobgether Operations Analyst previously in private queue."
+      "unverified_promising_new_leads": 0,
+      "salary_verified": 0
     },
     "LINKEDIN": {
-      "indexed_searches": 3,
-      "direct_original_post_pages_opened": 0,
-      "original_timestamps_verified": 0,
-      "posts_published": 0
+      "indexed_queries": 2,
+      "direct_original_post_pages_opened": 1,
+      "original_timestamp_verified": 0,
+      "eligible_posts": 0,
+      "notes": "One original LinkedIn post showed relative age one week, and was unrelated low-pay recruitment; other results were profiles."
     },
     "GITHUB_WRITE": {
       "attempted": true,
       "succeeded": null,
       "readback_sha": null,
-      "job_file_changed": false,
-      "linkedin_file_changed": false,
-      "private_queue_changed": false
+      "notes": "Report write initiated; persistence must be checked separately."
     },
     "FINAL": {
       "status": "PARTIAL",
       "reasons": [
-        "Discovery below 100 unique candidates",
-        "Only one search batch",
-        "Original posting dates unverified",
-        "Many source and role/location cells not searched"
+        "Only nine searches and fewer than 100 candidates",
+        "Most source/location/role matrix cells unsearched",
+        "No qualified fresh job dates verified",
+        "Review universe insufficient to assess market coverage"
       ]
     }
   },
-  "note": "Public-safe diagnostic; unknown values are null. Existing job and social feeds preserved. No applications or outreach."
+  "unsearched_source_examples": [
+    "Naukri",
+    "Foundit",
+    "Instahyre",
+    "Wellfound",
+    "Cutshort",
+    "Hirist",
+    "Indeed",
+    "iCIMS",
+    "Jobvite",
+    "Oracle",
+    "SuccessFactors",
+    "BambooHR",
+    "Darwinbox",
+    "Keka",
+    "Zoho Recruit",
+    "Recruitee",
+    "Teamtailor"
+  ],
+  "unsearched_matrix_examples": [
+    "Secunderabad workforce operations",
+    "Gachibowli process excellence",
+    "Pune product operations",
+    "Remote India business transformation"
+  ],
+  "no_applications_or_outreach": true
 }
