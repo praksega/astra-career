@@ -78,9 +78,15 @@
     },
     "GITHUB_WRITE": {
       "report_attempted": true,
-      "report_success": false,
-      "readback_sha": null,
-      "other_files_modified": false
+      "report_success": true,
+      "report_readback_confirmed": true,
+      "report_prior_readback_sha": "2d5e4597fce49e38a73d3c3fe3de754e0b42fbbe",
+      "private_queue_attempted": true,
+      "private_queue_success": true,
+      "private_queue_readback_sha": "859cb9780992193e6ff68fcf9a6ecd6cc6d7abbb",
+      "private_leads_added": 3,
+      "public_jobs_modified": false,
+      "linkedin_modified": false
     },
     "FINAL": {
       "status": "PARTIAL",
