@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-21T10:00:46.091950+00:00",
+  "run_at_utc": "2026-11-22T10:01:49.159922+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4667,
-  "individual_screening_records": 4667,
+  "raw_listings_seen": 4666,
+  "individual_screening_records": 4666,
   "screening_reason_counts": {
     "jd_responsibilities": 5,
     "role_not_relevant": 197,
-    "outside_target_locations": 4321,
+    "outside_target_locations": 4320,
     "title_and_jd": 15,
     "excluded_specialist_title": 124,
     "title": 5
@@ -26,7 +26,7 @@
   "verified_matches": 0,
   "review_required": 25,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4642,
+    "unrelated_or_unapproved_location": 4641,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -130,13 +130,13 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 778
+      "count": 777
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 897
+      "count": 895
     },
     {
       "source": "greenhouse",
@@ -174,7 +174,7 @@
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 372
+      "count": 374
     },
     {
       "source": "greenhouse",
@@ -204,7 +204,7 @@
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 260
+      "count": 259
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 189
+      "count": 190
     },
     {
       "source": "greenhouse",
