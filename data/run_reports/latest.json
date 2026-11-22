@@ -1,8 +1,8 @@
 {
-  "schema_version": 11,
-  "run_date": "2026-11-21",
-  "run_started_at_utc": "2026-11-21T02:31:48Z",
-  "run_started_at_ist": "2026-11-21T08:01:48+05:30",
+  "schema_version": 12,
+  "run_date": "2026-11-22",
+  "run_started_at_utc": "2026-11-22T02:28:38.759Z",
+  "run_started_at_ist": "2026-11-22T07:58:38.759+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -10,12 +10,12 @@
     "INIT": {
       "repository_reads": 5,
       "read_success": 5,
-      "prior_report_sha": "ec119fc72aee1a2f5deeeac1551959b56275b983"
+      "previous_report_sha": "a44db23ceb3ac6cd11f2d88f03e1567d2c29e263"
     },
     "DISCOVERY": {
-      "search_queries": 9,
-      "search_batches": 1,
-      "source_domains_attempted": [
+      "search_queries": 16,
+      "search_batches": 2,
+      "source_patterns_attempted": [
         "job-boards.greenhouse.io",
         "jobs.lever.co",
         "jobs.ashbyhq.com",
@@ -23,82 +23,82 @@
         "jobs.smartrecruiters.com",
         "apply.workable.com",
         "amazon.jobs",
+        "careers.unilever.com",
+        "novartis.com",
         "linkedin.com"
       ],
-      "source_domains_with_relevant_individual_results": 0,
+      "source_patterns_with_individual_results": [
+        "job-boards.greenhouse.io",
+        "jobs.lever.co",
+        "amazon.jobs",
+        "linkedin.com"
+      ],
       "raw_search_result_urls": null,
-      "notes": "Search returned largely irrelevant US technical roles and indexed LinkedIn profiles; results do not establish accessible relevant jobs."
+      "notes": "Search engines returned mixed indexed results; total raw results not instrumented. Other ATS and aggregators not searched."
     },
     "DEDUPE": {
-      "unique_potentially_relevant_individual_job_urls": 0,
-      "raw_candidate_urls": 0,
-      "employer_native_resolved": 0
+      "individual_candidate_urls_logged": 8,
+      "canonical_unique_candidate_urls": 8,
+      "employer_native_urls_resolved": 6,
+      "notes": "Eight individually identifiable job URLs selected from results, including two LinkedIn job pages; distinct by URL."
     },
     "JD_VALIDATION": {
-      "full_jds_read": 0,
-      "accessible_potentially_relevant_jds": 0,
+      "full_jds_read": 4,
+      "accessible_potentially_relevant_jds": 3,
+      "potentially_relevant_jds_read": 3,
       "inaccessible_potentially_relevant_jds": 0,
       "pending_accessible_backlog": 0,
-      "review_coverage_percentage": null,
+      "review_coverage_percentage": 100,
       "exclusions": [
-        "US-only infrastructure and satellite technical program management",
-        "fresher-only low-pay fraud analyst",
-        "specialist cybersecurity, Snowflake engineering, and LIMS roles"
-      ]
+        "MoonPay fraud investigator requires specialist crypto fraud investigation",
+        "Juniper Square senior revenue operations requires Salesforce administration and 7+ years revenue operations",
+        "Amazon cross-border senior product manager requires specialist trade and regulatory expertise",
+        "TCS walk-in procurement and sourcing roles not verified against employer-native requisitions"
+      ],
+      "notes": "Four full JDs: Ethos, Envoy, Twilio, MoonPay. Other indexed listings not exhaustively reviewed; undiscovered backlog unknown."
     },
     "MATCHING": {
-      "strong": 0,
-      "possible": 0,
-      "unverified_promising_new_leads": 0,
-      "salary_verified": 0
+      "new_strong": 0,
+      "new_possible": 0,
+      "unverified_promising_leads": 3,
+      "leads": [
+        "Ethos Life Product Operations Analyst, Bangalore, Greenhouse 8955883002",
+        "Envoy Global Product Operations Specialist, Hyderabad, Greenhouse 6251206004",
+        "Twilio Phone Numbers Operations Specialist 2, Remote India, Greenhouse 8355801"
+      ],
+      "original_dates_verified": 0,
+      "salaries_verified": 0
     },
     "LINKEDIN": {
-      "indexed_queries": 2,
-      "direct_original_post_pages_opened": 1,
-      "original_timestamp_verified": 0,
-      "eligible_posts": 0,
-      "notes": "One original LinkedIn post showed relative age one week, and was unrelated low-pay recruitment; other results were profiles."
+      "indexed_searches": 4,
+      "original_social_posts_opened": 0,
+      "verified_within_24h": 0,
+      "published": 0,
+      "notes": "Indexed results and job pages only; no independently verified original ISO timestamps."
     },
     "GITHUB_WRITE": {
-      "attempted": true,
-      "succeeded": null,
+      "report_attempted": true,
+      "report_success": false,
       "readback_sha": null,
-      "notes": "Report write initiated; persistence must be checked separately."
+      "other_files_modified": false
     },
     "FINAL": {
       "status": "PARTIAL",
       "reasons": [
-        "Only nine searches and fewer than 100 candidates",
-        "Most source/location/role matrix cells unsearched",
-        "No qualified fresh job dates verified",
-        "Review universe insufficient to assess market coverage"
+        "DISCOVERY_BREADTH_LOW",
+        "Original posting dates unavailable for promising roles",
+        "Many ATS and board search cells unsearched",
+        "Market-wide accessible JD universe unknown"
       ]
     }
   },
-  "unsearched_source_examples": [
-    "Naukri",
-    "Foundit",
-    "Instahyre",
-    "Wellfound",
-    "Cutshort",
-    "Hirist",
-    "Indeed",
-    "iCIMS",
-    "Jobvite",
-    "Oracle",
-    "SuccessFactors",
-    "BambooHR",
-    "Darwinbox",
-    "Keka",
-    "Zoho Recruit",
-    "Recruitee",
-    "Teamtailor"
+  "newly_qualified_job_urls": [],
+  "research_lead_urls": [
+    "https://job-boards.greenhouse.io/ethoslife/jobs/8955883002",
+    "https://job-boards.greenhouse.io/envoyglobalinc/jobs/6251206004",
+    "https://job-boards.greenhouse.io/twilio/jobs/8355801"
   ],
-  "unsearched_matrix_examples": [
-    "Secunderabad workforce operations",
-    "Gachibowli process excellence",
-    "Pune product operations",
-    "Remote India business transformation"
-  ],
-  "no_applications_or_outreach": true
+  "fixed_salary_status": "UNKNOWN",
+  "applications_sent": 0,
+  "recruiter_outreach_sent": 0
 }
