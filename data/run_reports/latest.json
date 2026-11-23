@@ -1,8 +1,8 @@
 {
   "schema_version": 12,
-  "run_date": "2026-11-22",
-  "run_started_at_utc": "2026-11-22T02:28:38.759Z",
-  "run_started_at_ist": "2026-11-22T07:58:38.759+05:30",
+  "run_date": "2026-11-23",
+  "run_started_at_utc": "2026-11-23T02:34:19Z",
+  "run_started_at_ist": "2026-11-23T08:04:19+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -10,10 +10,10 @@
     "INIT": {
       "repository_reads": 5,
       "read_success": 5,
-      "previous_report_sha": "a44db23ceb3ac6cd11f2d88f03e1567d2c29e263"
+      "previous_report_sha": "74bf5067b0115acfc47dbdd93d16096bac82b454"
     },
     "DISCOVERY": {
-      "search_queries": 16,
+      "search_queries": 20,
       "search_batches": 2,
       "source_patterns_attempted": [
         "job-boards.greenhouse.io",
@@ -24,87 +24,73 @@
         "apply.workable.com",
         "amazon.jobs",
         "careers.unilever.com",
-        "novartis.com",
-        "linkedin.com"
+        "linkedin.com",
+        "indeed.com",
+        "foundit.in",
+        "wellfound.com"
       ],
       "source_patterns_with_individual_results": [
-        "job-boards.greenhouse.io",
-        "jobs.lever.co",
-        "amazon.jobs",
+        "wellfound.com",
         "linkedin.com"
       ],
       "raw_search_result_urls": null,
-      "notes": "Search engines returned mixed indexed results; total raw results not instrumented. Other ATS and aggregators not searched."
+      "notes": "20 web searches across two batches; search results dominated by profile pages, old posts and generic job-board results. Many ATS source searches returned no individual job URL."
     },
     "DEDUPE": {
-      "individual_candidate_urls_logged": 8,
-      "canonical_unique_candidate_urls": 8,
-      "employer_native_urls_resolved": 6,
-      "notes": "Eight individually identifiable job URLs selected from results, including two LinkedIn job pages; distinct by URL."
+      "individual_candidate_urls_identified": 1,
+      "unique_candidate_urls": 1,
+      "employer_native_urls_resolved": 0,
+      "notes": "ClickLyft Wellfound individual job listing; excluded on published pay below threshold and age; no eligible employer-native job URLs."
     },
     "JD_VALIDATION": {
-      "full_jds_read": 4,
-      "accessible_potentially_relevant_jds": 3,
-      "potentially_relevant_jds_read": 3,
+      "full_jds_read": 1,
+      "employer_native_full_jds_read": 0,
+      "third_party_full_jds_read": 1,
+      "accessible_potentially_relevant_jds": 0,
+      "eligible_full_jds_read": 0,
       "inaccessible_potentially_relevant_jds": 0,
       "pending_accessible_backlog": 0,
-      "review_coverage_percentage": 100,
-      "exclusions": [
-        "MoonPay fraud investigator requires specialist crypto fraud investigation",
-        "Juniper Square senior revenue operations requires Salesforce administration and 7+ years revenue operations",
-        "Amazon cross-border senior product manager requires specialist trade and regulatory expertise",
-        "TCS walk-in procurement and sourcing roles not verified against employer-native requisitions"
-      ],
-      "notes": "Four full JDs: Ethos, Envoy, Twilio, MoonPay. Other indexed listings not exhaustively reviewed; undiscovered backlog unknown."
+      "review_coverage_percent": null,
+      "exclusions": {
+        "below_salary_minimum": 1,
+        "older_or_undated_linkedin_posts": "multiple; exact unique count not instrumented",
+        "unrelated_specialist_roles": "observed; exact count not instrumented"
+      }
     },
     "MATCHING": {
-      "new_strong": 0,
-      "new_possible": 0,
-      "unverified_promising_leads": 3,
-      "leads": [
-        "Ethos Life Product Operations Analyst, Bangalore, Greenhouse 8955883002",
-        "Envoy Global Product Operations Specialist, Hyderabad, Greenhouse 6251206004",
-        "Twilio Phone Numbers Operations Specialist 2, Remote India, Greenhouse 8355801"
-      ],
-      "original_dates_verified": 0,
-      "salaries_verified": 0
+      "strong": 0,
+      "possible": 0,
+      "new_unverified_leads": 0,
+      "notes": "No candidate passed employer-native URL and five-day original date evidence; no scored vacancies."
     },
     "LINKEDIN": {
-      "indexed_searches": 4,
-      "original_social_posts_opened": 0,
-      "verified_within_24h": 0,
-      "published": 0,
-      "notes": "Indexed results and job pages only; no independently verified original ISO timestamps."
+      "indexed_queries": 4,
+      "direct_original_post_pages_opened": 0,
+      "original_timestamps_verified": 0,
+      "posts_published": 0,
+      "notes": "Indexed posts and profile excerpts only; no original timestamp within 24 hours verified."
     },
     "GITHUB_WRITE": {
-      "report_attempted": true,
-      "report_success": true,
-      "report_readback_confirmed": true,
-      "report_prior_readback_sha": "2d5e4597fce49e38a73d3c3fe3de754e0b42fbbe",
-      "private_queue_attempted": true,
-      "private_queue_success": true,
-      "private_queue_readback_sha": "859cb9780992193e6ff68fcf9a6ecd6cc6d7abbb",
-      "private_leads_added": 3,
-      "public_jobs_modified": false,
-      "linkedin_modified": false
+      "report_write_attempted": true,
+      "report_write_succeeded": null,
+      "readback_sha": null,
+      "jobs_write_attempted": false,
+      "private_queue_write_attempted": false
     },
     "FINAL": {
       "status": "PARTIAL",
+      "coverage_status": "INCOMPLETE",
       "reasons": [
-        "DISCOVERY_BREADTH_LOW",
-        "Original posting dates unavailable for promising roles",
-        "Many ATS and board search cells unsearched",
-        "Market-wide accessible JD universe unknown"
+        "DISCOVERY_BREADTH_LOW: 1 individual job URL against 200-500 aspirational target",
+        "15 accessible employer or job platforms not established",
+        "Role-location matrix incomplete; raw search-result totals unknown",
+        "No fresh employer-native job and original publication date jointly verified"
       ]
     }
   },
-  "newly_qualified_job_urls": [],
-  "research_lead_urls": [
-    "https://job-boards.greenhouse.io/ethoslife/jobs/8955883002",
-    "https://job-boards.greenhouse.io/envoyglobalinc/jobs/6251206004",
-    "https://job-boards.greenhouse.io/twilio/jobs/8355801"
-  ],
-  "fixed_salary_status": "UNKNOWN",
-  "applications_sent": 0,
-  "recruiter_outreach_sent": 0
+  "source_matrix_notes": "Unsearched or insufficiently searched: Secunderabad/Gachibowli workforce and process excellence, Pune program/product operations, remote India business transformation; iCIMS, Jobvite, BambooHR, Oracle, SuccessFactors, Darwinbox, Keka, Zoho, Recruitee, Teamtailor, Naukri, Instahyre, Cutshort, Hirist.",
+  "new_qualified_jobs": [],
+  "new_linkedin_posts": [],
+  "github_updates_confirmed": false,
+  "notes": "No applications or outreach. Existing jobs, LinkedIn and manual intake, and private queue preserved."
 }
