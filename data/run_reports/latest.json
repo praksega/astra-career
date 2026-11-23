@@ -72,10 +72,11 @@
     },
     "GITHUB_WRITE": {
       "report_write_attempted": true,
-      "report_write_succeeded": null,
-      "readback_sha": null,
+      "report_write_succeeded": true,
+      "readback_sha": "2a247976f1154d7ca20f24345234e3822a90dd24",
       "jobs_write_attempted": false,
-      "private_queue_write_attempted": false
+      "private_queue_write_attempted": false,
+      "note": "First write read back successfully; final confirmation update follows."
     },
     "FINAL": {
       "status": "PARTIAL",
@@ -91,6 +92,6 @@
   "source_matrix_notes": "Unsearched or insufficiently searched: Secunderabad/Gachibowli workforce and process excellence, Pune program/product operations, remote India business transformation; iCIMS, Jobvite, BambooHR, Oracle, SuccessFactors, Darwinbox, Keka, Zoho, Recruitee, Teamtailor, Naukri, Instahyre, Cutshort, Hirist.",
   "new_qualified_jobs": [],
   "new_linkedin_posts": [],
-  "github_updates_confirmed": false,
+  "github_updates_confirmed": true,
   "notes": "No applications or outreach. Existing jobs, LinkedIn and manual intake, and private queue preserved."
 }
