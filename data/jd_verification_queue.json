@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:01:49.159922+00:00",
+  "updated_at": "2026-11-23T10:59:19.038191+00:00",
   "status": "REVIEW_REQUIRED",
   "total": 25,
   "verified": 0,
-  "fresh_for_review": 3,
-  "older_or_unverified": 22,
+  "fresh_for_review": 2,
+  "older_or_unverified": 23,
   "jobs": [
     {
       "job_id": "greenhouse:8405211",
@@ -76,7 +76,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 1.92,
+      "days_since_posting": 2.96,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -179,7 +179,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 1.92,
+      "days_since_posting": 2.96,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -271,9 +271,10 @@
       "requirements_verified": false,
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": true,
-      "days_since_posting": 4.99,
+      "fresh_within_5_days": false,
+      "days_since_posting": 6.03,
       "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -341,7 +342,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 5.01,
+      "days_since_posting": 6.05,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -424,7 +425,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 6.14,
+      "days_since_posting": 7.18,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -519,7 +520,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 10.74,
+      "days_since_posting": 11.78,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -589,7 +590,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 16.1,
+      "days_since_posting": 17.14,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -696,7 +697,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 16.68,
+      "days_since_posting": 17.72,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -769,7 +770,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 17.01,
+      "days_since_posting": 18.05,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -875,7 +876,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 22.7,
+      "days_since_posting": 23.74,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -967,7 +968,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 22.72,
+      "days_since_posting": 23.76,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1057,7 +1058,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 23.24,
+      "days_since_posting": 24.28,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1158,7 +1159,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 37.07,
+      "days_since_posting": 38.11,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1218,7 +1219,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 39.02,
+      "days_since_posting": 40.06,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1303,7 +1304,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 47.97,
+      "days_since_posting": 49.01,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1380,7 +1381,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 50.91,
+      "days_since_posting": 51.95,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1475,7 +1476,102 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 57.72,
+      "days_since_posting": 58.76,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8203653",
+      "company": "stripe",
+      "title": "Operations Program Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=8203653",
+      "posting_date": "2026-09-18T02:08:55-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operatio",
+        "We\u2019re looking for dynamic and entrepreneurial leaders who will define our strategy for scaling the Core Payments team, improve operational workflows, and maintain a best-in-class Operations program. If you like hard problems, are analytical, are comfortable operating with ambigui",
+        "Lead end-to-end product launches across multiple regions as an integrated program. Develop and maintain detailed launch plans that serve as the central point of coordination across globally distributed and highly cross-functional teams, including Engineering, Product Management, ",
+        "Drive operational excellence across the product launch lifecycle by designing, improving, and implementing scalable processes that strengthen stakeholder coordination, clarify dependencies, maintain alignment, and support consistent execution across regions.",
+        "Monitor and report on progress through biweekly status updates to senior leadership while maintaining transparent documentation throughout.",
+        "Support cross-functional collaboration by identifying and documenting teams\u2019 responsibilities for product launches, proactively communicating blockers, and providing transparent status updates and relevant documentation, such as product launch Gantt charts, program plans, and sco"
+      ],
+      "jd_qualifications": [
+        "As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operatio",
+        "More than 7 years of total work experience, including 4 to 5 years in program management, consulting, or a similar role within a high-growth technology company, with a strong focus on managing strategic product initiatives from conception through implementation.",
+        "Skill in scheduling, prioritizing tasks, and meeting deadlines to support the timely delivery of products and features.",
+        "Strong stakeholder engagement skills, including high-level planning and ongoing communication to align project goals with operations.",
+        "Experience in program management, consulting, or a similar role within payments or fintech.",
+        "Familiarity with roadmap management tools and planning frameworks, and knowledge of how to apply them to manage projects effectively."
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement",
+            "operational excellence"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional",
+            "collaborat"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "program_delivery",
+          "jd_terms": [
+            "program management",
+            "project management",
+            "implementation",
+            "roadmap"
+          ],
+          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        },
+        {
+          "category": "documentation",
+          "jd_terms": [
+            "documentation"
+          ],
+          "candidate_evidence": "SERCO: SOP design, testing and deployment"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 66.2,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1555,7 +1651,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 74.07,
+      "days_since_posting": 75.11,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1657,7 +1753,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 99.92,
+      "days_since_posting": 100.96,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1753,7 +1849,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 109.8,
+      "days_since_posting": 110.84,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1850,7 +1946,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 171.04,
+      "days_since_posting": 172.08,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1934,95 +2030,10 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 178.1,
+      "days_since_posting": 179.14,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "specialized_experience_not_confirmed",
-        "mandatory_requirements_not_individually_verified",
-        "salary_not_confirmed"
-      ],
-      "blocking_checks": [
-        "all_mandatory_requirements",
-        "minimum_80_percent_evidence_coverage",
-        "seniority",
-        "specialized_skills",
-        "salary_fixed_at_least_12LPA_or_unknown",
-        "posting_date_within_5_days",
-        "official_link"
-      ]
-    },
-    {
-      "job_id": "greenhouse:7727730",
-      "company": "okta",
-      "title": "Business Systems Analyst, ServiceNow",
-      "url": "https://www.okta.com/company/careers/opportunity/7727730?gh_jid=7727730",
-      "posting_date": "2026-04-01T04:13:15-04:00",
-      "posting_date_verified": true,
-      "jd_source_available": true,
-      "jd_responsibilities": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
-        "We are seeking a Business Systems Analyst to join our ServiceNow platform team. In this role you will partner with business stakeholders and technical teams to translate process needs into well-defined ServiceNow solutions across IT Service Management (ITSM), IT Operations Manage",
-        "Elicit, document, and refine business requirements through workshops, interviews, and process mapping, and translate them into user stories with clear acceptance criteria.",
-        "Support and enhance ITSM and ITOM processes, including Incident, Problem, Change, Request, Knowledge, and CMDB.",
-        "Partner with developers and architects to design solutions that align with platform standards and best practices.",
-        "Develop test plans, execute functional testing and UAT, and coordinate defect resolution ahead of each release."
-      ],
-      "jd_qualifications": [
-        "Elicit, document, and refine business requirements through workshops, interviews, and process mapping, and translate them into user stories with clear acceptance criteria.",
-        "Support and enhance ITSM and ITOM processes, including Incident, Problem, Change, Request, Knowledge, and CMDB.",
-        "Bachelor\u2019s degree in Information Systems, Business, Computer Science, or a related field, or equivalent practical experience.",
-        "2\u20135 years of experience as a business systems analyst, business analyst, or ServiceNow functional consultant or administrator.",
-        "Hands-on experience configuring ServiceNow in at least one of ITSM, ITOM, HRSD, CSM, HAM, or SAM, with working knowledge of the platform data model.",
-        "Proven ability to gather requirements, write user stories, and document business processes."
-      ],
-      "candidate_evidence": [
-        {
-          "category": "reporting_analytics",
-          "jd_terms": [
-            "dashboard",
-            "excel"
-          ],
-          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-        },
-        {
-          "category": "stakeholders",
-          "jd_terms": [
-            "stakeholder"
-          ],
-          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-        },
-        {
-          "category": "program_delivery",
-          "jd_terms": [
-            "implementation",
-            "agile"
-          ],
-          "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
-        },
-        {
-          "category": "operations",
-          "jd_terms": [
-            "operations"
-          ],
-          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-        },
-        {
-          "category": "documentation",
-          "jd_terms": [
-            "documentation",
-            "uat"
-          ],
-          "candidate_evidence": "SERCO: SOP design, testing and deployment"
-        }
-      ],
-      "potential_gaps": [],
-      "requirements_verified": false,
-      "verified_score": null,
-      "status": "REVIEW_REQUIRED",
-      "fresh_within_5_days": false,
-      "days_since_posting": 235.08,
-      "verification_blockers": [
-        "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
       ],
@@ -2078,7 +2089,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 408.01,
+      "days_since_posting": 409.05,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -2175,7 +2186,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 971.83,
+      "days_since_posting": 972.87,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",

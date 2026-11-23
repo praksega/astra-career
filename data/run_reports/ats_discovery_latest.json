@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-22T10:01:49.159922+00:00",
+  "run_at_utc": "2026-11-23T10:59:19.038191+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
@@ -9,14 +9,14 @@
   "individual_screening_records": 4666,
   "screening_reason_counts": {
     "jd_responsibilities": 5,
-    "role_not_relevant": 197,
-    "outside_target_locations": 4320,
-    "title_and_jd": 15,
+    "role_not_relevant": 198,
+    "outside_target_locations": 4319,
+    "title_and_jd": 16,
     "excluded_specialist_title": 124,
-    "title": 5
+    "title": 4
   },
-  "location_eligible_jds_screened": 346,
-  "location_eligible_jds_with_500_plus_chars": 343,
+  "location_eligible_jds_screened": 347,
+  "location_eligible_jds_with_500_plus_chars": 344,
   "unique_role_location_candidates": 25,
   "full_jds_with_accessible_text": 25,
   "jd_evidence_maps_generated": 25,
@@ -130,19 +130,19 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 777
+      "count": 776
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 895
+      "count": 892
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 417
+      "count": 418
     },
     {
       "source": "greenhouse",
@@ -174,13 +174,13 @@
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 374
+      "count": 375
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 109
+      "count": 110
     },
     {
       "source": "greenhouse",
@@ -192,13 +192,13 @@
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 249
+      "count": 248
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 252
+      "count": 251
     },
     {
       "source": "greenhouse",
@@ -210,7 +210,7 @@
       "source": "greenhouse",
       "board": "gusto",
       "status": "ok",
-      "count": 82
+      "count": 84
     },
     {
       "source": "greenhouse",
@@ -223,7 +223,7 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 382
+      "count": 384
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 190
+      "count": 188
     },
     {
       "source": "greenhouse",
@@ -267,7 +267,7 @@
       "source": "lever",
       "board": "cred",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "source": "lever",

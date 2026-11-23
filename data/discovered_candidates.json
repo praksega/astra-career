@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T10:01:49.159922+00:00",
+  "updated_at": "2026-11-23T10:59:19.038191+00:00",
   "candidates": [
     {
       "id": "greenhouse:8405211",
@@ -1722,6 +1722,116 @@
       ]
     },
     {
+      "id": "greenhouse:8203653",
+      "company_board": "stripe",
+      "title": "Operations Program Manager",
+      "location": "Bengaluru",
+      "url": "https://stripe.com/jobs/search?gh_jid=8203653",
+      "source": "greenhouse",
+      "source_date": "2026-09-18T02:08:55-04:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "program manager",
+        "process improvement",
+        "program management",
+        "operational excellence"
+      ],
+      "matching_method": "title_and_jd",
+      "description_characters": 5362,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<h2 id=\"about-stripe\">About Stripe</h2>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world\u2019s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and pursue new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<h2 id=\"about-the-team\">About the team</h2>\n<p>As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operational capabilities to meet the growing needs of external users and internal Stripe teams. Our support experience draws on a deep understanding of our products, the financial industry, money movement, and our customers\u2019 products and users. Building this experience requires us to invest significant resources in talented teams of Strip",
+      "jd_details": {
+        "source_url": "https://stripe.com/jobs/search?gh_jid=8203653",
+        "full_description_available": true,
+        "responsibilities": [
+          "As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operatio",
+          "We\u2019re looking for dynamic and entrepreneurial leaders who will define our strategy for scaling the Core Payments team, improve operational workflows, and maintain a best-in-class Operations program. If you like hard problems, are analytical, are comfortable operating with ambigui",
+          "Lead end-to-end product launches across multiple regions as an integrated program. Develop and maintain detailed launch plans that serve as the central point of coordination across globally distributed and highly cross-functional teams, including Engineering, Product Management, ",
+          "Drive operational excellence across the product launch lifecycle by designing, improving, and implementing scalable processes that strengthen stakeholder coordination, clarify dependencies, maintain alignment, and support consistent execution across regions.",
+          "Monitor and report on progress through biweekly status updates to senior leadership while maintaining transparent documentation throughout.",
+          "Support cross-functional collaboration by identifying and documenting teams\u2019 responsibilities for product launches, proactively communicating blockers, and providing transparent status updates and relevant documentation, such as product launch Gantt charts, program plans, and sco"
+        ],
+        "qualifications": [
+          "As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operatio",
+          "More than 7 years of total work experience, including 4 to 5 years in program management, consulting, or a similar role within a high-growth technology company, with a strong focus on managing strategic product initiatives from conception through implementation.",
+          "Skill in scheduling, prioritizing tasks, and meeting deadlines to support the timely delivery of products and features.",
+          "Strong stakeholder engagement skills, including high-level planning and ongoing communication to align project goals with operations.",
+          "Experience in program management, consulting, or a similar role within payments or fintech.",
+          "Familiarity with roadmap management tools and planning frameworks, and knowledge of how to apply them to manage projects effectively."
+        ],
+        "overview": "Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world\u2019s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and pursue new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 6,
+        "capability_evidence_coverage_pct": 86,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement",
+              "operational excellence"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "program management",
+              "project management",
+              "implementation",
+              "roadmap"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
+    {
       "id": "greenhouse:8177119",
       "company_board": "elastic",
       "title": "Business Analyst, Marketing-1 (Fixed Term)",
@@ -2241,103 +2351,6 @@
           "cpa"
         ],
         "gap_status": "requires_review",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "greenhouse:7727730",
-      "company_board": "okta",
-      "title": "Business Systems Analyst, ServiceNow",
-      "location": "Bengaluru, India",
-      "url": "https://www.okta.com/company/careers/opportunity/7727730?gh_jid=7727730",
-      "source": "greenhouse",
-      "source_date": "2026-04-01T04:13:15-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "business systems"
-      ],
-      "matching_method": "title",
-      "description_characters": 5342,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><h2><strong>Description</strong></h2>\n<p>We are seeking a Business Systems Analyst to join our ServiceNow platform team. In this role you will partner with business stakeholders and technical teams to translate process needs into well-defined ServiceNow solutions across IT Service Management (ITSM), IT Operations Management (ITOM), HR Service Delivery (HRSD) / Employee Center, Hardware Asset Management (HAM), Software Asset Management (SAM), and Customer Service Management (CSM). You will work independently on defined projects and enhancements, contribute to platform-wide improvements, and help ensure ou",
-      "jd_details": {
-        "source_url": "https://www.okta.com/company/careers/opportunity/7727730?gh_jid=7727730",
-        "full_description_available": true,
-        "responsibilities": [
-          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
-          "We are seeking a Business Systems Analyst to join our ServiceNow platform team. In this role you will partner with business stakeholders and technical teams to translate process needs into well-defined ServiceNow solutions across IT Service Management (ITSM), IT Operations Manage",
-          "Elicit, document, and refine business requirements through workshops, interviews, and process mapping, and translate them into user stories with clear acceptance criteria.",
-          "Support and enhance ITSM and ITOM processes, including Incident, Problem, Change, Request, Knowledge, and CMDB.",
-          "Partner with developers and architects to design solutions that align with platform standards and best practices.",
-          "Develop test plans, execute functional testing and UAT, and coordinate defect resolution ahead of each release."
-        ],
-        "qualifications": [
-          "Elicit, document, and refine business requirements through workshops, interviews, and process mapping, and translate them into user stories with clear acceptance criteria.",
-          "Support and enhance ITSM and ITOM processes, including Incident, Problem, Change, Request, Knowledge, and CMDB.",
-          "Bachelor\u2019s degree in Information Systems, Business, Computer Science, or a related field, or equivalent practical experience.",
-          "2\u20135 years of experience as a business systems analyst, business analyst, or ServiceNow functional consultant or administrator.",
-          "Hands-on experience configuring ServiceNow in at least one of ITSM, ITOM, HRSD, CSM, HAM, or SAM, with working knowledge of the platform data model.",
-          "Proven ability to gather requirements, write user stories, and document business processes."
-        ],
-        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 5,
-        "capability_evidence_coverage_pct": 71,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "dashboard",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "program_delivery",
-            "jd_terms": [
-              "implementation",
-              "agile"
-            ],
-            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "documentation",
-              "uat"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
         "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
       },
       "verification_status": "REVIEW_REQUIRED",
