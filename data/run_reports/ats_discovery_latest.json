@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-23T10:59:19.038191+00:00",
+  "run_at_utc": "2026-11-24T12:46:35.585177+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4666,
-  "individual_screening_records": 4666,
+  "raw_listings_seen": 4652,
+  "individual_screening_records": 4652,
   "screening_reason_counts": {
     "jd_responsibilities": 5,
-    "role_not_relevant": 198,
-    "outside_target_locations": 4319,
-    "title_and_jd": 16,
-    "excluded_specialist_title": 124,
+    "role_not_relevant": 195,
+    "outside_target_locations": 4307,
+    "title_and_jd": 15,
+    "excluded_specialist_title": 126,
     "title": 4
   },
-  "location_eligible_jds_screened": 347,
-  "location_eligible_jds_with_500_plus_chars": 344,
-  "unique_role_location_candidates": 25,
-  "full_jds_with_accessible_text": 25,
-  "jd_evidence_maps_generated": 25,
+  "location_eligible_jds_screened": 345,
+  "location_eligible_jds_with_500_plus_chars": 343,
+  "unique_role_location_candidates": 24,
+  "full_jds_with_accessible_text": 24,
+  "jd_evidence_maps_generated": 24,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
   "verified_matches": 0,
-  "review_required": 25,
+  "review_required": 24,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4641,
+    "unrelated_or_unapproved_location": 4628,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -43,13 +43,13 @@
       "source": "greenhouse",
       "board": "reddit",
       "status": "ok",
-      "count": 148
+      "count": 147
     },
     {
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 147
+      "count": 145
     },
     {
       "source": "greenhouse",
@@ -62,7 +62,7 @@
       "source": "greenhouse",
       "board": "airtable",
       "status": "ok",
-      "count": 11
+      "count": 10
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 776
+      "count": 769
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 892
+      "count": 888
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 418
+      "count": 419
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 34
+      "count": 33
     },
     {
       "source": "greenhouse",
@@ -168,49 +168,49 @@
       "source": "greenhouse",
       "board": "duolingo",
       "status": "ok",
-      "count": 54
+      "count": 53
     },
     {
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 375
+      "count": 372
     },
     {
       "source": "greenhouse",
       "board": "twilio",
       "status": "ok",
-      "count": 110
+      "count": 114
     },
     {
       "source": "greenhouse",
       "board": "asana",
       "status": "ok",
-      "count": 111
+      "count": 108
     },
     {
       "source": "greenhouse",
       "board": "brex",
       "status": "ok",
-      "count": 248
+      "count": 263
     },
     {
       "source": "greenhouse",
       "board": "coinbase",
       "status": "ok",
-      "count": 251
+      "count": 249
     },
     {
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 259
+      "count": 255
     },
     {
       "source": "greenhouse",
       "board": "gusto",
       "status": "ok",
-      "count": 84
+      "count": 85
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 188
+      "count": 191
     },
     {
       "source": "greenhouse",
@@ -267,7 +267,7 @@
       "source": "lever",
       "board": "cred",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "source": "lever",
@@ -287,7 +287,7 @@
       "source": "lever",
       "board": "mindtickle",
       "status": "ok",
-      "count": 19
+      "count": 20
     },
     {
       "source": "lever",
@@ -321,7 +321,7 @@
       "source": "lever",
       "board": "porter",
       "status": "ok",
-      "count": 20
+      "count": 11
     },
     {
       "source": "lever",
@@ -401,5 +401,5 @@
       "count": 0
     }
   ],
-  "potential_fit_reviews": 21
+  "potential_fit_reviews": 20
 }

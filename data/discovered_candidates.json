@@ -1,7 +1,89 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T10:59:19.038191+00:00",
+  "updated_at": "2026-11-24T12:46:35.585177+00:00",
   "candidates": [
+    {
+      "id": "greenhouse:8379881",
+      "company_board": "elastic",
+      "title": "Marketplace Deal Operations Specialist, EMEA",
+      "location": "Bangalore, India",
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8379881&gh_jid=8379881",
+      "source": "greenhouse",
+      "source_date": "2026-11-23T23:57:43-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "operations specialist"
+      ],
+      "matching_method": "title",
+      "description_characters": 9171,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p>Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data \u2014 securing and protecting private information more effectively \u2014 Elastic\u2019s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.</p></div><h3><strong>What is The Role</strong></h3>\n<p data-pm-slice=\"1 1 []\">We\u2019re hiring a Marketplace Deal Operations Analyst to become the hands-on expert in cloud marketplace transactions (AWS, Azure and GCP) for our EMEA business.&nbsp;This role takes the operational detail of lower segment marketplace deals off Deal Desk Analysts and Field sellers, so they can focus on strategy, structuring and higher-value deals.&nbsp;It is a distinct function from Deal Desk Analyst: a specialist execution and process-ownership role for some",
+      "jd_details": {
+        "source_url": "https://jobs.elastic.co/jobs?gh_jid=8379881&gh_jid=8379881",
+        "full_description_available": true,
+        "responsibilities": [
+          "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision",
+          "We\u2019re hiring a Marketplace Deal Operations Analyst to become the hands-on expert in cloud marketplace transactions (AWS, Azure and GCP) for our EMEA business.\u00a0This role takes the operational detail of lower segment marketplace deals off Deal Desk Analysts and Field sellers, so th",
+          "Generate, submit and manage private offers across AWS Marketplace, Azure Marketplace and Google Cloud Marketplace for EMEA deals",
+          "Own the end-to-end execution of marketplace transactions: validating deal requirements, ensuring documentation accuracy, and processing offers against defined SLAs",
+          "Process amendments, renewals and cancellations",
+          "Be the go-to subject-matter expert on operational marketplace processes across all three hyperscalers for the EMEA organization"
+        ],
+        "qualifications": [
+          "We\u2019re hiring a Marketplace Deal Operations Analyst to become the hands-on expert in cloud marketplace transactions (AWS, Azure and GCP) for our EMEA business.\u00a0This role takes the operational detail of lower segment marketplace deals off Deal Desk Analysts and Field sellers, so th",
+          "Own the end-to-end execution of marketplace transactions: validating deal requirements, ensuring documentation accuracy, and processing offers against defined SLAs",
+          "Over time, build working knowledge of broader Deal Desk processes",
+          "Direct, hands-on experience with cloud marketplace transactions (AWS, Azure and/or GCP Marketplace) in a B2B SaaS environment",
+          "Experience working in a high-velocity SaaS company",
+          "Strong organization and analytical skills, with the ability to manage a high volume of concurrent, detail-heavy transactions without anything slipping"
+        ],
+        "overview": "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale \u2014 unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 3,
+        "capability_evidence_coverage_pct": 43,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "documentation",
+              "sop",
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [],
+        "gap_status": "no_obvious_platform_gap_detected",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
     {
       "id": "greenhouse:8405211",
       "company_board": "okta",
@@ -313,88 +395,6 @@
               "uat"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "greenhouse:8358938",
-      "company_board": "twilio",
-      "title": "Fast Track Operations Specialist 2",
-      "location": "Remote - India",
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8358938",
-      "source": "greenhouse",
-      "source_date": "2026-11-17T04:47:59-05:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "operations specialist"
-      ],
-      "matching_method": "title",
-      "description_characters": 8553,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<div class=\"content-intro\"><p><strong>Who we are&nbsp;</strong></p>\n<p>At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to<a class=\"c-link\" href=\"https://customers.twilio.com/\" target=\"_blank\" data-stringify-link=\"https://customers.twilio.com/\" data-sk=\"tooltip_parent\">&nbsp;hundreds of thousands of businesses&nbsp;</a>and empower millions of developers worldwide to craft personalized customer experiences.</p>\n<p>Our dedication to <a class=\"c-link\" href=\"https://www.twilio.com/en-us/blog/open-work\" target=\"_blank\" data-stringify-link=\"https://www.twilio.com/en-us/blog/open-work\" data-sk=\"tooltip_parent\">remote-first work</a>, and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.<br><span style=\"color: rgb(255, 255, 255);\">.</span></p>\n<p><strong>Hiring and how we work</strong></p>\n<p>We use Artificial Intelligence ",
-      "jd_details": {
-        "source_url": "https://job-boards.greenhouse.io/twilio/jobs/8358938",
-        "full_description_available": true,
-        "responsibilities": [
-          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
-          "We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!",
-          "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
-          "Manage Onboarding SLAs and credit utilization for each product",
-          "Partner with operations teams to scale onboarding volumes per assigned customer",
-          "Join weekly calls with customers to report metrics and review any open items or additional onboarding needs"
-        ],
-        "qualifications": [
-          "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
-          "Our dedication to  remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re ",
-          "Wear the Customer Shoes: Provide onboarding support for common customer inquiries through slack in addition to Service now; to ensure customers have an excellent experience with Twilio.",
-          "Be an Owner: Partner with the account team to proactively address issues and advise on any industry changes that could impact customer onboarding experience.",
-          "Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking ",
-          "Experience Required: 2 plus Years specializing in at least one a2p products"
-        ],
-        "overview": "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 3,
-        "capability_evidence_coverage_pct": 43,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "reporting",
-              "metrics",
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "cross-functional"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
           }
         ],
         "potential_unverified_requirements": [],
@@ -1706,116 +1706,6 @@
             "jd_terms": [
               "documentation",
               "requirements gathering"
-            ],
-            "candidate_evidence": "SERCO: SOP design, testing and deployment"
-          }
-        ],
-        "potential_unverified_requirements": [],
-        "gap_status": "no_obvious_platform_gap_detected",
-        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
-      },
-      "verification_status": "REVIEW_REQUIRED",
-      "verification_reasons": [
-        "mandatory_requirements_not_verified",
-        "compensation_not_verified",
-        "minimum_80_percent_requirement_coverage_not_established"
-      ]
-    },
-    {
-      "id": "greenhouse:8203653",
-      "company_board": "stripe",
-      "title": "Operations Program Manager",
-      "location": "Bengaluru",
-      "url": "https://stripe.com/jobs/search?gh_jid=8203653",
-      "source": "greenhouse",
-      "source_date": "2026-09-18T02:08:55-04:00",
-      "date_source": "first_published",
-      "posting_date_verified": true,
-      "matched_keywords": [
-        "program manager",
-        "process improvement",
-        "program management",
-        "operational excellence"
-      ],
-      "matching_method": "title_and_jd",
-      "description_characters": 5362,
-      "jd_text_available_for_scoring": true,
-      "description_excerpt": "<h2 id=\"about-stripe\">About Stripe</h2>\n<p>Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world\u2019s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and pursue new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career.</p>\n<h2 id=\"about-the-team\">About the team</h2>\n<p>As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operational capabilities to meet the growing needs of external users and internal Stripe teams. Our support experience draws on a deep understanding of our products, the financial industry, money movement, and our customers\u2019 products and users. Building this experience requires us to invest significant resources in talented teams of Strip",
-      "jd_details": {
-        "source_url": "https://stripe.com/jobs/search?gh_jid=8203653",
-        "full_description_available": true,
-        "responsibilities": [
-          "As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operatio",
-          "We\u2019re looking for dynamic and entrepreneurial leaders who will define our strategy for scaling the Core Payments team, improve operational workflows, and maintain a best-in-class Operations program. If you like hard problems, are analytical, are comfortable operating with ambigui",
-          "Lead end-to-end product launches across multiple regions as an integrated program. Develop and maintain detailed launch plans that serve as the central point of coordination across globally distributed and highly cross-functional teams, including Engineering, Product Management, ",
-          "Drive operational excellence across the product launch lifecycle by designing, improving, and implementing scalable processes that strengthen stakeholder coordination, clarify dependencies, maintain alignment, and support consistent execution across regions.",
-          "Monitor and report on progress through biweekly status updates to senior leadership while maintaining transparent documentation throughout.",
-          "Support cross-functional collaboration by identifying and documenting teams\u2019 responsibilities for product launches, proactively communicating blockers, and providing transparent status updates and relevant documentation, such as product launch Gantt charts, program plans, and sco"
-        ],
-        "qualifications": [
-          "As Stripe\u2019s user base and global footprint grow dramatically, we face unique support problems resulting from our scale and the types of businesses we partner with. The Stripe Delivery Center (SDC) strategy will provide operational support and expand Stripe\u2019s portfolio of operatio",
-          "More than 7 years of total work experience, including 4 to 5 years in program management, consulting, or a similar role within a high-growth technology company, with a strong focus on managing strategic product initiatives from conception through implementation.",
-          "Skill in scheduling, prioritizing tasks, and meeting deadlines to support the timely delivery of products and features.",
-          "Strong stakeholder engagement skills, including high-level planning and ongoing communication to align project goals with operations.",
-          "Experience in program management, consulting, or a similar role within payments or fintech.",
-          "Familiarity with roadmap management tools and planning frameworks, and knowledge of how to apply them to manage projects effectively."
-        ],
-        "overview": "Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world\u2019s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and pursue new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering",
-        "extraction_method": "keyword_selected_source_paragraphs",
-        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
-      },
-      "status": "unscored_candidate",
-      "jd_evidence": {
-        "score": null,
-        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
-        "capability_categories_matched": 6,
-        "capability_evidence_coverage_pct": 86,
-        "evidence": [
-          {
-            "category": "reporting_analytics",
-            "jd_terms": [
-              "excel"
-            ],
-            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
-          },
-          {
-            "category": "process_improvement",
-            "jd_terms": [
-              "process improvement",
-              "operational excellence"
-            ],
-            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
-          },
-          {
-            "category": "stakeholders",
-            "jd_terms": [
-              "stakeholder",
-              "cross-functional",
-              "collaborat"
-            ],
-            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
-          },
-          {
-            "category": "program_delivery",
-            "jd_terms": [
-              "program management",
-              "project management",
-              "implementation",
-              "roadmap"
-            ],
-            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
-          },
-          {
-            "category": "operations",
-            "jd_terms": [
-              "operations"
-            ],
-            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
-          },
-          {
-            "category": "documentation",
-            "jd_terms": [
-              "documentation"
             ],
             "candidate_evidence": "SERCO: SOP design, testing and deployment"
           }
