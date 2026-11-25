@@ -1,8 +1,8 @@
 {
   "schema_version": 12,
-  "run_date": "2026-11-23",
-  "run_started_at_utc": "2026-11-23T02:34:19Z",
-  "run_started_at_ist": "2026-11-23T08:04:19+05:30",
+  "run_date": "2026-11-25",
+  "run_started_at_utc": "2026-11-25T02:30:05Z",
+  "run_started_at_ist": "2026-11-25T08:00:05+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -10,11 +10,11 @@
     "INIT": {
       "repository_reads": 5,
       "read_success": 5,
-      "previous_report_sha": "74bf5067b0115acfc47dbdd93d16096bac82b454"
+      "previous_report_sha": "1c3e233576f628587e9f814a55adafa0dfbe7ca4"
     },
     "DISCOVERY": {
       "search_queries": 20,
-      "search_batches": 2,
+      "search_batches": 3,
       "source_patterns_attempted": [
         "job-boards.greenhouse.io",
         "jobs.lever.co",
@@ -23,75 +23,60 @@
         "jobs.smartrecruiters.com",
         "apply.workable.com",
         "amazon.jobs",
-        "careers.unilever.com",
         "linkedin.com",
-        "indeed.com",
-        "foundit.in",
-        "wellfound.com"
+        "novartis.com",
+        "careers.unilever.com",
+        "general web"
       ],
       "source_patterns_with_individual_results": [
-        "wellfound.com",
-        "linkedin.com"
+        "jobs.smartrecruiters.com",
+        "novartis.com",
+        "jobs.citi.com",
+        "careers.unilever.com",
+        "myworkdayjobs.com"
       ],
-      "raw_search_result_urls": null,
-      "notes": "20 web searches across two batches; search results dominated by profile pages, old posts and generic job-board results. Many ATS source searches returned no individual job URL."
+      "blocked_sources": [],
+      "raw_search_result_urls": null
     },
     "DEDUPE": {
-      "individual_candidate_urls_identified": 1,
-      "unique_candidate_urls": 1,
-      "employer_native_urls_resolved": 0,
-      "notes": "ClickLyft Wellfound individual job listing; excluded on published pay below threshold and age; no eligible employer-native job URLs."
+      "unique_individual_job_urls_logged": 7,
+      "employer_native_urls_resolved": 7,
+      "notes": "Seven individual employer job URLs surfaced; additional search-result rows not enumerated."
     },
     "JD_VALIDATION": {
-      "full_jds_read": 1,
-      "employer_native_full_jds_read": 0,
-      "third_party_full_jds_read": 1,
-      "accessible_potentially_relevant_jds": 0,
-      "eligible_full_jds_read": 0,
-      "inaccessible_potentially_relevant_jds": 0,
-      "pending_accessible_backlog": 0,
+      "direct_pages_opened": 2,
+      "full_jds_read": 2,
+      "accessible_potentially_relevant_jds": null,
+      "pending_accessible_backlog": null,
+      "inaccessible_potentially_relevant_jds": null,
       "review_coverage_percent": null,
       "exclusions": {
-        "below_salary_minimum": 1,
-        "older_or_undated_linkedin_posts": "multiple; exact unique count not instrumented",
-        "unrelated_specialist_roles": "observed; exact count not instrumented"
-      }
+        "older_direct_pages": 2
+      },
+      "notes": "Novartis Associate Director Business Process Excellence listed Nov 23 but individual JD not resolved; five other individual URLs not directly opened."
     },
     "MATCHING": {
       "strong": 0,
       "possible": 0,
-      "new_unverified_leads": 0,
-      "notes": "No candidate passed employer-native URL and five-day original date evidence; no scored vacancies."
+      "new_unverified_leads": 0
     },
     "LINKEDIN": {
       "indexed_queries": 4,
       "direct_original_post_pages_opened": 0,
       "original_timestamps_verified": 0,
-      "posts_published": 0,
-      "notes": "Indexed posts and profile excerpts only; no original timestamp within 24 hours verified."
+      "posts_published": 0
     },
     "GITHUB_WRITE": {
-      "report_write_attempted": true,
-      "report_write_succeeded": true,
-      "readback_sha": "2a247976f1154d7ca20f24345234e3822a90dd24",
-      "jobs_write_attempted": false,
-      "private_queue_write_attempted": false,
-      "note": "First write read back successfully; final confirmation update follows."
+      "attempted": true,
+      "confirmed": null,
+      "notes": "Readback follows commit; self SHA cannot be embedded in same blob."
     },
     "FINAL": {
       "status": "PARTIAL",
-      "coverage_status": "INCOMPLETE",
-      "reasons": [
-        "DISCOVERY_BREADTH_LOW: 1 individual job URL against 200-500 aspirational target",
-        "15 accessible employer or job platforms not established",
-        "Role-location matrix incomplete; raw search-result totals unknown",
-        "No fresh employer-native job and original publication date jointly verified"
-      ]
+      "reason": "Discovery and JD validation incomplete; no verified fresh match."
     }
   },
-  "source_matrix_notes": "Unsearched or insufficiently searched: Secunderabad/Gachibowli workforce and process excellence, Pune program/product operations, remote India business transformation; iCIMS, Jobvite, BambooHR, Oracle, SuccessFactors, Darwinbox, Keka, Zoho, Recruitee, Teamtailor, Naukri, Instahyre, Cutshort, Hirist.",
-  "new_qualified_jobs": [],
-  "new_linkedin_posts": [],
-  "github_updates_confirmed": true,
-  "notes": "No applications or outreach. Existing jobs, LinkedIn and manual intake, and private queue preserved."
+  "github_updates_confirmed": null,
+  "applications": 0,
+  "outreach": 0
 }
