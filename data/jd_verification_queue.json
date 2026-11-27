@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T11:15:11.120673+00:00",
+  "updated_at": "2026-11-27T11:08:25.830103+00:00",
   "status": "REVIEW_REQUIRED",
-  "total": 24,
+  "total": 25,
   "verified": 0,
   "fresh_for_review": 1,
-  "older_or_unverified": 23,
+  "older_or_unverified": 24,
   "jobs": [
     {
       "job_id": "greenhouse:8379881",
@@ -61,7 +61,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": true,
-      "days_since_posting": 2.26,
+      "days_since_posting": 3.26,
       "verification_blockers": [
         "mandatory_requirements_not_individually_verified",
         "salary_not_confirmed"
@@ -145,7 +145,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 5.97,
+      "days_since_posting": 6.96,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -249,7 +249,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 5.97,
+      "days_since_posting": 6.97,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -343,7 +343,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 9.05,
+      "days_since_posting": 10.04,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -426,7 +426,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 10.19,
+      "days_since_posting": 11.19,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -521,7 +521,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 14.79,
+      "days_since_posting": 15.78,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -591,7 +591,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 20.15,
+      "days_since_posting": 21.14,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -698,7 +698,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 20.73,
+      "days_since_posting": 21.73,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -771,7 +771,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 21.06,
+      "days_since_posting": 22.05,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -877,7 +877,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 26.75,
+      "days_since_posting": 27.75,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -969,7 +969,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 26.77,
+      "days_since_posting": 27.77,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1059,7 +1059,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 27.29,
+      "days_since_posting": 28.29,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1160,7 +1160,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 41.12,
+      "days_since_posting": 42.12,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1220,7 +1220,85 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 43.07,
+      "days_since_posting": 44.07,
+      "verification_blockers": [
+        "original_posting_not_verified_within_5_days",
+        "mandatory_requirements_not_individually_verified",
+        "salary_not_confirmed"
+      ],
+      "blocking_checks": [
+        "all_mandatory_requirements",
+        "minimum_80_percent_evidence_coverage",
+        "seniority",
+        "specialized_skills",
+        "salary_fixed_at_least_12LPA_or_unknown",
+        "posting_date_within_5_days",
+        "official_link"
+      ]
+    },
+    {
+      "job_id": "greenhouse:8261279",
+      "company": "twilio",
+      "title": "Onboarding Operations Specialist 1",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8261279",
+      "posting_date": "2026-10-08T05:44:17-04:00",
+      "posting_date_verified": true,
+      "jd_source_available": true,
+      "jd_responsibilities": [
+        "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+        "We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!",
+        "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
+        "Twilio is seeking an Operations Specialist to join the team that runs Twilio\u2019s phone number operations globally. This role will work directly with customers to help them port their phone numbers into Twilio, procure Sender IDs, and have access to phone numbers they require for th",
+        "Learn new processes across a variety of subject areas and ensure our operations are running smoothly.",
+        "Be Bold: Learn new processes across a variety of subject areas and ensure our operations are running smoothly."
+      ],
+      "jd_qualifications": [
+        "At Twilio, we\u2019re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to \u00a0hundreds of thousands of businesses\u00a0 and empower millions of developers worldwide to craft personalized customer experiences.",
+        "Our dedication to  remote-first work , and strong culture of connection and global inclusion means that no matter your location, you\u2019re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we\u2019re ",
+        "Provide support for common customer inquiries received by email to ensure customers have an excellent experience with Twilio.",
+        "Wear the Customer Shoes: Provide support for common customer inquiries received by email to ensure customers have an excellent experience with Twilio.",
+        "Twilio values diverse experiences from all kinds of industries, and we encourage everyone who meets the required qualifications to apply. If your career is just starting or hasn't followed a traditional path, don't let that stop you from considering Twilio. We are always looking ",
+        "Experience Required: 1 - 3 Yrs*( depending on candidature)"
+      ],
+      "candidate_evidence": [
+        {
+          "category": "reporting_analytics",
+          "jd_terms": [
+            "sql",
+            "excel"
+          ],
+          "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+        },
+        {
+          "category": "process_improvement",
+          "jd_terms": [
+            "process improvement"
+          ],
+          "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+        },
+        {
+          "category": "stakeholders",
+          "jd_terms": [
+            "stakeholder",
+            "cross-functional"
+          ],
+          "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+        },
+        {
+          "category": "operations",
+          "jd_terms": [
+            "product operations",
+            "operations"
+          ],
+          "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+        }
+      ],
+      "potential_gaps": [],
+      "requirements_verified": false,
+      "verified_score": null,
+      "status": "REVIEW_REQUIRED",
+      "fresh_within_5_days": false,
+      "days_since_posting": 50.06,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1305,7 +1383,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 52.02,
+      "days_since_posting": 53.02,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1382,7 +1460,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 54.96,
+      "days_since_posting": 55.96,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1477,7 +1555,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 61.77,
+      "days_since_posting": 62.77,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1557,7 +1635,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 78.12,
+      "days_since_posting": 79.11,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1659,7 +1737,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 103.97,
+      "days_since_posting": 104.97,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1755,7 +1833,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 113.86,
+      "days_since_posting": 114.85,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1852,7 +1930,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 175.09,
+      "days_since_posting": 176.08,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -1936,7 +2014,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 182.15,
+      "days_since_posting": 183.14,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "specialized_experience_not_confirmed",
@@ -1995,7 +2073,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 412.06,
+      "days_since_posting": 413.06,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
@@ -2092,7 +2170,7 @@
       "verified_score": null,
       "status": "REVIEW_REQUIRED",
       "fresh_within_5_days": false,
-      "days_since_posting": 975.88,
+      "days_since_posting": 976.88,
       "verification_blockers": [
         "original_posting_not_verified_within_5_days",
         "mandatory_requirements_not_individually_verified",
