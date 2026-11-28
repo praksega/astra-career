@@ -1,8 +1,8 @@
 {
   "schema_version": 12,
-  "run_date": "2026-11-25",
-  "run_started_at_utc": "2026-11-25T02:30:05Z",
-  "run_started_at_ist": "2026-11-25T08:00:05+05:30",
+  "run_date": "2026-11-28",
+  "run_started_at_utc": "2026-11-28T02:27:22Z",
+  "run_started_at_ist": "2026-11-28T07:57:22+05:30",
   "coverage_status": "INCOMPLETE",
   "run_status": "PARTIAL",
   "discovery_breadth_status": "DISCOVERY_BREADTH_LOW",
@@ -10,55 +10,60 @@
     "INIT": {
       "repository_reads": 5,
       "read_success": 5,
-      "previous_report_sha": "1c3e233576f628587e9f814a55adafa0dfbe7ca4"
+      "previous_report_sha": "7dc63cd00622622d6b2ea307fafe9447adaa3260"
     },
     "DISCOVERY": {
-      "search_queries": 20,
-      "search_batches": 3,
+      "search_queries": 23,
+      "search_batches": 2,
       "source_patterns_attempted": [
         "job-boards.greenhouse.io",
+        "boards.greenhouse.io",
         "jobs.lever.co",
         "jobs.ashbyhq.com",
         "myworkdayjobs.com",
         "jobs.smartrecruiters.com",
         "apply.workable.com",
         "amazon.jobs",
+        "jobs.citi.com",
         "linkedin.com",
-        "novartis.com",
-        "careers.unilever.com",
-        "general web"
+        "jobs.jobvite.com",
+        "icims.com",
+        "oraclecloud.com",
+        "successfactors.com",
+        "darwinbox.in",
+        "keka.com",
+        "wellfound.com",
+        "naukri.com",
+        "foundit.in",
+        "instahyre.com"
       ],
       "source_patterns_with_individual_results": [
-        "jobs.smartrecruiters.com",
-        "novartis.com",
-        "jobs.citi.com",
-        "careers.unilever.com",
-        "myworkdayjobs.com"
+        "apply.workable.com",
+        "jobs.citi.com"
       ],
-      "blocked_sources": [],
-      "raw_search_result_urls": null
+      "blocked_sources": [
+        "naukri.com: robots.txt"
+      ],
+      "raw_returned_individual_urls": 5,
+      "raw_search_result_urls": 8
     },
     "DEDUPE": {
-      "unique_individual_job_urls_logged": 7,
-      "employer_native_urls_resolved": 7,
-      "notes": "Seven individual employer job URLs surfaced; additional search-result rows not enumerated."
+      "unique_individual_job_urls_logged": 5,
+      "employer_native_urls_resolved": 5
     },
     "JD_VALIDATION": {
-      "direct_pages_opened": 2,
-      "full_jds_read": 2,
-      "accessible_potentially_relevant_jds": null,
-      "pending_accessible_backlog": null,
-      "inaccessible_potentially_relevant_jds": null,
-      "review_coverage_percent": null,
-      "exclusions": {
-        "older_direct_pages": 2
-      },
-      "notes": "Novartis Associate Director Business Process Excellence listed Nov 23 but individual JD not resolved; five other individual URLs not directly opened."
+      "direct_pages_opened": 0,
+      "full_jds_read_from_search_page_extracts": 5,
+      "accessible_potentially_relevant_jds": 4,
+      "pending_accessible_backlog": 0,
+      "review_coverage_percent": 100,
+      "notes": "Four Citi descriptions read in employer-page search extracts, not independently opened. Capgemini developer excluded; three Citi VP roles excluded on seniority or age. Remaining Citi senior analyst not independently validated or scored. Broader backlog unknown."
     },
     "MATCHING": {
       "strong": 0,
       "possible": 0,
-      "new_unverified_leads": 0
+      "new_unverified_leads": 0,
+      "pending_validation": 1
     },
     "LINKEDIN": {
       "indexed_queries": 4,
@@ -69,11 +74,11 @@
     "GITHUB_WRITE": {
       "attempted": true,
       "confirmed": null,
-      "notes": "Readback follows commit; self SHA cannot be embedded in same blob."
+      "notes": "Independent readback follows commit."
     },
     "FINAL": {
       "status": "PARTIAL",
-      "reason": "Discovery and JD validation incomplete; no verified fresh match."
+      "reason": "Discovery below target; independent JD validation and scoring incomplete; other ATS and role-location cells not searched."
     }
   },
   "github_updates_confirmed": null,
