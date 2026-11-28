@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "run_at_utc": "2026-11-27T11:08:25.830103+00:00",
+  "run_at_utc": "2026-11-28T10:43:01.474103+00:00",
   "engine": "github_actions_public_ats_v1",
   "source_boards_attempted": 56,
   "source_boards_succeeded": 25,
   "source_boards_failed": 31,
-  "raw_listings_seen": 4635,
-  "individual_screening_records": 4635,
+  "raw_listings_seen": 4641,
+  "individual_screening_records": 4641,
   "screening_reason_counts": {
-    "jd_responsibilities": 5,
-    "role_not_relevant": 196,
-    "outside_target_locations": 4305,
+    "jd_responsibilities": 6,
+    "role_not_relevant": 195,
+    "outside_target_locations": 4312,
     "title_and_jd": 16,
-    "excluded_specialist_title": 109,
+    "excluded_specialist_title": 108,
     "title": 4
   },
-  "location_eligible_jds_screened": 330,
-  "location_eligible_jds_with_500_plus_chars": 328,
-  "unique_role_location_candidates": 25,
-  "full_jds_with_accessible_text": 25,
-  "jd_evidence_maps_generated": 25,
+  "location_eligible_jds_screened": 329,
+  "location_eligible_jds_with_500_plus_chars": 327,
+  "unique_role_location_candidates": 26,
+  "full_jds_with_accessible_text": 26,
+  "jd_evidence_maps_generated": 26,
   "human_or_evidence_scored_full_jds": 0,
   "scored_strong": 0,
   "scored_possible": 0,
   "verified_matches": 0,
-  "review_required": 25,
+  "review_required": 26,
   "rejection_counts": {
-    "unrelated_or_unapproved_location": 4610,
+    "unrelated_or_unapproved_location": 4615,
     "invalid_record": 0
   },
   "coverage_target": 200,
@@ -49,7 +49,7 @@
       "source": "greenhouse",
       "board": "figma",
       "status": "ok",
-      "count": 141
+      "count": 140
     },
     {
       "source": "greenhouse",
@@ -103,7 +103,7 @@
       "source": "greenhouse",
       "board": "slice",
       "status": "ok",
-      "count": 23
+      "count": 20
     },
     {
       "source": "greenhouse",
@@ -130,25 +130,25 @@
       "source": "greenhouse",
       "board": "stripe",
       "status": "ok",
-      "count": 767
+      "count": 771
     },
     {
       "source": "greenhouse",
       "board": "databricks",
       "status": "ok",
-      "count": 881
+      "count": 889
     },
     {
       "source": "greenhouse",
       "board": "mongodb",
       "status": "ok",
-      "count": 425
+      "count": 424
     },
     {
       "source": "greenhouse",
       "board": "coursera",
       "status": "ok",
-      "count": 35
+      "count": 34
     },
     {
       "source": "greenhouse",
@@ -174,7 +174,7 @@
       "source": "greenhouse",
       "board": "okta",
       "status": "ok",
-      "count": 362
+      "count": 360
     },
     {
       "source": "greenhouse",
@@ -204,13 +204,13 @@
       "source": "greenhouse",
       "board": "roblox",
       "status": "ok",
-      "count": 259
+      "count": 257
     },
     {
       "source": "greenhouse",
       "board": "gusto",
       "status": "ok",
-      "count": 86
+      "count": 85
     },
     {
       "source": "greenhouse",
@@ -223,13 +223,13 @@
       "source": "greenhouse",
       "board": "elastic",
       "status": "ok",
-      "count": 370
+      "count": 369
     },
     {
       "source": "greenhouse",
       "board": "udemy",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "source": "greenhouse",
@@ -248,7 +248,7 @@
       "source": "greenhouse",
       "board": "deliveroo",
       "status": "ok",
-      "count": 192
+      "count": 197
     },
     {
       "source": "greenhouse",
@@ -401,5 +401,5 @@
       "count": 0
     }
   ],
-  "potential_fit_reviews": 21
+  "potential_fit_reviews": 22
 }

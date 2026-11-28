@@ -1,7 +1,128 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T11:08:25.830103+00:00",
+  "updated_at": "2026-11-28T10:43:01.474103+00:00",
   "candidates": [
+    {
+      "id": "greenhouse:8420236",
+      "company_board": "okta",
+      "title": "Staff Analyst - Workday Techno-Functional Consultant",
+      "location": "Bengaluru",
+      "url": "https://www.okta.com/company/careers/opportunity/8420236?gh_jid=8420236",
+      "source": "greenhouse",
+      "source_date": "2026-11-27T08:23:50-05:00",
+      "date_source": "first_published",
+      "posting_date_verified": true,
+      "matched_keywords": [
+        "stakeholder management",
+        "process improvement",
+        "process automation",
+        "requirements gathering"
+      ],
+      "matching_method": "jd_responsibilities",
+      "description_characters": 14541,
+      "jd_text_available_for_scoring": true,
+      "description_excerpt": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>&nbsp;</p>\n<p><span style=\"font-family: helvetica, arial, sans-serif;\">Okta is seeking a <strong>Staff&nbsp; Analyst \u2013 People Technologies (Workday) </strong>to join our Business Solutions Team. In this critical role, you will partner closely with the People Technology leadership and play a key role in our Workday transformation efforts. As part of a cross-functional team, you will collaborate with stakeholders across People, Payroll, IT, Finance, and international offices to optimize and scale our HR systems and processes.</span></p>\n<p><span style=\"font-family: helvetica, arial, sans-serif;\">This ro",
+      "jd_details": {
+        "source_url": "https://www.okta.com/company/careers/opportunity/8420236?gh_jid=8420236",
+        "full_description_available": true,
+        "responsibilities": [
+          "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challeng",
+          "Okta is seeking a  Staff\u00a0 Analyst \u2013 People Technologies (Workday)  to join our Business Solutions Team. In this critical role, you will partner closely with the People Technology leadership and play a key role in our Workday transformation efforts. As part of a cross-functional t",
+          "This role is ideal for someone who is passionate about solving complex business challenges, driving innovation through automation, and delivering a best-in-class user experience.",
+          "Strategic Leadership & Delivery \n \n \n End-to-End Solution Delivery:  Spearhead complex Workday initiatives from functional requirements gathering and business process design through technical architecture, testing, and production deployment across HCM, Recruiting, and Performance",
+          "Cross-Functional Stakeholder Management:  Translate high-level HR and Talent acquisition strategies into scalable technical roadmaps, managing project lifecycles, dependencies, and executive expectations.",
+          "Core Functional & BP Ownership:  Serve as the primary functional owner for complex business processes (BPs), condition rules, and eligibility rules across  Core HCM, Recruiting, and Performance ."
+        ],
+        "qualifications": [
+          "This role is ideal for someone who is passionate about solving complex business challenges, driving innovation through automation, and delivering a best-in-class user experience.",
+          "Strategic Leadership & Delivery \n \n \n End-to-End Solution Delivery:  Spearhead complex Workday initiatives from functional requirements gathering and business process design through technical architecture, testing, and production deployment across HCM, Recruiting, and Performance",
+          "Subject Matter Expertise \n \n \n Enterprise Integration Architecture:  Architect, build, and maintain high-volume inbound and outbound integrations connecting Workday with internal systems and external vendors using  Workday Studio, Orchestration, EIB, Core Connectors, and Document",
+          "Workflow Re-Engineering:  Audit and streamline legacy business processes across Recruiting and Performance cycles to reduce administrative bottlenecks and improve end-user experience.",
+          "AI-Driven Talent & Recruiting:  Enable intelligent talent matching, skills-based frameworks, and automated candidate routing within Workday Recruiting and Performance modules to accelerate hiring and internal mobility.",
+          "Analyst Coaching & Upskilling:  Mentor mid-level and junior techno-functional analysts through code reviews, architectural walkthroughs, and hands-on training in Workday Studio, XSLT, and functional configuration."
+        ],
+        "overview": "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are lookin",
+        "extraction_method": "keyword_selected_source_paragraphs",
+        "warning": "Summarized excerpts only; consult original employer JD for complete mandatory requirements."
+      },
+      "status": "unscored_candidate",
+      "jd_evidence": {
+        "score": null,
+        "score_status": "NOT_SCORED_REQUIREMENT_VALIDATION_NEEDED",
+        "capability_categories_matched": 7,
+        "capability_evidence_coverage_pct": 100,
+        "evidence": [
+          {
+            "category": "reporting_analytics",
+            "jd_terms": [
+              "reporting",
+              "dashboard",
+              "excel"
+            ],
+            "candidate_evidence": "SERCO: Excel, SQL, Power BI; 33 outcome KPIs"
+          },
+          {
+            "category": "process_improvement",
+            "jd_terms": [
+              "process improvement"
+            ],
+            "candidate_evidence": "SERCO: workflow cycle-time improvement; Xeality: vendor onboarding improvement"
+          },
+          {
+            "category": "automation",
+            "jd_terms": [
+              "automation",
+              "process automation"
+            ],
+            "candidate_evidence": "SERCO: seven operational automations"
+          },
+          {
+            "category": "stakeholders",
+            "jd_terms": [
+              "stakeholder",
+              "cross-functional",
+              "collaborat"
+            ],
+            "candidate_evidence": "SERCO: employer coordination; Xeality: vendor collaboration"
+          },
+          {
+            "category": "program_delivery",
+            "jd_terms": [
+              "project management",
+              "roadmap"
+            ],
+            "candidate_evidence": "Xeality: product roadmap and Agile delivery; SERCO: cross-team implementation"
+          },
+          {
+            "category": "operations",
+            "jd_terms": [
+              "operations"
+            ],
+            "candidate_evidence": "SERCO: workforce operations; Xeality: product operations"
+          },
+          {
+            "category": "documentation",
+            "jd_terms": [
+              "requirements gathering",
+              "user acceptance testing",
+              "uat"
+            ],
+            "candidate_evidence": "SERCO: SOP design, testing and deployment"
+          }
+        ],
+        "potential_unverified_requirements": [
+          "workday recruiting"
+        ],
+        "gap_status": "requires_review",
+        "notes": "Capability evidence is based on verified experience; no numerical ATS score or job-fit percentage assigned until all JD requirements, seniority, education and salary are individually verified."
+      },
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_reasons": [
+        "mandatory_requirements_not_verified",
+        "compensation_not_verified",
+        "minimum_80_percent_requirement_coverage_not_established"
+      ]
+    },
     {
       "id": "greenhouse:8379881",
       "company_board": "elastic",
